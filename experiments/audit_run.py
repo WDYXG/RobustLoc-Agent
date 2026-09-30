@@ -26,7 +26,9 @@ def audit(run):
     for r in records:
         folder=run/'iterations'/f'{r["iteration"]:03d}'
         request=read(folder/'verify_request.json')
-        decision=verify(read(request['candidate']),read(request['incumbent']),read(request['baseline']),request['policy'])
+        parent=r['proposal']['parent']
+        incumbent=run/'baseline_validation_weighted.json' if parent=='weighted' else run/'iterations'/f'{int(parent.split("-")[-1]):03d}'/'validation.json'
+        decision=verify(read(folder/'validation.json'),read(incumbent),read(run/'baseline_validation_weighted.json'),request['policy'])
         assert decision==read(folder/'verification.json')
         assert decision['verdict']==r['verdict']
     save(run/'audit.json',dict(status='passed',log_records=len(records),checked_case_records=checked,protected_hashes='passed',baseline_hashes='passed',saved_metrics='recomputed',verifier_decisions='independently replayed',heldout_solver_reruns=0))
