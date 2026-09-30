@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.tmp
+report/preview-*.png
+report/checked-*.png
+report/contact-sheet.png

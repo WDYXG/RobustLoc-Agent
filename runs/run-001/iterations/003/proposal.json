@@ -1,0 +1,20 @@
+{
+  "mechanism": "adaptive_scale",
+  "hypothesis": "An observation-only MAD scale update improves robustness when nominal scales understate residual spread.",
+  "config": {
+    "loss": "cauchy",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": true,
+    "multistart": false,
+    "adaptive": true
+  },
+  "parent": "iteration-2",
+  "motivation": "Incumbent worst validation scenario: sparse, CEP90=22.113 m; last verdict=supported.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "adaptive": true
+  },
+  "mathematical_reasoning_summary": "An observation-only MAD scale update improves robustness when nominal scales understate residual spread. This is an empirical hypothesis, not a proof."
+}

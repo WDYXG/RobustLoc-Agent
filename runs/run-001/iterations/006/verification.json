@@ -1,0 +1,84 @@
+{
+  "verdict": "supported",
+  "decision": "accept candidate",
+  "relative_cep90_gain": 0.05129392579600617,
+  "failure_rate_difference": 0.0008333333333333318,
+  "scenario_regressions": [],
+  "comparison_to_baseline": {
+    "cep90_difference": -12.779411035234936,
+    "failure_rate_difference": -0.18999999999999997
+  },
+  "failure_cases": [
+    {
+      "scenario": "poor_geometry",
+      "seed": 280074,
+      "candidate_error": 44.79533936817,
+      "incumbent_error": 7.437489686820015,
+      "excess": 37.35784968134998
+    },
+    {
+      "scenario": "sparse",
+      "seed": 290027,
+      "candidate_error": 32.50882427228745,
+      "incumbent_error": 5.012566023466008,
+      "excess": 27.49625824882144
+    },
+    {
+      "scenario": "poor_geometry",
+      "seed": 280069,
+      "candidate_error": 28.179820016704973,
+      "incumbent_error": 3.57108699690012,
+      "excess": 24.608733019804852
+    },
+    {
+      "scenario": "poor_geometry",
+      "seed": 280037,
+      "candidate_error": 29.817901555125324,
+      "incumbent_error": 10.972839275775831,
+      "excess": 18.84506227934949
+    },
+    {
+      "scenario": "sparse",
+      "seed": 290100,
+      "candidate_error": 22.040294501254607,
+      "incumbent_error": 8.10740441495317,
+      "excess": 13.932890086301438
+    },
+    {
+      "scenario": "sparse",
+      "seed": 290132,
+      "candidate_error": 13.62782526110465,
+      "incumbent_error": 4.219989642306972,
+      "excess": 9.407835618797678
+    },
+    {
+      "scenario": "poor_geometry",
+      "seed": 280047,
+      "candidate_error": 4.746774650021106,
+      "incumbent_error": 0.45960908240066634,
+      "excess": 4.287165567620439
+    },
+    {
+      "scenario": "poor_geometry",
+      "seed": 280058,
+      "candidate_error": 5.497561758377851,
+      "incumbent_error": 1.6719749408174083,
+      "excess": 3.825586817560443
+    },
+    {
+      "scenario": "sparse",
+      "seed": 290053,
+      "candidate_error": 13.566081189747942,
+      "incumbent_error": 10.757641409788661,
+      "excess": 2.808439779959281
+    },
+    {
+      "scenario": "sparse",
+      "seed": 290037,
+      "candidate_error": 3.903648676650273,
+      "incumbent_error": 1.1022635602295836,
+      "excess": 2.8013851164206898
+    }
+  ],
+  "evidence_class": "empirical evidence; repeated validation selection, no mathematical proof"
+}

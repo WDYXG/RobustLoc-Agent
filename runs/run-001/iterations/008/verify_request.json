@@ -1,0 +1,10 @@
+{
+  "candidate": "D:\\ATongji\\AI4Math\\RobustLoc-Agent\\runs\\run-001\\iterations\\008\\validation.json",
+  "incumbent": "D:\\ATongji\\AI4Math\\RobustLoc-Agent\\runs\\run-001\\iterations\\006\\validation.json",
+  "baseline": "D:\\ATongji\\AI4Math\\RobustLoc-Agent\\runs\\run-001\\baseline_validation_weighted.json",
+  "policy": {
+    "minimum_relative_cep90_gain": 0.02,
+    "maximum_failure_rate_increase": 0.005,
+    "maximum_scenario_cep90_ratio": 1.25
+  }
+}

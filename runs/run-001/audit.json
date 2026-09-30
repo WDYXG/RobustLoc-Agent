@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "log_records": 8,
+  "checked_case_records": 26000,
+  "protected_hashes": "passed",
+  "baseline_hashes": "passed",
+  "saved_metrics": "recomputed",
+  "verifier_decisions": "independently replayed",
+  "heldout_solver_reruns": 0
+}

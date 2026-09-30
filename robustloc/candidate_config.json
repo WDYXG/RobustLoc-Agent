@@ -1,0 +1,8 @@
+{
+  "loss": "cauchy",
+  "threshold": 1.0,
+  "uncertainty": true,
+  "confidence": false,
+  "multistart": true,
+  "adaptive": true
+}

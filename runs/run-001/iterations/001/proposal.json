@@ -1,0 +1,21 @@
+{
+  "mechanism": "robust_loss",
+  "hypothesis": "Replacing squared loss with Huber loss reduces contamination-driven tail errors.",
+  "config": {
+    "loss": "huber",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": true,
+    "multistart": false,
+    "adaptive": false
+  },
+  "parent": "weighted",
+  "motivation": "Incumbent worst validation scenario: sparse, CEP90=31.465 m; last verdict=inconclusive.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "loss": "huber",
+    "threshold": 1.0
+  },
+  "mathematical_reasoning_summary": "Replacing squared loss with Huber loss reduces contamination-driven tail errors. This is an empirical hypothesis, not a proof."
+}

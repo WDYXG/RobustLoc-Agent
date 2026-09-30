@@ -1,0 +1,11 @@
+[experiment]
+development_cases = 100
+validation_cases = 150
+heldout_cases = 250
+iterations = 8
+bootstrap_samples = 2000
+
+[verification]
+minimum_relative_cep90_gain = 0.02
+maximum_failure_rate_increase = 0.005
+maximum_scenario_cep90_ratio = 1.25

@@ -1,0 +1,13 @@
+{
+  "samples": 2000,
+  "seed": 77123,
+  "method": "paired scenario-stratified percentile bootstrap, conditional on frozen selected method",
+  "cep90_difference_95ci": [
+    -13.696033401473025,
+    -11.140363003296626
+  ],
+  "failure_rate_difference_95ci": [
+    -0.22050000000000003,
+    -0.18798750000000006
+  ]
+}

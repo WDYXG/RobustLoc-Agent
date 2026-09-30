@@ -1,0 +1,9 @@
+iteration,mechanism,parent,verdict,cep90,failure_rate,best
+1,robust_loss,weighted,supported,9.294078579394176,0.08833333333333333,iteration-1
+2,cauchy,iteration-1,supported,6.830597302958659,0.06666666666666667,iteration-2
+3,adaptive_scale,iteration-2,supported,6.516119408305571,0.060833333333333336,iteration-3
+4,threshold,iteration-3,rejected,7.149410576853822,0.0625,iteration-3
+5,soft_l1,iteration-3,rejected,11.098835503632793,0.1125,iteration-3
+6,confidence,iteration-3,supported,6.18188206289803,0.06166666666666667,iteration-6
+7,uncertainty,iteration-6,rejected,7.309016970892629,0.06583333333333333,iteration-6
+8,multistart,iteration-6,rejected,7.11575673649558,0.06916666666666667,iteration-6

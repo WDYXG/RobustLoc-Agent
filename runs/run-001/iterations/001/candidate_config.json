@@ -1,0 +1,8 @@
+{
+  "loss": "huber",
+  "threshold": 1.0,
+  "uncertainty": true,
+  "confidence": true,
+  "multistart": false,
+  "adaptive": false
+}

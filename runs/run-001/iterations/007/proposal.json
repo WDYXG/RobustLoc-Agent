@@ -1,0 +1,20 @@
+{
+  "mechanism": "uncertainty",
+  "hypothesis": "Nominal heteroscedastic weights may amplify corrupted low-sigma reports; equal scales can reduce the tail.",
+  "config": {
+    "loss": "cauchy",
+    "threshold": 1.0,
+    "uncertainty": false,
+    "confidence": false,
+    "multistart": false,
+    "adaptive": true
+  },
+  "parent": "iteration-6",
+  "motivation": "Incumbent worst validation scenario: sparse, CEP90=23.803 m; last verdict=supported.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "uncertainty": false
+  },
+  "mathematical_reasoning_summary": "Nominal heteroscedastic weights may amplify corrupted low-sigma reports; equal scales can reduce the tail. This is an empirical hypothesis, not a proof."
+}

@@ -1,0 +1,20 @@
+{
+  "mechanism": "soft_l1",
+  "hypothesis": "Smooth soft-L1 curvature improves optimization stability relative to the incumbent loss.",
+  "config": {
+    "loss": "soft_l1",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": true,
+    "multistart": false,
+    "adaptive": true
+  },
+  "parent": "iteration-3",
+  "motivation": "Incumbent worst validation scenario: sparse, CEP90=24.206 m; last verdict=rejected.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "loss": "soft_l1"
+  },
+  "mathematical_reasoning_summary": "Smooth soft-L1 curvature improves optimization stability relative to the incumbent loss. This is an empirical hypothesis, not a proof."
+}

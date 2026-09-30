@@ -1,0 +1,35 @@
+{
+  "created": "2026-09-30T07:13:24.922196+00:00",
+  "protected_sha256": {
+    "robustloc/simulator.py": "ab256cee44f62d9f3e115b552eaaf740f2837c61c3273721cdcc4a7b36d25ee9",
+    "robustloc/scenarios.py": "f050e3072f17330704b69dfc3f87d3a2efab24421cf5948bfa3d75806b199e27",
+    "robustloc/baseline.py": "1ce5698ac6f47801916a2ba98183c6cac4d51936b1117532c41f7fd30721dcff",
+    "robustloc/optimizer.py": "8d1421119a6a76d5311305adddb8871b29ddbfa4d941a876af6020381362e25f",
+    "robustloc/metrics.py": "ff778878abcbcbb5e20024ff7caca5fd8ea36acadd661649dfde887034d9cc7e",
+    "robustloc/evaluator.py": "84f492445c81aea0487dfd782d28960b92a3ced999f7d640308b35eb7e987b04",
+    "robustloc/verifier.py": "80997926e8e8706fbece1c227593f72aa009859225ef16701a823cf638612652",
+    "config.toml": "0b1e884b7251421b82e9b51f1a64ffb14a04a7cc31355f381f68f5b6f387bb2d"
+  },
+  "baseline_sha256": {
+    "baseline_development_unweighted.json": "59f9ba7fd6029d0e66f82b8a02805f7cc4484575a66c6001590ab4311b6598ef",
+    "baseline_development_weighted.json": "77775c251981d05b693102b5ae27edd04fcf924a4b6d30fd841f3df8a3096428",
+    "baseline_metrics.json": "0262b24daad2c8644d111af267f75df0ce5d47cfd6324fa7a63d43ca2a159027",
+    "baseline_validation_unweighted.json": "9cee2b2e59834aa671e8537a5b4c7d2b77f73d1acfec99c5911d0e2cc210d18e",
+    "baseline_validation_weighted.json": "46d3810c37f798111cebc7c9811c2cca6d61a76197d65d9680f2f1e7171a0860"
+  },
+  "config": {
+    "experiment": {
+      "development_cases": 100,
+      "validation_cases": 150,
+      "heldout_cases": 250,
+      "iterations": 8,
+      "bootstrap_samples": 2000
+    },
+    "verification": {
+      "minimum_relative_cep90_gain": 0.02,
+      "maximum_failure_rate_increase": 0.005,
+      "maximum_scenario_cep90_ratio": 1.25
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

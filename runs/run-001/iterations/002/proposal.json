@@ -1,0 +1,20 @@
+{
+  "mechanism": "cauchy",
+  "hypothesis": "A redescending Cauchy influence suppresses large distance residuals more effectively than the incumbent loss.",
+  "config": {
+    "loss": "cauchy",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": true,
+    "multistart": false,
+    "adaptive": false
+  },
+  "parent": "iteration-1",
+  "motivation": "Incumbent worst validation scenario: sparse, CEP90=30.989 m; last verdict=supported.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "loss": "cauchy"
+  },
+  "mathematical_reasoning_summary": "A redescending Cauchy influence suppresses large distance residuals more effectively than the incumbent loss. This is an empirical hypothesis, not a proof."
+}
