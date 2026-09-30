@@ -1,0 +1,4 @@
+# Preserve byte-identical protected source hashes across operating systems.
+* -text
+*.pdf binary
+*.png binary
