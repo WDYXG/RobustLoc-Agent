@@ -1,0 +1,36 @@
+{
+  "config": {
+    "version": "theory-v2.0",
+    "iterations": 6,
+    "algebra_seed": 7411,
+    "algebra_trials": 300,
+    "local_seed": 9417,
+    "local_trials": 150,
+    "counterexample_seed": 65171,
+    "counterexample_trials": 2000,
+    "estimator_seed": 88191,
+    "estimator_cases_per_scenario": 30,
+    "objective": "conjecture/proof boundary, counterexamples, conditional bound checks and abstention; no CEP90 selection"
+  },
+  "source_sha256": {
+    "agent.py": "3ca850dc3c269092444fa6d0288b8f7bdd886524bcade8efd75766acb7f15150",
+    "audit_run.py": "08e4a2e822f27dd558264fae9f7c0f681cf5c791a1dc38286a7d76c681f3c35b",
+    "claims.py": "8e174697764bbfd6913b05fbb24356868b44a4e88ba16209306dd0b3a5a901bb",
+    "estimator.py": "11c51b94eb95f677c45f34b5cbccfe7f49dedc2595c19352d1cf50f51e989c8e",
+    "experiments.py": "4691f4485d4f0ada4300146ee76b9a469be90a1db3025eebdbfe5147a1274c77",
+    "geometry.py": "e92c7e84ed9832ef4ce3ae791ca1931763167d02e307ee349f874ac40229c866",
+    "reporting.py": "c5fa2e9cc7adea7ebd11baf0d61fc51dd731f553777090ce72c6d4edc3d1c0f8",
+    "verifier.py": "a7ff7e607af7fdbe4b0a8f588034edeb9c46e1f0ce08f43292d600bf02aa8cb5",
+    "verify_task.py": "1b8491635fad9f8c462f1e09818a5e3d02c7b9eb5aab6a08ee8af8d4e5e6a138",
+    "__init__.py": "396733d62ad174c3df0a8b686c5ae5aa6815a9fe7c5bca99ee69ba359e04bd2a",
+    "tests/test_theory.py": "044995e87d1b41054d825cfacdf9a79c2c762f5e785d330b72cfb88a9ed4c55b",
+    "config.json": "2fb1e1b1ba95b1084cba2a2a29376ff0aa55fb4e69d5f146ff664f1e3bb4a68b",
+    "references.json": "da53f15d0d51e380344996e39de777461a3b4f554906136fde8647e6e8584f6b",
+    "THEORY.md": "d7447b58bb5786b111dc21a5b783234ee5cccb6d8cc00a906508d09482b19ba3",
+    "LITERATURE_AUDIT.md": "478d55f622497329fe126d5c22301d4e1e17714b84b3e684f4c7b8feed511333",
+    "PROBLEM_SPEC.md": "5fc10aaa0c2bf39728c9d3adf966286cb7234fe9d80730249c9496478370bb61",
+    "AGENTS.md": "60707adf6660de8a18adf69d2e835baecc5385ebce19adaaf2f0040070d24f02"
+  },
+  "v1_frozen_files": 94,
+  "engine": "bounded Python task agent; Codex-authored written proofs; independent numeric verifier subprocess"
+}

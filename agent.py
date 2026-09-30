@@ -128,6 +128,8 @@ def main():
     args=parser.parse_args()
     os.chdir(ROOT)
     run=Path(args.run).resolve()
+    if run == (ROOT/'runs/run-001').resolve() and (ROOT/'v2/V1_FREEZE.json').exists():
+        raise RuntimeError('run-001 is permanently frozen. Use theory-driven v2; no v1 run-001 mutations are permitted.')
     cfg=tomllib.loads((ROOT/'config.toml').read_text())
     if args.command=='baseline': baseline(run,cfg)
     elif args.command=='research': research(run,cfg,args.iterations)

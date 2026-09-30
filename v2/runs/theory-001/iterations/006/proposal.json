@@ -1,0 +1,9 @@
+{
+  "claim_id": "C1",
+  "hypothesis": "Feasibility-first geometry selection may improve trustworthy stability, with abstention.",
+  "status_before": "conjectured",
+  "parent_iteration": 5,
+  "previous_verdict": "refuted",
+  "proof_artifact": "THEORY.md P2 and C1",
+  "scope": "one conjecture or one explicit assumption repair, no v1 parameter optimization"
+}

@@ -1,5 +1,17 @@
 # RobustLoc-Agent
 
+## Theory-driven v2（当前研究路线）
+
+`run-001` 已于 2026-09-30 永久冻结，不再优化其 CEP90；旧报告仅作为历史记录。
+当前工作见 [v2](v2/README.md)：先审计 frame/FIM/erasure 文献，再研究至多 q 个
+任意污染下的几何可辨识性、书面证明、非线性反例与条件稳定恢复。
+所有 v2 主张标为 known / proved-in-project / conjectured /
+numerically-supported / refuted，不将已知 frame/FIM 结果作为新发现。
+
+---
+
+以下内容为 v1 课程工程与历史实验说明。
+
 面向众包 BLE 距离代理观测的鲁棒非线性定位科研 Agent，AI for Math 课程项目。
 研究问题：在固定异方差、离群点和几何退化仿真下，持续研究闭环能否降低 WLS 的
 CEP90 与超过 10 米的失败率？结果限定于本项目 synthetic benchmark。

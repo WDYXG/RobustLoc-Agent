@@ -1,0 +1,13 @@
+{
+  "version": "theory-v2.0",
+  "iterations": 6,
+  "algebra_seed": 7411,
+  "algebra_trials": 300,
+  "local_seed": 9417,
+  "local_trials": 150,
+  "counterexample_seed": 65171,
+  "counterexample_trials": 2000,
+  "estimator_seed": 88191,
+  "estimator_cases_per_scenario": 30,
+  "objective": "conjecture/proof boundary, counterexamples, conditional bound checks and abstention; no CEP90 selection"
+}

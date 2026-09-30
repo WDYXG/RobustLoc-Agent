@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "status": "numerically-supported",
+  "checks": 2,
+  "scope": "Finite checks of known K2-K4; proof status not assigned by tests",
+  "not_a_formal_proof": true
+}

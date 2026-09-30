@@ -1,0 +1,9 @@
+{
+  "claim_id": "R2-R4",
+  "hypothesis": "Could positive differential margin imply global uniqueness or success of L1?",
+  "status_before": "conjectured",
+  "parent_iteration": 2,
+  "previous_verdict": "numerically-supported",
+  "proof_artifact": "THEORY.md R2-R4",
+  "scope": "one conjecture or one explicit assumption repair, no v1 parameter optimization"
+}

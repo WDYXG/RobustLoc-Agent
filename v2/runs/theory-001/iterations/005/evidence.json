@@ -1,0 +1,74 @@
+{
+  "status": "refuted",
+  "claim": "unguarded residual/geometry ratio universally respects fit reliability or improves finite-pool position error",
+  "trial": 79,
+  "seed": 65171,
+  "q": 0,
+  "anchors": [
+    [
+      0.878324782351509,
+      -3.820030154790295
+    ],
+    [
+      0.47603608878569226,
+      2.1151898208098245
+    ],
+    [
+      0.08579528013736848,
+      0.06951738286093168
+    ],
+    [
+      -0.9644815769400132,
+      1.9428299339141706
+    ],
+    [
+      3.6406533715254312,
+      1.2437050001951793
+    ],
+    [
+      0.8961176472658643,
+      1.4984665162226385
+    ]
+  ],
+  "truth": [
+    0.0,
+    0.0
+  ],
+  "observations": [
+    3.5374203754117666,
+    2.1235572660261908,
+    0.19317700555701425,
+    2.2198432087168305,
+    3.9364867632882627,
+    1.786109263216404
+  ],
+  "positions": [
+    [
+      0.49144839868871193,
+      -0.4990692360178987
+    ],
+    [
+      0.19366485311951176,
+      -0.5698498510103809
+    ]
+  ],
+  "scores": [
+    {
+      "T": 1.0993139785557535,
+      "alpha": 1.3643778834171894,
+      "ratio": 0.8057254459464244
+    },
+    {
+      "T": 1.0453736187728304,
+      "alpha": 1.1414442823351691,
+      "ratio": 0.9158341190637906
+    }
+  ],
+  "residual_choice": 1,
+  "ratio_choice": 0,
+  "epsilon_gate": 1.0224351415971726,
+  "true_whitened_noise_norm": 0.4088154808274646,
+  "verified": true,
+  "scope": "finite two-candidate pool selector, not a proof about every continuous global optimizer",
+  "next_step": "Use an explicit residual feasibility gate before geometry ranking"
+}

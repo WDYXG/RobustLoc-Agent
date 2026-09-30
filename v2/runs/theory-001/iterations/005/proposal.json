@@ -1,0 +1,9 @@
+{
+  "claim_id": "C2",
+  "hypothesis": "Does unguarded residual/geometry ratio always improve finite-pool selection?",
+  "status_before": "conjectured",
+  "parent_iteration": 4,
+  "previous_verdict": "numerically-supported",
+  "proof_artifact": "THEORY.md C2",
+  "scope": "one conjecture or one explicit assumption repair, no v1 parameter optimization"
+}

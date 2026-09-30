@@ -1,0 +1,9 @@
+{
+  "claim_id": "P1-P2",
+  "hypothesis": "A curvature-limited prior ball should yield a conditional local recovery bound.",
+  "status_before": "conjectured",
+  "parent_iteration": 3,
+  "previous_verdict": "refuted",
+  "proof_artifact": "THEORY.md P1-P2",
+  "scope": "one conjecture or one explicit assumption repair, no v1 parameter optimization"
+}

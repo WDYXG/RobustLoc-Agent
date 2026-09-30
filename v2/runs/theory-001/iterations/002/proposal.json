@@ -1,0 +1,9 @@
+{
+  "claim_id": "K2-K4",
+  "hypothesis": "Use alpha_2q and explicit 2D spectra to quantify linearized recovery.",
+  "status_before": "known",
+  "parent_iteration": 1,
+  "previous_verdict": "refuted",
+  "proof_artifact": "THEORY.md K2-K4",
+  "scope": "one conjecture or one explicit assumption repair, no v1 parameter optimization"
+}

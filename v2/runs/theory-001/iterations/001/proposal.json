@@ -1,0 +1,9 @@
+{
+  "claim_id": "R1",
+  "hypothesis": "Could q-erasure margin suffice for q unknown corruptions?",
+  "status_before": "conjectured",
+  "parent_iteration": 0,
+  "previous_verdict": null,
+  "proof_artifact": "THEORY.md R1",
+  "scope": "one conjecture or one explicit assumption repair, no v1 parameter optimization"
+}

@@ -1,0 +1,175 @@
+{
+  "status": "numerically-supported",
+  "experiment_summary": {
+    "balanced": {
+      "residual_only": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.0021566574262813984,
+        "applicable_certificates": 30,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": 0.15343549361817363,
+        "invalid_prior_certificates": 0
+      },
+      "unguarded_ratio": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.0021566574262813984,
+        "applicable_certificates": 30,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": 0.15343549361817363,
+        "invalid_prior_certificates": 0
+      },
+      "feasible_geometry": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.0021566574262813984,
+        "applicable_certificates": 30,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": 0.15343549361817363,
+        "invalid_prior_certificates": 0
+      }
+    },
+    "near_line": {
+      "residual_only": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.041286896651136315,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      },
+      "unguarded_ratio": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.04128783630647268,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      },
+      "feasible_geometry": {
+        "cases": 30,
+        "estimates": 0,
+        "abstentions": 30,
+        "median_error": null,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      }
+    },
+    "leverage_attack": {
+      "residual_only": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.05776021808870098,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      },
+      "unguarded_ratio": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.05776021808870098,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      },
+      "feasible_geometry": {
+        "cases": 30,
+        "estimates": 0,
+        "abstentions": 30,
+        "median_error": null,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      }
+    },
+    "wrong_prior": {
+      "residual_only": {
+        "cases": 30,
+        "estimates": 0,
+        "abstentions": 30,
+        "median_error": null,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      },
+      "unguarded_ratio": {
+        "cases": 30,
+        "estimates": 0,
+        "abstentions": 30,
+        "median_error": null,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      },
+      "feasible_geometry": {
+        "cases": 30,
+        "estimates": 0,
+        "abstentions": 30,
+        "median_error": null,
+        "applicable_certificates": 0,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": null,
+        "invalid_prior_certificates": 0
+      }
+    },
+    "overspecified_budget": {
+      "residual_only": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.0023830377154309534,
+        "applicable_certificates": 30,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": 0.07403917515710394,
+        "invalid_prior_certificates": 0
+      },
+      "unguarded_ratio": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.0023830377154309534,
+        "applicable_certificates": 30,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": 0.07403917515710394,
+        "invalid_prior_certificates": 0
+      },
+      "feasible_geometry": {
+        "cases": 30,
+        "estimates": 30,
+        "abstentions": 0,
+        "median_error": 0.0023830377154309534,
+        "applicable_certificates": 30,
+        "bound_violations": 0,
+        "maximum_applicable_bound_ratio": 0.07403917515710394,
+        "invalid_prior_certificates": 0
+      }
+    }
+  },
+  "v1_mutations": 0,
+  "iterations": 6,
+  "unresolved": [
+    "C1 performance and novelty",
+    "solver search completeness",
+    "untrusted prior / unknown q",
+    "uncertain anchors"
+  ],
+  "proof_status": "written deductions, not formal verification",
+  "novelty": "not established"
+}

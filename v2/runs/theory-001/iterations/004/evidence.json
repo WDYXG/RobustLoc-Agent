@@ -1,0 +1,8 @@
+{
+  "status": "numerically-supported",
+  "seed": 9417,
+  "count": 150,
+  "minimum_observed_lower_lipschitz_ratio": 1.3965067059529452,
+  "minimum_denominator": 0.9747562640917361,
+  "meaning": "random pairs in certified ball; proof is P1, not this test"
+}

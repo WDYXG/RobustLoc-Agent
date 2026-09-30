@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "status": "refuted",
+  "checks": 4,
+  "scope": "finite two-candidate pool selector, not a proof about every continuous global optimizer",
+  "not_a_formal_proof": true
+}

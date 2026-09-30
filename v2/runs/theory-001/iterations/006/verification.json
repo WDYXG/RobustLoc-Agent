@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "status": "numerically-supported",
+  "checks": 480,
+  "scope": "Fixed assumption-stress experiments; no universal accuracy advantage proved",
+  "not_a_formal_proof": true
+}

@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "status": "numerically-supported",
+  "checks": 2,
+  "scope": "P1/P2 written proofs remain separate from finite checks",
+  "not_a_formal_proof": true
+}

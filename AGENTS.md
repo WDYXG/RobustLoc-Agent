@@ -1,5 +1,15 @@
 # RobustLoc-Agent research contract
 
+## Permanent v1 freeze and theory-driven v2
+
+The user permanently froze runs/run-001 on 2026-09-30. Never modify its bytes,
+rerun its solvers, tune its benchmark, or regenerate its reports. v2/ is an
+independent research scope authorized by the user: theory, literature, proofs,
+counterexamples and new experiments. Its AGENTS.md supersedes v1 research rules
+within v2/. Evidence categories are exactly known / proved-in-project /
+conjectured / numerically-supported / refuted. Reproving known facts does not
+establish novelty. V1_FREEZE.json records all previously tracked run/report bytes.
+
 Use observation-only candidate inputs. Never inspect truth or corruption labels
 inside a solver. During research modify candidate.py, candidate_config.json and
 proposal policy only. Do not edit simulator, scenarios, metrics, evaluator,

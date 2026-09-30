@@ -1,0 +1,52 @@
+{
+  "status": "refuted",
+  "claim": "alpha_q>0 suffices for q unknown corruptions",
+  "rows": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "alpha_q": 1.0,
+  "alpha_2q": 0.0,
+  "y": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "delta0": [
+    0,
+    0
+  ],
+  "delta1": [
+    1.0,
+    0.0
+  ],
+  "attack0": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "attack1": [
+    0.0,
+    -1.0,
+    0.0,
+    0.0
+  ],
+  "verified": true,
+  "proof": "THEORY.md R1 exact algebra"
+}

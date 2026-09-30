@@ -1,0 +1,8 @@
+{
+  "status": "numerically-supported",
+  "random_seed": 7411,
+  "matrices": 300,
+  "max_eigenvalue_discrepancy": 2.930988785010413e-14,
+  "max_linear_bound_ratio": 0.3147303335035668,
+  "meaning": "finite checks of known algebra and written linear bound; not proof"
+}
