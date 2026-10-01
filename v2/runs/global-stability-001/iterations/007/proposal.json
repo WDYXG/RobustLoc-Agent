@@ -1,0 +1,9 @@
+{
+  "claim_id": "E-profile",
+  "hypothesis": "Certify conditional q budgets and separate exact lower from witness upper.",
+  "status_before": "conjectured",
+  "parent_iteration": 6,
+  "previous_verdict": "refuted",
+  "proof_artifact": "v2/global_stability/THEORY.md T6",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

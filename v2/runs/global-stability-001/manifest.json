@@ -1,0 +1,116 @@
+{
+  "title": "Global Stable Recoverability of Planar Range Localization under Sparse Adversarial Corruptions",
+  "config": {
+    "title": "Global Stable Recoverability of Planar Range Localization under Sparse Adversarial Corruptions",
+    "data": {
+      "anchors": [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "-5",
+          "0"
+        ],
+        [
+          "0",
+          "5"
+        ],
+        [
+          "0",
+          "-5"
+        ],
+        [
+          "3",
+          "4"
+        ],
+        [
+          "-3",
+          "4"
+        ],
+        [
+          "3",
+          "-4"
+        ],
+        [
+          "-3",
+          "-4"
+        ]
+      ],
+      "weights": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ]
+    },
+    "q_values": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "kappa": "1/5",
+    "grid_divisions": 8,
+    "delta": "2",
+    "max_leaves": 1024,
+    "far_target": "1/20",
+    "pair_samples": 1000,
+    "seed": 20261001,
+    "algebra_trials": 100,
+    "local_limit_trials": 40,
+    "recovery_trials": 100
+  },
+  "source_sha256": {
+    "v2/global_stability/__init__.py": "62ae61fe0322a8c9e778ea04d08362a2a649681214b101dc7620af01a36fc2ee",
+    "v2/global_stability/agent.py": "5ea4771502fa8b25973dcdd476f4144e81514b459a4c982dfa7d19d5714c62e4",
+    "v2/global_stability/AGENTS.md": "240728c386aec17428d18400e4f3ae0d4e3b2933cd335a00756ba478f1c40976",
+    "v2/global_stability/audit_run.py": "e4976621eabd763e9e8a705d3f28e7ecd79796f700e4e0c96338ea76c8a8906d",
+    "v2/global_stability/certificate.py": "636c785e3ec395c258db23035c6eb54ba468f1baa6c836c75b684c674aa202c2",
+    "v2/global_stability/claims.json": "e35215cfa2dcc0d8c4ef212cb9a413a479670a4ef33a8d5336fda8c8ef183670",
+    "v2/global_stability/config.json": "d4932f1974b32bd1acd0734087dfb17ae82ee40129961a10e8512547a50988cf",
+    "v2/global_stability/exact.py": "9523240315cce7e46066bed11bb01afe3fdaee25d7ab2c64bf9f11c65ef68b1f",
+    "v2/global_stability/experiments.py": "35bd97e6c4e4a2cf7642ec31d232722c19b0cb25ffa1745c66d0dda3a96841c2",
+    "v2/global_stability/LITERATURE_AUDIT.md": "17025ce740e589490c75d01c4b3017e72e35c30b83991d55a80f2aabdb97a419",
+    "v2/global_stability/README.md": "225f77e4b2b228e241b422329cd423250a8b2fd712b8e5904746661a7cd26343",
+    "v2/global_stability/reporting.py": "753c37dd392fa1a1d7d7018e4ddbcc56fea5d197c5f59d6f4377bfce5aacde70",
+    "v2/global_stability/tests/test_certificates.py": "eb76046901d65db46692957b9f1542c377d6252187c1fefb10fc6c8956ab74a7",
+    "v2/global_stability/THEORY.md": "aa6d8d0251e4e6ca441c507f4f8053ca22d6f14e46c6c2d89d208b61242e44d3",
+    "v2/global_stability/verifier.py": "1b0808644929a2d90034335493fa176672262d19f1994b9fc9b8ef78e3e5e518",
+    "v2/global_stability/verify_task.py": "e2128d835cf217b2df77c5fc84b83d46bf2d32a3a563506939608a1eee9ec2d6"
+  },
+  "phase1_sha256": {
+    "agent.py": "3ca850dc3c269092444fa6d0288b8f7bdd886524bcade8efd75766acb7f15150",
+    "audit_run.py": "08e4a2e822f27dd558264fae9f7c0f681cf5c791a1dc38286a7d76c681f3c35b",
+    "claims.py": "8e174697764bbfd6913b05fbb24356868b44a4e88ba16209306dd0b3a5a901bb",
+    "estimator.py": "11c51b94eb95f677c45f34b5cbccfe7f49dedc2595c19352d1cf50f51e989c8e",
+    "experiments.py": "4691f4485d4f0ada4300146ee76b9a469be90a1db3025eebdbfe5147a1274c77",
+    "geometry.py": "e92c7e84ed9832ef4ce3ae791ca1931763167d02e307ee349f874ac40229c866",
+    "reporting.py": "c5fa2e9cc7adea7ebd11baf0d61fc51dd731f553777090ce72c6d4edc3d1c0f8",
+    "verifier.py": "a7ff7e607af7fdbe4b0a8f588034edeb9c46e1f0ce08f43292d600bf02aa8cb5",
+    "verify_task.py": "1b8491635fad9f8c462f1e09818a5e3d02c7b9eb5aab6a08ee8af8d4e5e6a138",
+    "__init__.py": "396733d62ad174c3df0a8b686c5ae5aa6815a9fe7c5bca99ee69ba359e04bd2a",
+    "tests/test_theory.py": "044995e87d1b41054d825cfacdf9a79c2c762f5e785d330b72cfb88a9ed4c55b",
+    "config.json": "2fb1e1b1ba95b1084cba2a2a29376ff0aa55fb4e69d5f146ff664f1e3bb4a68b",
+    "references.json": "da53f15d0d51e380344996e39de777461a3b4f554906136fde8647e6e8584f6b",
+    "THEORY.md": "d7447b58bb5786b111dc21a5b783234ee5cccb6d8cc00a906508d09482b19ba3",
+    "LITERATURE_AUDIT.md": "478d55f622497329fe126d5c22301d4e1e17714b84b3e684f4c7b8feed511333",
+    "PROBLEM_SPEC.md": "5fc10aaa0c2bf39728c9d3adf966286cb7234fe9d80730249c9496478370bb61",
+    "AGENTS.md": "60707adf6660de8a18adf69d2e835baecc5385ebce19adaaf2f0040070d24f02"
+  },
+  "v1_frozen_files": 94,
+  "created": "2026-10-01T05:29:13.914330+00:00",
+  "engine": "Codex-authored mathematics + finite Python task controller + exact rational consumer",
+  "novelty": "not established"
+}

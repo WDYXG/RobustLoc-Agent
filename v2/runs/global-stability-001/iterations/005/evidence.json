@@ -1,0 +1,439 @@
+{
+  "certificate": {
+    "schema": "rational-global-stability-v1",
+    "data": {
+      "anchors": [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "-5",
+          "0"
+        ],
+        [
+          "0",
+          "5"
+        ],
+        [
+          "0",
+          "-5"
+        ],
+        [
+          "3",
+          "4"
+        ],
+        [
+          "-3",
+          "4"
+        ],
+        [
+          "3",
+          "-4"
+        ],
+        [
+          "-3",
+          "-4"
+        ]
+      ],
+      "weights": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "domain": [
+        "-6",
+        "6",
+        "-6",
+        "6"
+      ]
+    },
+    "q": 1,
+    "settings": {
+      "divisions": 2,
+      "delta": "1",
+      "max_leaves": 1,
+      "target": "1/20"
+    },
+    "scatter": {
+      "lower": "195879194825137/500000000000000",
+      "lower2": "38196/248875",
+      "subsets": [
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "eigen_lower2": "213756124/995323637"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "eigen_lower2": "37063879/170402148"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "eigen_lower2": "16900/81483"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "eigen_lower2": "16900/81483"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7
+          ],
+          "eigen_lower2": "37063879/170402148"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7
+          ],
+          "eigen_lower2": "213756124/995323637"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "eigen_lower2": "20382794396/109561601415"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "eigen_lower2": "20382794396/109561601415"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            7
+          ],
+          "eigen_lower2": "77859852548/360985839805"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "77859852548/360985839805"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "eigen_lower2": "77859852548/360985839805"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            7
+          ],
+          "eigen_lower2": "77859852548/360985839805"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "eigen_lower2": "20382794396/109561601415"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "20382794396/109561601415"
+        },
+        {
+          "indices": [
+            0,
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "470464/2239875"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "eigen_lower2": "26419910364/166361216845"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "eigen_lower2": "17280264177/89237052590"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "eigen_lower2": "26419910364/166361216845"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "17280264177/89237052590"
+        },
+        {
+          "indices": [
+            0,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "80608572/413846545"
+        },
+        {
+          "indices": [
+            0,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "80608572/413846545"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "eigen_lower2": "17280264177/89237052590"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "eigen_lower2": "26419910364/166361216845"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ],
+          "eigen_lower2": "17280264177/89237052590"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "26419910364/166361216845"
+        },
+        {
+          "indices": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "80608572/413846545"
+        },
+        {
+          "indices": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "80608572/413846545"
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "eigen_lower2": "38196/248875"
+        }
+      ]
+    },
+    "local": {
+      "lower": "0",
+      "hessian_upper": null,
+      "cells": [
+        {
+          "cell": [
+            "-6",
+            "0",
+            "-6",
+            "0"
+          ],
+          "lower": "0",
+          "reason": "anchor-containing-cell"
+        },
+        {
+          "cell": [
+            "-6",
+            "0",
+            "0",
+            "6"
+          ],
+          "lower": "0",
+          "reason": "anchor-containing-cell"
+        },
+        {
+          "cell": [
+            "0",
+            "6",
+            "-6",
+            "0"
+          ],
+          "lower": "0",
+          "reason": "anchor-containing-cell"
+        },
+        {
+          "cell": [
+            "0",
+            "6",
+            "0",
+            "6"
+          ],
+          "lower": "0",
+          "reason": "anchor-containing-cell"
+        }
+      ]
+    },
+    "near_lower": "0",
+    "leaves": [
+      {
+        "path": "",
+        "kind": "far-budget",
+        "raw_lower": "0"
+      }
+    ],
+    "raw_cover_lower": "0",
+    "certified_lower": "195879194825137/500000000000000",
+    "proof": "THEORY.md T5 and Computed near/far certificate",
+    "scope": "exact declared rational inputs; analytic fallback reported separately"
+  },
+  "status": "proved-in-project",
+  "claim": "T5 anchor-containing bounded-domain extension",
+  "scope": "written derivation plus exact rational scatter certificate"
+}

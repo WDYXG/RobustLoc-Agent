@@ -1,0 +1,9 @@
+{
+  "status": "refuted",
+  "details": {
+    "mu": "0",
+    "uniform_local_lower": "15893320131074025425145373359/500000000000000000000000000000",
+    "proof": "THEORY.md C3/R-branch"
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}

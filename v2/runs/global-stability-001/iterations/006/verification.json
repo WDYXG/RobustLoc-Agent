@@ -1,0 +1,8 @@
+{
+  "status": "refuted",
+  "details": {
+    "proof": "THEORY.md R-unbounded",
+    "limiting_upper": "0"
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}

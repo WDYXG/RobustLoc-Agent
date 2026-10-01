@@ -1,0 +1,13 @@
+[
+  {"id":"T1","status":"known","assumptions":"fixed pair and positive fixed weights","provenance":"order statistics; phase 1 erasure foundation; targeted audit","proof":"THEORY.md T1","novelty":"not established"},
+  {"id":"T2","status":"proved-in-project","assumptions":"truth and candidate in D; two q-sparse explanations; valid clean weighted residual budgets; mu>0","provenance":"2q support union + inverse Lipschitz","proof":"THEORY.md T2","novelty":"not established"},
+  {"id":"T3","status":"proved-in-project","assumptions":"x away from anchors; ambient limit; domain closure of its interior for inf_D relation","provenance":"uniform first-order Taylor expansion and compact direction set","proof":"THEORY.md T3","novelty":"not established"},
+  {"id":"R-domain","status":"refuted","assumptions":"arbitrary compact domain","provenance":"exact thin-domain witness","proof":"THEORY.md R-domain","novelty":"not established"},
+  {"id":"T4","status":"proved-in-project","assumptions":"compact anchor-separated D; every surviving subset contains noncollinear triple","provenance":"phase 1 injectivity + compact near/far argument","proof":"THEORY.md T4","novelty":"not established"},
+  {"id":"T5","status":"proved-in-project","assumptions":"bounded D; fixed exact anchors and weights; finite upper range radii","provenance":"known squared-range identity and weighted scatter identity","proof":"THEORY.md T5","novelty":"not established"},
+  {"id":"C3","status":"conjectured","assumptions":"compact full-dimensional domain avoiding anchors","provenance":"user conjecture mu equals inf gamma","proof":"THEORY.md C3/R-branch; runtime witness required to transition","novelty":"not established"},
+  {"id":"R-unbounded","status":"refuted","assumptions":"unbounded full-plane workspace","provenance":"exact far-field sequence","proof":"THEORY.md R-unbounded","novelty":"not established"},
+  {"id":"T6","status":"known","assumptions":"same domain, anchors and fixed positive weights across q","provenance":"fewer smallest nonnegative summands","proof":"THEORY.md T6","novelty":"not established"},
+  {"id":"E-profile","status":"conjectured","assumptions":"exact declared config; positive kappa","provenance":"runtime certificate and feasible-pair witnesses required","proof":"runtime stage 7","novelty":"not established"},
+  {"id":"E-T2-stress","status":"conjectured","assumptions":"constructed two-explanation cases with fixed seeds","provenance":"runtime stage 8; numerical only","proof":"runtime stage 8","novelty":"not established"}
+]

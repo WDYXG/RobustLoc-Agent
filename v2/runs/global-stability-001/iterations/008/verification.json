@@ -1,0 +1,9 @@
+{
+  "status": "numerically-supported",
+  "details": {
+    "trials": 100,
+    "max_error_to_bound": 0.606017433423058,
+    "proof": "THEORY.md T2"
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}

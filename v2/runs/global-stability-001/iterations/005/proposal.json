@@ -1,0 +1,9 @@
+{
+  "claim_id": "T5",
+  "hypothesis": "Can bounded-domain scatter certify global stability even at anchor singularities?",
+  "status_before": "conjectured",
+  "parent_iteration": 4,
+  "previous_verdict": "refuted",
+  "proof_artifact": "v2/global_stability/THEORY.md T5",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

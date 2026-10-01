@@ -1,0 +1,9 @@
+{
+  "claim_id": "T3",
+  "hypothesis": "Repair T3 using allowed tangent directions and full-dimensional regular domains.",
+  "status_before": "conjectured",
+  "parent_iteration": 2,
+  "previous_verdict": "refuted",
+  "proof_artifact": "v2/global_stability/THEORY.md T3",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

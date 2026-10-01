@@ -1,0 +1,19 @@
+{
+  "title": "Global Stable Recoverability of Planar Range Localization under Sparse Adversarial Corruptions",
+  "data": {
+    "anchors": [["5","0"],["-5","0"],["0","5"],["0","-5"],["3","4"],["-3","4"],["3","-4"],["-3","-4"]],
+    "weights": ["1","1","1","1","1","1","1","1"],
+    "domain": ["-1","1","-1","1"]
+  },
+  "q_values": [0,1,2,3,4],
+  "kappa": "1/5",
+  "grid_divisions": 8,
+  "delta": "2",
+  "max_leaves": 1024,
+  "far_target": "1/20",
+  "pair_samples": 1000,
+  "seed": 20261001,
+  "algebra_trials": 100,
+  "local_limit_trials": 40,
+  "recovery_trials": 100
+}

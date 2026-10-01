@@ -1,0 +1,8 @@
+{
+  "status": "refuted",
+  "details": {
+    "repair": "T3 requires interior/tangent directions",
+    "proof": "THEORY.md R-domain"
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}

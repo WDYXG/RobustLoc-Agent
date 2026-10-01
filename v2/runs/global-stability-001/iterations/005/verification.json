@@ -1,0 +1,16 @@
+{
+  "status": "proved-in-project",
+  "details": {
+    "verified": true,
+    "certified_lower": "195879194825137/500000000000000",
+    "raw_cover_lower": "0",
+    "scatter_lower": "195879194825137/500000000000000",
+    "local_lower": "0",
+    "near_lower": "0",
+    "leaves": 1,
+    "unresolved_far_leaves": 1,
+    "status": "proved-in-project",
+    "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}

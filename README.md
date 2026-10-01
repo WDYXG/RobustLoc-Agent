@@ -2,6 +2,11 @@
 
 ## Theory-driven v2（当前研究路线）
 
+当前阶段为 [Phase 2：全局鲁棒稳定性](v2/global_stability/README.md)，核心对象
+为 μ_q(D)。已运行 [global-stability-001](v2/runs/global-stability-001/report.md)：
+全局误差界、local/global 条件、精确反例、有理数证书及 conditional q profile。
+新颖性未确立。Phase 1 和 v1 都保持历史字节与来源哈希。
+
 `run-001` 已于 2026-09-30 永久冻结，不再优化其 CEP90；旧报告仅作为历史记录。
 当前工作见 [v2](v2/README.md)：先审计 frame/FIM/erasure 文献，再研究至多 q 个
 任意污染下的几何可辨识性、书面证明、非线性反例与条件稳定恢复。

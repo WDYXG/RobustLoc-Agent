@@ -1,0 +1,9 @@
+{
+  "claim_id": "R-domain",
+  "hypothesis": "Could the ambient local condition be necessary on every compact domain?",
+  "status_before": "conjectured",
+  "parent_iteration": 1,
+  "previous_verdict": "numerically-supported",
+  "proof_artifact": "v2/global_stability/THEORY.md T3",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

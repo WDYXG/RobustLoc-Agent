@@ -1,0 +1,31 @@
+{
+  "domain": [
+    "-1",
+    "1",
+    "0",
+    "0"
+  ],
+  "anchors": [
+    [
+      "2",
+      "0"
+    ],
+    [
+      "3",
+      "0"
+    ],
+    [
+      "4",
+      "0"
+    ],
+    [
+      "5",
+      "0"
+    ]
+  ],
+  "q": 1,
+  "ambient_gamma2": "0",
+  "restricted_mu2": "2",
+  "status": "refuted",
+  "claim": "Unrestricted compact-domain T3 necessary local condition"
+}

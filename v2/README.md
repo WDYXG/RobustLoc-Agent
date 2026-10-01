@@ -1,5 +1,12 @@
 # RobustLoc-Agent theory-driven v2
 
+当前进入 [Phase 2：Global Stable Recoverability](global_stability/README.md)。
+核心是 μ_q(D)，实际 [8 轮运行报告](runs/global-stability-001/report.md)、
+[定向文献审计](global_stability/LITERATURE_AUDIT.md)、
+[T1–T6 与反例](global_stability/THEORY.md)、
+[完成后审查](reviews/global-stability-001-review.md) 均独立保存。
+以下 Phase 1 内容和已冻结来源保持历史状态。
+
 v1 `run-001` 永久冻结，历史字节清单在 V1_FREEZE.json。v2 不继续优化旧
 benchmark CEP90，独立研究“至多 q 个距离观测被任意污染时的几何可辨识性与稳定恢复”。
 

@@ -1,0 +1,9 @@
+{
+  "claim_id": "R-unbounded",
+  "hypothesis": "Could global injectivity suffice for positive uniform stability on an unbounded domain?",
+  "status_before": "conjectured",
+  "parent_iteration": 5,
+  "previous_verdict": "proved-in-project",
+  "proof_artifact": "v2/global_stability/THEORY.md C3 / R-branch",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

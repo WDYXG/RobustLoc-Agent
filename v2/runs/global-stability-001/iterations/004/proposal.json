@@ -1,0 +1,9 @@
+{
+  "claim_id": "C3",
+  "hypothesis": "Could mu equal the infimum of local gamma on a compact full-dimensional domain?",
+  "status_before": "conjectured",
+  "parent_iteration": 3,
+  "previous_verdict": "numerically-supported",
+  "proof_artifact": "v2/global_stability/THEORY.md C3 / R-branch",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "numerically-supported",
+  "details": {
+    "trials": 100,
+    "max_discrepancy": 3.552713678800501e-15,
+    "proof_label": "known"
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}

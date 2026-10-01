@@ -1,0 +1,9 @@
+{
+  "claim_id": "E-T2-stress",
+  "hypothesis": "Stress the global two-feasible-explanation recovery bound without a smallball prior.",
+  "status_before": "conjectured",
+  "parent_iteration": 7,
+  "previous_verdict": "proved-in-project",
+  "proof_artifact": "v2/global_stability/THEORY.md T2",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

@@ -1,0 +1,43 @@
+{
+  "profile": [
+    {
+      "q": 0,
+      "certified_lower": 1.123723765129169,
+      "upper_bound": 1.846426196072841,
+      "raw_cover_lower": 0.248099863980883
+    },
+    {
+      "q": 1,
+      "certified_lower": 0.821368901095061,
+      "upper_bound": 1.188654772522616,
+      "raw_cover_lower": 0.069820644521046
+    },
+    {
+      "q": 2,
+      "certified_lower": 0.369868427089418,
+      "upper_bound": 0.62579699225433,
+      "raw_cover_lower": 0.0
+    },
+    {
+      "q": 3,
+      "certified_lower": 0.0,
+      "upper_bound": 0.0,
+      "raw_cover_lower": 0.0
+    },
+    {
+      "q": 4,
+      "certified_lower": 0.0,
+      "upper_bound": 0.0,
+      "raw_cover_lower": 0.0
+    }
+  ],
+  "q_cert_lower": 2,
+  "q_cert_possible_upper": 2,
+  "recovery_trials": 100,
+  "max_error_to_bound": 0.606017433423058,
+  "c3_uniform_local_lower": 0.03178664026214805,
+  "c3_mu": 0,
+  "status": "proved-in-project",
+  "novelty": "not established",
+  "exact_values": "iterations/007/evidence.json"
+}

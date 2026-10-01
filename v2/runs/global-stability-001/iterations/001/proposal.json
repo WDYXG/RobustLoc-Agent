@@ -1,0 +1,9 @@
+{
+  "claim_id": "T1",
+  "hypothesis": "Fixed-pair separation equals the sorted surviving squared differences.",
+  "status_before": "known",
+  "parent_iteration": 0,
+  "previous_verdict": null,
+  "proof_artifact": "v2/global_stability/THEORY.md T1",
+  "assumptions_and_scope": "exact fixed anchors and weights; individual claim assumptions in THEORY.md"
+}

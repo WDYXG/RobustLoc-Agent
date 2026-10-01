@@ -1,0 +1,70 @@
+{
+  "status": "proved-in-project",
+  "details": {
+    "certificates": [
+      {
+        "verified": true,
+        "certified_lower": "1123723765129169/1000000000000000",
+        "raw_cover_lower": "248099863980883/1000000000000000",
+        "scatter_lower": "1123723765129169/1000000000000000",
+        "local_lower": "258962775561748313882251436299/200000000000000000000000000000",
+        "near_lower": "109605176800612913882251436299/200000000000000000000000000000",
+        "leaves": 44,
+        "unresolved_far_leaves": 0,
+        "status": "proved-in-project",
+        "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+      },
+      {
+        "verified": true,
+        "certified_lower": "821368901095061/1000000000000000",
+        "raw_cover_lower": "34910322260523/500000000000000",
+        "scatter_lower": "821368901095061/1000000000000000",
+        "local_lower": "943438114940977412528781924573/1000000000000000000000000000000",
+        "near_lower": "196650121135300412528781924573/1000000000000000000000000000000",
+        "leaves": 56,
+        "unresolved_far_leaves": 0,
+        "status": "proved-in-project",
+        "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+      },
+      {
+        "verified": true,
+        "certified_lower": "184934213544709/500000000000000",
+        "raw_cover_lower": "0",
+        "scatter_lower": "184934213544709/500000000000000",
+        "local_lower": "497870365334634412528781924573/1000000000000000000000000000000",
+        "near_lower": "0",
+        "leaves": 148,
+        "unresolved_far_leaves": 0,
+        "status": "proved-in-project",
+        "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+      },
+      {
+        "verified": true,
+        "certified_lower": "0",
+        "raw_cover_lower": "0",
+        "scatter_lower": "0",
+        "local_lower": "0",
+        "near_lower": "0",
+        "leaves": 1024,
+        "unresolved_far_leaves": 323,
+        "status": "proved-in-project",
+        "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+      },
+      {
+        "verified": true,
+        "certified_lower": "0",
+        "raw_cover_lower": "0",
+        "scatter_lower": "0",
+        "local_lower": "0",
+        "near_lower": "0",
+        "leaves": 1024,
+        "unresolved_far_leaves": 363,
+        "status": "proved-in-project",
+        "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+      }
+    ],
+    "q_cert_lower": 2,
+    "q_cert_possible_upper": 2
+  },
+  "scope": "Independent arithmetic/numerical check; written proofs are not formal machine proofs"
+}
