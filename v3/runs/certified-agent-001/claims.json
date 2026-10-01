@@ -1,0 +1,31 @@
+[
+  {
+    "id": "C-decision",
+    "status": "numerically-supported",
+    "claim": "Fewer wrong outputs with useful conditional coverage",
+    "evidence": "summary.json",
+    "novelty": "not established"
+  },
+  {
+    "id": "C-one-anchor",
+    "status": "refuted",
+    "claim": "One new reporter always restores q-corruption stability",
+    "evidence": "episodes/active-certified__new-report-corrupted-000.json and unit exact upper witnesses",
+    "novelty": "not established"
+  },
+  {
+    "id": "C-lookahead",
+    "status": "numerically-supported",
+    "claim": "Finite lookahead restores some cases unavailable to passive certification",
+    "evidence": "summary.json",
+    "novelty": "not established"
+  },
+  {
+    "id": "C-learning-cert",
+    "status": "refuted",
+    "claim": "High surrogate probability alone supplies a safety certificate",
+    "evidence": "learning.json",
+    "scope": "empirical false positive only if witnessed; absence of errors is not proof",
+    "novelty": "not established"
+  }
+]

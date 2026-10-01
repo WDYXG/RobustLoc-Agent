@@ -1,0 +1,16 @@
+{
+  "truth": [
+    "-0.306512816",
+    "0.674586476"
+  ],
+  "actual_q": 1,
+  "scenario": "over-noise-budget",
+  "bad_positions": [
+    [
+      "-3",
+      "-4"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 1020032
+}

@@ -1,0 +1,16 @@
+{
+  "truth": [
+    "1.6",
+    "0.619940579"
+  ],
+  "actual_q": 1,
+  "scenario": "outside-domain",
+  "bad_positions": [
+    [
+      "-3",
+      "-4"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 1010038
+}

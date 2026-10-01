@@ -1,0 +1,318 @@
+{
+  "case_id": "healthy-011",
+  "scenario": "healthy",
+  "method": "always-cauchy",
+  "initial_observation": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "measurements": [
+      "5.640037565588",
+      "4.426819542493",
+      "4.454527577306",
+      "5.620326705557",
+      "4.971375019270",
+      "4.168411244851",
+      "5.835515399028",
+      "4.169136564226"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 2,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 6993
+  },
+  "trace": [
+    {
+      "observation": {
+        "anchors": [
+          [
+            "5",
+            "0"
+          ],
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "-5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "4"
+          ],
+          [
+            "3",
+            "-4"
+          ],
+          [
+            "-3",
+            "-4"
+          ]
+        ],
+        "measurements": [
+          "5.640037565588",
+          "4.426819542493",
+          "4.454527577306",
+          "5.620326705557",
+          "4.971375019270",
+          "4.168411244851",
+          "5.835515399028",
+          "4.169136564226"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 2,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 3,
+        "random_choice_index": 6993
+      },
+      "decision": {
+        "action": "recover",
+        "candidate": {
+          "position": [
+            "-0.610827564698",
+            "0.585546840277"
+          ],
+          "numeric_objective": 8.593773013603647,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": true,
+            "clean_indices": [
+              6,
+              5,
+              1,
+              0,
+              3,
+              4,
+              2
+            ],
+            "norm2_upper": "738777561087068345755183/50000000000000000000000000000",
+            "norm_upper": "960974480077/250000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy"
+        },
+        "certified": false,
+        "error_bound": null,
+        "reason": "always-output Cauchy comparator, no certificate claim"
+      }
+    }
+  ],
+  "final_observation": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "measurements": [
+      "5.640037565588",
+      "4.426819542493",
+      "4.454527577306",
+      "5.620326705557",
+      "4.971375019270",
+      "4.168411244851",
+      "5.835515399028",
+      "4.169136564226"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 2,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 6993
+  },
+  "private_final": {
+    "truth": [
+      "-0.610861629",
+      "0.586833098"
+    ],
+    "actual_q": 1,
+    "scenario": "healthy",
+    "bad_positions": [
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "new_bad_position": null,
+    "seed": 930042
+  },
+  "initial_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      7
+    ],
+    "true_clean_norm2_upper": "20526049312731082338987911/1000000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "final_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      7
+    ],
+    "true_clean_norm2_upper": "20526049312731082338987911/1000000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "outcome": {
+    "action": "recover",
+    "output": true,
+    "error": 0.0012867087108775028,
+    "wrong_output": false,
+    "certified": false,
+    "error_bound": null,
+    "bound_violation": false,
+    "acquisitions": 0,
+    "lower_before": "821368901095061/1000000000000000",
+    "lower_after": "821368901095061/1000000000000000",
+    "strict_mu_improvement": false,
+    "runtime_seconds": 0.01077999998233281
+  }
+}

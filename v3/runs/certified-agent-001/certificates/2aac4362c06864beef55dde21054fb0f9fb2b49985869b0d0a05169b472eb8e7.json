@@ -1,0 +1,93 @@
+{
+  "schema": "rational-global-stability-v1",
+  "data": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "q": 0,
+  "settings": {
+    "divisions": 1,
+    "delta": "1",
+    "max_leaves": 1,
+    "target": "1/20"
+  },
+  "scatter": {
+    "lower": "689692745025427/1000000000000000",
+    "lower2": "467650/983127",
+    "subsets": [
+      {
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "eigen_lower2": "467650/983127"
+      }
+    ]
+  },
+  "local": {
+    "lower": "0",
+    "hessian_upper": "295803989154981/200000000000000",
+    "cells": [
+      {
+        "cell": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "lower": "0",
+        "centre_lower": "178885438199983/200000000000000",
+        "radius_upper": "176776695296637/125000000000000",
+        "derivative_upper": "295803989154981/200000000000000"
+      }
+    ]
+  },
+  "near_lower": "0",
+  "leaves": [
+    {
+      "path": "",
+      "kind": "far-budget",
+      "raw_lower": "0"
+    }
+  ],
+  "raw_cover_lower": "0",
+  "certified_lower": "689692745025427/1000000000000000",
+  "proof": "THEORY.md T5 and Computed near/far certificate",
+  "scope": "exact declared rational inputs; analytic fallback reported separately"
+}

@@ -1,0 +1,278 @@
+{
+  "case_id": "budget-limited-000",
+  "scenario": "budget-limited",
+  "method": "always-cauchy",
+  "initial_observation": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ]
+    ],
+    "measurements": [
+      "5.375353718193",
+      "2.429736031977",
+      "1.803870160784",
+      "4.719918815435"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 1,
+    "random_choice_index": 3757
+  },
+  "trace": [
+    {
+      "observation": {
+        "anchors": [
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "5",
+            "0"
+          ]
+        ],
+        "measurements": [
+          "5.375353718193",
+          "2.429736031977",
+          "1.803870160784",
+          "4.719918815435"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "-4"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 1,
+        "random_choice_index": 3757
+      },
+      "decision": {
+        "action": "recover",
+        "candidate": {
+          "position": [
+            "0.331009278999",
+            "-0.685627050267"
+          ],
+          "numeric_objective": 0.0028362262637667886,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": true,
+            "clean_indices": [
+              1,
+              0,
+              2
+            ],
+            "norm2_upper": "403422502058219863027469/1000000000000000000000000000000",
+            "norm_upper": "317577747197/500000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy"
+        },
+        "certified": false,
+        "error_bound": null,
+        "reason": "always-output Cauchy comparator, no certificate claim"
+      }
+    }
+  ],
+  "final_observation": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ]
+    ],
+    "measurements": [
+      "5.375353718193",
+      "2.429736031977",
+      "1.803870160784",
+      "4.719918815435"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 1,
+    "random_choice_index": 3757
+  },
+  "private_final": {
+    "truth": [
+      "0.331950685",
+      "0.683865391"
+    ],
+    "actual_q": 1,
+    "scenario": "budget-limited",
+    "bad_positions": [
+      [
+        "5",
+        "0"
+      ]
+    ],
+    "new_bad_position": null,
+    "seed": 970031
+  },
+  "initial_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      3
+    ],
+    "true_clean_norm2_upper": "1414204022348723240354347/1000000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "final_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      3
+    ],
+    "true_clean_norm2_upper": "1414204022348723240354347/1000000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "outcome": {
+    "action": "recover",
+    "output": true,
+    "error": 1.3694927648340118,
+    "wrong_output": true,
+    "certified": false,
+    "error_bound": null,
+    "bound_violation": false,
+    "acquisitions": 0,
+    "lower_before": "0",
+    "lower_after": "0",
+    "strict_mu_improvement": false,
+    "runtime_seconds": 0.00803909997921437
+  }
+}

@@ -1,0 +1,878 @@
+{
+  "case_id": "new-report-corrupted-007",
+  "scenario": "new-report-corrupted",
+  "method": "random-certified",
+  "initial_observation": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ]
+    ],
+    "measurements": [
+      "5.157494762452",
+      "2.202589150928",
+      "1.974812705057",
+      "4.913644213840"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 245
+  },
+  "trace": [
+    {
+      "observation": {
+        "anchors": [
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "5",
+            "0"
+          ]
+        ],
+        "measurements": [
+          "5.157494762452",
+          "2.202589150928",
+          "1.974812705057",
+          "4.913644213840"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "-4"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 3,
+        "random_choice_index": 245
+      },
+      "decision": {
+        "conditional_profile": {
+          "rows": [
+            {
+              "q": 0,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            },
+            {
+              "q": 1,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            },
+            {
+              "q": 2,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            }
+          ],
+          "threshold": "1/5",
+          "certified_capacity_lower": null,
+          "profile_max_q": 2,
+          "scope": "conditional capacity lower bound over computed q; actual q not inferred"
+        },
+        "geometry_features": {
+          "names": [
+            "centre_lambda_min",
+            "log1p_condition",
+            "circular_angular_coverage",
+            "hull_domain_corner_coverage",
+            "reporter_count",
+            "declared_q_budget",
+            "y_spread",
+            "x_spread"
+          ],
+          "values": [
+            0.0,
+            29.01731547704869,
+            0.5,
+            0.0,
+            4.0,
+            1.0,
+            0.0,
+            3.8078865529319543
+          ],
+          "reference_point": [
+            0.0,
+            0.0
+          ],
+          "centre_at_anchor": false,
+          "estimated_corruption_advisory": 1,
+          "scope": "diagnostic reference geometry, not truth Jacobian or certification"
+        },
+        "learned_probability_advisory": 1.7098147140736958e-06,
+        "q_budget": 1,
+        "guarantee": "conditional on true-domain, q and clean-noise assumptions",
+        "geometry": {
+          "verification": {
+            "verified": true,
+            "certified_lower": "0",
+            "raw_cover_lower": "0",
+            "scatter_lower": "0",
+            "local_lower": "0",
+            "near_lower": "0",
+            "leaves": 1,
+            "unresolved_far_leaves": 1,
+            "status": "proved-in-project",
+            "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+          },
+          "lower": "0",
+          "upper": "0",
+          "upper_witness": {
+            "x": [
+              "-1",
+              "-1"
+            ],
+            "z": [
+              "-1",
+              "1"
+            ],
+            "upper": "0",
+            "equal_coordinates": 4
+          },
+          "interpretation": "zero-margin-witness",
+          "certificate_id": "e630c2178333660c51279a6433a5ee743ea981261d0ea9f0ded1402aeedaa440"
+        },
+        "action": "acquire-more-data",
+        "reason": "witness rules out requested uniform margin; candidate-specific recovery may still exist",
+        "acquisition": {
+          "anchor": [
+            "3",
+            "4"
+          ],
+          "projected_lower": null,
+          "plan": [],
+          "criterion": "seeded random, no truth or future range"
+        }
+      }
+    },
+    {
+      "observation": {
+        "anchors": [
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "5",
+            "0"
+          ],
+          [
+            "3",
+            "4"
+          ]
+        ],
+        "measurements": [
+          "5.157494762452",
+          "2.202589150928",
+          "1.974812705057",
+          "4.913644213840",
+          "5.428387665275"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            "-3",
+            "-4"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 2,
+        "random_choice_index": 262
+      },
+      "decision": {
+        "conditional_profile": {
+          "rows": [
+            {
+              "q": 0,
+              "lower": "132971230689139/250000000000000",
+              "upper": "28062484748657/40000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 1,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            },
+            {
+              "q": 2,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            }
+          ],
+          "threshold": "1/5",
+          "certified_capacity_lower": 0,
+          "profile_max_q": 2,
+          "scope": "conditional capacity lower bound over computed q; actual q not inferred"
+        },
+        "geometry_features": {
+          "names": [
+            "centre_lambda_min",
+            "log1p_condition",
+            "circular_angular_coverage",
+            "hull_domain_corner_coverage",
+            "reporter_count",
+            "declared_q_budget",
+            "y_spread",
+            "x_spread"
+          ],
+          "values": [
+            0.5790627287701456,
+            2.1557823798667686,
+            0.5,
+            0.5,
+            5.0,
+            1.0,
+            1.6,
+            3.6110940170535577
+          ],
+          "reference_point": [
+            0.0,
+            0.0
+          ],
+          "centre_at_anchor": false,
+          "estimated_corruption_advisory": 1,
+          "scope": "diagnostic reference geometry, not truth Jacobian or certification"
+        },
+        "learned_probability_advisory": 0.0017946254568908496,
+        "q_budget": 1,
+        "guarantee": "conditional on true-domain, q and clean-noise assumptions",
+        "geometry": {
+          "verification": {
+            "verified": true,
+            "certified_lower": "0",
+            "raw_cover_lower": "0",
+            "scatter_lower": "0",
+            "local_lower": "0",
+            "near_lower": "0",
+            "leaves": 1,
+            "unresolved_far_leaves": 1,
+            "status": "proved-in-project",
+            "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+          },
+          "lower": "0",
+          "upper": "0",
+          "upper_witness": {
+            "x": [
+              "-1",
+              "-1"
+            ],
+            "z": [
+              "-1",
+              "1"
+            ],
+            "upper": "0",
+            "equal_coordinates": 4
+          },
+          "interpretation": "zero-margin-witness",
+          "certificate_id": "e71e5ceae0eb05e2fd07988c01789077081ea46c8ad2b38e7a200b105b468a9e"
+        },
+        "action": "acquire-more-data",
+        "reason": "witness rules out requested uniform margin; candidate-specific recovery may still exist",
+        "acquisition": {
+          "anchor": [
+            "-3",
+            "-4"
+          ],
+          "projected_lower": null,
+          "plan": [],
+          "criterion": "seeded random, no truth or future range"
+        }
+      }
+    },
+    {
+      "observation": {
+        "anchors": [
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "5",
+            "0"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "-4"
+          ]
+        ],
+        "measurements": [
+          "5.157494762452",
+          "2.202589150928",
+          "1.974812705057",
+          "4.913644213840",
+          "5.428387665275",
+          "5.556979162715"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 1,
+        "random_choice_index": 279
+      },
+      "decision": {
+        "conditional_profile": {
+          "rows": [
+            {
+              "q": 0,
+              "lower": "352889024098457/500000000000000",
+              "upper": "41758581247759/40000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 1,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            },
+            {
+              "q": 2,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            }
+          ],
+          "threshold": "1/5",
+          "certified_capacity_lower": 0,
+          "profile_max_q": 2,
+          "scope": "conditional capacity lower bound over computed q; actual q not inferred"
+        },
+        "geometry_features": {
+          "names": [
+            "centre_lambda_min",
+            "log1p_condition",
+            "circular_angular_coverage",
+            "hull_domain_corner_coverage",
+            "reporter_count",
+            "declared_q_budget",
+            "y_spread",
+            "x_spread"
+          ],
+          "values": [
+            1.0302284396407793,
+            1.7619789055183939,
+            0.6475836176504333,
+            1.0,
+            6.0,
+            1.0,
+            2.309401076758503,
+            3.559026084010437
+          ],
+          "reference_point": [
+            0.0,
+            0.0
+          ],
+          "centre_at_anchor": false,
+          "estimated_corruption_advisory": 1,
+          "scope": "diagnostic reference geometry, not truth Jacobian or certification"
+        },
+        "learned_probability_advisory": 0.1515277475249773,
+        "q_budget": 1,
+        "guarantee": "conditional on true-domain, q and clean-noise assumptions",
+        "geometry": {
+          "verification": {
+            "verified": true,
+            "certified_lower": "0",
+            "raw_cover_lower": "0",
+            "scatter_lower": "0",
+            "local_lower": "0",
+            "near_lower": "0",
+            "leaves": 1,
+            "unresolved_far_leaves": 1,
+            "status": "proved-in-project",
+            "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+          },
+          "lower": "0",
+          "upper": "0",
+          "upper_witness": {
+            "x": [
+              "-1",
+              "-1"
+            ],
+            "z": [
+              "-1",
+              "1"
+            ],
+            "upper": "0",
+            "equal_coordinates": 4
+          },
+          "interpretation": "zero-margin-witness",
+          "certificate_id": "1e76e5f7c61ee8fed435f6c62fc3837ade22df7c53e2187a11bedf178b5541ea"
+        },
+        "action": "acquire-more-data",
+        "reason": "witness rules out requested uniform margin; candidate-specific recovery may still exist",
+        "acquisition": {
+          "anchor": [
+            "4",
+            "-3"
+          ],
+          "projected_lower": null,
+          "plan": [],
+          "criterion": "seeded random, no truth or future range"
+        }
+      }
+    },
+    {
+      "observation": {
+        "anchors": [
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "5",
+            "0"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "-4"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "measurements": [
+          "5.157494762452",
+          "2.202589150928",
+          "1.974812705057",
+          "4.913644213840",
+          "5.428387665275",
+          "5.556979162715",
+          "5.291055091142"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "0",
+            "5"
+          ]
+        ],
+        "acquisitions_remaining": 0,
+        "random_choice_index": 296
+      },
+      "decision": {
+        "conditional_profile": {
+          "rows": [
+            {
+              "q": 0,
+              "lower": "4220878445977/5000000000000",
+              "upper": "31054446515127/25000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 1,
+              "lower": "398913692067417/1000000000000000",
+              "upper": "508979715149173/1000000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 2,
+              "lower": "0",
+              "upper": "0",
+              "interpretation": "zero-margin-witness"
+            }
+          ],
+          "threshold": "1/5",
+          "certified_capacity_lower": 1,
+          "profile_max_q": 2,
+          "scope": "conditional capacity lower bound over computed q; actual q not inferred"
+        },
+        "geometry_features": {
+          "names": [
+            "centre_lambda_min",
+            "log1p_condition",
+            "circular_angular_coverage",
+            "hull_domain_corner_coverage",
+            "reporter_count",
+            "declared_q_budget",
+            "y_spread",
+            "x_spread"
+          ],
+          "values": [
+            1.5790627287701455,
+            1.4890786876740385,
+            0.6475836176504333,
+            1.0,
+            7.0,
+            1.0,
+            2.381904571504724,
+            3.5799897388976194
+          ],
+          "reference_point": [
+            0.0,
+            0.0
+          ],
+          "centre_at_anchor": false,
+          "estimated_corruption_advisory": 1,
+          "scope": "diagnostic reference geometry, not truth Jacobian or certification"
+        },
+        "learned_probability_advisory": 0.627783528902527,
+        "q_budget": 1,
+        "guarantee": "conditional on true-domain, q and clean-noise assumptions",
+        "geometry": {
+          "verification": {
+            "verified": true,
+            "certified_lower": "398913692067417/1000000000000000",
+            "raw_cover_lower": "0",
+            "scatter_lower": "398913692067417/1000000000000000",
+            "local_lower": "0",
+            "near_lower": "0",
+            "leaves": 1,
+            "unresolved_far_leaves": 1,
+            "status": "proved-in-project",
+            "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+          },
+          "lower": "398913692067417/1000000000000000",
+          "upper": "508979715149173/1000000000000000",
+          "upper_witness": {
+            "x": [
+              "-1",
+              "-1"
+            ],
+            "z": [
+              "-1",
+              "1"
+            ],
+            "upper": "508979715149173/1000000000000000",
+            "equal_coordinates": 4
+          },
+          "interpretation": "certified",
+          "certificate_id": "807773b96026d5aee883490605e732a603a02558cc9088633c558f8e042a56c5"
+        },
+        "action": "recover",
+        "reason": "geometry and exact residual feasibility passed",
+        "candidate": {
+          "position": [
+            "0.120866380797",
+            "0.598436427505"
+          ],
+          "numeric_objective": 1.60487868099399e-05,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": true,
+            "clean_indices": [
+              6,
+              5,
+              1,
+              0,
+              3,
+              2
+            ],
+            "norm2_upper": "16048786809947697984594237/1000000000000000000000000000000",
+            "norm_upper": "2003046854791/500000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy + trimmed LS"
+        },
+        "certified": true,
+        "error_bound": "80000000000000/398913692067417"
+      }
+    }
+  ],
+  "final_observation": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "measurements": [
+      "5.157494762452",
+      "2.202589150928",
+      "1.974812705057",
+      "4.913644213840",
+      "5.428387665275",
+      "5.556979162715",
+      "5.291055091142"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "acquisitions_remaining": 0,
+    "random_choice_index": 296
+  },
+  "private_final": {
+    "truth": [
+      "0.120443550",
+      "0.600294030"
+    ],
+    "actual_q": 1,
+    "scenario": "new-report-corrupted",
+    "bad_positions": [],
+    "new_bad_position": [
+      "3",
+      "4"
+    ],
+    "seed": 1000038
+  },
+  "initial_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [],
+    "true_clean_norm2_upper": "3118760929362169486194187/200000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "final_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      4
+    ],
+    "true_clean_norm2_upper": "5404170115242982674032917/250000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "outcome": {
+    "action": "recover",
+    "output": true,
+    "error": 0.0019051175586619013,
+    "wrong_output": false,
+    "certified": true,
+    "error_bound": "80000000000000/398913692067417",
+    "bound_violation": false,
+    "acquisitions": 3,
+    "lower_before": "0",
+    "lower_after": "398913692067417/1000000000000000",
+    "strict_mu_improvement": true,
+    "runtime_seconds": 0.019195199973182753
+  }
+}

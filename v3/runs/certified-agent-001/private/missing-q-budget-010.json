@@ -1,0 +1,11 @@
+{
+  "truth": [
+    "-0.521662124",
+    "0.828267110"
+  ],
+  "actual_q": 0,
+  "scenario": "missing-q-budget",
+  "bad_positions": [],
+  "new_bad_position": null,
+  "seed": 980041
+}

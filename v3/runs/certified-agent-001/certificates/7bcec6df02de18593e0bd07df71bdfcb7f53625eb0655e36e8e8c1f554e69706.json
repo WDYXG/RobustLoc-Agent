@@ -1,0 +1,223 @@
+{
+  "schema": "rational-global-stability-v1",
+  "data": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-2",
+        "0"
+      ],
+      [
+        "2",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "q": 1,
+  "settings": {
+    "divisions": 1,
+    "delta": "1",
+    "max_leaves": 1,
+    "target": "1/20"
+  },
+  "scatter": {
+    "lower": "0",
+    "lower2": "0",
+    "subsets": [
+      {
+        "indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "eigen_lower2": "0"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "eigen_lower2": "2344/9689"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "eigen_lower2": "7325/17456"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "eigen_lower2": "50336/222115"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "eigen_lower2": "78650/193103"
+      },
+      {
+        "indices": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "eigen_lower2": "29246/167575"
+      },
+      {
+        "indices": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "eigen_lower2": "50336/189259"
+      },
+      {
+        "indices": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "eigen_lower2": "78650/193103"
+      },
+      {
+        "indices": [
+          0,
+          2,
+          4,
+          5
+        ],
+        "eigen_lower2": "89486/195399"
+      },
+      {
+        "indices": [
+          0,
+          3,
+          4,
+          5
+        ],
+        "eigen_lower2": "18020/45399"
+      },
+      {
+        "indices": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "eigen_lower2": "2344/8939"
+      },
+      {
+        "indices": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "eigen_lower2": "7325/17456"
+      },
+      {
+        "indices": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "eigen_lower2": "7613/17628"
+      },
+      {
+        "indices": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "eigen_lower2": "90926/206055"
+      },
+      {
+        "indices": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "eigen_lower2": "21806/112519"
+      }
+    ]
+  },
+  "local": {
+    "lower": "0",
+    "hessian_upper": "752400006134217/500000000000000",
+    "cells": [
+      {
+        "cell": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "lower": "0",
+        "centre_lower": "0",
+        "radius_upper": "176776695296637/125000000000000",
+        "derivative_upper": "752400006134217/500000000000000"
+      }
+    ]
+  },
+  "near_lower": "0",
+  "leaves": [
+    {
+      "path": "",
+      "kind": "far-budget",
+      "raw_lower": "0"
+    }
+  ],
+  "raw_cover_lower": "0",
+  "certified_lower": "0",
+  "proof": "THEORY.md T5 and Computed near/far certificate",
+  "scope": "exact declared rational inputs; analytic fallback reported separately"
+}

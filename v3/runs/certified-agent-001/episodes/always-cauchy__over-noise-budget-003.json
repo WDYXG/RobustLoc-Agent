@@ -1,0 +1,318 @@
+{
+  "case_id": "over-noise-budget-003",
+  "scenario": "over-noise-budget",
+  "method": "always-cauchy",
+  "initial_observation": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "measurements": [
+      "4.756006554678",
+      "5.042642842758",
+      "4.533970397337",
+      "5.286662510681",
+      "4.834698852636",
+      "4.374414357009",
+      "5.226804687478",
+      "4.161060817357"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 3127
+  },
+  "trace": [
+    {
+      "observation": {
+        "anchors": [
+          [
+            "5",
+            "0"
+          ],
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "-5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "4"
+          ],
+          [
+            "3",
+            "-4"
+          ],
+          [
+            "-3",
+            "-4"
+          ]
+        ],
+        "measurements": [
+          "4.756006554678",
+          "5.042642842758",
+          "4.533970397337",
+          "5.286662510681",
+          "4.834698852636",
+          "4.374414357009",
+          "5.226804687478",
+          "4.161060817357"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 3,
+        "random_choice_index": 3127
+      },
+      "decision": {
+        "action": "recover",
+        "candidate": {
+          "position": [
+            "0.029385305308",
+            "0.291650028726"
+          ],
+          "numeric_objective": 30.043619871918068,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": false,
+            "clean_indices": [
+              1,
+              3,
+              6,
+              4,
+              2,
+              0,
+              5
+            ],
+            "norm2_upper": "129338311419326185999546855873/500000000000000000000000000000",
+            "norm_upper": "101720523561109/200000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy"
+        },
+        "certified": false,
+        "error_bound": null,
+        "reason": "always-output Cauchy comparator, no certificate claim"
+      }
+    }
+  ],
+  "final_observation": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "measurements": [
+      "4.756006554678",
+      "5.042642842758",
+      "4.533970397337",
+      "5.286662510681",
+      "4.834698852636",
+      "4.374414357009",
+      "5.226804687478",
+      "4.161060817357"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 3127
+  },
+  "private_final": {
+    "truth": [
+      "-0.060903866",
+      "0.587652884"
+    ],
+    "actual_q": 1,
+    "scenario": "over-noise-budget",
+    "bad_positions": [
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "new_bad_position": null,
+    "seed": 1020034
+  },
+  "initial_contract": {
+    "valid": false,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": false,
+    "bad_indices": [
+      7
+    ],
+    "true_clean_norm2_upper": "9691732765312322454515760379/25000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "final_contract": {
+    "valid": false,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": false,
+    "bad_indices": [
+      7
+    ],
+    "true_clean_norm2_upper": "9691732765312322454515760379/25000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "outcome": {
+    "action": "recover",
+    "output": true,
+    "error": 0.30946700112588094,
+    "wrong_output": false,
+    "certified": false,
+    "error_bound": null,
+    "bound_violation": false,
+    "acquisitions": 0,
+    "lower_before": "821368901095061/1000000000000000",
+    "lower_after": "821368901095061/1000000000000000",
+    "strict_mu_improvement": false,
+    "runtime_seconds": 0.009401199989952147
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "truth": [
+    "0.217786447",
+    "0.689114927"
+  ],
+  "actual_q": 3,
+  "scenario": "over-corruption-budget",
+  "bad_positions": [
+    [
+      "-5",
+      "0"
+    ],
+    [
+      "0",
+      "5"
+    ],
+    [
+      "5",
+      "0"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 1030042
+}

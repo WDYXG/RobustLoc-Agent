@@ -1,0 +1,16 @@
+{
+  "truth": [
+    "0.074160384",
+    "0.824709668"
+  ],
+  "actual_q": 1,
+  "scenario": "healthy",
+  "bad_positions": [
+    [
+      "-3",
+      "-4"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 930040
+}

@@ -1,0 +1,16 @@
+{
+  "truth": [
+    "0.508133978",
+    "0.561716505"
+  ],
+  "actual_q": 1,
+  "scenario": "wrong-q-hint",
+  "bad_positions": [
+    [
+      "-3",
+      "-4"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 990040
+}

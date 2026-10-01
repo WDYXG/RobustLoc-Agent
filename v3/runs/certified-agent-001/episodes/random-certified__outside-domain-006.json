@@ -1,0 +1,611 @@
+{
+  "case_id": "outside-domain-006",
+  "scenario": "outside-domain",
+  "method": "random-certified",
+  "initial_observation": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "measurements": [
+      "3.436089790538",
+      "6.619388147990",
+      "4.762719596527",
+      "5.745773898413",
+      "3.756450982742",
+      "5.768270254621",
+      "4.728973892129",
+      "5.771593481334"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 0,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 8928
+  },
+  "trace": [
+    {
+      "observation": {
+        "anchors": [
+          [
+            "5",
+            "0"
+          ],
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "-5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "4"
+          ],
+          [
+            "3",
+            "-4"
+          ],
+          [
+            "-3",
+            "-4"
+          ]
+        ],
+        "measurements": [
+          "3.436089790538",
+          "6.619388147990",
+          "4.762719596527",
+          "5.745773898413",
+          "3.756450982742",
+          "5.768270254621",
+          "4.728973892129",
+          "5.771593481334"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 0,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 3,
+        "random_choice_index": 8928
+      },
+      "decision": {
+        "conditional_profile": {
+          "rows": [
+            {
+              "q": 0,
+              "lower": "1123723765129169/1000000000000000",
+              "upper": "923375860034501/500000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 1,
+              "lower": "821368901095061/1000000000000000",
+              "upper": "244160957038321/200000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 2,
+              "lower": "184934213544709/500000000000000",
+              "upper": "143961203227351/200000000000000",
+              "interpretation": "certified"
+            }
+          ],
+          "threshold": "1/5",
+          "certified_capacity_lower": 2,
+          "profile_max_q": 2,
+          "scope": "conditional capacity lower bound over computed q; actual q not inferred"
+        },
+        "geometry_features": {
+          "names": [
+            "centre_lambda_min",
+            "log1p_condition",
+            "circular_angular_coverage",
+            "hull_domain_corner_coverage",
+            "reporter_count",
+            "declared_q_budget",
+            "y_spread",
+            "x_spread"
+          ],
+          "values": [
+            3.4399999999999995,
+            0.8439700702945291,
+            0.8524163823495667,
+            1.0,
+            8.0,
+            1.0,
+            3.774917217635375,
+            3.278719262151
+          ],
+          "reference_point": [
+            0.0,
+            0.0
+          ],
+          "centre_at_anchor": false,
+          "estimated_corruption_advisory": 0,
+          "scope": "diagnostic reference geometry, not truth Jacobian or certification"
+        },
+        "learned_probability_advisory": 0.9981838323472491,
+        "q_budget": 1,
+        "guarantee": "conditional on true-domain, q and clean-noise assumptions",
+        "geometry": {
+          "verification": {
+            "verified": true,
+            "certified_lower": "821368901095061/1000000000000000",
+            "raw_cover_lower": "0",
+            "scatter_lower": "821368901095061/1000000000000000",
+            "local_lower": "0",
+            "near_lower": "0",
+            "leaves": 1,
+            "unresolved_far_leaves": 1,
+            "status": "proved-in-project",
+            "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+          },
+          "lower": "821368901095061/1000000000000000",
+          "upper": "244160957038321/200000000000000",
+          "upper_witness": {
+            "x": [
+              "-1",
+              "-1"
+            ],
+            "z": [
+              "1",
+              "-1"
+            ],
+            "upper": "244160957038321/200000000000000",
+            "equal_coordinates": 2
+          },
+          "interpretation": "certified",
+          "certificate_id": "435435c03483bed92ed55dbc8adc68cd7f9e469b749444d8184b4909c3d5867a"
+        },
+        "candidate": {
+          "position": [
+            "1.000000000000",
+            "0.393741117181"
+          ],
+          "numeric_objective": 0.7302269090025801,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": false,
+            "clean_indices": [
+              2,
+              6,
+              7,
+              3,
+              4,
+              5,
+              0
+            ],
+            "norm2_upper": "146045381800516408012493183279/200000000000000000000000000000",
+            "norm_upper": "427266576332207/500000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy + trimmed LS"
+        },
+        "action": "acquire-more-data",
+        "reason": "no-feasible-candidate-found; search incomplete",
+        "acquisition": {
+          "anchor": [
+            "4",
+            "-3"
+          ],
+          "projected_lower": null,
+          "plan": [],
+          "criterion": "seeded random, no truth or future range"
+        }
+      }
+    },
+    {
+      "observation": {
+        "anchors": [
+          [
+            "5",
+            "0"
+          ],
+          [
+            "-5",
+            "0"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "-5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "4"
+          ],
+          [
+            "3",
+            "-4"
+          ],
+          [
+            "-3",
+            "-4"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "measurements": [
+          "3.436089790538",
+          "6.619388147990",
+          "4.762719596527",
+          "5.745773898413",
+          "3.756450982742",
+          "5.768270254621",
+          "4.728973892129",
+          "5.771593481334",
+          "4.259448322060"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 0,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [],
+        "acquisitions_remaining": 2,
+        "random_choice_index": 8945
+      },
+      "decision": {
+        "conditional_profile": {
+          "rows": [
+            {
+              "q": 0,
+              "lower": "1182078000597227/1000000000000000",
+              "upper": "1969569430270981/1000000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 1,
+              "lower": "857250982238303/1000000000000000",
+              "upper": "1399659065986613/1000000000000000",
+              "interpretation": "certified"
+            },
+            {
+              "q": 2,
+              "lower": "394495821105997/1000000000000000",
+              "upper": "893287838169951/1000000000000000",
+              "interpretation": "certified"
+            }
+          ],
+          "threshold": "1/5",
+          "certified_capacity_lower": 2,
+          "profile_max_q": 2,
+          "scope": "conditional capacity lower bound over computed q; actual q not inferred"
+        },
+        "geometry_features": {
+          "names": [
+            "centre_lambda_min",
+            "log1p_condition",
+            "circular_angular_coverage",
+            "hull_domain_corner_coverage",
+            "reporter_count",
+            "declared_q_budget",
+            "y_spread",
+            "x_spread"
+          ],
+          "values": [
+            3.86219125123592,
+            0.8459898732624259,
+            0.8524163823495667,
+            1.0,
+            9.0,
+            1.0,
+            3.681787005729087,
+            3.337034981706935
+          ],
+          "reference_point": [
+            0.0,
+            0.0
+          ],
+          "centre_at_anchor": false,
+          "estimated_corruption_advisory": 0,
+          "scope": "diagnostic reference geometry, not truth Jacobian or certification"
+        },
+        "learned_probability_advisory": 0.9997279193625975,
+        "q_budget": 1,
+        "guarantee": "conditional on true-domain, q and clean-noise assumptions",
+        "geometry": {
+          "verification": {
+            "verified": true,
+            "certified_lower": "857250982238303/1000000000000000",
+            "raw_cover_lower": "0",
+            "scatter_lower": "857250982238303/1000000000000000",
+            "local_lower": "2150575197412200090693393049/31250000000000000000000000000",
+            "near_lower": "0",
+            "leaves": 1,
+            "unresolved_far_leaves": 1,
+            "status": "proved-in-project",
+            "scope": "exact arithmetic certificate checked; mathematical derivation requires review"
+          },
+          "lower": "857250982238303/1000000000000000",
+          "upper": "1399659065986613/1000000000000000",
+          "upper_witness": {
+            "x": [
+              "1",
+              "1"
+            ],
+            "z": [
+              "0",
+              "1"
+            ],
+            "upper": "1399659065986613/1000000000000000",
+            "equal_coordinates": 0
+          },
+          "interpretation": "certified",
+          "certificate_id": "901a7643179a954d568880bd598baa3acbe9f7e25efb0e780908b620fb69e841"
+        },
+        "candidate": {
+          "position": [
+            "1.000000000000",
+            "0.355139774015"
+          ],
+          "numeric_objective": 0.7954087034640748,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": false,
+            "clean_indices": [
+              2,
+              6,
+              7,
+              8,
+              3,
+              5,
+              4,
+              0
+            ],
+            "norm2_upper": "795408703464077261983998683779/1000000000000000000000000000000",
+            "norm_upper": "891856885079707/1000000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy + trimmed LS"
+        },
+        "action": "abstain",
+        "reason": "no-feasible-candidate-found; search incomplete; no improving permitted plan/budget"
+      }
+    }
+  ],
+  "final_observation": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "measurements": [
+      "3.436089790538",
+      "6.619388147990",
+      "4.762719596527",
+      "5.745773898413",
+      "3.756450982742",
+      "5.768270254621",
+      "4.728973892129",
+      "5.771593481334",
+      "4.259448322060"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 0,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [],
+    "acquisitions_remaining": 2,
+    "random_choice_index": 8945
+  },
+  "private_final": {
+    "truth": [
+      "1.6",
+      "0.516430085"
+    ],
+    "actual_q": 1,
+    "scenario": "outside-domain",
+    "bad_positions": [
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "new_bad_position": null,
+    "seed": 1010037
+  },
+  "initial_contract": {
+    "valid": false,
+    "true_inside": false,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      7
+    ],
+    "true_clean_norm2_upper": "26331889165837787849491097/1000000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "final_contract": {
+    "valid": false,
+    "true_inside": false,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      7
+    ],
+    "true_clean_norm2_upper": "30611750767175096083441881/1000000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "outcome": {
+    "action": "abstain",
+    "output": false,
+    "error": null,
+    "wrong_output": false,
+    "certified": false,
+    "error_bound": null,
+    "bound_violation": false,
+    "acquisitions": 1,
+    "lower_before": "821368901095061/1000000000000000",
+    "lower_after": "857250982238303/1000000000000000",
+    "strict_mu_improvement": false,
+    "runtime_seconds": 0.03327830001944676
+  }
+}

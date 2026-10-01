@@ -1,0 +1,316 @@
+{
+  "case_id": "near-line-q1-003",
+  "scenario": "near-line-q1",
+  "method": "always-cauchy",
+  "initial_observation": {
+    "anchors": [
+      [
+        "-5",
+        "1/50"
+      ],
+      [
+        "-3",
+        "-1/50"
+      ],
+      [
+        "-1",
+        "1/50"
+      ],
+      [
+        "1",
+        "-1/50"
+      ],
+      [
+        "3",
+        "1/50"
+      ],
+      [
+        "5",
+        "-1/50"
+      ]
+    ],
+    "measurements": [
+      "4.769403845418",
+      "2.793198804195",
+      "0.883731118824",
+      "1.354470523762",
+      "3.290866828564",
+      "5.277572719366"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 5293
+  },
+  "trace": [
+    {
+      "observation": {
+        "anchors": [
+          [
+            "-5",
+            "1/50"
+          ],
+          [
+            "-3",
+            "-1/50"
+          ],
+          [
+            "-1",
+            "1/50"
+          ],
+          [
+            "1",
+            "-1/50"
+          ],
+          [
+            "3",
+            "1/50"
+          ],
+          [
+            "5",
+            "-1/50"
+          ]
+        ],
+        "measurements": [
+          "4.769403845418",
+          "2.793198804195",
+          "0.883731118824",
+          "1.354470523762",
+          "3.290866828564",
+          "5.277572719366"
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "q_budget": 1,
+        "estimated_corruption": 1,
+        "epsilon": "1/25",
+        "error_tolerance": "2/5",
+        "available_anchors": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            "3",
+            "4"
+          ],
+          [
+            "-3",
+            "-4"
+          ],
+          [
+            "4",
+            "-3"
+          ]
+        ],
+        "acquisitions_remaining": 3,
+        "random_choice_index": 5293
+      },
+      "decision": {
+        "action": "recover",
+        "candidate": {
+          "position": [
+            "-0.254175309213",
+            "0.493533426009"
+          ],
+          "numeric_objective": 0.03443191095713883,
+          "search_complete": false,
+          "optimizer_failures": [],
+          "feasibility": {
+            "feasible": true,
+            "clean_indices": [
+              0,
+              1,
+              2,
+              3,
+              5
+            ],
+            "norm2_upper": "3408907468737266444666479/1000000000000000000000000000000",
+            "norm_upper": "92316134407/50000000000000",
+            "omitted_count": 1,
+            "epsilon": "1/25",
+            "scope": "there exists a q-sparse residual explanation; actual bad labels unknown"
+          },
+          "mechanism": "multi-start Cauchy"
+        },
+        "certified": false,
+        "error_bound": null,
+        "reason": "always-output Cauchy comparator, no certificate claim"
+      }
+    }
+  ],
+  "final_observation": {
+    "anchors": [
+      [
+        "-5",
+        "1/50"
+      ],
+      [
+        "-3",
+        "-1/50"
+      ],
+      [
+        "-1",
+        "1/50"
+      ],
+      [
+        "1",
+        "-1/50"
+      ],
+      [
+        "3",
+        "1/50"
+      ],
+      [
+        "5",
+        "-1/50"
+      ]
+    ],
+    "measurements": [
+      "4.769403845418",
+      "2.793198804195",
+      "0.883731118824",
+      "1.354470523762",
+      "3.290866828564",
+      "5.277572719366"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "q_budget": 1,
+    "estimated_corruption": 1,
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "available_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "acquisitions_remaining": 3,
+    "random_choice_index": 5293
+  },
+  "private_final": {
+    "truth": [
+      "-0.256480641",
+      "0.492467451"
+    ],
+    "actual_q": 1,
+    "scenario": "near-line-q1",
+    "bad_positions": [
+      [
+        "5",
+        "-1/50"
+      ]
+    ],
+    "new_bad_position": null,
+    "seed": 960034
+  },
+  "initial_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      5
+    ],
+    "true_clean_norm2_upper": "1246600142737841978999531/50000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "final_contract": {
+    "valid": true,
+    "true_inside": true,
+    "corruption_ok": true,
+    "noise_ok": true,
+    "bad_indices": [
+      5
+    ],
+    "true_clean_norm2_upper": "1246600142737841978999531/50000000000000000000000000000",
+    "q_budget": 1,
+    "scope": "private evaluator only; never passed to policy"
+  },
+  "outcome": {
+    "action": "recover",
+    "output": true,
+    "error": 0.0025398538083844795,
+    "wrong_output": false,
+    "certified": false,
+    "error_bound": null,
+    "bound_violation": false,
+    "acquisitions": 0,
+    "lower_before": "4998844426151/1000000000000000",
+    "lower_after": "4998844426151/1000000000000000",
+    "strict_mu_improvement": false,
+    "runtime_seconds": 0.00772210001014173
+  }
+}

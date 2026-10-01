@@ -1,0 +1,124 @@
+{
+  "title": "MathResearch-Agent: Certified Adaptive Localization (range case study)",
+  "created": "2026-10-01T15:53:24.074722+00:00",
+  "config": {
+    "title": "MathResearch-Agent: Certified Adaptive Localization (range case study)",
+    "run": "v3/runs/certified-agent-001",
+    "epsilon": "1/25",
+    "error_tolerance": "2/5",
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "weights_policy": "fixed 1 per range; no post-residual rescaling",
+    "q_profile_max": 2,
+    "horizon": 3,
+    "offered_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "4",
+        "-3"
+      ]
+    ],
+    "train_seed": 310010,
+    "model_test_seed": 310020,
+    "episode_seed": 930031,
+    "random_policy_seed": 440031,
+    "training_layouts": 240,
+    "model_test_layouts": 120,
+    "heldout_cases_per_scenario": 12,
+    "scenarios": [
+      "healthy",
+      "collinear-q0",
+      "reflection-q1",
+      "near-line-q1",
+      "budget-limited",
+      "missing-q-budget",
+      "wrong-q-hint",
+      "new-report-corrupted",
+      "outside-domain",
+      "over-noise-budget",
+      "over-corruption-budget"
+    ],
+    "methods": [
+      "always-cauchy",
+      "passive-certified",
+      "random-certified",
+      "greedy-certified",
+      "active-certified",
+      "learned-gate"
+    ],
+    "risk_coverage_tolerances": [
+      0.1,
+      0.2,
+      0.4,
+      0.8
+    ],
+    "solver_max_nfev": 100,
+    "solver_starts": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-4/5",
+        "-4/5"
+      ],
+      [
+        "-4/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "-4/5"
+      ],
+      [
+        "4/5",
+        "4/5"
+      ]
+    ],
+    "learning_threshold": 0.5
+  },
+  "source_sha256": {
+    "v3/AGENTS.md": "f40ed78f319c3678924e5086dd1f5b1a5c1a84929d8dbd179af1dffe6c34c2a8",
+    "v3/certified_agent/__init__.py": "e3edd1e63052a24a5a26a8f22b0b2992b4f9b374edc6ab3c967846a0805ec837",
+    "v3/certified_agent/audit.py": "fa1cf3170a4db0deaa471e4cea5a3a406cf024500832583c8b710f1da55de17b",
+    "v3/certified_agent/certificates.py": "68138c9be55c616ebc0dcdf1f1d18884d350d7a188e2bcff84da2bc79f1d7a6e",
+    "v3/certified_agent/cli.py": "dfdab3bffb4a479deddcbca685306f0038c5db8056c96517bffdd35124794145",
+    "v3/certified_agent/config.json": "18b6558053a1fef7f481b30f4c8365a1225a07c680e75a6f86e4b5c61d72f4e0",
+    "v3/certified_agent/decoder.py": "137b6fa9c4c0265a470eaefaa2094e8e7613d6fe765e4a6612f1fbf621d74a03",
+    "v3/certified_agent/evaluation.py": "8cc4da5ffca5ae630d62c6dc8bb896306f687ab243212d5a26ff004a02536269",
+    "v3/certified_agent/learning.py": "a31633fce1a888743e070391874a6d8382fc6d1055ac8593eaf5caf9c1cf9632",
+    "v3/certified_agent/LITERATURE.md": "a4793f2cc1e9325c3f63334b94982faef9e06086a3536d59e12dd97c8e54eadb",
+    "v3/certified_agent/policy.py": "4f07fd1f0ed60a2f21ce2b1e949f4b6f5dc3d1f4219a40d23355506bf7930d77",
+    "v3/certified_agent/reporting.py": "6d7a4639101f4e5e26298be410f6c09e5acf429d0286a20735f34e52e4d577d6",
+    "v3/certified_agent/run.py": "fbea8cb73d6a38347b8db40efbcb2ffad8fc405a374d0736f2432e2cc7bb953a",
+    "v3/certified_agent/simulator.py": "48f77bcde73925ccdef3106cd81e73abe93b5a2c2dd3f25a70642240ffe9f90a",
+    "v3/certified_agent/SPEC.md": "464ffad4bfb112f930ffd3040034f46638620259f4fe757a8ace07dc6831dcf8",
+    "v3/certified_agent/tests/__init__.py": "fc25e50cac5608b7db6b2870adfa3ce58ef9b05f47280cd8b52c6c79816b4d59",
+    "v3/certified_agent/tests/test_agent.py": "a46eab7d75fbe6c1332f4b49b736f1cf43eb041ced37c89797c0584cc44b9a0b",
+    "v3/certified_agent/verifier.py": "d6a91c78edc811080844f7d7c298d1d537b31c585361b2fcab60a79dd3371f84",
+    "v3/freeze.py": "fd744fd556690331214b9f2c3f17d887b7d2db41472881f8b397f04a2465c744",
+    "v3/README.md": "a5b9bd3666242cbea0f9daacc96642399bc6e95717a1bab4569714ad44de979c",
+    "v3/V1_V2_FREEZE.json": "26b0af343629d82133422e22df03665b0a7393769f441e2b12fc9df899dda675"
+  },
+  "frozen_files": 248,
+  "numpy": "2.3.5",
+  "scipy": "1.15.1",
+  "engine": "finite observation-only policy + local numerical decoder + horizon-3 certificate planner",
+  "novelty": "not established",
+  "heldout_policy": "fixed config before evaluation; no post-hoc threshold selection"
+}

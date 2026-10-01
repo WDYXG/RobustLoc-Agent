@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "q": 0,
+      "lower": "1123723765129169/1000000000000000",
+      "upper": "923375860034501/500000000000000",
+      "interpretation": "certified"
+    },
+    {
+      "q": 1,
+      "lower": "821368901095061/1000000000000000",
+      "upper": "244160957038321/200000000000000",
+      "interpretation": "certified"
+    },
+    {
+      "q": 2,
+      "lower": "184934213544709/500000000000000",
+      "upper": "143961203227351/200000000000000",
+      "interpretation": "certified"
+    },
+    {
+      "q": 3,
+      "lower": "0",
+      "upper": "0",
+      "interpretation": "zero-margin-witness"
+    },
+    {
+      "q": 4,
+      "lower": "0",
+      "upper": "0",
+      "interpretation": "zero-margin-witness"
+    }
+  ],
+  "threshold": "1/5",
+  "certified_capacity_lower": 2,
+  "profile_max_q": 4,
+  "scope": "full conditional profile bracket; a capacity lower bound is not actual corruption count",
+  "possible_capacity_upper": 2,
+  "capacity_determined": true,
+  "status": "proved-in-project",
+  "novelty": "not established",
+  "provenance": {
+    "input_sha256": "3cf3a9b9b91a6080a6c97232e68cb4b55e3289ad37567d6ca49150ed37799632",
+    "producer_sha256": "3f7526a92cc474da378466acde57682468a4126249c260a7e3572011fdb00815",
+    "scope": "post-run diagnostic; does not rewrite the historical run or its decisions"
+  }
+}

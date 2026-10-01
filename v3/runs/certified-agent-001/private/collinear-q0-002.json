@@ -1,0 +1,11 @@
+{
+  "truth": [
+    "0.433144273",
+    "0.631231592"
+  ],
+  "actual_q": 0,
+  "scenario": "collinear-q0",
+  "bad_positions": [],
+  "new_bad_position": null,
+  "seed": 940033
+}

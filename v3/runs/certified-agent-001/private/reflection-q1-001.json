@@ -1,0 +1,16 @@
+{
+  "truth": [
+    "-0.150310937",
+    "0.599390260"
+  ],
+  "actual_q": 1,
+  "scenario": "reflection-q1",
+  "bad_positions": [
+    [
+      "1",
+      "3"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 950032
+}

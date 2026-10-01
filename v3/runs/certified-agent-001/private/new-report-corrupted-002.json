@@ -1,0 +1,11 @@
+{
+  "truth": [
+    "-0.360976533",
+    "0.561794650"
+  ],
+  "actual_q": 1,
+  "scenario": "new-report-corrupted",
+  "bad_positions": [],
+  "new_bad_position": null,
+  "seed": 1000033
+}

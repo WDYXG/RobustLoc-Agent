@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "completion_scope": "fixed Phase 3A simulation and independent audit",
+  "method_episode_results": 792,
+  "actions": 1179,
+  "unresolved": [
+    "real-world assumptions",
+    "uncertain anchors",
+    "decoder completeness",
+    "generality and novelty",
+    "full capacity beyond computed q"
+  ]
+}

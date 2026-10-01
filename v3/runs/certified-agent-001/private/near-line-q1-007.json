@@ -1,0 +1,16 @@
+{
+  "truth": [
+    "-0.005164853",
+    "0.524658377"
+  ],
+  "actual_q": 1,
+  "scenario": "near-line-q1",
+  "bad_positions": [
+    [
+      "5",
+      "-1/50"
+    ]
+  ],
+  "new_bad_position": null,
+  "seed": 960038
+}
