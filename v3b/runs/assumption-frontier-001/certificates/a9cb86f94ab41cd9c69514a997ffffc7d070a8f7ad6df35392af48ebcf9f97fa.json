@@ -1,0 +1,92 @@
+{
+  "schema": "robust-anchor-margin-v1",
+  "data": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "-4"
+      ]
+    ],
+    "domain": [
+      "-8",
+      "8",
+      "-8",
+      "8"
+    ],
+    "radii": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "q": 0,
+  "subsets": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "eigen_lower2": "152342339/768725250",
+      "perturbation2": "0",
+      "lower": "222584409010019/500000000000000"
+    }
+  ],
+  "scatter_lower": "222584409010019/500000000000000",
+  "nominal_scatter_lower": "222584409010019/500000000000000",
+  "derivative": {
+    "available": false,
+    "reason": "nominal-anchor-ball-not-separated-from-domain",
+    "lower": "0"
+  },
+  "lower": "222584409010019/500000000000000",
+  "scope": "uniform shared-map lower bound, not joint nuisance injectivity"
+}

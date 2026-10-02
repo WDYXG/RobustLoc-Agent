@@ -1,0 +1,23 @@
+{
+  "tests": {
+    "passed": 82,
+    "command": "../.venv/Scripts/python.exe -m pytest tests v2 v3/certified_agent/tests v3b/assumption_agent/tests -q"
+  },
+  "environment": {
+    "numpy": "2.3.5",
+    "scipy": "1.15.1",
+    "matplotlib": "3.10.0",
+    "pytest": "9.1.1"
+  },
+  "previous_files_unchanged": 1417,
+  "reproducibility": {
+    "run_a": "v3b\\runs\\assumption-frontier-001",
+    "run_b": "v3b\\runs\\assumption-frontier-reproduce-001",
+    "excluded": [
+      "completion.json",
+      "output_hashes.json"
+    ],
+    "mismatches": [],
+    "checked_files": 701
+  }
+}

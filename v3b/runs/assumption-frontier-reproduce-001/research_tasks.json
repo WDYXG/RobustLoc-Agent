@@ -1,0 +1,4151 @@
+{
+  "ledger": [
+    {
+      "id": "K1",
+      "status": "known",
+      "claim": "scatter, support union, reverse triangle, perturbation and set membership foundations"
+    },
+    {
+      "id": "T1",
+      "status": "proved-in-project",
+      "claim": "shared-map derivative perturbation",
+      "proof": "THEORY.md T1"
+    },
+    {
+      "id": "T2",
+      "status": "proved-in-project",
+      "claim": "robust weighted-scatter lower certificate",
+      "proof": "THEORY.md T2"
+    },
+    {
+      "id": "T3",
+      "status": "proved-in-project",
+      "claim": "model-error inflated recovery bound",
+      "proof": "THEORY.md T3"
+    },
+    {
+      "id": "T4",
+      "status": "proved-in-project",
+      "claim": "sufficient conditional assumption frontier",
+      "proof": "THEORY.md T4"
+    },
+    {
+      "id": "C1",
+      "status": "refuted",
+      "claim": "unknown-anchor error <=2epsilon/shared-map-margin"
+    },
+    {
+      "id": "C2",
+      "status": "refuted",
+      "claim": "positive nominal margin survives all allowed anchor balls"
+    },
+    {
+      "id": "N1",
+      "status": "numerically-supported",
+      "claim": "no violation in fixed perturbed secant checks"
+    },
+    {
+      "id": "H1",
+      "status": "conjectured",
+      "claim": "heterogeneous information yields more certification per cost than range-only",
+      "adjudication": "evaluate pooled and per-scenario results; no universal claim"
+    }
+  ],
+  "counterexamples": [
+    {
+      "id": "C1",
+      "status": "refuted",
+      "claim": "unknown-anchor error <=2epsilon/shared-map-margin",
+      "known_mechanism": "translation gauge",
+      "x": [
+        "0",
+        "0"
+      ],
+      "z": [
+        "1/10",
+        "0"
+      ],
+      "p": [
+        [
+          "5",
+          "0"
+        ],
+        [
+          "3",
+          "4"
+        ],
+        [
+          "0",
+          "5"
+        ],
+        [
+          "-3",
+          "4"
+        ],
+        [
+          "-5",
+          "0"
+        ],
+        [
+          "-3",
+          "-4"
+        ],
+        [
+          "0",
+          "-5"
+        ],
+        [
+          "3",
+          "-4"
+        ]
+      ],
+      "p_prime": [
+        [
+          "51/10",
+          "0"
+        ],
+        [
+          "31/10",
+          "4"
+        ],
+        [
+          "1/10",
+          "5"
+        ],
+        [
+          "-29/10",
+          "4"
+        ],
+        [
+          "-49/10",
+          "0"
+        ],
+        [
+          "-29/10",
+          "-4"
+        ],
+        [
+          "1/10",
+          "-5"
+        ],
+        [
+          "31/10",
+          "-4"
+        ]
+      ],
+      "radii": [
+        "1/10",
+        "1/10",
+        "1/10",
+        "1/10",
+        "1/10",
+        "1/10",
+        "1/10",
+        "1/10"
+      ],
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "epsilon": "0",
+      "q": 0,
+      "range2_A": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "range2_B": [
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25",
+        "25"
+      ],
+      "positive_uniform_lower": "1061322161712619/1000000000000000",
+      "certificate": {
+        "certificate_id": "294de3e0205b1143924c801068bbec5f58cfb1a50117f745c92e43ba475d080b"
+      },
+      "position_difference2": "1/100"
+    },
+    {
+      "id": "C2",
+      "status": "refuted",
+      "claim": "positive nominal margin survives all allowed anchor balls",
+      "nominal": {
+        "anchors": [
+          [
+            "-5",
+            "1/10"
+          ],
+          [
+            "-3",
+            "-1/10"
+          ],
+          [
+            "3",
+            "1/10"
+          ],
+          [
+            "5",
+            "-1/10"
+          ]
+        ],
+        "weights": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "radii": [
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ]
+      },
+      "actual_anchors": [
+        [
+          "-5",
+          "0"
+        ],
+        [
+          "-3",
+          "0"
+        ],
+        [
+          "3",
+          "0"
+        ],
+        [
+          "5",
+          "0"
+        ]
+      ],
+      "x": [
+        "0",
+        "1/2"
+      ],
+      "z": [
+        "0",
+        "-1/2"
+      ],
+      "upper": "0",
+      "equal_coordinates": 4,
+      "nominal_lower": "40886519467643/1000000000000000",
+      "certificate": {
+        "certificate_id": "69032546acd20d7f8f68d696288509b17347b62ba027ffafa6ed7d0bd37ca91e"
+      }
+    }
+  ],
+  "perturbation": [
+    {
+      "radius": "0",
+      "q": 0,
+      "lower": "1123723765129169/1000000000000000",
+      "sampled_secant_upper_min": "115505443908411/62500000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "c9bc493e1196acf48d14866acba4fb5a3211eea73e2481431cdf84bf9955c421"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "0",
+      "q": 1,
+      "lower": "821368901095061/1000000000000000",
+      "sampled_secant_upper_min": "95967402171/80000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "c563cbf241081fedfeb95da5182460c65b788415f26df149f3e528a75b729b5c"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "0",
+      "q": 2,
+      "lower": "184934213544709/500000000000000",
+      "sampled_secant_upper_min": "626273458727661/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "40f75c320d1d8ada0589826d9ec7d7ecad459672221660ba26a28f6d920d78c5"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/100",
+      "q": 0,
+      "lower": "1117393564098813/1000000000000000",
+      "sampled_secant_upper_min": "1846567760021973/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "2546eda405046de318a228738369287e9ff4ba677d4aa8271f5e1c123012ab9a"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/100",
+      "q": 1,
+      "lower": "816193307682739/1000000000000000",
+      "sampled_secant_upper_min": "1198322675468439/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "49c06951dd08da2ab510d1b0aca2683e8153b3f2296b61ce6d6c0127be85784d"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/100",
+      "q": 2,
+      "lower": "183039489771449/500000000000000",
+      "sampled_secant_upper_min": "632275647165123/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "3b8c10ee03837e329babd053bc24631ee9c670d8b61767c6696923927eb62f91"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/20",
+      "q": 0,
+      "lower": "1092274445671833/1000000000000000",
+      "sampled_secant_upper_min": "461115691306157/250000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "f29f357001ff5ded7238f1afa9097098fcca90e061fa2e7ce5cb4d0fa502985f"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/20",
+      "q": 1,
+      "lower": "795653814822973/1000000000000000",
+      "sampled_secant_upper_min": "300244290634001/250000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "1f3031aca6fc796e1b3460d831230a9c1a6c754ab313f4abc25ee4db0867517c"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/20",
+      "q": 2,
+      "lower": "87760426017889/250000000000000",
+      "sampled_secant_upper_min": "631254347412763/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "9b6de4cf3c76ebdaeb127426498f898ec915438e26b8a26bad3f79c4a2badf2b"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/10",
+      "q": 0,
+      "lower": "1061322161712619/1000000000000000",
+      "sampled_secant_upper_min": "231062045075947/125000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "294de3e0205b1143924c801068bbec5f58cfb1a50117f745c92e43ba475d080b"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/10",
+      "q": 1,
+      "lower": "192585051126959/250000000000000",
+      "sampled_secant_upper_min": "1205184142320613/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "cb8b3b2be4089c7d36dc94b466b63076b243f4c90334b611c2dbf24028a4f867"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "1/10",
+      "q": 2,
+      "lower": "166255993330151/500000000000000",
+      "sampled_secant_upper_min": "618826786825567/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "e39df39cae4a5b55bb63b99be38a04a21c65b337760417cce99c6773012174be"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "4/25",
+      "q": 0,
+      "lower": "1024819058061653/1000000000000000",
+      "sampled_secant_upper_min": "919043472740807/500000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "a62e0c2789c83900ebccabaf14804407fdb8ef73ff882a14d470af84c06a1656"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "4/25",
+      "q": 1,
+      "lower": "740480695565383/1000000000000000",
+      "sampled_secant_upper_min": "74171692804293/62500000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "50fb1fefae1915edde84122560aab9918b2f13b04ff513ded9fa94dcf54034fb"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    },
+    {
+      "radius": "4/25",
+      "q": 2,
+      "lower": "62131712508941/200000000000000",
+      "sampled_secant_upper_min": "632443296684299/1000000000000000",
+      "trials": 120,
+      "violations": 0,
+      "certificate": {
+        "certificate_id": "20c0099ca2df8f274ffa0cbedc3d8735c2b5e291c08645e7f83c09bdbac2586d"
+      },
+      "label": "numerically-supported",
+      "scope": "sample checks can refute, never prove a lower bound"
+    }
+  ],
+  "frontiers": [
+    {
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "radius": "0",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "1123723765129169/1000000000000000",
+            "zeta_upper": "0",
+            "epsilon_ceiling": "1123723765129169/5000000000000000",
+            "error_bound": "80000000000000/1123723765129169",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "c9bc493e1196acf48d14866acba4fb5a3211eea73e2481431cdf84bf9955c421"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "821368901095061/1000000000000000",
+            "zeta_upper": "0",
+            "epsilon_ceiling": "821368901095061/5000000000000000",
+            "error_bound": "80000000000000/821368901095061",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "c563cbf241081fedfeb95da5182460c65b788415f26df149f3e528a75b729b5c"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "184934213544709/500000000000000",
+            "zeta_upper": "0",
+            "epsilon_ceiling": "184934213544709/2500000000000000",
+            "error_bound": "40000000000000/184934213544709",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "40f75c320d1d8ada0589826d9ec7d7ecad459672221660ba26a28f6d920d78c5"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "0",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "bcc6f7d5293a06d6d492a4534ac98014901e2025631d1cd70eeee59757ca0374"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "0",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "ea7957af10000ea46be6e71148e578fdf1ed50bb13f515fe226ae969ae34d10c"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": 2,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "radii": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "radius": "1/100",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "1117393564098813/1000000000000000",
+            "zeta_upper": "14142135623731/500000000000000",
+            "epsilon_ceiling": "975972207861503/5000000000000000",
+            "error_bound": "45522847498308/372464521366271",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "2546eda405046de318a228738369287e9ff4ba677d4aa8271f5e1c123012ab9a"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "816193307682739/1000000000000000",
+            "zeta_upper": "13228756555323/500000000000000",
+            "epsilon_ceiling": "683905742129509/5000000000000000",
+            "error_bound": "18987860888756/116599043954677",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "49c06951dd08da2ab510d1b0aca2683e8153b3f2296b61ce6d6c0127be85784d"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "183039489771449/500000000000000",
+            "zeta_upper": "3061862178479/125000000000000",
+            "epsilon_ceiling": "121802246201869/2500000000000000",
+            "error_bound": "64494897427832/183039489771449",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "3b8c10ee03837e329babd053bc24631ee9c670d8b61767c6696923927eb62f91"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "11180339887499/500000000000000",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "d2de3ff149aa1cd4291b2e6e501e95dadc3fc906a43e9a79a20982ca36188f9f"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "1/50",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "417c395aef90923f681091f57e333bd387c54548b2bc931f200a11549b51ae44"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": 2,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "radii": [
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "560278062660937/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "560278062660937/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "560278062660937/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "409389526924069/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "409389526924069/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "409389526924069/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "2299826162601/6250000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "2299826162601/6250000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "2299826162601/6250000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "1117393564098813/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "1117393564098813/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "1117393564098813/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "816193307682739/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "816193307682739/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "816193307682739/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "183039489771449/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "183039489771449/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "183039489771449/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "radius": "1/10",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "1061322161712619/1000000000000000",
+            "zeta_upper": "14142135623731/50000000000000",
+            "epsilon_ceiling": "-352891400660481/5000000000000000",
+            "error_bound": "645685424949240/1061322161712619",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "294de3e0205b1143924c801068bbec5f58cfb1a50117f745c92e43ba475d080b"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "192585051126959/250000000000000",
+            "zeta_upper": "13228756555323/50000000000000",
+            "epsilon_ceiling": "-34533465689029/312500000000000",
+            "error_bound": "152287565553230/192585051126959",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "cb8b3b2be4089c7d36dc94b466b63076b243f4c90334b611c2dbf24028a4f867"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "166255993330151/500000000000000",
+            "zeta_upper": "122474487139159/500000000000000",
+            "epsilon_ceiling": "-111529110591411/625000000000000",
+            "error_bound": "284948974278318/166255993330151",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "e39df39cae4a5b55bb63b99be38a04a21c65b337760417cce99c6773012174be"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "223606797749979/1000000000000000",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "8b0240ff0de615157866837a59e9329c7c20f198612c5539ca7a868b2ee18fd6"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "1/5",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "5158153ecf3a5340dccb2834a46fcbeb3ac3f147a07d7d505504f0af84df1b32"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": null,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "radii": [
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "1092274445671833/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "1092274445671833/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "1092274445671833/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "795653814822973/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "795653814822973/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "795653814822973/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "87760426017889/250000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "87760426017889/250000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "87760426017889/250000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "1061322161712619/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "1061322161712619/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "1061322161712619/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "192585051126959/250000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "192585051126959/250000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "192585051126959/250000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "166255993330151/500000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "166255993330151/500000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "166255993330151/500000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "radius": "4/25",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "1024819058061653/1000000000000000",
+            "zeta_upper": "452548339959391/1000000000000000",
+            "epsilon_ceiling": "-618961320867651/2500000000000000",
+            "error_bound": "985096679918782/1024819058061653",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "a62e0c2789c83900ebccabaf14804407fdb8ef73ff882a14d470af84c06a1656"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "740480695565383/1000000000000000",
+            "zeta_upper": "84664041954067/200000000000000",
+            "epsilon_ceiling": "-344030088321573/1250000000000000",
+            "error_bound": "926640419540670/740480695565383",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "50fb1fefae1915edde84122560aab9918b2f13b04ff513ded9fa94dcf54034fb"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "62131712508941/200000000000000",
+            "zeta_upper": "391918358845309/1000000000000000",
+            "epsilon_ceiling": "-20611665396023/62500000000000",
+            "error_bound": "863836717690618/310658562544705",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "20c0099ca2df8f274ffa0cbedc3d8735c2b5e291c08645e7f83c09bdbac2586d"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "357770876399967/1000000000000000",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "cfccda0fe7aa76e6c1f4c702ecfbd7b6e78cfea0b33003b5df823ae3f91cfdc4"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "8/25",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "e8e6c60372d056189995b909a23409c8a014a157ee5b76b631534f8c97124c24"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": null,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "radii": [
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "1123723765129169/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "821368901095061/1000000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "184934213544709/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "1073644188254269/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "1073644188254269/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "1073644188254269/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "780418075588053/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "780418075588053/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "780418075588053/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "169944342272109/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "169944342272109/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "169944342272109/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "1024819058061653/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "1024819058061653/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "1024819058061653/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "740480695565383/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "740480695565383/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "740480695565383/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "62131712508941/200000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "62131712508941/200000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "62131712508941/200000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-8",
+        "8",
+        "-8",
+        "8"
+      ],
+      "radius": "0",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "222584409010019/500000000000000",
+            "zeta_upper": "0",
+            "epsilon_ceiling": "222584409010019/2500000000000000",
+            "error_bound": "40000000000000/222584409010019",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "a9cb86f94ab41cd9c69514a997ffffc7d070a8f7ad6df35392af48ebcf9f97fa"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "64706269987787/200000000000000",
+            "zeta_upper": "0",
+            "epsilon_ceiling": "64706269987787/1000000000000000",
+            "error_bound": "16000000000000/64706269987787",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "d38e075ac787d61a62eda55b5857a724b8943115382452a359c47d97f2ebee5a"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "18271643842149/125000000000000",
+            "zeta_upper": "0",
+            "epsilon_ceiling": "18271643842149/625000000000000",
+            "error_bound": "10000000000000/18271643842149",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "bf2c34d1f23d06c920d275c2eca5d2303fe7636431e1dd9e89e6629ccbc04081"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "0",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "021d6a37f183434a58920f3feee1ed689a1712cbf19c6c1e5785fe9f8679ec46"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "0",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "f82183869eb56ad2aefee8f1c609e27637166e6677095c4ab7148f4f148a07c5"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": 1,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-8",
+            "8",
+            "-8",
+            "8"
+          ],
+          "radii": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "18271643842149/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "18271643842149/125000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-8",
+        "8",
+        "-8",
+        "8"
+      ],
+      "radius": "1/100",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "443090511426499/1000000000000000",
+            "zeta_upper": "14142135623731/500000000000000",
+            "epsilon_ceiling": "301669155189189/5000000000000000",
+            "error_bound": "136568542494924/443090511426499",
+            "certified": true,
+            "certificate": {
+              "certificate_id": "71666a14cc4aa65414262296c8bc827c84e54b22787b3d5b7d9713fd8e50d490"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "321793504492587/1000000000000000",
+            "zeta_upper": "13228756555323/500000000000000",
+            "epsilon_ceiling": "189505938939357/5000000000000000",
+            "error_bound": "132915026221292/321793504492587",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "39ff9e62e14446003830d12c16c5e2ed4212d9ce53bf31c734445384440047bd"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "18101499542501/125000000000000",
+            "zeta_upper": "3061862178479/125000000000000",
+            "epsilon_ceiling": "1396094325053/312500000000000",
+            "error_bound": "16123724356958/18101499542501",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "3efde8a5b979cfc2314f3f4642c0844514f941d15b4e3ebca57a0eab400a7ed7"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "11180339887499/500000000000000",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "e5bc02b454a020a4266ecd29c32e31e47613b20a097b14624f7a11720bae8257"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "1/50",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "c8b9c9a19f69ab2a5505c62ededb372e091a897790b46a06b405cea83a0b3f23"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": 0,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-8",
+            "8",
+            "-8",
+            "8"
+          ],
+          "radii": [
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100",
+            "1/100"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "5551616678087/12500000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "5551616678087/12500000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "5551616678087/12500000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "64532430898971/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "64532430898971/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "64532430898971/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "72746178670337/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "72746178670337/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "72746178670337/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "443090511426499/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "443090511426499/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "443090511426499/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "321793504492587/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "321793504492587/1000000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "321793504492587/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "18101499542501/125000000000000",
+            "certified": true,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "18101499542501/125000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "18101499542501/125000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-8",
+        "8",
+        "-8",
+        "8"
+      ],
+      "radius": "1/10",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "21225200395639/50000000000000",
+            "zeta_upper": "14142135623731/50000000000000",
+            "epsilon_ceiling": "-6185684715377/31250000000000",
+            "error_bound": "32284271247462/21225200395639",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "d96430226c2ef3ebfdb5462b98505c589d168bf97e24daeb5b2aec81a040e330"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "61250098442621/200000000000000",
+            "zeta_upper": "13228756555323/50000000000000",
+            "epsilon_ceiling": "-203325032663839/1000000000000000",
+            "error_bound": "121830052442584/61250098442621",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "f34e879fbf116179c087c6bf574c571e5b1e041b4da805d1412c8d22afd93f70"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "132638970410343/1000000000000000",
+            "zeta_upper": "122474487139159/500000000000000",
+            "epsilon_ceiling": "-1092105900981247/5000000000000000",
+            "error_bound": "189965982852212/44212990136781",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "56cc88ec791dc1bb721237387b9ddeea60dd36ede3f314f10151ae6827a92abe"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "223606797749979/1000000000000000",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "e24519cbf71aab598cde06c920b9425393d3da75c1574e79c6f088ee323db763"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "1/5",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "62d5957b3f4280d8a7f80be5d3abd23afb21cc6214f344514d6edae737235869"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": null,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-8",
+            "8",
+            "-8",
+            "8"
+          ],
+          "radii": [
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10",
+            "1/10"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "54350455948321/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "54350455948321/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "54350455948321/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "314863878840963/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "314863878840963/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "314863878840963/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "8711539075441/62500000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "8711539075441/62500000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "8711539075441/62500000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "21225200395639/50000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "21225200395639/50000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "21225200395639/50000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "61250098442621/200000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "61250098442621/200000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "61250098442621/200000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "132638970410343/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "132638970410343/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "132638970410343/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    },
+    {
+      "domain": [
+        "-8",
+        "8",
+        "-8",
+        "8"
+      ],
+      "radius": "4/25",
+      "frontier": {
+        "rows": [
+          {
+            "q": 0,
+            "lower": "206115033953571/500000000000000",
+            "zeta_upper": "452548339959391/1000000000000000",
+            "epsilon_ceiling": "-1850511631889813/5000000000000000",
+            "error_bound": "492548339959391/206115033953571",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "a898d7015f3e84ea8abb358187d6d9be650e3c8e2f9119803c299a576d45a5f4"
+            }
+          },
+          {
+            "q": 1,
+            "lower": "295985108709879/1000000000000000",
+            "zeta_upper": "84664041954067/200000000000000",
+            "epsilon_ceiling": "-455153985035449/1250000000000000",
+            "error_bound": "308880139846890/98661702903293",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "c1c78f407b44f57c99f7fba69461052428f389fc34941177afa9bdebe02abf5e"
+            }
+          },
+          {
+            "q": 2,
+            "lower": "124600203586181/1000000000000000",
+            "zeta_upper": "391918358845309/1000000000000000",
+            "epsilon_ceiling": "-458747897660091/1250000000000000",
+            "error_bound": "863836717690618/124600203586181",
+            "certified": false,
+            "certificate": {
+              "certificate_id": "f166111a14f2255e6519c6117862aedd4d8ce93c2f9ff12d3a179d9caad2926d"
+            }
+          },
+          {
+            "q": 3,
+            "lower": "0",
+            "zeta_upper": "357770876399967/1000000000000000",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "2670f8c13eea303059a5d2c467c19e09dc547dd49995675d3fe4e054de278009"
+            }
+          },
+          {
+            "q": 4,
+            "lower": "0",
+            "zeta_upper": "8/25",
+            "epsilon_ceiling": null,
+            "error_bound": null,
+            "certified": false,
+            "certificate": {
+              "certificate_id": "2efb60f39fb7de6de7d76a7f051d95489795cfc87bb44d241266e947ee0860e4"
+            }
+          }
+        ],
+        "all_contracts_certified": false,
+        "worst_error_bound": null,
+        "q_cert": null,
+        "assumption_set": {
+          "q": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "epsilon": [
+            "0",
+            "1/25"
+          ],
+          "domain": [
+            "-8",
+            "8",
+            "-8",
+            "8"
+          ],
+          "radii": [
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25",
+            "4/25"
+          ]
+        },
+        "scope": "sufficient conditional frontier; actual q is not inferred",
+        "grid": [
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "222584409010019/500000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "64706269987787/200000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": true,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "18271643842149/125000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "0",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "214308019987253/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "214308019987253/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "214308019987253/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "154844694605143/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "154844694605143/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "154844694605143/500000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "135332113901469/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "135332113901469/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "135332113901469/1000000000000000",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1/2",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": true
+          },
+          {
+            "q": 0,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "206115033953571/500000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "206115033953571/500000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 0,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "206115033953571/500000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "295985108709879/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "295985108709879/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 1,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "295985108709879/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "124600203586181/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "124600203586181/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 2,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "124600203586181/1000000000000000",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 3,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "0",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/50",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          },
+          {
+            "q": 4,
+            "epsilon": "1/25",
+            "radius_scale": "1",
+            "lower": "0",
+            "certified": false,
+            "conditional_reduction": false
+          }
+        ]
+      }
+    }
+  ]
+}

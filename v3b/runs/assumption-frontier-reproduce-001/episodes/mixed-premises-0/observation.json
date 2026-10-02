@@ -1,0 +1,163 @@
+{
+  "episode_id": "mixed-premises-0",
+  "anchors": [
+    [
+      "5",
+      "0"
+    ],
+    [
+      "3",
+      "4"
+    ],
+    [
+      "0",
+      "5"
+    ],
+    [
+      "-3",
+      "4"
+    ],
+    [
+      "-5",
+      "0"
+    ],
+    [
+      "-3",
+      "-4"
+    ],
+    [
+      "0",
+      "-5"
+    ],
+    [
+      "3",
+      "-4"
+    ]
+  ],
+  "weights": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "radii": [
+    "3/25",
+    "3/25",
+    "3/25",
+    "3/25",
+    "3/25",
+    "3/25",
+    "3/25",
+    "3/25"
+  ],
+  "domain": [
+    "-8",
+    "8",
+    "-8",
+    "8"
+  ],
+  "measurements": [
+    "6.81766326336556538",
+    "5.56422287438070828",
+    "5.34332680599093646",
+    "4.98626964898981928",
+    "4.50371503397795170",
+    "4.44536932445480648",
+    "4.70889514997437075",
+    "5.08492894188297129"
+  ],
+  "q_max": 3,
+  "epsilon_max": "1/25",
+  "error_tolerance": "2/5",
+  "budget": "5",
+  "offers": [
+    {
+      "id": "range-0",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "0",
+          "5"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-1",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "3",
+          "4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-2",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "-3",
+          "-4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "calibrate",
+      "kind": "anchor-recalibration",
+      "cost": "2",
+      "update": {
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "radius": "1/100"
+      }
+    },
+    {
+      "id": "prior",
+      "kind": "tighter-domain",
+      "cost": "5/4",
+      "update": {
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ]
+      }
+    },
+    {
+      "id": "support-audit",
+      "kind": "stronger-q-bound",
+      "cost": "3/2",
+      "update": {
+        "q_max": 1
+      }
+    }
+  ],
+  "receipts": [],
+  "estimated_corruption": 2,
+  "premise_sources": {
+    "initial": "simulated-outer-contract",
+    "scope": "conditional on honest sources"
+  }
+}

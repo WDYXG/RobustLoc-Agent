@@ -1,0 +1,66 @@
+{
+  "schema": "robust-anchor-margin-v1",
+  "data": {
+    "anchors": [
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-3",
+        "0"
+      ],
+      [
+        "3",
+        "0"
+      ],
+      [
+        "5",
+        "0"
+      ]
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "radii": [
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "q": 2,
+  "subsets": [
+    {
+      "indices": [],
+      "eigen_lower2": "0",
+      "perturbation2": 0,
+      "lower": "0"
+    }
+  ],
+  "scatter_lower": "0",
+  "nominal_scatter_lower": "0",
+  "derivative": {
+    "available": true,
+    "separation_lower": [
+      "4",
+      "2",
+      "2",
+      "4"
+    ],
+    "constant2_upper": 0,
+    "constant_upper": "0",
+    "lower": "0"
+  },
+  "lower": "0",
+  "scope": "uniform shared-map lower bound, not joint nuisance injectivity"
+}

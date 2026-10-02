@@ -1,0 +1,21 @@
+{
+  "run": "v3b/runs/assumption-frontier-001",
+  "horizon": 3,
+  "development_seed": 310041,
+  "heldout_seed": 310042,
+  "random_policy_seed": 470042,
+  "episodes_per_scenario": 6,
+  "scenarios": ["healthy", "anchor-uncertainty", "q-uncertainty", "domain-uncertainty", "mixed-premises", "geometry-plateau", "budget-limited", "untrusted-receipt", "dishonest-calibration"],
+  "methods": ["measurement-only", "random-information", "one-step-gain", "multi-step"],
+  "error_tolerance": "2/5",
+  "default_domain": ["-1", "1", "-1", "1"],
+  "solver_max_nfev": 100,
+  "solver_starts": [["0", "0"], ["-4/5", "-4/5"], ["-4/5", "4/5"], ["4/5", "-4/5"]],
+  "range_cost": "1",
+  "calibration_cost": "2",
+  "domain_cost": "5/4",
+  "q_bound_cost": "3/2",
+  "offered_anchors": [["0", "5"], ["3", "4"], ["-3", "-4"]],
+  "perturbation_radii": ["0", "1/100", "1/20", "1/10", "4/25"],
+  "perturbation_trials": 120
+}

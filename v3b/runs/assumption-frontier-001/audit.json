@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "previous_files_unchanged": 1417,
+  "certificates_verified": 312,
+  "history_events": 648,
+  "method_episodes": 216,
+  "outputs": 130,
+  "recovery_certificates_verified": 130,
+  "newly_certified_outputs": 106,
+  "in_contract_bound_violations": 0,
+  "out_of_contract_bound_violations": 16,
+  "counterexamples_verified": 2,
+  "scope": "exact mathematical consumer plus frozen simulator replay; physical issuer honesty remains conditional"
+}

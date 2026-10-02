@@ -1,0 +1,54 @@
+[
+  {
+    "id": "K1",
+    "status": "known",
+    "claim": "scatter, support union, reverse triangle, perturbation and set membership foundations"
+  },
+  {
+    "id": "T1",
+    "status": "proved-in-project",
+    "claim": "shared-map derivative perturbation",
+    "proof": "THEORY.md T1"
+  },
+  {
+    "id": "T2",
+    "status": "proved-in-project",
+    "claim": "robust weighted-scatter lower certificate",
+    "proof": "THEORY.md T2"
+  },
+  {
+    "id": "T3",
+    "status": "proved-in-project",
+    "claim": "model-error inflated recovery bound",
+    "proof": "THEORY.md T3"
+  },
+  {
+    "id": "T4",
+    "status": "proved-in-project",
+    "claim": "sufficient conditional assumption frontier",
+    "proof": "THEORY.md T4"
+  },
+  {
+    "id": "C1",
+    "status": "refuted",
+    "claim": "unknown-anchor error <=2epsilon/shared-map-margin"
+  },
+  {
+    "id": "C2",
+    "status": "refuted",
+    "claim": "positive nominal margin survives all allowed anchor balls"
+  },
+  {
+    "id": "N1",
+    "status": "numerically-supported",
+    "claim": "no violation in fixed perturbed secant checks"
+  },
+  {
+    "id": "H1",
+    "status": "numerically-supported",
+    "claim": "heterogeneous information yields more certification per cost than range-only",
+    "adjudication": "evaluate pooled and per-scenario results; no universal claim",
+    "evidence": "metrics.json honest_service; finite fixed simulation only",
+    "limitation": "No universal dominance; retain per-scenario results and service integrity stress"
+  }
+]

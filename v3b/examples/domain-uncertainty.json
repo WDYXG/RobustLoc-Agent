@@ -1,0 +1,137 @@
+{
+  "episode_id": "domain-uncertainty-1",
+  "anchors": [
+    [
+      "5",
+      "0"
+    ],
+    [
+      "3",
+      "4"
+    ],
+    [
+      "0",
+      "5"
+    ],
+    [
+      "-3",
+      "4"
+    ],
+    [
+      "-5",
+      "0"
+    ],
+    [
+      "-3",
+      "-4"
+    ],
+    [
+      "0",
+      "-5"
+    ],
+    [
+      "3",
+      "-4"
+    ]
+  ],
+  "weights": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "radii": [
+    "1/100",
+    "1/100",
+    "1/100",
+    "1/100",
+    "1/100",
+    "1/100",
+    "1/100",
+    "1/100"
+  ],
+  "domain": [
+    "-15",
+    "15",
+    "-15",
+    "15"
+  ],
+  "measurements": [
+    "6.46208084703335750",
+    "5.24145244286575185",
+    "5.18568026868475762",
+    "5.05634061166022608",
+    "4.84453003897303702",
+    "4.75865083621255636",
+    "4.81967157293174431",
+    "4.95432764631186995"
+  ],
+  "q_max": 1,
+  "epsilon_max": "7/100",
+  "error_tolerance": "2/5",
+  "budget": "5",
+  "offers": [
+    {
+      "id": "range-0",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "0",
+          "5"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-1",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "3",
+          "4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-2",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "-3",
+          "-4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "prior",
+      "kind": "tighter-domain",
+      "cost": "5/4",
+      "update": {
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ]
+      }
+    }
+  ],
+  "receipts": [],
+  "estimated_corruption": 4,
+  "premise_sources": {
+    "initial": "simulated-outer-contract",
+    "scope": "conditional on honest sources"
+  }
+}

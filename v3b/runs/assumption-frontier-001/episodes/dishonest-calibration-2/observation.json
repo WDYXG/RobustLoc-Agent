@@ -1,0 +1,142 @@
+{
+  "episode_id": "dishonest-calibration-2",
+  "anchors": [
+    [
+      "5",
+      "0"
+    ],
+    [
+      "3",
+      "4"
+    ],
+    [
+      "0",
+      "5"
+    ],
+    [
+      "-3",
+      "4"
+    ],
+    [
+      "-5",
+      "0"
+    ],
+    [
+      "-3",
+      "-4"
+    ],
+    [
+      "0",
+      "-5"
+    ],
+    [
+      "3",
+      "-4"
+    ]
+  ],
+  "weights": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "radii": [
+    "4/25",
+    "4/25",
+    "4/25",
+    "4/25",
+    "4/25",
+    "4/25",
+    "4/25",
+    "4/25"
+  ],
+  "domain": [
+    "-1",
+    "1",
+    "-1",
+    "1"
+  ],
+  "measurements": [
+    "6.82121322155045462",
+    "5.16761947340929240",
+    "4.81381311144670843",
+    "4.52768960159387568",
+    "4.48793959717834756",
+    "4.89094575526423636",
+    "5.23956110054668667",
+    "5.48871432589240094"
+  ],
+  "q_max": 1,
+  "epsilon_max": "1/1000",
+  "error_tolerance": "1/20",
+  "budget": "5",
+  "offers": [
+    {
+      "id": "range-0",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "0",
+          "5"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-1",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "3",
+          "4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-2",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "-3",
+          "-4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "calibrate",
+      "kind": "anchor-recalibration",
+      "cost": "2",
+      "update": {
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "radius": "1/1000"
+      }
+    }
+  ],
+  "receipts": [],
+  "estimated_corruption": 4,
+  "premise_sources": {
+    "initial": "simulated-outer-contract",
+    "scope": "conditional on honest sources"
+  }
+}

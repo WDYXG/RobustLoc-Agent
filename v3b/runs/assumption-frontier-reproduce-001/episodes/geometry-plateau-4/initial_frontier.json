@@ -1,0 +1,281 @@
+{
+  "rows": [
+    {
+      "q": 0,
+      "lower": "0",
+      "zeta_upper": "1/500",
+      "epsilon_ceiling": null,
+      "error_bound": null,
+      "certified": false,
+      "certificate": {
+        "certificate_id": "696d8c6930e704a561366687632f3926ed98fa1835a541e80249d32c3a094bf3"
+      }
+    },
+    {
+      "q": 1,
+      "lower": "0",
+      "zeta_upper": "1732050807569/1000000000000000",
+      "epsilon_ceiling": null,
+      "error_bound": null,
+      "certified": false,
+      "certificate": {
+        "certificate_id": "ffc1824a0e73aa7b3a6f564be035aef0dbedaf7aa8dc38bbf020342fa27227f9"
+      }
+    },
+    {
+      "q": 2,
+      "lower": "0",
+      "zeta_upper": "707106781187/500000000000000",
+      "epsilon_ceiling": null,
+      "error_bound": null,
+      "certified": false,
+      "certificate": {
+        "certificate_id": "5295a21d4a6b7132865c26d904032c22015377cfd4921369d52e0daa395a2665"
+      }
+    }
+  ],
+  "all_contracts_certified": false,
+  "worst_error_bound": null,
+  "q_cert": null,
+  "assumption_set": {
+    "q": [
+      0,
+      1
+    ],
+    "epsilon": [
+      "0",
+      "1/200"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "radii": [
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000"
+    ]
+  },
+  "scope": "sufficient conditional frontier; actual q is not inferred",
+  "grid": [
+    {
+      "q": 0,
+      "epsilon": "0",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 0,
+      "epsilon": "1/400",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 0,
+      "epsilon": "1/200",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 1,
+      "epsilon": "0",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 1,
+      "epsilon": "1/400",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 1,
+      "epsilon": "1/200",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 2,
+      "epsilon": "0",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 2,
+      "epsilon": "1/400",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 2,
+      "epsilon": "1/200",
+      "radius_scale": "0",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 0,
+      "epsilon": "0",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 0,
+      "epsilon": "1/400",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 0,
+      "epsilon": "1/200",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 1,
+      "epsilon": "0",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 1,
+      "epsilon": "1/400",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 1,
+      "epsilon": "1/200",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 2,
+      "epsilon": "0",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 2,
+      "epsilon": "1/400",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 2,
+      "epsilon": "1/200",
+      "radius_scale": "1/2",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": true
+    },
+    {
+      "q": 0,
+      "epsilon": "0",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 0,
+      "epsilon": "1/400",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 0,
+      "epsilon": "1/200",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 1,
+      "epsilon": "0",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 1,
+      "epsilon": "1/400",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 1,
+      "epsilon": "1/200",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 2,
+      "epsilon": "0",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 2,
+      "epsilon": "1/400",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    },
+    {
+      "q": 2,
+      "epsilon": "1/200",
+      "radius_scale": "1",
+      "lower": "0",
+      "certified": false,
+      "conditional_reduction": false
+    }
+  ]
+}

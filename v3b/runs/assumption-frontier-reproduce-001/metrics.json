@@ -1,0 +1,885 @@
+{
+  "honest_service": {
+    "measurement-only": {
+      "episodes": 42,
+      "outputs": 12,
+      "newly_certified": 6,
+      "wrong_outputs": 0,
+      "risk": 0.0,
+      "coverage": 0.2857142857142857,
+      "information_cost": "96",
+      "new_certificates_per_cost": 0.0625,
+      "mean_information_cost": 2.2857142857142856,
+      "mean_volume_reduction": 0.0,
+      "mean_log_volume_ratio": 0.0,
+      "rejections": 0,
+      "actions": {
+        "new-range": 96
+      },
+      "failures": {
+        "measurement-only-has-no-range-offer": 24,
+        "no-affordable-credible-information": 6
+      }
+    },
+    "random-information": {
+      "episodes": 42,
+      "outputs": 30,
+      "newly_certified": 24,
+      "wrong_outputs": 0,
+      "risk": 0.0,
+      "coverage": 0.7142857142857143,
+      "information_cost": "201/2",
+      "new_certificates_per_cost": 0.23880597014925373,
+      "mean_information_cost": 2.392857142857143,
+      "mean_volume_reduction": 0.5337772817460318,
+      "mean_log_volume_ratio": -10.512086739931135,
+      "rejections": 0,
+      "actions": {
+        "new-range": 55,
+        "anchor-recalibration": 9,
+        "stronger-q-bound": 10,
+        "tighter-domain": 10
+      },
+      "failures": {
+        "no-affordable-credible-information": 12
+      }
+    },
+    "one-step-gain": {
+      "episodes": 42,
+      "outputs": 36,
+      "newly_certified": 30,
+      "wrong_outputs": 0,
+      "risk": 0.0,
+      "coverage": 0.8571428571428571,
+      "information_cost": "84",
+      "new_certificates_per_cost": 0.35714285714285715,
+      "mean_information_cost": 2.0,
+      "mean_volume_reduction": 0.5707936507936507,
+      "mean_log_volume_ratio": -13.68205013995549,
+      "rejections": 0,
+      "actions": {
+        "anchor-recalibration": 12,
+        "stronger-q-bound": 18,
+        "tighter-domain": 12,
+        "new-range": 18
+      },
+      "failures": {
+        "no-affordable-credible-information": 6
+      }
+    },
+    "multi-step": {
+      "episodes": 42,
+      "outputs": 36,
+      "newly_certified": 30,
+      "wrong_outputs": 0,
+      "risk": 0.0,
+      "coverage": 0.8571428571428571,
+      "information_cost": "84",
+      "new_certificates_per_cost": 0.35714285714285715,
+      "mean_information_cost": 2.0,
+      "mean_volume_reduction": 0.5707936507936507,
+      "mean_log_volume_ratio": -13.68205013995549,
+      "rejections": 0,
+      "actions": {
+        "anchor-recalibration": 12,
+        "stronger-q-bound": 18,
+        "tighter-domain": 12,
+        "new-range": 18
+      },
+      "failures": {
+        "no-affordable-credible-information": 6
+      }
+    }
+  },
+  "service_integrity_stress": {
+    "measurement-only": {
+      "episodes": 12,
+      "outputs": 0,
+      "newly_certified": 0,
+      "wrong_outputs": 0,
+      "risk": null,
+      "coverage": 0.0,
+      "information_cost": "36",
+      "new_certificates_per_cost": 0.0,
+      "mean_information_cost": 3.0,
+      "mean_volume_reduction": 0.0,
+      "mean_log_volume_ratio": 0.0,
+      "rejections": 0,
+      "actions": {
+        "new-range": 36
+      },
+      "failures": {
+        "measurement-only-has-no-range-offer": 12
+      }
+    },
+    "random-information": {
+      "episodes": 12,
+      "outputs": 4,
+      "newly_certified": 4,
+      "wrong_outputs": 4,
+      "risk": 1.0,
+      "coverage": 0.3333333333333333,
+      "information_cost": "48",
+      "new_certificates_per_cost": 0.08333333333333333,
+      "mean_information_cost": 4.0,
+      "mean_volume_reduction": 0.5,
+      "mean_log_volume_ratio": -40.60139052187061,
+      "rejections": 6,
+      "actions": {
+        "anchor-recalibration": 12,
+        "new-range": 24
+      },
+      "failures": {
+        "no-affordable-credible-information": 6,
+        "candidate-not-feasible-for-entire-assumption-set": 2
+      }
+    },
+    "one-step-gain": {
+      "episodes": 12,
+      "outputs": 6,
+      "newly_certified": 6,
+      "wrong_outputs": 6,
+      "risk": 1.0,
+      "coverage": 0.5,
+      "information_cost": "42",
+      "new_certificates_per_cost": 0.14285714285714285,
+      "mean_information_cost": 3.5,
+      "mean_volume_reduction": 0.5,
+      "mean_log_volume_ratio": -40.60139052187061,
+      "rejections": 6,
+      "actions": {
+        "anchor-recalibration": 12,
+        "new-range": 18
+      },
+      "failures": {
+        "no-affordable-credible-information": 6
+      }
+    },
+    "multi-step": {
+      "episodes": 12,
+      "outputs": 6,
+      "newly_certified": 6,
+      "wrong_outputs": 6,
+      "risk": 1.0,
+      "coverage": 0.5,
+      "information_cost": "42",
+      "new_certificates_per_cost": 0.14285714285714285,
+      "mean_information_cost": 3.5,
+      "mean_volume_reduction": 0.5,
+      "mean_log_volume_ratio": -40.60139052187061,
+      "rejections": 6,
+      "actions": {
+        "anchor-recalibration": 12,
+        "new-range": 18
+      },
+      "failures": {
+        "no-affordable-credible-information": 6
+      }
+    }
+  },
+  "scenarios": {
+    "healthy": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "0",
+        "new_certificates_per_cost": null,
+        "mean_information_cost": 0.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {},
+        "failures": {}
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "0",
+        "new_certificates_per_cost": null,
+        "mean_information_cost": 0.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {},
+        "failures": {}
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "0",
+        "new_certificates_per_cost": null,
+        "mean_information_cost": 0.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {},
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "0",
+        "new_certificates_per_cost": null,
+        "mean_information_cost": 0.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {},
+        "failures": {}
+      }
+    },
+    "anchor-uncertainty": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {
+          "measurement-only-has-no-range-offer": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "22",
+        "new_certificates_per_cost": 0.2727272727272727,
+        "mean_information_cost": 3.6666666666666665,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -44.3614195558365,
+        "rejections": 0,
+        "actions": {
+          "new-range": 10,
+          "anchor-recalibration": 6
+        },
+        "failures": {}
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "12",
+        "new_certificates_per_cost": 0.5,
+        "mean_information_cost": 2.0,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -44.3614195558365,
+        "rejections": 0,
+        "actions": {
+          "anchor-recalibration": 6
+        },
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "12",
+        "new_certificates_per_cost": 0.5,
+        "mean_information_cost": 2.0,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -44.3614195558365,
+        "rejections": 0,
+        "actions": {
+          "anchor-recalibration": 6
+        },
+        "failures": {}
+      }
+    },
+    "q-uncertainty": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {
+          "measurement-only-has-no-range-offer": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "14",
+        "new_certificates_per_cost": 0.42857142857142855,
+        "mean_information_cost": 2.3333333333333335,
+        "mean_volume_reduction": 0.5,
+        "mean_log_volume_ratio": -0.6931471805599453,
+        "rejections": 0,
+        "actions": {
+          "stronger-q-bound": 6,
+          "new-range": 5
+        },
+        "failures": {}
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "9",
+        "new_certificates_per_cost": 0.6666666666666666,
+        "mean_information_cost": 1.5,
+        "mean_volume_reduction": 0.5,
+        "mean_log_volume_ratio": -0.6931471805599453,
+        "rejections": 0,
+        "actions": {
+          "stronger-q-bound": 6
+        },
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "9",
+        "new_certificates_per_cost": 0.6666666666666666,
+        "mean_information_cost": 1.5,
+        "mean_volume_reduction": 0.5,
+        "mean_log_volume_ratio": -0.6931471805599453,
+        "rejections": 0,
+        "actions": {
+          "stronger-q-bound": 6
+        },
+        "failures": {}
+      }
+    },
+    "domain-uncertainty": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {
+          "measurement-only-has-no-range-offer": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "25/2",
+        "new_certificates_per_cost": 0.48,
+        "mean_information_cost": 2.0833333333333335,
+        "mean_volume_reduction": 0.9955555555555554,
+        "mean_log_volume_ratio": -5.41610040220442,
+        "rejections": 0,
+        "actions": {
+          "tighter-domain": 6,
+          "new-range": 5
+        },
+        "failures": {}
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "15/2",
+        "new_certificates_per_cost": 0.8,
+        "mean_information_cost": 1.25,
+        "mean_volume_reduction": 0.9955555555555554,
+        "mean_log_volume_ratio": -5.41610040220442,
+        "rejections": 0,
+        "actions": {
+          "tighter-domain": 6
+        },
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "15/2",
+        "new_certificates_per_cost": 0.8,
+        "mean_information_cost": 1.25,
+        "mean_volume_reduction": 0.9955555555555554,
+        "mean_log_volume_ratio": -5.41610040220442,
+        "rejections": 0,
+        "actions": {
+          "tighter-domain": 6
+        },
+        "failures": {}
+      }
+    },
+    "mixed-premises": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {
+          "measurement-only-has-no-range-offer": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "55/2",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 4.583333333333333,
+        "mean_volume_reduction": 0.9127604166666666,
+        "mean_log_volume_ratio": -21.72764567979719,
+        "rejections": 0,
+        "actions": {
+          "new-range": 13,
+          "stronger-q-bound": 4,
+          "tighter-domain": 2,
+          "anchor-recalibration": 3
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "57/2",
+        "new_certificates_per_cost": 0.21052631578947367,
+        "mean_information_cost": 4.75,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -44.61053666052762,
+        "rejections": 0,
+        "actions": {
+          "stronger-q-bound": 6,
+          "anchor-recalibration": 6,
+          "tighter-domain": 6
+        },
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "57/2",
+        "new_certificates_per_cost": 0.21052631578947367,
+        "mean_information_cost": 4.75,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -44.61053666052762,
+        "rejections": 0,
+        "actions": {
+          "anchor-recalibration": 6,
+          "tighter-domain": 6,
+          "stronger-q-bound": 6
+        },
+        "failures": {}
+      }
+    },
+    "geometry-plateau": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.3333333333333333,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {}
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.3333333333333333,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {}
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.3333333333333333,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 0,
+        "risk": 0.0,
+        "coverage": 1.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.3333333333333333,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {}
+      }
+    },
+    "budget-limited": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "6",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 1.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 6
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "13/2",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 1.0833333333333333,
+        "mean_volume_reduction": 0.328125,
+        "mean_log_volume_ratio": -1.3862943611198906,
+        "rejections": 0,
+        "actions": {
+          "new-range": 4,
+          "tighter-domain": 2
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "9",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 1.5,
+        "mean_volume_reduction": 0.5,
+        "mean_log_volume_ratio": -0.6931471805599453,
+        "rejections": 0,
+        "actions": {
+          "stronger-q-bound": 6
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "9",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 1.5,
+        "mean_volume_reduction": 0.5,
+        "mean_log_volume_ratio": -0.6931471805599453,
+        "rejections": 0,
+        "actions": {
+          "stronger-q-bound": 6
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      }
+    },
+    "untrusted-receipt": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {
+          "measurement-only-has-no-range-offer": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "30",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 5.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 6,
+        "actions": {
+          "anchor-recalibration": 6,
+          "new-range": 18
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "30",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 5.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 6,
+        "actions": {
+          "anchor-recalibration": 6,
+          "new-range": 18
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "30",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 5.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 6,
+        "actions": {
+          "anchor-recalibration": 6,
+          "new-range": 18
+        },
+        "failures": {
+          "no-affordable-credible-information": 6
+        }
+      }
+    },
+    "dishonest-calibration": {
+      "measurement-only": {
+        "episodes": 6,
+        "outputs": 0,
+        "newly_certified": 0,
+        "wrong_outputs": 0,
+        "risk": null,
+        "coverage": 0.0,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.0,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 0.0,
+        "mean_log_volume_ratio": 0.0,
+        "rejections": 0,
+        "actions": {
+          "new-range": 18
+        },
+        "failures": {
+          "measurement-only-has-no-range-offer": 6
+        }
+      },
+      "random-information": {
+        "episodes": 6,
+        "outputs": 4,
+        "newly_certified": 4,
+        "wrong_outputs": 4,
+        "risk": 1.0,
+        "coverage": 0.6666666666666666,
+        "information_cost": "18",
+        "new_certificates_per_cost": 0.2222222222222222,
+        "mean_information_cost": 3.0,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -81.20278104374123,
+        "rejections": 0,
+        "actions": {
+          "anchor-recalibration": 6,
+          "new-range": 6
+        },
+        "failures": {
+          "candidate-not-feasible-for-entire-assumption-set": 2
+        }
+      },
+      "one-step-gain": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 6,
+        "risk": 1.0,
+        "coverage": 1.0,
+        "information_cost": "12",
+        "new_certificates_per_cost": 0.5,
+        "mean_information_cost": 2.0,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -81.20278104374123,
+        "rejections": 0,
+        "actions": {
+          "anchor-recalibration": 6
+        },
+        "failures": {}
+      },
+      "multi-step": {
+        "episodes": 6,
+        "outputs": 6,
+        "newly_certified": 6,
+        "wrong_outputs": 6,
+        "risk": 1.0,
+        "coverage": 1.0,
+        "information_cost": "12",
+        "new_certificates_per_cost": 0.5,
+        "mean_information_cost": 2.0,
+        "mean_volume_reduction": 1.0,
+        "mean_log_volume_ratio": -81.20278104374123,
+        "rejections": 0,
+        "actions": {
+          "anchor-recalibration": 6
+        },
+        "failures": {}
+      }
+    }
+  }
+}

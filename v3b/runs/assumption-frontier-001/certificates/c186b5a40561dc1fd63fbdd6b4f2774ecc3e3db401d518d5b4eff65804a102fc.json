@@ -1,0 +1,183 @@
+{
+  "schema": "robust-anchor-margin-v1",
+  "data": {
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "0",
+        "5"
+      ]
+    ],
+    "domain": [
+      "-15",
+      "15",
+      "-15",
+      "15"
+    ],
+    "radii": [
+      "1/100",
+      "1/100",
+      "1/100",
+      "1/100",
+      "1/100",
+      "1/100",
+      "1/100",
+      "1/100",
+      "1/1000",
+      "1/1000",
+      "1/1000"
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  },
+  "q": 5,
+  "subsets": [
+    {
+      "indices": [
+        0
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "1/6255001",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "25000000000000000000000000/171380887523283035174570502364801",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "1/6255001",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "25000000000000000000000000/171380887523283035174570502364801",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "1/6255001",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "25000000000000000000000000/171380887523283035174570502364801",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "1/6255001",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "25000000000000000000000000/171380887523283035174570502364801",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "250000000000000000000000/171263086502328313565570502364801",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "250000000000000000000000/171263086502328313565570502364801",
+      "lower": "0"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "eigen_lower2": "0",
+      "perturbation2": "1/625050001",
+      "lower": "0"
+    }
+  ],
+  "scatter_lower": "0",
+  "nominal_scatter_lower": "0",
+  "derivative": {
+    "available": false,
+    "reason": "nominal-anchor-ball-not-separated-from-domain",
+    "lower": "0"
+  },
+  "lower": "0",
+  "scope": "uniform shared-map lower bound, not joint nuisance injectivity"
+}

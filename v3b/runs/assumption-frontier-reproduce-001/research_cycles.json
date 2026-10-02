@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "literature",
+    "label": "known",
+    "result": "scatter, anchor uncertainty and information value have prior art"
+  },
+  {
+    "stage": "conjecture",
+    "label": "conjectured",
+    "target": "shared-map margin alone bounds unknown-anchor recovery"
+  },
+  {
+    "stage": "counterexample",
+    "label": "refuted",
+    "evidence": "research_tasks.json C1 exact translation"
+  },
+  {
+    "stage": "revision",
+    "label": "proved-in-project",
+    "result": "T3 nominal model-error inflation; human proof plus exact consumer"
+  },
+  {
+    "stage": "experiment",
+    "label": "numerically-supported",
+    "evidence": "perturbation secants and fixed costed scenarios"
+  },
+  {
+    "stage": "limitation",
+    "label": "known",
+    "result": "conditional safety cannot establish physical issuer honesty"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "episode_id": "geometry-plateau-0",
+  "anchors": [
+    [
+      "-5",
+      "0"
+    ],
+    [
+      "-3",
+      "0"
+    ],
+    [
+      "3",
+      "0"
+    ],
+    [
+      "5",
+      "0"
+    ]
+  ],
+  "weights": [
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "radii": [
+    "1/1000",
+    "1/1000",
+    "1/1000",
+    "1/1000"
+  ],
+  "domain": [
+    "-1",
+    "1",
+    "-1",
+    "1"
+  ],
+  "measurements": [
+    "5.99170401280500453",
+    "2.69635822749166909",
+    "3.32303260779511245",
+    "5.31922064962797592"
+  ],
+  "q_max": 1,
+  "epsilon_max": "1/200",
+  "error_tolerance": "2/5",
+  "budget": "3",
+  "offers": [
+    {
+      "id": "range-0",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "0",
+          "5"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-1",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "3",
+          "4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    },
+    {
+      "id": "range-2",
+      "kind": "new-range",
+      "cost": "1",
+      "update": {
+        "anchor": [
+          "-3",
+          "-4"
+        ],
+        "weight": "1",
+        "radius": "1/1000"
+      }
+    }
+  ],
+  "receipts": [],
+  "estimated_corruption": 1,
+  "premise_sources": {
+    "initial": "simulated-outer-contract",
+    "scope": "conditional on honest sources"
+  }
+}

@@ -1,0 +1,914 @@
+{
+  "summary": {
+    "episode_id": "dishonest-calibration-4",
+    "scenario": "dishonest-calibration",
+    "method": "random-information",
+    "initially_certified": false,
+    "new_certified": false,
+    "information_cost": "5",
+    "volume_ratio": "1/184467440737095516160000000000000000",
+    "volume_reduction": "184467440737095516159999999999999999/184467440737095516160000000000000000",
+    "acquisitions": [
+      {
+        "kind": "new-range",
+        "id": "range-1",
+        "cost": "1",
+        "accepted": true
+      },
+      {
+        "kind": "new-range",
+        "id": "range-0",
+        "cost": "1",
+        "accepted": true
+      },
+      {
+        "kind": "anchor-recalibration",
+        "id": "calibrate",
+        "cost": "2",
+        "accepted": true
+      },
+      {
+        "kind": "new-range",
+        "id": "range-2",
+        "cost": "1",
+        "accepted": true
+      }
+    ],
+    "rejected": [],
+    "evaluation": {
+      "contract_valid": false,
+      "contract_violations": [
+        "anchor-ball-0",
+        "anchor-ball-1",
+        "anchor-ball-2",
+        "anchor-ball-3",
+        "anchor-ball-4",
+        "anchor-ball-5",
+        "anchor-ball-6",
+        "anchor-ball-7"
+      ],
+      "output": false,
+      "error": null,
+      "wrong_output": false,
+      "bound_violation": false,
+      "scope": "private synthetic evaluator"
+    },
+    "final_action": "abstain",
+    "failure_reason": "candidate-not-feasible-for-entire-assumption-set",
+    "service_model_valid": false
+  },
+  "final_observation": {
+    "episode_id": "dishonest-calibration-4",
+    "anchors": [
+      [
+        "5",
+        "0"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "-3",
+        "4"
+      ],
+      [
+        "-5",
+        "0"
+      ],
+      [
+        "-3",
+        "-4"
+      ],
+      [
+        "0",
+        "-5"
+      ],
+      [
+        "3",
+        "-4"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "0",
+        "5"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "weights": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "radii": [
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000",
+      "1/1000"
+    ],
+    "domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "measurements": [
+      "6.28859135067462205",
+      "4.62581912696753061",
+      "4.54830133534360037",
+      "4.66695947472190920",
+      "5.05206723294144577",
+      "5.38651376936678972",
+      "5.45212984048146065",
+      "5.35059652082805215",
+      "4.56174703311070218",
+      "4.55010248439778486",
+      "5.44385015191034682"
+    ],
+    "q_max": 1,
+    "epsilon_max": "1/1000",
+    "error_tolerance": "1/20",
+    "budget": "0",
+    "offers": [],
+    "receipts": [
+      {
+        "offer_id": "range-1",
+        "episode_id": "dishonest-calibration-4",
+        "issuer": "simulated-range-service",
+        "update": {
+          "anchor": [
+            "3",
+            "4"
+          ],
+          "weight": "1",
+          "radius": "1/1000"
+        },
+        "evidence": "independent simulated service; physical truth not software-certified",
+        "measurement": "4.56174703311070218"
+      },
+      {
+        "offer_id": "range-0",
+        "episode_id": "dishonest-calibration-4",
+        "issuer": "simulated-range-service",
+        "update": {
+          "anchor": [
+            "0",
+            "5"
+          ],
+          "weight": "1",
+          "radius": "1/1000"
+        },
+        "evidence": "independent simulated service; physical truth not software-certified",
+        "measurement": "4.55010248439778486"
+      },
+      {
+        "offer_id": "calibrate",
+        "episode_id": "dishonest-calibration-4",
+        "issuer": "simulated-independent-calibrator",
+        "update": {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "radius": "1/1000"
+        },
+        "evidence": "independent simulated service; physical truth not software-certified"
+      },
+      {
+        "offer_id": "range-2",
+        "episode_id": "dishonest-calibration-4",
+        "issuer": "simulated-range-service",
+        "update": {
+          "anchor": [
+            "-3",
+            "-4"
+          ],
+          "weight": "1",
+          "radius": "1/1000"
+        },
+        "evidence": "independent simulated service; physical truth not software-certified",
+        "measurement": "5.44385015191034682"
+      }
+    ],
+    "estimated_corruption": 0,
+    "premise_sources": {
+      "initial": "simulated-outer-contract",
+      "scope": "conditional on honest sources"
+    }
+  },
+  "decision": {
+    "action": "abstain",
+    "reason": "candidate-not-feasible-for-entire-assumption-set",
+    "frontier": {
+      "rows": [
+        {
+          "q": 0,
+          "lower": "1263381230858499/1000000000000000",
+          "zeta_upper": "829156197589/250000000000000",
+          "epsilon_ceiling": "1130716239244259/40000000000000000",
+          "error_bound": "8633249580712/1263381230858499",
+          "certified": true,
+          "certificate": {
+            "certificate_id": "1dd68bea8749be9a82fbd83a5b6a060dea031e17dc9baa1365b74234514e3059"
+          }
+        },
+        {
+          "q": 1,
+          "lower": "943188061039543/1000000000000000",
+          "zeta_upper": "3162277660169/1000000000000000",
+          "epsilon_ceiling": "816696954632783/40000000000000000",
+          "error_bound": "8324555320338/943188061039543",
+          "certified": true,
+          "certificate": {
+            "certificate_id": "f5ef727d8bbbf7ef915134ce751f653b32b59cb95bb3d4667c659c3ef607db4d"
+          }
+        }
+      ],
+      "all_contracts_certified": true,
+      "worst_error_bound": "8324555320338/943188061039543",
+      "q_cert": 1,
+      "assumption_set": {
+        "q": [
+          0,
+          1
+        ],
+        "epsilon": [
+          "0",
+          "1/1000"
+        ],
+        "domain": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ],
+        "radii": [
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000",
+          "1/1000"
+        ]
+      },
+      "scope": "sufficient conditional frontier; actual q is not inferred"
+    },
+    "choices": []
+  },
+  "complete_frontier": {
+    "rows": [
+      {
+        "q": 0,
+        "lower": "1263381230858499/1000000000000000",
+        "zeta_upper": "829156197589/250000000000000",
+        "epsilon_ceiling": "1130716239244259/40000000000000000",
+        "error_bound": "8633249580712/1263381230858499",
+        "certified": true,
+        "certificate": {
+          "certificate_id": "1dd68bea8749be9a82fbd83a5b6a060dea031e17dc9baa1365b74234514e3059"
+        }
+      },
+      {
+        "q": 1,
+        "lower": "943188061039543/1000000000000000",
+        "zeta_upper": "3162277660169/1000000000000000",
+        "epsilon_ceiling": "816696954632783/40000000000000000",
+        "error_bound": "8324555320338/943188061039543",
+        "certified": true,
+        "certificate": {
+          "certificate_id": "f5ef727d8bbbf7ef915134ce751f653b32b59cb95bb3d4667c659c3ef607db4d"
+        }
+      },
+      {
+        "q": 2,
+        "lower": "155451128503561/250000000000000",
+        "zeta_upper": "3/1000",
+        "epsilon_ceiling": "125451128503561/10000000000000000",
+        "error_bound": "2000000000000/155451128503561",
+        "certified": true,
+        "certificate": {
+          "certificate_id": "0dc839b6ab85f2a3a47bf18c272104bb431841674989478eca5c65b6593fb02f"
+        }
+      },
+      {
+        "q": 3,
+        "lower": "33451220898317/200000000000000",
+        "zeta_upper": "2828427124747/1000000000000000",
+        "epsilon_ceiling": "10823803900341/8000000000000000",
+        "error_bound": "7656854249494/167256104491585",
+        "certified": true,
+        "certificate": {
+          "certificate_id": "dbba5498459bdf52697f55e51fea182671cacabba07494ae40d5a1a0737fb59f"
+        }
+      },
+      {
+        "q": 4,
+        "lower": "0",
+        "zeta_upper": "529150262213/200000000000000",
+        "epsilon_ceiling": null,
+        "error_bound": null,
+        "certified": false,
+        "certificate": {
+          "certificate_id": "5740a307504f3437fd29db9309ddc00490c642bc5e4d09acd8a298cab0293640"
+        }
+      },
+      {
+        "q": 5,
+        "lower": "0",
+        "zeta_upper": "38273277231/15625000000000",
+        "epsilon_ceiling": null,
+        "error_bound": null,
+        "certified": false,
+        "certificate": {
+          "certificate_id": "2198e0ecd7111a72d92d97f7c9b028fe52239377fe94c2bf9c753528916fd987"
+        }
+      },
+      {
+        "q": 6,
+        "lower": "0",
+        "zeta_upper": "894427191/400000000000",
+        "epsilon_ceiling": null,
+        "error_bound": null,
+        "certified": false,
+        "certificate": {
+          "certificate_id": "e2f9b2bcdd9dbf0931ef6cf9a061c3d2a39309bedb1b85467c58b07bc1b01aaa"
+        }
+      }
+    ],
+    "all_contracts_certified": true,
+    "worst_error_bound": "8324555320338/943188061039543",
+    "q_cert": 3,
+    "assumption_set": {
+      "q": [
+        0,
+        1
+      ],
+      "epsilon": [
+        "0",
+        "1/1000"
+      ],
+      "domain": [
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "radii": [
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000",
+        "1/1000"
+      ]
+    },
+    "scope": "sufficient conditional frontier; actual q is not inferred",
+    "grid": [
+      {
+        "q": 0,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "1264114417269701/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 0,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "1264114417269701/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 0,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "1264114417269701/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 1,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "235954743695309/250000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 1,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "235954743695309/250000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 1,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "235954743695309/250000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 2,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "311163530117069/500000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 2,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "311163530117069/500000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 2,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "311163530117069/500000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 3,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "167639626868133/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 3,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "167639626868133/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 3,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "167639626868133/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 4,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 4,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 4,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 5,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 5,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 5,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 6,
+        "epsilon": "0",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 6,
+        "epsilon": "1/2000",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 6,
+        "epsilon": "1/1000",
+        "radius_scale": "0",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 0,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "252749558939001/200000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 0,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "252749558939001/200000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 0,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "252749558939001/200000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 1,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "943503492651991/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 1,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "943503492651991/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 1,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "943503492651991/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 2,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "622065766219073/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 2,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "622065766219073/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 2,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "622065766219073/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 3,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "167447850367081/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 3,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "167447850367081/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 3,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "167447850367081/1000000000000000",
+        "certified": true,
+        "conditional_reduction": true
+      },
+      {
+        "q": 4,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 4,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 4,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 5,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 5,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 5,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 6,
+        "epsilon": "0",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 6,
+        "epsilon": "1/2000",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 6,
+        "epsilon": "1/1000",
+        "radius_scale": "1/2",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": true
+      },
+      {
+        "q": 0,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "1263381230858499/1000000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 0,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "1263381230858499/1000000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 0,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "1263381230858499/1000000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 1,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "943188061039543/1000000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 1,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "943188061039543/1000000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 1,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "943188061039543/1000000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 2,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "155451128503561/250000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 2,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "155451128503561/250000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 2,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "155451128503561/250000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 3,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "33451220898317/200000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 3,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "33451220898317/200000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 3,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "33451220898317/200000000000000",
+        "certified": true,
+        "conditional_reduction": false
+      },
+      {
+        "q": 4,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 4,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 4,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 5,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 5,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 5,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 6,
+        "epsilon": "0",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 6,
+        "epsilon": "1/2000",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      },
+      {
+        "q": 6,
+        "epsilon": "1/1000",
+        "radius_scale": "1",
+        "lower": "0",
+        "certified": false,
+        "conditional_reduction": false
+      }
+    ]
+  }
+}

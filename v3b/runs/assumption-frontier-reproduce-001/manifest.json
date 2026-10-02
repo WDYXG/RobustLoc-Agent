@@ -1,0 +1,117 @@
+{
+  "schema": "assumption-run-v1",
+  "previous_files": 1417,
+  "sources": {
+    "v3b/__init__.py": "72b5aac326b32e8d95df5d0504d7f1b9fb5a5ee6195a5097f96173f1a8d0f039",
+    "v3b/AGENTS.md": "0e26b7528aa35f232f7d1cf3f5024e9abff64f12754feb1888cf22ca181a553f",
+    "v3b/assumption_agent/__init__.py": "b4807fa6fb2616ed80a4eff8f271c59284bb267de95fe6dc04c1c1009e5384aa",
+    "v3b/assumption_agent/audit.py": "20328514d869e071b8e5340abf6962b71d5c59562377c9524ae54490bff0c9b2",
+    "v3b/assumption_agent/certificates.py": "9c5a031fa629d48f5e6da1f79522c5317040456119a58f275a2602b6403b2b5c",
+    "v3b/assumption_agent/cli.py": "00cb02ebd43a80adce8d3768f757772aa6d31cac472550bd1480a2dcf6a615df",
+    "v3b/assumption_agent/config.json": "24bdb847751b6c77c7e5365b1d835e590f09f21e9db956d173168f3f538ba09c",
+    "v3b/assumption_agent/contracts.py": "61f10a582e5807d569c66cccb2b0e4e6117894f43a327576d2fe797a423c7d1b",
+    "v3b/assumption_agent/experiments.py": "deec5b4a32be03b763f5d24d128651f7f7e478ae2f1336a0fe7761117b6002f4",
+    "v3b/assumption_agent/freeze.py": "7b3ff2f2759d7581d75f6db079688f0e3c3d449c304ac1bf514598880cd1345e",
+    "v3b/assumption_agent/LITERATURE_AUDIT.md": "c6baa9a0a808e635f087d086323ceca32ed964ff4f1dc034bdc4741c61bba7ae",
+    "v3b/assumption_agent/policy.py": "24f4bfbcfbf3f4d537b83f17e04a06b4f16d49062cbf3b785a7360065356cf99",
+    "v3b/assumption_agent/reporting.py": "db94190bbfb7cc25863f1e82563afac21bd035ec8a18a7be9c1e8d5b7bd00354",
+    "v3b/assumption_agent/run.py": "32ac14e0f69397faf394da34dc0dabc746c789b0e0b52c7388092a444c1e50ff",
+    "v3b/assumption_agent/simulator.py": "9bf9d8a9882e18f1bb91e55493a5848dc8fed4975c1b893aedf62bf54d5b275d",
+    "v3b/assumption_agent/SPEC.md": "63718f4e81ded9bc28d79dc5efa1768b9e4d718c48a89a77f5b0e91513ff5e02",
+    "v3b/assumption_agent/storage.py": "d54a38d3a88edd160fcf9f9a585b66740dccb6da473b2aece297113c3d8eba1f",
+    "v3b/assumption_agent/tests/__init__.py": "88501af9e9094682f8ff5f2b200467681471a906e5a8e50d8476dbd07b1edb1e",
+    "v3b/assumption_agent/tests/test_assumptions.py": "e999d821300281253ba1cf12c6dd79605803c32332ca46354249219245bedd21",
+    "v3b/assumption_agent/THEORY.md": "2bd51c37e330933d2d76adcc027612b8fd4128e0715b658be5c076654d841343",
+    "v3b/assumption_agent/verifier.py": "1f9e61f662a8cb94ad7340d44ee354c5428a64a55a1540f8ab80f281876e543a",
+    "v3b/examples/anchor-uncertainty.json": "8ec008286d87277285410998151c8cc8e2e61141861a7f691efdb074919822f8",
+    "v3b/examples/budget-limited.json": "a8fc124a33095c68d4a04367c100188c57fab68f2d5a10bf6571786d65757455",
+    "v3b/examples/domain-uncertainty.json": "8fa89839d23f13ccadae700ae395c791395f24b899e1242b3499a4fbc9024b94",
+    "v3b/examples/healthy.json": "3c413012476ba809a9292cbddb84536bd678c84f349a72b6de8ef02371429fc0",
+    "v3b/examples/mixed-premises.json": "c4ec212f24f56c400a632076b403caf066c5701c701a45a4abcea6b79ffd0748",
+    "v3b/examples/q-uncertainty.json": "34b10e28d7c5ae7758692dbbbdf362e9e953b495a951d27d2491863faf8f5c82",
+    "v3b/PREVIOUS_FREEZE.json": "9c4f4efdb0a52ef120bc56c333c33f594d5dd6482ebd717d49a2dc980f806b5b",
+    "v3b/README.md": "b72e52b120c4809ff9bbc1dd93fc342fa50ac68b4013c06f32b34326cb75acd2"
+  },
+  "config": {
+    "run": "v3b/runs/assumption-frontier-001",
+    "horizon": 3,
+    "development_seed": 310041,
+    "heldout_seed": 310042,
+    "random_policy_seed": 470042,
+    "episodes_per_scenario": 6,
+    "scenarios": [
+      "healthy",
+      "anchor-uncertainty",
+      "q-uncertainty",
+      "domain-uncertainty",
+      "mixed-premises",
+      "geometry-plateau",
+      "budget-limited",
+      "untrusted-receipt",
+      "dishonest-calibration"
+    ],
+    "methods": [
+      "measurement-only",
+      "random-information",
+      "one-step-gain",
+      "multi-step"
+    ],
+    "error_tolerance": "2/5",
+    "default_domain": [
+      "-1",
+      "1",
+      "-1",
+      "1"
+    ],
+    "solver_max_nfev": 100,
+    "solver_starts": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-4/5",
+        "-4/5"
+      ],
+      [
+        "-4/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "-4/5"
+      ]
+    ],
+    "range_cost": "1",
+    "calibration_cost": "2",
+    "domain_cost": "5/4",
+    "q_bound_cost": "3/2",
+    "offered_anchors": [
+      [
+        "0",
+        "5"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "-3",
+        "-4"
+      ]
+    ],
+    "perturbation_radii": [
+      "0",
+      "1/100",
+      "1/20",
+      "1/10",
+      "4/25"
+    ],
+    "perturbation_trials": 120
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "heldout_policy": "fixed configuration frozen before simulation; no post-heldout tuning"
+}
