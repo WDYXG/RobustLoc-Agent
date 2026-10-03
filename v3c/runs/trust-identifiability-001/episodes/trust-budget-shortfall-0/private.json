@@ -1,0 +1,110 @@
+{
+  "target": [
+    "133/1000",
+    "291/500"
+  ],
+  "positions": {
+    "a0": [
+      "4",
+      "0"
+    ],
+    "a1": [
+      "-4",
+      "0"
+    ],
+    "a2": [
+      "0",
+      "4"
+    ],
+    "a3": [
+      "3",
+      "-4"
+    ],
+    "a4": [
+      "-3",
+      "-4"
+    ],
+    "a5": [
+      "0",
+      "-5"
+    ]
+  },
+  "future": {
+    "range-0": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.91057233997433995",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.17379587379970118",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.42051297963452594",
+          "weight": "1"
+        }
+      ]
+    },
+    "range-1": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.91052461732785206",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.17382539907186612",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.42067732644344691",
+          "weight": "1"
+        }
+      ]
+    },
+    "range-2": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.91050851544990286",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.17379364592104984",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.42053458408994038",
+          "weight": "1"
+        }
+      ]
+    }
+  },
+  "scenario": "trust-budget-shortfall",
+  "contract_valid": true,
+  "frame": {
+    "R": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "t": [
+      "0",
+      "0"
+    ]
+  },
+  "noise_scope": "global clean norm below E for all offered repeats"
+}

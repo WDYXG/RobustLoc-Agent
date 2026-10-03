@@ -1,0 +1,110 @@
+{
+  "target": [
+    "1129/1000",
+    "789/1000"
+  ],
+  "positions": {
+    "a0": [
+      "24/5",
+      "0"
+    ],
+    "a1": [
+      "-16/5",
+      "0"
+    ],
+    "a2": [
+      "4/5",
+      "4"
+    ],
+    "a3": [
+      "19/5",
+      "-4"
+    ],
+    "a4": [
+      "-11/5",
+      "-4"
+    ],
+    "a5": [
+      "4/5",
+      "-5"
+    ]
+  },
+  "future": {
+    "range-0": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.75478300446043667",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.40036604312017410",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.22771775772639513",
+          "weight": "1"
+        }
+      ]
+    },
+    "range-1": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.75485725079719579",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.40033930352146108",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.22788842069688098",
+          "weight": "1"
+        }
+      ]
+    },
+    "range-2": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.75475926771767821",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.40032715347281034",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.22781552618248524",
+          "weight": "1"
+        }
+      ]
+    }
+  },
+  "scenario": "sparse-q1",
+  "contract_valid": true,
+  "frame": {
+    "R": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "t": [
+      "4/5",
+      "0"
+    ]
+  },
+  "noise_scope": "global clean norm below E for all offered repeats"
+}

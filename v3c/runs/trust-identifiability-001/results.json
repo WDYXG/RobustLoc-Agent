@@ -1,0 +1,5192 @@
+[
+  {
+    "episode_id": "no-reference-0",
+    "scenario": "no-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "no-reference-0",
+    "scenario": "no-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "47/10",
+    "actions": [
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.0022238984438806e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10278550508140/597258899161681",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-0",
+    "scenario": "no-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.152331437457557e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10184806509968/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-1",
+    "scenario": "no-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "no-reference-1",
+    "scenario": "no-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "21/5",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00010306190528292678,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "3342629278840/81805564451911",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-1",
+    "scenario": "no-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00010031114775746334,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2544971760559/108798534972311",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-2",
+    "scenario": "no-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "no-reference-2",
+    "scenario": "no-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "107/20",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.605960752272994e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5144368049093/163876938208335",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-2",
+    "scenario": "no-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00010901780559776287,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10020718046290/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-3",
+    "scenario": "no-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "no-reference-3",
+    "scenario": "no-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "57/10",
+    "actions": [
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.518526661280914e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5099887126619/142752610709335",
+    "reason": null
+  },
+  {
+    "episode_id": "no-reference-3",
+    "scenario": "no-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.507471153318359e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10131585179572/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-0",
+    "scenario": "one-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1255367360521851/1000000000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "one-reference-0",
+    "scenario": "one-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "31/10",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.0410731945531688e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10395528108580/774596669241483",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-0",
+    "scenario": "one-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "13/5",
+    "actions": [
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.6099368580457e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10042740790586/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-1",
+    "scenario": "one-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "566993436919687/500000000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "one-reference-1",
+    "scenario": "one-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "39/10",
+    "actions": [
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 5.0823716201110304e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10153376124922/308776246660921",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-1",
+    "scenario": "one-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "13/5",
+    "actions": [
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.2372540779529956e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2533473989943/108798534972311",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-2",
+    "scenario": "one-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "68342224995649/62500000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "one-reference-2",
+    "scenario": "one-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "14/5",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00010141864099696412,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10204209156824/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-2",
+    "scenario": "one-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "13/5",
+    "actions": [
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00010141864099696412,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10204209156824/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-3",
+    "scenario": "one-reference",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1165324434933439/1000000000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "one-reference-3",
+    "scenario": "one-reference",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "16/5",
+    "actions": [
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.288413687027836e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5061055125435/254509647360511",
+    "reason": null
+  },
+  {
+    "episode_id": "one-reference-3",
+    "scenario": "one-reference",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "13/5",
+    "actions": [
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 7.025561836877627e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10067955503912/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-0",
+    "scenario": "two-reflection",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "22093999797/15625000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-reflection-0",
+    "scenario": "two-reflection",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "11/5",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.0567638976071915e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "3393533659404/163234035624797",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-0",
+    "scenario": "two-reflection",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "7/5",
+    "actions": [
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 7.016907904915456e-06,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10211689627850/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-1",
+    "scenario": "two-reflection",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "704996380621/500000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-reflection-1",
+    "scenario": "two-reflection",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "19/10",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 2.0787397189954808e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10316561312570/753778361444409",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-1",
+    "scenario": "two-reflection",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "7/5",
+    "actions": [
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 5.813813111462684e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5017966164625/217597069944622",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-2",
+    "scenario": "two-reflection",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "795997801129/500000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-reflection-2",
+    "scenario": "two-reflection",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "9/5",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.9716139480074896e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "564973478458/20974630141467",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-2",
+    "scenario": "two-reflection",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "7/5",
+    "actions": [
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.0854789464571849e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10167807165954/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-3",
+    "scenario": "two-reflection",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "727978889763/500000000000",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-reflection-3",
+    "scenario": "two-reflection",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "9/4",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 5.577284103875328e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5137814681717/214886123740101",
+    "reason": null
+  },
+  {
+    "episode_id": "two-reflection-3",
+    "scenario": "two-reflection",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "7/5",
+    "actions": [
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 9.534146860969239e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10006754226798/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-0",
+    "scenario": "frame-without-ranges",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "frame-without-ranges-0",
+    "scenario": "frame-without-ranges",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "5",
+    "actions": [
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00011682827795472641,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10088606297308/281341597462125",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-0",
+    "scenario": "frame-without-ranges",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.973412188289328e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10094474135950/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-1",
+    "scenario": "frame-without-ranges",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "frame-without-ranges-1",
+    "scenario": "frame-without-ranges",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "89/20",
+    "actions": [
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.670416163551588e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "3391993401096/152868412687099",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-1",
+    "scenario": "frame-without-ranges",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 7.329546836685483e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2537135709158/108798534972311",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-2",
+    "scenario": "frame-without-ranges",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "frame-without-ranges-2",
+    "scenario": "frame-without-ranges",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "5",
+    "actions": [
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.00013670079982818582,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10122512792192/178396622939661",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-2",
+    "scenario": "frame-without-ranges",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.0001224331482595507,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10029014476058/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-3",
+    "scenario": "frame-without-ranges",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "frame-without-ranges-3",
+    "scenario": "frame-without-ranges",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "23/4",
+    "actions": [
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 5.835554403393135e-06,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2565827983753/46470208703783",
+    "reason": null
+  },
+  {
+    "episode_id": "frame-without-ranges-3",
+    "scenario": "frame-without-ranges",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "18/5",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 7.533783333948612e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "10120019904608/447213595499957",
+    "reason": null
+  },
+  {
+    "episode_id": "sparse-q1-0",
+    "scenario": "sparse-q1",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "sparse-q1-0",
+    "scenario": "sparse-q1",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "43/10",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.660307802562965e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5151861860173/273861278752583",
+    "reason": null
+  },
+  {
+    "episode_id": "sparse-q1-0",
+    "scenario": "sparse-q1",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "41/10",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.2538579380058326e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5171479587867/273861278752583",
+    "reason": null
+  },
+  {
+    "episode_id": "sparse-q1-1",
+    "scenario": "sparse-q1",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "sparse-q1-1",
+    "scenario": "sparse-q1",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "27/4",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "sparse-q1-1",
+    "scenario": "sparse-q1",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "41/10",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 2.0375674803948065e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2576641968356/132006251964143",
+    "reason": null
+  },
+  {
+    "episode_id": "sparse-q1-2",
+    "scenario": "sparse-q1",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "sparse-q1-2",
+    "scenario": "sparse-q1",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "43/10",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.251821567015748e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5153557792656/273861278752583",
+    "reason": null
+  },
+  {
+    "episode_id": "sparse-q1-2",
+    "scenario": "sparse-q1",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "41/10",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.359388862536756e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5142271400697/273861278752583",
+    "reason": null
+  },
+  {
+    "episode_id": "sparse-q1-3",
+    "scenario": "sparse-q1",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "sparse-q1-3",
+    "scenario": "sparse-q1",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "27/4",
+    "actions": [
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "sparse-q1-3",
+    "scenario": "sparse-q1",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "41/10",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 5.182504520573523e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5056227495633/273861278752583",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-0",
+    "scenario": "precision-gap",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.4998558276295505e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30233666432538/632455532033675",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-0",
+    "scenario": "precision-gap",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.4998558276295505e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30233666432538/632455532033675",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-0",
+    "scenario": "precision-gap",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 4.4998558276295505e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30233666432538/632455532033675",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-1",
+    "scenario": "precision-gap",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.235949371706278e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30258553184100/615457454896663",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-1",
+    "scenario": "precision-gap",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.235949371706278e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30258553184100/615457454896663",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-1",
+    "scenario": "precision-gap",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.235949371706278e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30258553184100/615457454896663",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-2",
+    "scenario": "precision-gap",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.4391768772286e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30173830288788/632455532033675",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-2",
+    "scenario": "precision-gap",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.892854545752461e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30176046235192/632455532033675",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-2",
+    "scenario": "precision-gap",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 6.4391768772286e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "30173830288788/632455532033675",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-3",
+    "scenario": "precision-gap",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 9.512656215244562e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "861706563984/18070158058105",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-3",
+    "scenario": "precision-gap",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 0.0001034602728585017,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "6039341500912/126491106406735",
+    "reason": null
+  },
+  {
+    "episode_id": "precision-gap-3",
+    "scenario": "precision-gap",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "precision-or-certificate-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 9.512656215244562e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "861706563984/18070158058105",
+    "reason": null
+  },
+  {
+    "episode_id": "bounded-references-0",
+    "scenario": "bounded-references",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "bounded-references-0",
+    "scenario": "bounded-references",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "139/20",
+    "actions": [
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "bounded-references-0",
+    "scenario": "bounded-references",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "bounded-references-1",
+    "scenario": "bounded-references",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "bounded-references-1",
+    "scenario": "bounded-references",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "139/20",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "bounded-references-1",
+    "scenario": "bounded-references",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "bounded-references-2",
+    "scenario": "bounded-references",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "bounded-references-2",
+    "scenario": "bounded-references",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "139/20",
+    "actions": [
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "bounded-references-2",
+    "scenario": "bounded-references",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "bounded-references-3",
+    "scenario": "bounded-references",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "bounded-references-3",
+    "scenario": "bounded-references",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "131/20",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap",
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "bounded-references-3",
+    "scenario": "bounded-references",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "unresolved-trust-or-geometry-gap"
+    ],
+    "final_diagnosis": "unresolved-trust-or-geometry-gap",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "two-source-ambiguity-0",
+    "scenario": "two-source-ambiguity",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "4/5",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-source-ambiguity-0",
+    "scenario": "two-source-ambiguity",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "9/5",
+    "actions": [
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.3758960521302254e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1713219876857/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-0",
+    "scenario": "two-source-ambiguity",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "3/5",
+    "actions": [
+      {
+        "id": "independent-source",
+        "kind": "independent-source",
+        "cost": "3/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.3758960521302254e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1713219876857/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-1",
+    "scenario": "two-source-ambiguity",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "4/5",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-source-ambiguity-1",
+    "scenario": "two-source-ambiguity",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "9/5",
+    "actions": [
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 2.1377849841432838e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5112908846759/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-1",
+    "scenario": "two-source-ambiguity",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "3/5",
+    "actions": [
+      {
+        "id": "independent-source",
+        "kind": "independent-source",
+        "cost": "3/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 2.1377849841432838e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5112908846759/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-2",
+    "scenario": "two-source-ambiguity",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "4/5",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-source-ambiguity-2",
+    "scenario": "two-source-ambiguity",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "1",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.182679136224313e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5157572974534/383554345746045",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-2",
+    "scenario": "two-source-ambiguity",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "3/5",
+    "actions": [
+      {
+        "id": "independent-source",
+        "kind": "independent-source",
+        "cost": "3/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.182679136224313e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "5157572974534/383554345746045",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-3",
+    "scenario": "two-source-ambiguity",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "4/5",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "two-source-ambiguity-3",
+    "scenario": "two-source-ambiguity",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "33/20",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 2.9968943765643525e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "228181634738/21330228831869",
+    "reason": null
+  },
+  {
+    "episode_id": "two-source-ambiguity-3",
+    "scenario": "two-source-ambiguity",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "3/5",
+    "actions": [
+      {
+        "id": "independent-source",
+        "kind": "independent-source",
+        "cost": "3/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.503006149292102e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1705854434707/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-0",
+    "scenario": "three-source-majority",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.0516904621936496e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1722540559718/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-0",
+    "scenario": "three-source-majority",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.0516904621936496e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1722540559718/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-0",
+    "scenario": "three-source-majority",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 3.0516904621936496e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1722540559718/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-1",
+    "scenario": "three-source-majority",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 8.684153611095093e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2552088173581/189422911308640",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-1",
+    "scenario": "three-source-majority",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 8.684153611095093e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2552088173581/189422911308640",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-1",
+    "scenario": "three-source-majority",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 8.684153611095093e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2552088173581/189422911308640",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-2",
+    "scenario": "three-source-majority",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.9113116755442298e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1726802168673/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-2",
+    "scenario": "three-source-majority",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.9113116755442298e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1726802168673/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-2",
+    "scenario": "three-source-majority",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.9113116755442298e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1726802168673/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-3",
+    "scenario": "three-source-majority",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.960989611686245e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1712447657576/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-3",
+    "scenario": "three-source-majority",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.960989611686245e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1712447657576/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "three-source-majority-3",
+    "scenario": "three-source-majority",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 1.960989611686245e-05,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "1712447657576/127851448582015",
+    "reason": null
+  },
+  {
+    "episode_id": "aliases-one-domain-0",
+    "scenario": "aliases-one-domain",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-0",
+    "scenario": "aliases-one-domain",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-0",
+    "scenario": "aliases-one-domain",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "aliases-one-domain-1",
+    "scenario": "aliases-one-domain",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-1",
+    "scenario": "aliases-one-domain",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-1",
+    "scenario": "aliases-one-domain",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "aliases-one-domain-2",
+    "scenario": "aliases-one-domain",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-2",
+    "scenario": "aliases-one-domain",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "9/20",
+    "actions": [
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-2",
+    "scenario": "aliases-one-domain",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "aliases-one-domain-3",
+    "scenario": "aliases-one-domain",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-3",
+    "scenario": "aliases-one-domain",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1/2",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "aliases-one-domain-3",
+    "scenario": "aliases-one-domain",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-0",
+    "scenario": "trust-budget-shortfall",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-0",
+    "scenario": "trust-budget-shortfall",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "19/20",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-0",
+    "scenario": "trust-budget-shortfall",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-1",
+    "scenario": "trust-budget-shortfall",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-1",
+    "scenario": "trust-budget-shortfall",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "19/20",
+    "actions": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-1",
+    "scenario": "trust-budget-shortfall",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-2",
+    "scenario": "trust-budget-shortfall",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-2",
+    "scenario": "trust-budget-shortfall",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1143354032740897/1000000000000000",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-2",
+    "scenario": "trust-budget-shortfall",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-3",
+    "scenario": "trust-budget-shortfall",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-3",
+    "scenario": "trust-budget-shortfall",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "1",
+    "actions": [
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1121725431579451/1000000000000000",
+    "diameter_upper": null,
+    "reason": "no-affordable-certificate-capable-information"
+  },
+  {
+    "episode_id": "trust-budget-shortfall-3",
+    "scenario": "trust-budget-shortfall",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  {
+    "episode_id": "premise-budget-violated-0",
+    "scenario": "premise-budget-violated",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.7999448495350666,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5127520883903/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-0",
+    "scenario": "premise-budget-violated",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.7999448495350666,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5127520883903/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-0",
+    "scenario": "premise-budget-violated",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.7999448495350666,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5127520883903/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-1",
+    "scenario": "premise-budget-violated",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.8000121538297562,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5076185211682/374129340780027",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-1",
+    "scenario": "premise-budget-violated",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.8000121538297562,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5076185211682/374129340780027",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-1",
+    "scenario": "premise-budget-violated",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.8000121538297562,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5076185211682/374129340780027",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-2",
+    "scenario": "premise-budget-violated",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.7999760086817765,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "1275145331801/94711455654320",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-2",
+    "scenario": "premise-budget-violated",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.7999760086817765,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "1275145331801/94711455654320",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-2",
+    "scenario": "premise-budget-violated",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.7999760086817765,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "1275145331801/94711455654320",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-3",
+    "scenario": "premise-budget-violated",
+    "method": "range-only",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.800030822093204,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5154422613731/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-3",
+    "scenario": "premise-budget-violated",
+    "method": "random-information",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.800030822093204,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5154422613731/378845822617280",
+    "reason": null
+  },
+  {
+    "episode_id": "premise-budget-violated-3",
+    "scenario": "premise-budget-violated",
+    "method": "trust-directed",
+    "initially_certified": true,
+    "output": true,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": false,
+    "intended_in_contract": false,
+    "error": 0.800030822093204,
+    "wrong_output": true,
+    "bound_violation": true,
+    "diameter_lower": null,
+    "diameter_upper": "5154422613731/378845822617280",
+    "reason": null
+  }
+]

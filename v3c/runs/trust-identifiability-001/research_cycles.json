@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "literature",
+    "status": "known",
+    "claim": "gauge, rigidity, sparse observability, Byzantine models"
+  },
+  {
+    "stage": "counterexample",
+    "status": "refuted",
+    "claim": "unanchored receipts verify themselves / star is rigid / frame fixes unconnected target"
+  },
+  {
+    "stage": "proof",
+    "status": "proved-in-project",
+    "claim": "T1–T6 scoped proofs and continuous covers"
+  },
+  {
+    "stage": "experiment",
+    "status": "numerically-supported",
+    "claim": "fixed trust menu, retained impossible and premise-budget failures"
+  }
+]

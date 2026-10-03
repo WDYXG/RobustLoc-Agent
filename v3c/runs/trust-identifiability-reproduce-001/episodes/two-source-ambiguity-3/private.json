@@ -1,0 +1,110 @@
+{
+  "target": [
+    "27/200",
+    "81/125"
+  ],
+  "positions": {
+    "a0": [
+      "4",
+      "0"
+    ],
+    "a1": [
+      "-4",
+      "0"
+    ],
+    "a2": [
+      "0",
+      "4"
+    ],
+    "a3": [
+      "3",
+      "-4"
+    ],
+    "a4": [
+      "-3",
+      "-4"
+    ],
+    "a5": [
+      "0",
+      "-5"
+    ]
+  },
+  "future": {
+    "range-0": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.91895260358307373",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.18540375936584841",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.35472932144641245",
+          "weight": "1"
+        }
+      ]
+    },
+    "range-1": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.91896627900945571",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.18547311802554667",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.35468820121326328",
+          "weight": "1"
+        }
+      ]
+    },
+    "range-2": {
+      "measurements": [
+        {
+          "anchor": "a0",
+          "value": "3.91899416720784499",
+          "weight": "1"
+        },
+        {
+          "anchor": "a1",
+          "value": "4.18549580312472802",
+          "weight": "1"
+        },
+        {
+          "anchor": "a2",
+          "value": "3.35464338097063530",
+          "weight": "1"
+        }
+      ]
+    }
+  },
+  "scenario": "two-source-ambiguity",
+  "contract_valid": true,
+  "frame": {
+    "R": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "t": [
+      "0",
+      "0"
+    ]
+  },
+  "noise_scope": "global clean norm below E for all offered repeats"
+}

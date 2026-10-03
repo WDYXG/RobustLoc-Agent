@@ -1,0 +1,989 @@
+{
+  "result": {
+    "episode_id": "two-source-ambiguity-2",
+    "scenario": "two-source-ambiguity",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "4/5",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  "observation": {
+    "episode_id": "two-source-ambiguity-2",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "3.79378733639590182",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.29981301518958769",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.39773517195614749",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.36650388370278186",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.64560370713756399",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.61778633886415246",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "3.79364609319781820",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.29987222197977204",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.39760667212738143",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "3.79373095746051492",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.29974082329495655",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.39767670097928809",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "3.79368748500617459",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.29987612909296146",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.39766215521495329",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [
+      {
+        "issuer": "issuer-A",
+        "points": [
+          {
+            "anchor": "a0",
+            "centre": [
+              "4",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a1",
+            "centre": [
+              "-4",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a2",
+            "centre": [
+              "0",
+              "-4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a3",
+            "centre": [
+              "3",
+              "4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a4",
+            "centre": [
+              "-3",
+              "4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a5",
+            "centre": [
+              "0",
+              "5"
+            ],
+            "radius": "0"
+          }
+        ]
+      },
+      {
+        "issuer": "issuer-B",
+        "points": [
+          {
+            "anchor": "a0",
+            "centre": [
+              "24/5",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a1",
+            "centre": [
+              "-16/5",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a2",
+            "centre": [
+              "4/5",
+              "-4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a3",
+            "centre": [
+              "19/5",
+              "4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a4",
+            "centre": [
+              "-11/5",
+              "4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a5",
+            "centre": [
+              "4/5",
+              "5"
+            ],
+            "radius": "0"
+          }
+        ]
+      }
+    ],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "25/4",
+    "offers": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1",
+        "anchors": [
+          "a0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5",
+        "anchors": [
+          "a1"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5",
+        "anchors": [
+          "a2"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5",
+        "anchors": [
+          "a4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2",
+        "anchors": [
+          "a5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "independent-source",
+        "kind": "independent-source",
+        "cost": "3/5",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2",
+          "a3",
+          "a4",
+          "a5"
+        ],
+        "issuer": "issuer-new"
+      }
+    ],
+    "baselines": [],
+    "receipts": [
+      {
+        "offer_id": "range-0",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "3.79364609319781820",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "4.29987222197977204",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.39760667212738143",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-1",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "3.79373095746051492",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "4.29974082329495655",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.39767670097928809",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-2",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "3.79368748500617459",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "4.29987612909296146",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.39766215521495329",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      }
+    ],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "decision": {
+    "diagnosis": "structural-ambiguity-at-required-resolution",
+    "witness": {
+      "worlds": [
+        {
+          "target": [
+            "0.256020475090",
+            "-0.611992196374"
+          ],
+          "positions": {
+            "a0": [
+              "4",
+              "0"
+            ],
+            "a1": [
+              "-4",
+              "0"
+            ],
+            "a2": [
+              "0",
+              "-4"
+            ],
+            "a3": [
+              "3",
+              "4"
+            ],
+            "a4": [
+              "-3",
+              "4"
+            ],
+            "a5": [
+              "0",
+              "5"
+            ]
+          }
+        },
+        {
+          "target": [
+            "105602047509/100000000000",
+            "-305996098187/500000000000"
+          ],
+          "positions": {
+            "a0": [
+              "24/5",
+              "0"
+            ],
+            "a1": [
+              "-16/5",
+              "0"
+            ],
+            "a2": [
+              "4/5",
+              "-4"
+            ],
+            "a3": [
+              "19/5",
+              "4"
+            ],
+            "a4": [
+              "-11/5",
+              "4"
+            ],
+            "a5": [
+              "4/5",
+              "5"
+            ]
+          }
+        }
+      ],
+      "diameter_lower": "4/5",
+      "minimax_radius_lower": "2/5",
+      "scope": "exact feasible continuous worlds; not diameter of a finite hypothesis catalog"
+    },
+    "current_basis": {
+      "branches": [
+        {
+          "removed": [
+            "group-A"
+          ],
+          "status": "unresolved",
+          "selected": {
+            "a0": {
+              "anchor": "a0",
+              "centre": [
+                "24/5",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a1": {
+              "anchor": "a1",
+              "centre": [
+                "-16/5",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a2": {
+              "anchor": "a2",
+              "centre": [
+                "4/5",
+                "-4"
+              ],
+              "radius": "0"
+            },
+            "a3": {
+              "anchor": "a3",
+              "centre": [
+                "19/5",
+                "4"
+              ],
+              "radius": "0"
+            },
+            "a4": {
+              "anchor": "a4",
+              "centre": [
+                "-11/5",
+                "4"
+              ],
+              "radius": "0"
+            },
+            "a5": {
+              "anchor": "a5",
+              "centre": [
+                "4/5",
+                "5"
+              ],
+              "radius": "0"
+            }
+          },
+          "measurement_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "model": {
+            "anchors": [
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "-4"
+              ],
+              [
+                "19/5",
+                "4"
+              ],
+              [
+                "-11/5",
+                "4"
+              ],
+              [
+                "4/5",
+                "5"
+              ],
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "-4"
+              ],
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "-4"
+              ],
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "-4"
+              ]
+            ],
+            "radii": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "weights": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "measurements": [
+              "3.79378733639590182",
+              "4.29981301518958769",
+              "3.39773517195614749",
+              "5.36650388370278186",
+              "5.64560370713756399",
+              "5.61778633886415246",
+              "3.79364609319781820",
+              "4.29987222197977204",
+              "3.39760667212738143",
+              "3.79373095746051492",
+              "4.29974082329495655",
+              "3.39767670097928809",
+              "3.79368748500617459",
+              "4.29987612909296146",
+              "3.39766215521495329"
+            ],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "certificate": {
+            "certificate_id": "32770b72da8d4d794cbc75d231a9df7ffea0b24e35b48630f566d88cba7e2662"
+          },
+          "lower": "1187519012522109/1000000000000000",
+          "zeta": "0",
+          "pre_bound": "10000000000000/1187519012522109",
+          "reason": "candidate-not-yet-checked"
+        },
+        {
+          "removed": [
+            "group-B"
+          ],
+          "status": "unresolved",
+          "selected": {
+            "a0": {
+              "anchor": "a0",
+              "centre": [
+                "4",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a1": {
+              "anchor": "a1",
+              "centre": [
+                "-4",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a2": {
+              "anchor": "a2",
+              "centre": [
+                "0",
+                "-4"
+              ],
+              "radius": "0"
+            },
+            "a3": {
+              "anchor": "a3",
+              "centre": [
+                "3",
+                "4"
+              ],
+              "radius": "0"
+            },
+            "a4": {
+              "anchor": "a4",
+              "centre": [
+                "-3",
+                "4"
+              ],
+              "radius": "0"
+            },
+            "a5": {
+              "anchor": "a5",
+              "centre": [
+                "0",
+                "5"
+              ],
+              "radius": "0"
+            }
+          },
+          "measurement_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "model": {
+            "anchors": [
+              [
+                "4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "0",
+                "-4"
+              ],
+              [
+                "3",
+                "4"
+              ],
+              [
+                "-3",
+                "4"
+              ],
+              [
+                "0",
+                "5"
+              ],
+              [
+                "4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "0",
+                "-4"
+              ],
+              [
+                "4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "0",
+                "-4"
+              ],
+              [
+                "4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "0",
+                "-4"
+              ]
+            ],
+            "radii": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "weights": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "measurements": [
+              "3.79378733639590182",
+              "4.29981301518958769",
+              "3.39773517195614749",
+              "5.36650388370278186",
+              "5.64560370713756399",
+              "5.61778633886415246",
+              "3.79364609319781820",
+              "4.29987222197977204",
+              "3.39760667212738143",
+              "3.79373095746051492",
+              "4.29974082329495655",
+              "3.39767670097928809",
+              "3.79368748500617459",
+              "4.29987612909296146",
+              "3.39766215521495329"
+            ],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "certificate": {
+            "certificate_id": "6ac46416e5881d507f387e603fd5014474c74900d98a45f7f592c0dbbf045800"
+          },
+          "lower": "1208621101352977/1000000000000000",
+          "zeta": "0",
+          "pre_bound": "10000000000000/1208621101352977",
+          "reason": "candidate-not-yet-checked"
+        }
+      ],
+      "group_ids": [
+        "group-A",
+        "group-B"
+      ],
+      "discarded_count": 1,
+      "pre_bound": "10000000000000/1187519012522109",
+      "pre_certified": true,
+      "all_branches_empty": false,
+      "scope": "continuous feasible-world outer cover; explicit external trust roots and q/r assumptions"
+    },
+    "scope": "diagnosis requires positive certificate or exact witness; no zero-lower impossibility claim",
+    "action": "abstain",
+    "reason": "ordinary-only-menu-exhausted"
+  }
+}

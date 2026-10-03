@@ -1,0 +1,192 @@
+{
+  "episode_id": "precision-gap-0",
+  "nominal": {
+    "a0": [
+      "4",
+      "0"
+    ],
+    "a1": [
+      "-4",
+      "0"
+    ],
+    "a2": [
+      "0",
+      "4"
+    ],
+    "a3": [
+      "3",
+      "-4"
+    ],
+    "a4": [
+      "-3",
+      "-4"
+    ],
+    "a5": [
+      "0",
+      "-5"
+    ]
+  },
+  "measurements": [
+    {
+      "anchor": "a0",
+      "value": "3.80324086092951674",
+      "weight": "1"
+    },
+    {
+      "anchor": "a1",
+      "value": "4.24842135393219156",
+      "weight": "1"
+    },
+    {
+      "anchor": "a2",
+      "value": "3.55202828320052344",
+      "weight": "1"
+    }
+  ],
+  "hard_refs": [
+    {
+      "anchor": "a0",
+      "centre": [
+        "4",
+        "0"
+      ],
+      "radius": "0",
+      "root": "external-position-instrument"
+    },
+    {
+      "anchor": "a1",
+      "centre": [
+        "-4",
+        "0"
+      ],
+      "radius": "0",
+      "root": "external-position-instrument"
+    },
+    {
+      "anchor": "a2",
+      "centre": [
+        "0",
+        "4"
+      ],
+      "radius": "0",
+      "root": "external-position-instrument"
+    }
+  ],
+  "reports": [],
+  "failure_groups": {
+    "issuer-A": "group-A",
+    "issuer-B": "group-B",
+    "issuer-C": "group-C",
+    "issuer-new": "group-new"
+  },
+  "external_roots": [
+    "external-position-instrument",
+    "external-baseline-instrument"
+  ],
+  "q": 0,
+  "r": 1,
+  "epsilon": "3/200",
+  "tolerance": "1/20",
+  "domain": [
+    "-2",
+    "2",
+    "-2",
+    "2"
+  ],
+  "budget": "7",
+  "offers": [
+    {
+      "id": "range-0",
+      "kind": "ordinary-range",
+      "cost": "1/4",
+      "anchors": [
+        "a0",
+        "a1",
+        "a2"
+      ]
+    },
+    {
+      "id": "range-1",
+      "kind": "ordinary-range",
+      "cost": "1/4",
+      "anchors": [
+        "a0",
+        "a1",
+        "a2"
+      ]
+    },
+    {
+      "id": "range-2",
+      "kind": "ordinary-range",
+      "cost": "1/4",
+      "anchors": [
+        "a0",
+        "a1",
+        "a2"
+      ]
+    },
+    {
+      "id": "baseline",
+      "kind": "baseline",
+      "cost": "1/5",
+      "anchors": [
+        "a0",
+        "a1"
+      ],
+      "root": "external-baseline-instrument"
+    }
+  ],
+  "baselines": [],
+  "receipts": [],
+  "forecast_frames": [
+    {
+      "R": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "t": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "R": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "t": [
+        "4/5",
+        "0"
+      ]
+    },
+    {
+      "R": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "t": [
+        "0",
+        "0"
+      ]
+    }
+  ],
+  "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+}

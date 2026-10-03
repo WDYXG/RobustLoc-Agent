@@ -1,0 +1,647 @@
+{
+  "result": {
+    "episode_id": "frame-without-ranges-3",
+    "scenario": "frame-without-ranges",
+    "method": "random-information",
+    "initially_certified": false,
+    "output": true,
+    "new_certified": true,
+    "information_cost": "23/4",
+    "actions": [
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "unresolved-trust-or-geometry-gap",
+      "certified-at-required-resolution"
+    ],
+    "final_diagnosis": "certified-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": 5.835554403393135e-06,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": null,
+    "diameter_upper": "2565827983753/46470208703783",
+    "reason": null
+  },
+  "observation": {
+    "episode_id": "frame-without-ranges-3",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ],
+      "u0": [
+        "0",
+        "0"
+      ],
+      "u1": [
+        "1",
+        "0"
+      ],
+      "u2": [
+        "0",
+        "1"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "4.13180130190760053",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.92940627415637378",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.50554335274965023",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.46236445508032098",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.34897952801803545",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.49700098464549569",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "4.13186746423635309",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.92937627537949075",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.50544997564091565",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "4.13184624720719995",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.92946551851419024",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.50544255569414709",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "4.13193004771435657",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.92949052747336181",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.50540212697266140",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [
+      {
+        "anchor": "u0",
+        "centre": [
+          "0",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "u1",
+        "centre": [
+          "1",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "u2",
+        "centre": [
+          "0",
+          "1"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a4",
+        "centre": [
+          "-3",
+          "-4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a1",
+        "centre": [
+          "-4",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a5",
+        "centre": [
+          "0",
+          "-5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "reports": [],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "5/4",
+    "offers": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1",
+        "anchors": [
+          "a0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5",
+        "anchors": [
+          "a2"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [
+      {
+        "offer_id": "range-1",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "4.13186746423635309",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "3.92937627537949075",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.50544997564091565",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "ref-a4",
+        "kind": "absolute-reference",
+        "payload": {
+          "points": [
+            {
+              "anchor": "a4",
+              "centre": [
+                "-3",
+                "-4"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-2",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "4.13184624720719995",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "3.92946551851419024",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.50544255569414709",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-0",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "4.13193004771435657",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "3.92949052747336181",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.50540212697266140",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "ref-a1",
+        "kind": "absolute-reference",
+        "payload": {
+          "points": [
+            {
+              "anchor": "a1",
+              "centre": [
+                "-4",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "ref-a5",
+        "kind": "absolute-reference",
+        "payload": {
+          "points": [
+            {
+              "anchor": "a5",
+              "centre": [
+                "0",
+                "-5"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      }
+    ],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "decision": {
+    "action": "recover",
+    "diagnosis": "certified-at-required-resolution",
+    "certificate": {
+      "branches": [
+        {
+          "removed": [],
+          "status": "covered",
+          "selected": {
+            "u0": {
+              "anchor": "u0",
+              "centre": [
+                "0",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "u1": {
+              "anchor": "u1",
+              "centre": [
+                "1",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "u2": {
+              "anchor": "u2",
+              "centre": [
+                "0",
+                "1"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "a4": {
+              "anchor": "a4",
+              "centre": [
+                "-3",
+                "-4"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "a1": {
+              "anchor": "a1",
+              "centre": [
+                "-4",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "a5": {
+              "anchor": "a5",
+              "centre": [
+                "0",
+                "-5"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          },
+          "measurement_indices": [
+            1,
+            4,
+            5,
+            7,
+            10,
+            13
+          ],
+          "model": {
+            "anchors": [
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "-3",
+                "-4"
+              ],
+              [
+                "0",
+                "-5"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ]
+            ],
+            "radii": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "weights": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "measurements": [
+              "3.92940627415637378",
+              "5.34897952801803545",
+              "5.49700098464549569",
+              "3.92937627537949075",
+              "3.92946551851419024",
+              "3.92949052747336181"
+            ],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "certificate": {
+            "certificate_id": "1cb733db2757844957dce238e821e8f880489fdfcb99c36b9e434895cc51b8c5"
+          },
+          "lower": "46470208703783/250000000000000",
+          "zeta": "0",
+          "pre_bound": "2500000000000/46470208703783",
+          "reason": "candidate-not-yet-checked",
+          "centre": [
+            "-0.102005412769",
+            "0.495997819260"
+          ],
+          "residual_upper": "65827983753/500000000000000",
+          "radius": "2565827983753/92940417407566"
+        }
+      ],
+      "group_ids": [],
+      "discarded_count": 0,
+      "pre_bound": "2500000000000/46470208703783",
+      "pre_certified": true,
+      "all_branches_empty": false,
+      "scope": "continuous feasible-world outer cover; explicit external trust roots and q/r assumptions",
+      "position": [
+        "-0.102005412769",
+        "0.495997819260"
+      ],
+      "radius_upper": "2565827983753/92940417407566",
+      "diameter_upper": "2565827983753/46470208703783",
+      "certified": true
+    },
+    "position": [
+      "-0.102005412769",
+      "0.495997819260"
+    ],
+    "radius_upper": "2565827983753/92940417407566"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "config": {
+    "run": "v3c/runs/trust-identifiability-001",
+    "development_seed": 320051,
+    "heldout_seed": 320052,
+    "random_seed": 480052,
+    "episodes_per_scenario": 4,
+    "methods": [
+      "range-only",
+      "random-information",
+      "trust-directed"
+    ],
+    "scenarios": [
+      "no-reference",
+      "one-reference",
+      "two-reflection",
+      "frame-without-ranges",
+      "sparse-q1",
+      "precision-gap",
+      "bounded-references",
+      "two-source-ambiguity",
+      "three-source-majority",
+      "aliases-one-domain",
+      "trust-budget-shortfall",
+      "premise-budget-violated"
+    ],
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "budget": "7",
+    "root_radius": "0",
+    "reference_costs": [
+      "1",
+      "6/5",
+      "7/5",
+      "8/5",
+      "9/5",
+      "2"
+    ],
+    "ordinary_cost": "1/4",
+    "source_cost": "3/5",
+    "baseline_cost": "1/5",
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "solver_max_nfev": 100,
+    "solver_starts": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "-1",
+        "1"
+      ],
+      [
+        "1",
+        "-1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ]
+  },
+  "sources": {
+    "v3c/__init__.py": "bea8ee9826bc53e0f4de54b27839068ead6ba77d2a56ab22d05be63e9f7f19d2",
+    "v3c/AGENTS.md": "3451f94e7166c85766ce38eeaa6ce44f98ed2c15c0f3fd7e1779c113c6627624",
+    "v3c/examples/aliases-one-domain.json": "35f4cb221534c7d24187f59dbc414711926cc2ea13ceb7599b3e81468a569bd7",
+    "v3c/examples/no-reference.json": "0cbda9667b2d1db9f34553b48f63c99b480433797819a8759724a15436c10b9a",
+    "v3c/examples/precision-gap.json": "30900c13534be4450a45787688e6538f73e4450ec83194fab7fef2837c8a1867",
+    "v3c/examples/three-source-majority.json": "84ed7356439c1421ef8aec2946ee83f780fae6a99a7dd088cfe501e250f69e9e",
+    "v3c/examples/two-source-ambiguity.json": "e4113c2a4d0b378d665091f16a5ffac773d86b99f625864c9055db22afd387db",
+    "v3c/PREVIOUS_FREEZE.json": "ec1194485dd01bb652ad12389702beb53dae09331ccb1421935db19a10bd1d3f",
+    "v3c/README.md": "9c118bcdf117c8b64262a7c6a76986c013b07a42cf2ffd8745495f415ede6c56",
+    "v3c/trust_agent/__init__.py": "e4f2d3c34ca0ee810941b1e3d20fd2c284ed7604e26414cf7dbf2165f65f6c1e",
+    "v3c/trust_agent/actions.py": "c03d6e1ef8d2dde7ad82419e9b64e2e7ab24299cf116267529e623d1da9698a8",
+    "v3c/trust_agent/audit.py": "91c8f03eb569369d3c6ec50a0c481a2e89d097b051738fa872f2f9e94028f901",
+    "v3c/trust_agent/cli.py": "41ecd2a2dedb8c7628e51971824cd3f354e5ef779b401348862d540134f62bf2",
+    "v3c/trust_agent/config.json": "dca29124fa9a71a825eb8e6063f631ca0d122c0acdfcbfbc8193ad8d18774c67",
+    "v3c/trust_agent/core.py": "b4ca0d6f68728405eadea84e3444d602cfe814680f7144df86480ddc31cce520",
+    "v3c/trust_agent/freeze.py": "a2600b66117dc8374cfc3b78d5cf0ddb3588222f24aa8a3d73777c646dd6431d",
+    "v3c/trust_agent/LITERATURE_AUDIT.md": "5f024879691b92df62f61bdb37c2deba239623088cfe3dd6494a7e072276b5c2",
+    "v3c/trust_agent/policy.py": "24a2876d50f2cf2edb7e7ef6bda60ceeed0ab31c6afae1573f86421c4ffcd375",
+    "v3c/trust_agent/reporting.py": "903baa4c69999ed61f4c41ebc90aeafd9d5e927fe2a6f06261800d3ad735076a",
+    "v3c/trust_agent/run.py": "df1ec96d9903f51aba1643fa41615cbdba86b9ee8b21f9a40b06b637c3bcbe0a",
+    "v3c/trust_agent/simulator.py": "e4fa8f9bc8ce8232139774d8b0fcc908c2e3a7cb7805a7588902c5bfc73b928a",
+    "v3c/trust_agent/SPEC.md": "b34a3381f367837294348689c16423bb6cef6c1fae0480f3e0ea39483e51b3f2",
+    "v3c/trust_agent/tasks.py": "ca6c6308a1dc7bd7cc43e9ba2197103c0640bbc0e26f3499d1cb299f6dc25fe1",
+    "v3c/trust_agent/tests/__init__.py": "03780bc65ff87314ebe67a99c57851595e047a94a22ac80868da373ec97c83cb",
+    "v3c/trust_agent/tests/test_trust.py": "bee8e936a8ea1945ff4d34ce6a98c6c674ab18250e5640d396759345c3628554",
+    "v3c/trust_agent/THEORY.md": "10755810fd9ac149d7a487eaebd8555c39b34e207a86d8bf7a38ae0c1516fbd6",
+    "v3c/trust_agent/verifier.py": "b13a4d6bf3f56fa79959e5a6ae221554cd392c43b37192cca51f0c9a0af70dbb",
+    "v3c/trust_agent/witnesses.py": "b9b7bd1e2b4aa54e7f99f697e57f35eb14ff5e760581d9dc58ccb053aa0ed686"
+  },
+  "previous_files": 2855,
+  "python": "3.12.14",
+  "evaluation": "source/config/seed frozen before held-out; no post-heldout tuning"
+}

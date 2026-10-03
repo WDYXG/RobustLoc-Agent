@@ -1,0 +1,25 @@
+{
+  "run": "v3c/runs/trust-identifiability-001",
+  "development_seed": 320051,
+  "heldout_seed": 320052,
+  "random_seed": 480052,
+  "episodes_per_scenario": 4,
+  "methods": ["range-only", "random-information", "trust-directed"],
+  "scenarios": ["no-reference", "one-reference", "two-reflection", "frame-without-ranges", "sparse-q1", "precision-gap", "bounded-references", "two-source-ambiguity", "three-source-majority", "aliases-one-domain", "trust-budget-shortfall", "premise-budget-violated"],
+  "domain": ["-2", "2", "-2", "2"],
+  "epsilon": "1/200",
+  "tolerance": "1/10",
+  "budget": "7",
+  "root_radius": "0",
+  "reference_costs": ["1", "6/5", "7/5", "8/5", "9/5", "2"],
+  "ordinary_cost": "1/4",
+  "source_cost": "3/5",
+  "baseline_cost": "1/5",
+  "forecast_frames": [
+    {"R": [["1","0"],["0","1"]], "t": ["0","0"]},
+    {"R": [["1","0"],["0","1"]], "t": ["4/5","0"]},
+    {"R": [["1","0"],["0","-1"]], "t": ["0","0"]}
+  ],
+  "solver_max_nfev": 100,
+  "solver_starts": [["0","0"],["-1","-1"],["-1","1"],["1","-1"],["1","1"]]
+}

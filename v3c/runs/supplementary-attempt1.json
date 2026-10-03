@@ -1,0 +1,7 @@
+{
+  "stage": "post-heldout diagnostic script",
+  "passed": false,
+  "error": "KeyError: anchor; offers use an anchors array",
+  "diagnostic_source_sha256": "824b359068dd2fcd1de18c0a25e5ba5cf593d250a35a8f7dfd38480516bf9fbe",
+  "impact": "no frozen source or experiment changed"
+}

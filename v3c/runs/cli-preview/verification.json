@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "action": "acquire-information",
+  "diagnosis": "structural-ambiguity-at-required-resolution",
+  "minimum_bundle": [
+    "ref-a0",
+    "ref-a1",
+    "ref-a2"
+  ],
+  "minimum_cost": "18/5",
+  "structural_minimax_lower": "1/2",
+  "prior_files": 2855,
+  "source_file_count": 28,
+  "scope": "actual CLI execution, exact witness and complete finite cost enumeration"
+}

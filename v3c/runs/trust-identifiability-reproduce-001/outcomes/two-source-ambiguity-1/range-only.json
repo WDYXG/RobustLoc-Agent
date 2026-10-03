@@ -1,0 +1,989 @@
+{
+  "result": {
+    "episode_id": "two-source-ambiguity-1",
+    "scenario": "two-source-ambiguity",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "4/5",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  "observation": {
+    "episode_id": "two-source-ambiguity-1",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "4.11781643995156799",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.97944532300380205",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.37468749781695587",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.55201734198828767",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.47585802344633876",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.62642684784617231",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "4.11780770523885487",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.97955562119579520",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.37473823852630472",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "4.11780927045284351",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.97957745996290768",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.37467205908377954",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "4.11778838164696115",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "3.97962134029131143",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.37475678142978719",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [
+      {
+        "issuer": "issuer-A",
+        "points": [
+          {
+            "anchor": "a0",
+            "centre": [
+              "24/5",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a1",
+            "centre": [
+              "-16/5",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a2",
+            "centre": [
+              "4/5",
+              "4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a3",
+            "centre": [
+              "19/5",
+              "-4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a4",
+            "centre": [
+              "-11/5",
+              "-4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a5",
+            "centre": [
+              "4/5",
+              "-5"
+            ],
+            "radius": "0"
+          }
+        ]
+      },
+      {
+        "issuer": "issuer-B",
+        "points": [
+          {
+            "anchor": "a0",
+            "centre": [
+              "28/5",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a1",
+            "centre": [
+              "-12/5",
+              "0"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a2",
+            "centre": [
+              "8/5",
+              "4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a3",
+            "centre": [
+              "23/5",
+              "-4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a4",
+            "centre": [
+              "-7/5",
+              "-4"
+            ],
+            "radius": "0"
+          },
+          {
+            "anchor": "a5",
+            "centre": [
+              "8/5",
+              "-5"
+            ],
+            "radius": "0"
+          }
+        ]
+      }
+    ],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "25/4",
+    "offers": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1",
+        "anchors": [
+          "a0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5",
+        "anchors": [
+          "a1"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5",
+        "anchors": [
+          "a2"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5",
+        "anchors": [
+          "a4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2",
+        "anchors": [
+          "a5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "independent-source",
+        "kind": "independent-source",
+        "cost": "3/5",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2",
+          "a3",
+          "a4",
+          "a5"
+        ],
+        "issuer": "issuer-new"
+      }
+    ],
+    "baselines": [],
+    "receipts": [
+      {
+        "offer_id": "range-0",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "4.11780770523885487",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "3.97955562119579520",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.37473823852630472",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-1",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "4.11780927045284351",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "3.97957745996290768",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.37467205908377954",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-2",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "4.11778838164696115",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "3.97962134029131143",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.37475678142978719",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      }
+    ],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "decision": {
+    "diagnosis": "structural-ambiguity-at-required-resolution",
+    "witness": {
+      "worlds": [
+        {
+          "target": [
+            "0.730029208520",
+            "0.626005510939"
+          ],
+          "positions": {
+            "a0": [
+              "24/5",
+              "0"
+            ],
+            "a1": [
+              "-16/5",
+              "0"
+            ],
+            "a2": [
+              "4/5",
+              "4"
+            ],
+            "a3": [
+              "19/5",
+              "-4"
+            ],
+            "a4": [
+              "-11/5",
+              "-4"
+            ],
+            "a5": [
+              "4/5",
+              "-5"
+            ]
+          }
+        },
+        {
+          "target": [
+            "38250730213/25000000000",
+            "626005510939/1000000000000"
+          ],
+          "positions": {
+            "a0": [
+              "28/5",
+              "0"
+            ],
+            "a1": [
+              "-12/5",
+              "0"
+            ],
+            "a2": [
+              "8/5",
+              "4"
+            ],
+            "a3": [
+              "23/5",
+              "-4"
+            ],
+            "a4": [
+              "-7/5",
+              "-4"
+            ],
+            "a5": [
+              "8/5",
+              "-5"
+            ]
+          }
+        }
+      ],
+      "diameter_lower": "4/5",
+      "minimax_radius_lower": "2/5",
+      "scope": "exact feasible continuous worlds; not diameter of a finite hypothesis catalog"
+    },
+    "current_basis": {
+      "branches": [
+        {
+          "removed": [
+            "group-A"
+          ],
+          "status": "unresolved",
+          "selected": {
+            "a0": {
+              "anchor": "a0",
+              "centre": [
+                "28/5",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a1": {
+              "anchor": "a1",
+              "centre": [
+                "-12/5",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a2": {
+              "anchor": "a2",
+              "centre": [
+                "8/5",
+                "4"
+              ],
+              "radius": "0"
+            },
+            "a3": {
+              "anchor": "a3",
+              "centre": [
+                "23/5",
+                "-4"
+              ],
+              "radius": "0"
+            },
+            "a4": {
+              "anchor": "a4",
+              "centre": [
+                "-7/5",
+                "-4"
+              ],
+              "radius": "0"
+            },
+            "a5": {
+              "anchor": "a5",
+              "centre": [
+                "8/5",
+                "-5"
+              ],
+              "radius": "0"
+            }
+          },
+          "measurement_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "model": {
+            "anchors": [
+              [
+                "28/5",
+                "0"
+              ],
+              [
+                "-12/5",
+                "0"
+              ],
+              [
+                "8/5",
+                "4"
+              ],
+              [
+                "23/5",
+                "-4"
+              ],
+              [
+                "-7/5",
+                "-4"
+              ],
+              [
+                "8/5",
+                "-5"
+              ],
+              [
+                "28/5",
+                "0"
+              ],
+              [
+                "-12/5",
+                "0"
+              ],
+              [
+                "8/5",
+                "4"
+              ],
+              [
+                "28/5",
+                "0"
+              ],
+              [
+                "-12/5",
+                "0"
+              ],
+              [
+                "8/5",
+                "4"
+              ],
+              [
+                "28/5",
+                "0"
+              ],
+              [
+                "-12/5",
+                "0"
+              ],
+              [
+                "8/5",
+                "4"
+              ]
+            ],
+            "radii": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "weights": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "measurements": [
+              "4.11781643995156799",
+              "3.97944532300380205",
+              "3.37468749781695587",
+              "5.55201734198828767",
+              "5.47585802344633876",
+              "5.62642684784617231",
+              "4.11780770523885487",
+              "3.97955562119579520",
+              "3.37473823852630472",
+              "4.11780927045284351",
+              "3.97957745996290768",
+              "3.37467205908377954",
+              "4.11778838164696115",
+              "3.97962134029131143",
+              "3.37475678142978719"
+            ],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "certificate": {
+            "certificate_id": "34b9f7036f7e85f97185cd299618a4bea928faedb61e116827c7ff282e84f9d8"
+          },
+          "lower": "290465182203501/250000000000000",
+          "zeta": "0",
+          "pre_bound": "2500000000000/290465182203501",
+          "reason": "candidate-not-yet-checked"
+        },
+        {
+          "removed": [
+            "group-B"
+          ],
+          "status": "unresolved",
+          "selected": {
+            "a0": {
+              "anchor": "a0",
+              "centre": [
+                "24/5",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a1": {
+              "anchor": "a1",
+              "centre": [
+                "-16/5",
+                "0"
+              ],
+              "radius": "0"
+            },
+            "a2": {
+              "anchor": "a2",
+              "centre": [
+                "4/5",
+                "4"
+              ],
+              "radius": "0"
+            },
+            "a3": {
+              "anchor": "a3",
+              "centre": [
+                "19/5",
+                "-4"
+              ],
+              "radius": "0"
+            },
+            "a4": {
+              "anchor": "a4",
+              "centre": [
+                "-11/5",
+                "-4"
+              ],
+              "radius": "0"
+            },
+            "a5": {
+              "anchor": "a5",
+              "centre": [
+                "4/5",
+                "-5"
+              ],
+              "radius": "0"
+            }
+          },
+          "measurement_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "model": {
+            "anchors": [
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "4"
+              ],
+              [
+                "19/5",
+                "-4"
+              ],
+              [
+                "-11/5",
+                "-4"
+              ],
+              [
+                "4/5",
+                "-5"
+              ],
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "4"
+              ],
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "4"
+              ],
+              [
+                "24/5",
+                "0"
+              ],
+              [
+                "-16/5",
+                "0"
+              ],
+              [
+                "4/5",
+                "4"
+              ]
+            ],
+            "radii": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "weights": [
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "measurements": [
+              "4.11781643995156799",
+              "3.97944532300380205",
+              "3.37468749781695587",
+              "5.55201734198828767",
+              "5.47585802344633876",
+              "5.62642684784617231",
+              "4.11780770523885487",
+              "3.97955562119579520",
+              "3.37473823852630472",
+              "4.11780927045284351",
+              "3.97957745996290768",
+              "3.37467205908377954",
+              "4.11778838164696115",
+              "3.97962134029131143",
+              "3.37475678142978719"
+            ],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "certificate": {
+            "certificate_id": "a38e69ca1eef9f5ef520abf5f7a479bf28b8afbf0610ac1bbaa0e064a1422b5c"
+          },
+          "lower": "1187519012522109/1000000000000000",
+          "zeta": "0",
+          "pre_bound": "10000000000000/1187519012522109",
+          "reason": "candidate-not-yet-checked"
+        }
+      ],
+      "group_ids": [
+        "group-A",
+        "group-B"
+      ],
+      "discarded_count": 1,
+      "pre_bound": "2500000000000/290465182203501",
+      "pre_certified": true,
+      "all_branches_empty": false,
+      "scope": "continuous feasible-world outer cover; explicit external trust roots and q/r assumptions"
+    },
+    "scope": "diagnosis requires positive certificate or exact witness; no zero-lower impossibility claim",
+    "action": "abstain",
+    "reason": "ordinary-only-menu-exhausted"
+  }
+}

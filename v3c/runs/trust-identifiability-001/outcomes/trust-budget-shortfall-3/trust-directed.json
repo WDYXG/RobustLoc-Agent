@@ -1,0 +1,971 @@
+{
+  "result": {
+    "episode_id": "trust-budget-shortfall-3",
+    "scenario": "trust-budget-shortfall",
+    "method": "trust-directed",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "0",
+    "actions": [],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu"
+  },
+  "observation": {
+    "episode_id": "trust-budget-shortfall-3",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "3.96585814475985954",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.17432212103907041",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.24976192896024241",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.56385846188807509",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.67699751986043477",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.75290466698488867",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "1",
+    "offers": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1",
+        "anchors": [
+          "a0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5",
+        "anchors": [
+          "a1"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5",
+        "anchors": [
+          "a2"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5",
+        "anchors": [
+          "a4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2",
+        "anchors": [
+          "a5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "decision": {
+    "diagnosis": "structural-ambiguity-at-required-resolution",
+    "witness": {
+      "worlds": [
+        {
+          "target": [
+            "0.106041026506",
+            "0.751952665330"
+          ],
+          "positions": {
+            "a0": [
+              "4",
+              "0"
+            ],
+            "a1": [
+              "-4",
+              "0"
+            ],
+            "a2": [
+              "0",
+              "4"
+            ],
+            "a3": [
+              "3",
+              "-4"
+            ],
+            "a4": [
+              "-3",
+              "-4"
+            ],
+            "a5": [
+              "0",
+              "-5"
+            ]
+          }
+        },
+        {
+          "target": [
+            "553020513253/500000000000",
+            "75195266533/100000000000"
+          ],
+          "positions": {
+            "a0": [
+              "5",
+              "0"
+            ],
+            "a1": [
+              "-3",
+              "0"
+            ],
+            "a2": [
+              "1",
+              "4"
+            ],
+            "a3": [
+              "4",
+              "-4"
+            ],
+            "a4": [
+              "-2",
+              "-4"
+            ],
+            "a5": [
+              "1",
+              "-5"
+            ]
+          }
+        }
+      ],
+      "diameter_lower": "1",
+      "minimax_radius_lower": "1/2",
+      "scope": "exact feasible continuous worlds; not diameter of a finite hypothesis catalog"
+    },
+    "current_basis": {
+      "branches": [
+        {
+          "removed": [],
+          "status": "unresolved",
+          "selected": {},
+          "measurement_indices": [],
+          "model": {
+            "anchors": [],
+            "radii": [],
+            "weights": [],
+            "measurements": [],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "reason": "no-measured-trusted-reference"
+        }
+      ],
+      "group_ids": [],
+      "discarded_count": 0,
+      "pre_bound": null,
+      "pre_certified": false,
+      "all_branches_empty": false,
+      "scope": "continuous feasible-world outer cover; explicit external trust roots and q/r assumptions"
+    },
+    "scope": "diagnosis requires positive certificate or exact witness; no zero-lower impossibility claim",
+    "action": "abstain",
+    "reason": "no-sufficient-bundle-in-finite-forecast-menu",
+    "frontier": {
+      "rows": [
+        {
+          "ids": [],
+          "cost": "0",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0"
+          ],
+          "cost": "1/4",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-1"
+          ],
+          "cost": "1/4",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-2"
+          ],
+          "cost": "1/4",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "baseline"
+          ],
+          "cost": "1/5",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "ref-a0"
+          ],
+          "cost": "1",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "range-1"
+          ],
+          "cost": "1/2",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "range-2"
+          ],
+          "cost": "1/2",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "baseline"
+          ],
+          "cost": "9/20",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-1",
+            "range-2"
+          ],
+          "cost": "1/2",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-1",
+            "baseline"
+          ],
+          "cost": "9/20",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-2",
+            "baseline"
+          ],
+          "cost": "9/20",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "range-1",
+            "range-2"
+          ],
+          "cost": "3/4",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "range-1",
+            "baseline"
+          ],
+          "cost": "7/10",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "range-2",
+            "baseline"
+          ],
+          "cost": "7/10",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-1",
+            "range-2",
+            "baseline"
+          ],
+          "cost": "7/10",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        },
+        {
+          "ids": [
+            "range-0",
+            "range-1",
+            "range-2",
+            "baseline"
+          ],
+          "cost": "19/20",
+          "certified": false,
+          "forecast_results": [
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            },
+            {
+              "safe": false,
+              "empty": false,
+              "bound": null,
+              "branches": 1,
+              "alive": 1,
+              "common_outer_model": true
+            }
+          ],
+          "excluded_proved_empty_forecasts": 0
+        }
+      ],
+      "minimum_sufficient_bundle": null,
+      "scope": "exact finite bundle cost minimum for this sufficient common-model pre-gate and declared finite forecasts; not a continuous optimal trust theorem"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+"""Post-evaluation diagnostic; does not change the frozen agent or experiment."""
+import sys
+from copy import deepcopy
+from pathlib import Path
+from fractions import Fraction as F
+
+ROOT=Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(ROOT))
+from v3b.assumption_agent.storage import read,save
+from v3c.trust_agent.simulator import make,service
+from v3c.trust_agent.actions import apply
+from v3c.trust_agent.core import basis,recover
+from v3c.trust_agent.verifier import verify_cover
+from v3c.trust_agent.freeze import sources,digest,check
+
+cfg=read(ROOT/'v3c/trust_agent/config.json')
+dest=ROOT/'v3c/runs/supplementary'
+if dest.exists(): raise RuntimeError('supplementary results already exist')
+manifest=read(ROOT/'v3c/runs/trust-identifiability-001/manifest.json')
+assert manifest['sources']==sources()
+obs,_=make('three-source-majority',0,cfg,cfg['development_seed'])
+good=obs['reports'][0]['points']; bad=obs['reports'][1]['points']
+probes=[]
+for r in (1,2):
+    for M in (2*r,2*r+1):
+        s=deepcopy(obs); s['r']=r; s['reports']=[]; s['failure_groups']={}
+        for i in range(M):
+            issuer='probe-'+str(i); s['failure_groups'][issuer]=issuer
+            s['reports'].append(dict(issuer=issuer,points=deepcopy(bad if i<r else good)))
+        c=recover(s,cfg)
+        if c.get('certified'): verify_cover(s,c)
+        assert bool(c.get('certified'))==(M==2*r+1)
+        probes.append(dict(r=r,groups=M,observation=s,certificate=c,independent_cover_verified=bool(c.get('certified'))))
+
+# Expose incompleteness of the all-measurement sufficient gate. Additional
+# uncertain references should not be confused with physical impossibility.
+s,p=make('bounded-references',0,cfg,cfg['development_seed'])
+cost=F(0)
+for aid in ('a0','a1','a2'):
+    offer=next(o for o in s['offers'] if o['kind']=='absolute-reference' and o['anchor']==aid)
+    cost+=F(offer['cost']); s=apply(s,offer,service(s,offer,p))
+all_measurements=basis(s)
+subset=deepcopy(s)
+subset['hard_refs']=[a for a in s['hard_refs'] if a['anchor'] in ('a0','a1','a2') and F(a['radius'])==0]
+subset['measurements']=[m for m in s['measurements'] if m['anchor'] in ('a0','a1','a2')]
+c=recover(subset,cfg)
+assert c.get('certified') and not all_measurements['pre_certified']
+# Crucial: validate against the ORIGINAL delivered observation, not only the
+# reduced problem. The consumer allows any supported conservative subset.
+U=verify_cover(s,c)
+save(dest/'results.json',dict(timing='post-heldout diagnostic on development seed; no policy/config changes',
+    source_redundancy=probes,
+    sufficient_gate_incompleteness=dict(status='numerically-supported',observation=s,cost=str(cost),
+        frozen_all_measurement_basis=all_measurements,alternative_subset_certificate=c,
+        independently_verified_on_original_observation=True,radius_upper=str(U),
+        claim='failure of the frozen all-measurement generator does not imply absence of a valid subset certificate; finite minimum is relative to its sufficient pre-gate'),
+    previous_files_unchanged=check(),original_sources_unchanged=manifest['sources']==sources(),
+    diagnostic_source_sha256=digest(Path(__file__))))
+print('source probes independently checked; bounded-reference subset certificate cost',cost,'radius',float(U))

@@ -1,0 +1,789 @@
+{
+  "in_contract": {
+    "range-only": {
+      "episodes": 44,
+      "outputs": 8,
+      "new_certified": 4,
+      "information_cost": "27",
+      "new_per_cost": 0.14814814814814814,
+      "wrong_outputs": 0,
+      "bound_violations": 0,
+      "coverage": 0.18181818181818182,
+      "action_mix": {
+        "ordinary-range": 108
+      },
+      "final_diagnoses": {
+        "structural-ambiguity-at-required-resolution": 32,
+        "certified-at-required-resolution": 8,
+        "unresolved-trust-or-geometry-gap": 4
+      },
+      "failures": {
+        "ordinary-only-menu-exhausted": 32,
+        "no-affordable-certificate-capable-information": 4
+      }
+    },
+    "random-information": {
+      "episodes": 44,
+      "outputs": 30,
+      "new_certified": 26,
+      "information_cost": "1239/10",
+      "new_per_cost": 0.20984665052461662,
+      "wrong_outputs": 0,
+      "bound_violations": 0,
+      "coverage": 0.6818181818181818,
+      "action_mix": {
+        "absolute-reference": 72,
+        "ordinary-range": 58,
+        "baseline": 17
+      },
+      "final_diagnoses": {
+        "certified-at-required-resolution": 30,
+        "unresolved-trust-or-geometry-gap": 6,
+        "structural-ambiguity-at-required-resolution": 8
+      },
+      "failures": {
+        "no-affordable-certificate-capable-information": 14
+      }
+    },
+    "trust-directed": {
+      "episodes": 44,
+      "outputs": 32,
+      "new_certified": 28,
+      "information_cost": "323/5",
+      "new_per_cost": 0.43343653250773995,
+      "wrong_outputs": 0,
+      "bound_violations": 0,
+      "coverage": 0.7272727272727273,
+      "action_mix": {
+        "absolute-reference": 48,
+        "ordinary-range": 12,
+        "independent-source": 4
+      },
+      "final_diagnoses": {
+        "certified-at-required-resolution": 32,
+        "unresolved-trust-or-geometry-gap": 4,
+        "structural-ambiguity-at-required-resolution": 8
+      },
+      "failures": {
+        "no-sufficient-bundle-in-finite-forecast-menu": 12
+      }
+    }
+  },
+  "out_of_contract": {
+    "range-only": {
+      "episodes": 4,
+      "outputs": 4,
+      "new_certified": 0,
+      "information_cost": "0",
+      "new_per_cost": null,
+      "wrong_outputs": 4,
+      "bound_violations": 4,
+      "coverage": 1.0,
+      "action_mix": {},
+      "final_diagnoses": {
+        "certified-at-required-resolution": 4
+      },
+      "failures": {}
+    },
+    "random-information": {
+      "episodes": 4,
+      "outputs": 4,
+      "new_certified": 0,
+      "information_cost": "0",
+      "new_per_cost": null,
+      "wrong_outputs": 4,
+      "bound_violations": 4,
+      "coverage": 1.0,
+      "action_mix": {},
+      "final_diagnoses": {
+        "certified-at-required-resolution": 4
+      },
+      "failures": {}
+    },
+    "trust-directed": {
+      "episodes": 4,
+      "outputs": 4,
+      "new_certified": 0,
+      "information_cost": "0",
+      "new_per_cost": null,
+      "wrong_outputs": 4,
+      "bound_violations": 4,
+      "coverage": 1.0,
+      "action_mix": {},
+      "final_diagnoses": {
+        "certified-at-required-resolution": 4
+      },
+      "failures": {}
+    }
+  },
+  "scenarios": {
+    "no-reference": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "399/20",
+        "new_per_cost": 0.20050125313283207,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 12,
+          "ordinary-range": 7,
+          "baseline": 2
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "72/5",
+        "new_per_cost": 0.2777777777777778,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 12
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "one-reference": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "13",
+        "new_per_cost": 0.3076923076923077,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "ordinary-range": 4,
+          "absolute-reference": 8,
+          "baseline": 1
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "52/5",
+        "new_per_cost": 0.38461538461538464,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 8
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "two-reflection": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "163/20",
+        "new_per_cost": 0.49079754601226994,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "baseline": 3,
+          "absolute-reference": 4,
+          "ordinary-range": 3
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "28/5",
+        "new_per_cost": 0.7142857142857143,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 4
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "frame-without-ranges": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "101/5",
+        "new_per_cost": 0.19801980198019803,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 12,
+          "ordinary-range": 4,
+          "baseline": 1
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "72/5",
+        "new_per_cost": 0.2777777777777778,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 12
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "sparse-q1": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 2,
+        "new_certified": 2,
+        "information_cost": "221/10",
+        "new_per_cost": 0.09049773755656108,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.5,
+        "action_mix": {
+          "absolute-reference": 14,
+          "baseline": 4,
+          "ordinary-range": 10
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 2,
+          "unresolved-trust-or-geometry-gap": 2
+        },
+        "failures": {
+          "no-affordable-certificate-capable-information": 2
+        }
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "82/5",
+        "new_per_cost": 0.24390243902439024,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 12,
+          "ordinary-range": 8
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "precision-gap": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "1",
+        "new_per_cost": 4.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "ordinary-range": 4
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "1",
+        "new_per_cost": 4.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "ordinary-range": 4
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "1",
+        "new_per_cost": 4.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "ordinary-range": 4
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "bounded-references": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "unresolved-trust-or-geometry-gap": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "137/5",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "absolute-reference": 16,
+          "ordinary-range": 12,
+          "baseline": 3
+        },
+        "final_diagnoses": {
+          "unresolved-trust-or-geometry-gap": 4
+        },
+        "failures": {
+          "no-affordable-certificate-capable-information": 4
+        }
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "unresolved-trust-or-geometry-gap": 4
+        },
+        "failures": {
+          "no-sufficient-bundle-in-finite-forecast-menu": 4
+        }
+      }
+    },
+    "two-source-ambiguity": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "25/4",
+        "new_per_cost": 0.64,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "absolute-reference": 4,
+          "ordinary-range": 1
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 4,
+        "information_cost": "12/5",
+        "new_per_cost": 1.6666666666666667,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {
+          "independent-source": 4
+        },
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "three-source-majority": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 1.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    },
+    "aliases-one-domain": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "2",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 8
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "no-affordable-certificate-capable-information": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "39/20",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 7,
+          "baseline": 1
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "no-affordable-certificate-capable-information": 4
+        }
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "no-sufficient-bundle-in-finite-forecast-menu": 4
+        }
+      }
+    },
+    "trust-budget-shortfall": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "3",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 12
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "ordinary-only-menu-exhausted": 4
+        }
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "39/10",
+        "new_per_cost": 0.0,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {
+          "ordinary-range": 6,
+          "baseline": 2,
+          "absolute-reference": 2
+        },
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "no-affordable-certificate-capable-information": 4
+        }
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 0,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 0,
+        "bound_violations": 0,
+        "coverage": 0.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "structural-ambiguity-at-required-resolution": 4
+        },
+        "failures": {
+          "no-sufficient-bundle-in-finite-forecast-menu": 4
+        }
+      }
+    },
+    "premise-budget-violated": {
+      "range-only": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 4,
+        "bound_violations": 4,
+        "coverage": 1.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "random-information": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 4,
+        "bound_violations": 4,
+        "coverage": 1.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      },
+      "trust-directed": {
+        "episodes": 4,
+        "outputs": 4,
+        "new_certified": 0,
+        "information_cost": "0",
+        "new_per_cost": null,
+        "wrong_outputs": 4,
+        "bound_violations": 4,
+        "coverage": 1.0,
+        "action_mix": {},
+        "final_diagnoses": {
+          "certified-at-required-resolution": 4
+        },
+        "failures": {}
+      }
+    }
+  }
+}

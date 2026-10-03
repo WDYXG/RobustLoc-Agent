@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "byte_identical_files": 395,
+  "excluded_runtime_files": [
+    "completion.json",
+    "output_hashes.json"
+  ],
+  "differences": [],
+  "previous_files_unchanged": 2855,
+  "frozen_sources_unchanged": true,
+  "tests": {
+    "command": "python -m pytest tests v2 v3/certified_agent/tests v3b/assumption_agent/tests v3c/trust_agent/tests -q",
+    "passed": 113,
+    "seconds": 23.65
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.15.1",
+    "matplotlib": "3.10.0",
+    "pytest": "9.1.1"
+  },
+  "primary_audit": {
+    "passed": true,
+    "previous_files_unchanged": 2855,
+    "method_episodes": 144,
+    "history_events": 463,
+    "mathematical_certificates": 144,
+    "positive_continuous_covers": 82,
+    "structural_witnesses_verified": 280,
+    "finite_minimum_frontiers_verified": 76,
+    "exact_counterexamples": 5,
+    "in_contract_bound_violations": 0,
+    "out_of_contract_bound_violations": 12,
+    "scope": "independent math consumers and complete-cost enumeration; frozen simulation replay; no physical root verification"
+  },
+  "reproduction_audit": {
+    "passed": true,
+    "previous_files_unchanged": 2855,
+    "method_episodes": 144,
+    "history_events": 463,
+    "mathematical_certificates": 144,
+    "positive_continuous_covers": 82,
+    "structural_witnesses_verified": 280,
+    "finite_minimum_frontiers_verified": 76,
+    "exact_counterexamples": 5,
+    "in_contract_bound_violations": 0,
+    "out_of_contract_bound_violations": 12,
+    "scope": "independent math consumers and complete-cost enumeration; frozen simulation replay; no physical root verification"
+  },
+  "supplemental_scope": "post-heldout diagnostic retained separately; no evaluation source/config or outputs modified"
+}

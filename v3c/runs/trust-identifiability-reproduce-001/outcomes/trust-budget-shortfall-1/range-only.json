@@ -1,0 +1,479 @@
+{
+  "result": {
+    "episode_id": "trust-budget-shortfall-1",
+    "scenario": "trust-budget-shortfall",
+    "method": "range-only",
+    "initially_certified": false,
+    "output": false,
+    "new_certified": false,
+    "information_cost": "3/4",
+    "actions": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4"
+      }
+    ],
+    "diagnoses": [
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution",
+      "structural-ambiguity-at-required-resolution"
+    ],
+    "final_diagnosis": "structural-ambiguity-at-required-resolution",
+    "contract_valid": true,
+    "intended_in_contract": true,
+    "error": null,
+    "wrong_output": false,
+    "bound_violation": false,
+    "diameter_lower": "1",
+    "diameter_upper": null,
+    "reason": "ordinary-only-menu-exhausted"
+  },
+  "observation": {
+    "episode_id": "trust-budget-shortfall-1",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "3.88491156878513966",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.17860047272982982",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.49920597352218232",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.33104948415893976",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.49507714871756825",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.50606510089228163",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "3.88486112185431587",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.17842000299214700",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.49915643113055541",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "3.88487498980289558",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.17842797028906343",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.49907076403934791",
+        "weight": "1"
+      },
+      {
+        "anchor": "a0",
+        "value": "3.88477145377474020",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.17851868160937645",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.49920475372981077",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "1/4",
+    "offers": [
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1",
+        "anchors": [
+          "a0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5",
+        "anchors": [
+          "a1"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5",
+        "anchors": [
+          "a2"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5",
+        "anchors": [
+          "a4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2",
+        "anchors": [
+          "a5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [
+      {
+        "offer_id": "range-0",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "3.88486112185431587",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "4.17842000299214700",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.49915643113055541",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-1",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "3.88487498980289558",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "4.17842797028906343",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.49907076403934791",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "range-2",
+        "kind": "ordinary-range",
+        "payload": {
+          "measurements": [
+            {
+              "anchor": "a0",
+              "value": "3.88477145377474020",
+              "weight": "1"
+            },
+            {
+              "anchor": "a1",
+              "value": "4.17851868160937645",
+              "weight": "1"
+            },
+            {
+              "anchor": "a2",
+              "value": "3.49920475372981077",
+              "weight": "1"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      }
+    ],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "decision": {
+    "diagnosis": "structural-ambiguity-at-required-resolution",
+    "witness": {
+      "worlds": [
+        {
+          "target": [
+            "0.147981755956",
+            "0.503996077898"
+          ],
+          "positions": {
+            "a0": [
+              "4",
+              "0"
+            ],
+            "a1": [
+              "-4",
+              "0"
+            ],
+            "a2": [
+              "0",
+              "4"
+            ],
+            "a3": [
+              "3",
+              "-4"
+            ],
+            "a4": [
+              "-3",
+              "-4"
+            ],
+            "a5": [
+              "0",
+              "-5"
+            ]
+          }
+        },
+        {
+          "target": [
+            "286995438989/250000000000",
+            "251998038949/500000000000"
+          ],
+          "positions": {
+            "a0": [
+              "5",
+              "0"
+            ],
+            "a1": [
+              "-3",
+              "0"
+            ],
+            "a2": [
+              "1",
+              "4"
+            ],
+            "a3": [
+              "4",
+              "-4"
+            ],
+            "a4": [
+              "-2",
+              "-4"
+            ],
+            "a5": [
+              "1",
+              "-5"
+            ]
+          }
+        }
+      ],
+      "diameter_lower": "1",
+      "minimax_radius_lower": "1/2",
+      "scope": "exact feasible continuous worlds; not diameter of a finite hypothesis catalog"
+    },
+    "current_basis": {
+      "branches": [
+        {
+          "removed": [],
+          "status": "unresolved",
+          "selected": {},
+          "measurement_indices": [],
+          "model": {
+            "anchors": [],
+            "radii": [],
+            "weights": [],
+            "measurements": [],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "reason": "no-measured-trusted-reference"
+        }
+      ],
+      "group_ids": [],
+      "discarded_count": 0,
+      "pre_bound": null,
+      "pre_certified": false,
+      "all_branches_empty": false,
+      "scope": "continuous feasible-world outer cover; explicit external trust roots and q/r assumptions"
+    },
+    "scope": "diagnosis requires positive certificate or exact witness; no zero-lower impossibility claim",
+    "action": "abstain",
+    "reason": "ordinary-only-menu-exhausted"
+  }
+}
