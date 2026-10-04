@@ -1,0 +1,93 @@
+[
+  {
+    "id": "K1",
+    "status": "known",
+    "claim": "Real PR sign quotient, complement property and metric-dependent stability",
+    "evidence": "LITERATURE_AUDIT.md",
+    "scope": "existing literature, no novelty"
+  },
+  {
+    "id": "T1",
+    "status": "proved-in-project",
+    "claim": "Scoped proof 1",
+    "evidence": "THEORY.md T1",
+    "scope": "manual mathematical proof plus exact consumer checks; not a formal proof assistant"
+  },
+  {
+    "id": "T3",
+    "status": "proved-in-project",
+    "claim": "Scoped proof 3",
+    "evidence": "THEORY.md T3",
+    "scope": "manual mathematical proof plus exact consumer checks; not a formal proof assistant"
+  },
+  {
+    "id": "T4",
+    "status": "proved-in-project",
+    "claim": "Scoped proof 4",
+    "evidence": "THEORY.md T4",
+    "scope": "manual mathematical proof plus exact consumer checks; not a formal proof assistant"
+  },
+  {
+    "id": "T5",
+    "status": "proved-in-project",
+    "claim": "Scoped proof 5",
+    "evidence": "THEORY.md T5",
+    "scope": "manual mathematical proof plus exact consumer checks; not a formal proof assistant"
+  },
+  {
+    "id": "T6",
+    "status": "proved-in-project",
+    "claim": "Scoped proof 6",
+    "evidence": "THEORY.md T6",
+    "scope": "manual mathematical proof plus exact consumer checks; not a formal proof assistant"
+  },
+  {
+    "id": "T7",
+    "status": "proved-in-project",
+    "claim": "Scoped proof 7",
+    "evidence": "THEORY.md T7",
+    "scope": "manual mathematical proof plus exact consumer checks; not a formal proof assistant"
+  },
+  {
+    "id": "H1",
+    "status": "refuted",
+    "claim": "equal intensity implies literal state equality",
+    "evidence": "counterexamples.json",
+    "scope": "exact declared real planar model"
+  },
+  {
+    "id": "H2",
+    "status": "refuted",
+    "claim": "q deletions suffice for q unknown corruptions",
+    "evidence": "counterexamples.json",
+    "scope": "exact declared real planar model"
+  },
+  {
+    "id": "H3",
+    "status": "refuted",
+    "claim": "injectivity gives positive d_pm intensity margin near zero",
+    "evidence": "counterexamples.json",
+    "scope": "exact declared real planar model"
+  },
+  {
+    "id": "H4",
+    "status": "refuted",
+    "claim": "three-point Helly witnesses transfer to sign quotient",
+    "evidence": "counterexamples.json",
+    "scope": "exact declared real planar model"
+  },
+  {
+    "id": "E1",
+    "status": "numerically-supported",
+    "claim": "The same core executes two adapter research/action cycles and q=1 stable recovery",
+    "evidence": "results.json;range_regression.json",
+    "scope": "predeclared finite synthetic families, not broad inverse-problem generality"
+  },
+  {
+    "id": "H5",
+    "status": "conjectured",
+    "claim": "Further inverse problems may use the same separation/cost core",
+    "evidence": "THEORY.md H5",
+    "scope": "requires new domain certificates and independent transfer evaluation"
+  }
+]

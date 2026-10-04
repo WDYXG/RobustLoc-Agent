@@ -1,0 +1,16 @@
+{
+  "range_regressions": 43,
+  "noisy_q1_recovery_cases": 16,
+  "noisy_recoveries": 16,
+  "shared_research_cycles": 8,
+  "continuous_q1_acquisition_cases": 4,
+  "continuous_states": {
+    "provably-insufficient-information-budget": 1,
+    "unresolved-certificate-or-search-gap": 1,
+    "certifiably-recoverable": 2
+  },
+  "continuous_gap_closed": 0,
+  "actual_q1_acquisition_recoveries": 2,
+  "retained_refutations": 4,
+  "scope": "synthetic exact transfer checks; finite candidate grid, fixed designs, no learned transfer rate"
+}

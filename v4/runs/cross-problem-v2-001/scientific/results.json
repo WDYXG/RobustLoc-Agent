@@ -1,0 +1,286 @@
+[
+  {
+    "case": "range-recovery-0",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "216451171931/445772596492700"
+  },
+  {
+    "case": "range-recovery-1",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "50707106781187/104756560175784500"
+  },
+  {
+    "case": "range-recovery-2",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "50707106781187/104756560175784500"
+  },
+  {
+    "case": "range-recovery-3",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "101000000000001/209513120351569000"
+  },
+  {
+    "case": "range-recovery-4",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "216451171931/445772596492700"
+  },
+  {
+    "case": "range-recovery-5",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "216451171931/445772596492700"
+  },
+  {
+    "case": "range-recovery-6",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "50707106781187/104756560175784500"
+  },
+  {
+    "case": "range-recovery-7",
+    "kind": "recovery",
+    "problem": "range",
+    "action": "recover",
+    "radius_upper": "216451171931/445772596492700"
+  },
+  {
+    "case": "range-active-0",
+    "kind": "active-finite",
+    "problem": "range",
+    "interval": {
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "range-active-1",
+    "kind": "active-finite",
+    "problem": "range",
+    "interval": {
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "range-active-2",
+    "kind": "active-finite",
+    "problem": "range",
+    "interval": {
+      "cost_lower": "3/2",
+      "cost_upper": "3/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "range-active-3",
+    "kind": "active-finite",
+    "problem": "range",
+    "interval": {
+      "cost_lower": "3/4",
+      "cost_upper": "3/4",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "phase-recovery-0",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "33910683602523/11785113019775792"
+  },
+  {
+    "case": "phase-recovery-1",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "50707106781187/17677669529663688"
+  },
+  {
+    "case": "phase-recovery-2",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "50707106781187/17677669529663688"
+  },
+  {
+    "case": "phase-recovery-3",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "6312500000000/2209708691207961"
+  },
+  {
+    "case": "phase-recovery-4",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "33910683602523/11785113019775792"
+  },
+  {
+    "case": "phase-recovery-5",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "33910683602523/11785113019775792"
+  },
+  {
+    "case": "phase-recovery-6",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "50707106781187/17677669529663688"
+  },
+  {
+    "case": "phase-recovery-7",
+    "kind": "recovery",
+    "problem": "phase",
+    "action": "recover",
+    "radius_upper": "33910683602523/11785113019775792"
+  },
+  {
+    "case": "phase-active-0",
+    "kind": "active-finite",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "phase-active-1",
+    "kind": "active-finite",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "phase-active-2",
+    "kind": "active-finite",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "3/2",
+      "cost_upper": "3/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "phase-active-3",
+    "kind": "active-finite",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "3/4",
+      "cost_upper": "3/4",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5
+  },
+  {
+    "case": "phase-robust-active-0",
+    "kind": "active-continuous",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "1/2",
+      "cost_upper": "1",
+      "lower_infinite": false,
+      "gap": "1/2",
+      "relative_gap": "1/2",
+      "state": "provably-insufficient-information-budget"
+    },
+    "nodes": 5,
+    "actual_recovery": false
+  },
+  {
+    "case": "phase-robust-active-1",
+    "kind": "active-continuous",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "1/2",
+      "cost_upper": "1",
+      "lower_infinite": false,
+      "gap": "1/2",
+      "relative_gap": "1/2",
+      "state": "unresolved-certificate-or-search-gap"
+    },
+    "nodes": 5,
+    "actual_recovery": false
+  },
+  {
+    "case": "phase-robust-active-2",
+    "kind": "active-continuous",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "3/2",
+      "cost_upper": "3",
+      "lower_infinite": false,
+      "gap": "3/2",
+      "relative_gap": "1/2",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5,
+    "actual_recovery": true
+  },
+  {
+    "case": "phase-robust-active-3",
+    "kind": "active-continuous",
+    "problem": "phase",
+    "interval": {
+      "cost_lower": "3/4",
+      "cost_upper": "3/2",
+      "lower_infinite": false,
+      "gap": "3/4",
+      "relative_gap": "1/2",
+      "state": "certifiably-recoverable"
+    },
+    "nodes": 5,
+    "actual_recovery": true
+  }
+]

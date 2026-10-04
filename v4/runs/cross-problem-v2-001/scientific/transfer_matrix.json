@@ -1,0 +1,77 @@
+[
+  {
+    "component": "support union q -> 2q",
+    "classification": "shared unchanged",
+    "evidence": "core/corruption.py; THEORY T1,T3"
+  },
+  {
+    "component": "abstract stable recovery inequality",
+    "classification": "shared unchanged",
+    "evidence": "core/certificate.py; THEORY T1"
+  },
+  {
+    "component": "candidate verification and abstention",
+    "classification": "shared unchanged",
+    "evidence": "core/certificate.py; both noisy q=1 families"
+  },
+  {
+    "component": "finite minimax / incident cost LB",
+    "classification": "shared unchanged",
+    "evidence": "core/decision.py,core/verify.py; 43 legacy intervals"
+  },
+  {
+    "component": "budget decision / optimality gaps",
+    "classification": "shared unchanged",
+    "evidence": "core/decision.py; both active families and PR q=1 continuous"
+  },
+  {
+    "component": "research and reply-only action loop",
+    "classification": "shared unchanged",
+    "evidence": "core/research.py; identical five-stage sequence"
+  },
+  {
+    "component": "symmetry validity and state metric",
+    "classification": "adapter structure required",
+    "evidence": "finite supplied transform family; exact adapter algebra; fixed range identity, PR sign"
+  },
+  {
+    "component": "global positive margin",
+    "classification": "adapter structure required",
+    "evidence": "frozen range margin versus PR lifted Gram on annulus"
+  },
+  {
+    "component": "radius oracle",
+    "classification": "adapter structure required",
+    "evidence": "core/geometry.py; all sign lifts for quotient"
+  },
+  {
+    "component": "physical world / action binding",
+    "classification": "adapter structure required",
+    "evidence": "frozen range contracts; PR intensity and joint q budget"
+  },
+  {
+    "component": "response-uniform acquisition UB",
+    "classification": "adapter structure required",
+    "evidence": "reference geometry versus sensing-vector design"
+  },
+  {
+    "component": "Euclidean three-world witness limit",
+    "classification": "failed transfer",
+    "evidence": "exact quotient four-world obstruction"
+  },
+  {
+    "component": "injectivity implies positive intensity margin under d_pm",
+    "classification": "failed transfer",
+    "evidence": "origin scaling; annulus restriction explicit"
+  },
+  {
+    "component": "joint nuisance gauge / unknown PR sensing system",
+    "classification": "not implemented",
+    "evidence": "PR adapter rejects nuisance; no new gauge solver"
+  },
+  {
+    "component": "LLM-generated hypotheses",
+    "classification": "not implemented",
+    "evidence": "human-declared sequence; phase5 deferred"
+  }
+]

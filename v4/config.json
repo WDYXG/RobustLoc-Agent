@@ -1,0 +1,12 @@
+{
+  "run": "v4/runs/cross-problem-001",
+  "date": "2026-10-04",
+  "development_seed": 440051,
+  "heldout_seed": 440052,
+  "recovery_variants_per_problem": 8,
+  "active_variants_per_problem": 4,
+  "robust_active_variants": 4,
+  "problems": ["range", "phase"],
+  "candidate_grid": "integer multiples of 1/2 in [-2,2]^2 excluding zero",
+  "scope": "small deterministic synthetic transfer study; q=1 recovery and continuous acquisition; no LLM proposer"
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.15.1",
+    "matplotlib": "3.10.0",
+    "pytest": "9.1.1"
+  },
+  "scope": "actual local reproduction environment; no claim of cross-platform byte identity"
+}

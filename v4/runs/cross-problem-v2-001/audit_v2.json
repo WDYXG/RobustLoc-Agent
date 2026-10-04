@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "evaluator_version": 2,
+  "original_mathematical_audit": {
+    "passed": true,
+    "previous_files_unchanged": 3862,
+    "range_regressions": 43,
+    "recovery": 16,
+    "active": 8,
+    "robust_active": 4,
+    "recovered": 18,
+    "physical_bound_violations": 0,
+    "history_events": 28,
+    "counterexample_families_verified": 4,
+    "scope": "distinct consumer calculations and exact contract checks; no independent authorship, continuous feasible-set enumeration, or proof-assistant claim"
+  },
+  "tolerance_bindings_checked": 12,
+  "malformed_input_regressions": [
+    {
+      "problem": "range",
+      "old_checker_accepts_mismatch": true,
+      "v2_rejects": true
+    },
+    {
+      "problem": "phase",
+      "old_checker_accepts_mismatch": true,
+      "v2_rejects": true
+    }
+  ],
+  "scope": "same frozen scientific algorithms and inputs; strengthened task binding; no new generalization claim"
+}
