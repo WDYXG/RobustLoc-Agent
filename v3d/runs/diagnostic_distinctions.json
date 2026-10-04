@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "source_run": "v3d/runs/minimal-trust-001",
+  "scope": "post-run binding checks of predeclared examples; not a new evaluator or a claim that every unresolved case has been classified",
+  "evidence": [
+    {
+      "kind": "search-incompleteness",
+      "pair": [
+        "positive-gap-0",
+        "search-limited-0"
+      ],
+      "same_physical_input": true,
+      "unlimited_upper": "18/5",
+      "limited_upper": null
+    },
+    {
+      "kind": "certificate-conservatism",
+      "case": "analytic-reflection-0",
+      "uniform_family_exhausted": true,
+      "alternative_complete_reduction_cost": "7/5"
+    },
+    {
+      "kind": "search-incompleteness",
+      "pair": [
+        "positive-gap-1",
+        "search-limited-1"
+      ],
+      "same_physical_input": true,
+      "unlimited_upper": "18/5",
+      "limited_upper": null
+    },
+    {
+      "kind": "certificate-conservatism",
+      "case": "analytic-reflection-1",
+      "uniform_family_exhausted": true,
+      "alternative_complete_reduction_cost": "7/10"
+    },
+    {
+      "kind": "search-incompleteness",
+      "pair": [
+        "positive-gap-2",
+        "search-limited-2"
+      ],
+      "same_physical_input": true,
+      "unlimited_upper": "18/5",
+      "limited_upper": null
+    },
+    {
+      "kind": "certificate-conservatism",
+      "case": "analytic-reflection-2",
+      "uniform_family_exhausted": true,
+      "alternative_complete_reduction_cost": "21/10"
+    },
+    {
+      "kind": "physical-impossibility-under-menu",
+      "case": "unseparable-reflection-0",
+      "unbreakable_physical_witness": true
+    },
+    {
+      "kind": "physical-impossibility-under-menu",
+      "case": "unseparable-reflection-1",
+      "unbreakable_physical_witness": true
+    },
+    {
+      "kind": "physical-impossibility-under-menu",
+      "case": "unseparable-reflection-2",
+      "unbreakable_physical_witness": true
+    },
+    {
+      "kind": "physical-impossibility-under-menu",
+      "case": "unseparable-reflection-3",
+      "unbreakable_physical_witness": true
+    }
+  ]
+}

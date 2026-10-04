@@ -1,0 +1,177 @@
+{
+  "elapsed_seconds": 7.387994399992749,
+  "cases": [
+    {
+      "case": "compulsory-development-regression",
+      "seconds": 0.7354450999991968
+    },
+    {
+      "case": "adaptive-four-0",
+      "seconds": 0.012405199988279492
+    },
+    {
+      "case": "adaptive-four-1",
+      "seconds": 0.009674600005382672
+    },
+    {
+      "case": "adaptive-four-2",
+      "seconds": 0.010125299988430925
+    },
+    {
+      "case": "adaptive-four-3",
+      "seconds": 0.009750700002769008
+    },
+    {
+      "case": "acute-triple-0",
+      "seconds": 0.004266399992047809
+    },
+    {
+      "case": "acute-triple-1",
+      "seconds": 0.004619400002411567
+    },
+    {
+      "case": "acute-triple-2",
+      "seconds": 0.004309700001613237
+    },
+    {
+      "case": "acute-triple-3",
+      "seconds": 0.004547899996396154
+    },
+    {
+      "case": "near-cluster-0",
+      "seconds": 0.003486100002191961
+    },
+    {
+      "case": "near-cluster-1",
+      "seconds": 0.0030918999982532114
+    },
+    {
+      "case": "near-cluster-2",
+      "seconds": 0.004309399999328889
+    },
+    {
+      "case": "near-cluster-3",
+      "seconds": 0.0048039000103017315
+    },
+    {
+      "case": "unseparable-reflection-0",
+      "seconds": 0.003514100011670962
+    },
+    {
+      "case": "unseparable-reflection-1",
+      "seconds": 0.0034602000087033957
+    },
+    {
+      "case": "unseparable-reflection-2",
+      "seconds": 0.0037047999940114096
+    },
+    {
+      "case": "unseparable-reflection-3",
+      "seconds": 0.0030811000033281744
+    },
+    {
+      "case": "simple-pair-0",
+      "seconds": 0.002995200004079379
+    },
+    {
+      "case": "simple-pair-1",
+      "seconds": 0.0025064000074053183
+    },
+    {
+      "case": "simple-pair-2",
+      "seconds": 0.0025270999904023483
+    },
+    {
+      "case": "simple-pair-3",
+      "seconds": 0.002563000001828186
+    },
+    {
+      "case": "expensive-pair-0",
+      "seconds": 0.0025962999934563413
+    },
+    {
+      "case": "expensive-pair-1",
+      "seconds": 0.002454999994370155
+    },
+    {
+      "case": "expensive-pair-2",
+      "seconds": 0.002427299987175502
+    },
+    {
+      "case": "expensive-pair-3",
+      "seconds": 0.0024818999954732135
+    },
+    {
+      "case": "regression-0",
+      "seconds": 0.7107707999966806
+    },
+    {
+      "case": "regression-1",
+      "seconds": 0.744798699990497
+    },
+    {
+      "case": "regression-2",
+      "seconds": 0.7324806999968132
+    },
+    {
+      "case": "positive-gap-0",
+      "seconds": 0.32450649999373127
+    },
+    {
+      "case": "positive-gap-1",
+      "seconds": 0.32612280000466853
+    },
+    {
+      "case": "positive-gap-2",
+      "seconds": 0.3534902000101283
+    },
+    {
+      "case": "insufficient-budget-0",
+      "seconds": 0.29667419999896083
+    },
+    {
+      "case": "insufficient-budget-1",
+      "seconds": 0.29244869999820367
+    },
+    {
+      "case": "insufficient-budget-2",
+      "seconds": 0.28481519999331795
+    },
+    {
+      "case": "search-limited-0",
+      "seconds": 0.2382357000024058
+    },
+    {
+      "case": "search-limited-1",
+      "seconds": 0.24973140000656713
+    },
+    {
+      "case": "search-limited-2",
+      "seconds": 0.23467920000257436
+    },
+    {
+      "case": "family-limited-0",
+      "seconds": 0.39869139999791514
+    },
+    {
+      "case": "family-limited-1",
+      "seconds": 0.39293840000755154
+    },
+    {
+      "case": "family-limited-2",
+      "seconds": 0.3934887999930652
+    },
+    {
+      "case": "analytic-reflection-0",
+      "seconds": 0.0062679999973624945
+    },
+    {
+      "case": "analytic-reflection-1",
+      "seconds": 0.0062144999974407256
+    },
+    {
+      "case": "analytic-reflection-2",
+      "seconds": 0.006455700000515208
+    }
+  ]
+}

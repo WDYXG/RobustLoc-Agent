@@ -1,0 +1,1974 @@
+{
+  "observation": {
+    "episode_id": "regression-0",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "3.66282208093067352",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.38996773448193878",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.55983047729113045",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.17891801213885117",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.58674589680524925",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.47119819961150977",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [
+      {
+        "anchor": "a0",
+        "centre": [
+          "4",
+          "0"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a1",
+        "centre": [
+          "-4",
+          "0"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a2",
+        "centre": [
+          "0",
+          "4"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a3",
+        "centre": [
+          "3",
+          "-4"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a4",
+        "centre": [
+          "-3",
+          "-4"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a5",
+        "centre": [
+          "0",
+          "-5"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      }
+    ],
+    "reports": [],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "18/5",
+    "offers": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a0",
+        "kind": "absolute-reference",
+        "cost": "1",
+        "anchors": [
+          "a0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a1",
+        "kind": "absolute-reference",
+        "cost": "6/5",
+        "anchors": [
+          "a1"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a2",
+        "kind": "absolute-reference",
+        "cost": "7/5",
+        "anchors": [
+          "a2"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5",
+        "anchors": [
+          "a4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2",
+        "anchors": [
+          "a5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "private": {
+    "target": [
+      "183/500",
+      "459/1000"
+    ],
+    "positions": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "future": {
+      "range-0": {
+        "measurements": [
+          {
+            "anchor": "a0",
+            "value": "3.66288892297795865",
+            "weight": "1"
+          },
+          {
+            "anchor": "a1",
+            "value": "4.39006672271318976",
+            "weight": "1"
+          },
+          {
+            "anchor": "a2",
+            "value": "3.55978578634361176",
+            "weight": "1"
+          }
+        ]
+      },
+      "range-1": {
+        "measurements": [
+          {
+            "anchor": "a0",
+            "value": "3.66283201620977650",
+            "weight": "1"
+          },
+          {
+            "anchor": "a1",
+            "value": "4.39013836379526090",
+            "weight": "1"
+          },
+          {
+            "anchor": "a2",
+            "value": "3.55982707490737393",
+            "weight": "1"
+          }
+        ]
+      },
+      "range-2": {
+        "measurements": [
+          {
+            "anchor": "a0",
+            "value": "3.66287142695694001",
+            "weight": "1"
+          },
+          {
+            "anchor": "a1",
+            "value": "4.39002929222612348",
+            "weight": "1"
+          },
+          {
+            "anchor": "a2",
+            "value": "3.55977848095892702",
+            "weight": "1"
+          }
+        ]
+      }
+    },
+    "scenario": "bounded-references",
+    "contract_valid": true,
+    "frame": {
+      "R": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "t": [
+        "0",
+        "0"
+      ]
+    },
+    "noise_scope": "global clean norm below E for all offered repeats"
+  },
+  "budget": "18/5",
+  "node_limit": null,
+  "decision": {
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "18/5",
+      "relative_gap": "1"
+    },
+    "finite_witness_model": {
+      "worlds": [
+        {
+          "id": "w0",
+          "target": [
+            "45743948531/125000000000",
+            "458982729217/1000000000000"
+          ],
+          "positions": {
+            "a0": [
+              "4",
+              "0"
+            ],
+            "a1": [
+              "-4",
+              "0"
+            ],
+            "a2": [
+              "0",
+              "4"
+            ],
+            "a3": [
+              "3",
+              "-4"
+            ],
+            "a4": [
+              "-3",
+              "-4"
+            ],
+            "a5": [
+              "0",
+              "-5"
+            ]
+          }
+        },
+        {
+          "id": "w1",
+          "target": [
+            "48868948531/125000000000",
+            "458982729217/1000000000000"
+          ],
+          "positions": {
+            "a0": [
+              "161/40",
+              "0"
+            ],
+            "a1": [
+              "-159/40",
+              "0"
+            ],
+            "a2": [
+              "1/40",
+              "4"
+            ],
+            "a3": [
+              "121/40",
+              "-4"
+            ],
+            "a4": [
+              "-119/40",
+              "-4"
+            ],
+            "a5": [
+              "1/40",
+              "-5"
+            ]
+          }
+        },
+        {
+          "id": "w2",
+          "target": [
+            "42618948531/125000000000",
+            "458982729217/1000000000000"
+          ],
+          "positions": {
+            "a0": [
+              "159/40",
+              "0"
+            ],
+            "a1": [
+              "-161/40",
+              "0"
+            ],
+            "a2": [
+              "-1/40",
+              "4"
+            ],
+            "a3": [
+              "119/40",
+              "-4"
+            ],
+            "a4": [
+              "-121/40",
+              "-4"
+            ],
+            "a5": [
+              "-1/40",
+              "-5"
+            ]
+          }
+        },
+        {
+          "id": "w3",
+          "target": [
+            "45743948531/125000000000",
+            "483982729217/1000000000000"
+          ],
+          "positions": {
+            "a0": [
+              "4",
+              "1/40"
+            ],
+            "a1": [
+              "-4",
+              "1/40"
+            ],
+            "a2": [
+              "0",
+              "161/40"
+            ],
+            "a3": [
+              "3",
+              "-159/40"
+            ],
+            "a4": [
+              "-3",
+              "-159/40"
+            ],
+            "a5": [
+              "0",
+              "-199/40"
+            ]
+          }
+        },
+        {
+          "id": "w4",
+          "target": [
+            "45743948531/125000000000",
+            "433982729217/1000000000000"
+          ],
+          "positions": {
+            "a0": [
+              "4",
+              "-1/40"
+            ],
+            "a1": [
+              "-4",
+              "-1/40"
+            ],
+            "a2": [
+              "0",
+              "159/40"
+            ],
+            "a3": [
+              "3",
+              "-161/40"
+            ],
+            "a4": [
+              "-3",
+              "-161/40"
+            ],
+            "a5": [
+              "0",
+              "-201/40"
+            ]
+          }
+        }
+      ],
+      "tolerance": "1/10",
+      "actions": [
+        {
+          "id": "range-0",
+          "cost": "1/4",
+          "responses": {
+            "w0": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w1": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w2": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w3": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w4": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "range-1",
+          "cost": "1/4",
+          "responses": {
+            "w0": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w1": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w2": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w3": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w4": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "range-2",
+          "cost": "1/4",
+          "responses": {
+            "w0": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w1": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w2": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w3": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            },
+            "w4": {
+              "measurements": [
+                {
+                  "anchor": "a0",
+                  "value": "7325837291307177/2000000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a1",
+                  "value": "351200896733659/80000000000000",
+                  "weight": "1"
+                },
+                {
+                  "anchor": "a2",
+                  "value": "7119753893759171/2000000000000000",
+                  "weight": "1"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "baseline",
+          "cost": "1/5",
+          "responses": {
+            "w0": {
+              "baseline": {
+                "a": "a0",
+                "b": "a1",
+                "distance2": "64",
+                "root": "external-baseline-instrument"
+              }
+            },
+            "w1": {
+              "baseline": {
+                "a": "a0",
+                "b": "a1",
+                "distance2": "64",
+                "root": "external-baseline-instrument"
+              }
+            },
+            "w2": {
+              "baseline": {
+                "a": "a0",
+                "b": "a1",
+                "distance2": "64",
+                "root": "external-baseline-instrument"
+              }
+            },
+            "w3": {
+              "baseline": {
+                "a": "a0",
+                "b": "a1",
+                "distance2": "64",
+                "root": "external-baseline-instrument"
+              }
+            },
+            "w4": {
+              "baseline": {
+                "a": "a0",
+                "b": "a1",
+                "distance2": "64",
+                "root": "external-baseline-instrument"
+              }
+            }
+          }
+        },
+        {
+          "id": "ref-a0",
+          "cost": "1",
+          "responses": {
+            "w0": {
+              "points": [
+                {
+                  "anchor": "a0",
+                  "centre": [
+                    "4",
+                    "0"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w1": {
+              "points": [
+                {
+                  "anchor": "a0",
+                  "centre": [
+                    "161/40",
+                    "0"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w2": {
+              "points": [
+                {
+                  "anchor": "a0",
+                  "centre": [
+                    "159/40",
+                    "0"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w3": {
+              "points": [
+                {
+                  "anchor": "a0",
+                  "centre": [
+                    "4",
+                    "1/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w4": {
+              "points": [
+                {
+                  "anchor": "a0",
+                  "centre": [
+                    "4",
+                    "-1/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ref-a1",
+          "cost": "6/5",
+          "responses": {
+            "w0": {
+              "points": [
+                {
+                  "anchor": "a1",
+                  "centre": [
+                    "-4",
+                    "0"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w1": {
+              "points": [
+                {
+                  "anchor": "a1",
+                  "centre": [
+                    "-159/40",
+                    "0"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w2": {
+              "points": [
+                {
+                  "anchor": "a1",
+                  "centre": [
+                    "-161/40",
+                    "0"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w3": {
+              "points": [
+                {
+                  "anchor": "a1",
+                  "centre": [
+                    "-4",
+                    "1/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w4": {
+              "points": [
+                {
+                  "anchor": "a1",
+                  "centre": [
+                    "-4",
+                    "-1/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ref-a2",
+          "cost": "7/5",
+          "responses": {
+            "w0": {
+              "points": [
+                {
+                  "anchor": "a2",
+                  "centre": [
+                    "0",
+                    "4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w1": {
+              "points": [
+                {
+                  "anchor": "a2",
+                  "centre": [
+                    "1/40",
+                    "4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w2": {
+              "points": [
+                {
+                  "anchor": "a2",
+                  "centre": [
+                    "-1/40",
+                    "4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w3": {
+              "points": [
+                {
+                  "anchor": "a2",
+                  "centre": [
+                    "0",
+                    "161/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w4": {
+              "points": [
+                {
+                  "anchor": "a2",
+                  "centre": [
+                    "0",
+                    "159/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ref-a3",
+          "cost": "8/5",
+          "responses": {
+            "w0": {
+              "points": [
+                {
+                  "anchor": "a3",
+                  "centre": [
+                    "3",
+                    "-4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w1": {
+              "points": [
+                {
+                  "anchor": "a3",
+                  "centre": [
+                    "121/40",
+                    "-4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w2": {
+              "points": [
+                {
+                  "anchor": "a3",
+                  "centre": [
+                    "119/40",
+                    "-4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w3": {
+              "points": [
+                {
+                  "anchor": "a3",
+                  "centre": [
+                    "3",
+                    "-159/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w4": {
+              "points": [
+                {
+                  "anchor": "a3",
+                  "centre": [
+                    "3",
+                    "-161/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ref-a4",
+          "cost": "9/5",
+          "responses": {
+            "w0": {
+              "points": [
+                {
+                  "anchor": "a4",
+                  "centre": [
+                    "-3",
+                    "-4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w1": {
+              "points": [
+                {
+                  "anchor": "a4",
+                  "centre": [
+                    "-119/40",
+                    "-4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w2": {
+              "points": [
+                {
+                  "anchor": "a4",
+                  "centre": [
+                    "-121/40",
+                    "-4"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w3": {
+              "points": [
+                {
+                  "anchor": "a4",
+                  "centre": [
+                    "-3",
+                    "-159/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w4": {
+              "points": [
+                {
+                  "anchor": "a4",
+                  "centre": [
+                    "-3",
+                    "-161/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "ref-a5",
+          "cost": "2",
+          "responses": {
+            "w0": {
+              "points": [
+                {
+                  "anchor": "a5",
+                  "centre": [
+                    "0",
+                    "-5"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w1": {
+              "points": [
+                {
+                  "anchor": "a5",
+                  "centre": [
+                    "1/40",
+                    "-5"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w2": {
+              "points": [
+                {
+                  "anchor": "a5",
+                  "centre": [
+                    "-1/40",
+                    "-5"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w3": {
+              "points": [
+                {
+                  "anchor": "a5",
+                  "centre": [
+                    "0",
+                    "-199/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            },
+            "w4": {
+              "points": [
+                {
+                  "anchor": "a5",
+                  "centre": [
+                    "0",
+                    "-201/40"
+                  ],
+                  "radius": "0",
+                  "root": "external-position-instrument"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "finite_restriction": {
+      "schema": "finite-minimal-trust-v1",
+      "adaptive_cost": "0",
+      "adaptive_status": "finite",
+      "optimal_tree": {
+        "terminal": true,
+        "worlds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "circle": {
+          "centre": [
+            "45743948531/125000000000",
+            "458982729217/1000000000000"
+          ],
+          "radius2": "1/1600",
+          "support": [
+            1,
+            2
+          ]
+        }
+      },
+      "pair_batch": {
+        "cost": "0",
+        "actions": [],
+        "status": "finite"
+      },
+      "hypergraph_batch": {
+        "cost": "0",
+        "actions": [],
+        "status": "finite"
+      },
+      "incident_lower": "0",
+      "incident_status": "finite",
+      "incident_covers": [
+        {
+          "cost": "0",
+          "actions": [],
+          "status": "finite"
+        },
+        {
+          "cost": "0",
+          "actions": [],
+          "status": "finite"
+        },
+        {
+          "cost": "0",
+          "actions": [],
+          "status": "finite"
+        },
+        {
+          "cost": "0",
+          "actions": [],
+          "status": "finite"
+        },
+        {
+          "cost": "0",
+          "actions": [],
+          "status": "finite"
+        }
+      ],
+      "witnesses": [],
+      "pair_count": 0,
+      "triple_count": 0,
+      "search": {
+        "adaptive_states": 1,
+        "cover_nodes": 7168,
+        "complete": true
+      },
+      "scope": "exact optimum only for the declared complete finite deterministic-response model; restriction supplies a lower bound only"
+    },
+    "verification": {
+      "passed": true,
+      "independent_states": 31,
+      "adaptive_cost": "0",
+      "witnesses": 0,
+      "scope": "independent Helly predicate, exhaustive batch costs, bottom-up minimax and full tree traversal"
+    },
+    "physics": {
+      "passed": true,
+      "worlds": 5,
+      "responses": 50,
+      "scope": "valid finite restriction of the full continuous contract; completeness is not established by sampling"
+    },
+    "upper": {
+      "cost_upper": "18/5",
+      "offers": [
+        "ref-a0",
+        "ref-a1",
+        "ref-a2"
+      ],
+      "measurement_indices": [
+        0,
+        1,
+        2
+      ],
+      "initial_refs": {
+        "a0": {
+          "anchor": "a0",
+          "centre": [
+            "4",
+            "0"
+          ],
+          "radius": "1/20",
+          "root": "external-position-instrument"
+        },
+        "a1": {
+          "anchor": "a1",
+          "centre": [
+            "-4",
+            "0"
+          ],
+          "radius": "1/20",
+          "root": "external-position-instrument"
+        },
+        "a2": {
+          "anchor": "a2",
+          "centre": [
+            "0",
+            "4"
+          ],
+          "radius": "1/20",
+          "root": "external-position-instrument"
+        }
+      },
+      "initial_geometry_certificate": {
+        "certificate_id": "c5576d946806905adb5ff73c6e425114cbe8fe09809ec7ca8c371ff64ab5c271"
+      },
+      "remaining_radii": [
+        "0",
+        "0",
+        "0"
+      ],
+      "zeta_upper": "0",
+      "radius_upper": "5000000000000/215060066670101",
+      "search": {
+        "nodes": 883,
+        "bundles": 22,
+        "complete": true,
+        "meaning": "all cheaper offered exact-reference bundles exhausted for this sufficient family; equal-cost ties need not be exhausted"
+      },
+      "scope": "continuous response-uniform nonadaptive policy UB; not a finite forecast or a lower bound on physical cost"
+    },
+    "scope": "continuous physical contract: checked finite restriction gives LB; response-uniform subset policy gives UB; None UB means unknown"
+  },
+  "final_observation": {
+    "episode_id": "regression-0",
+    "nominal": {
+      "a0": [
+        "4",
+        "0"
+      ],
+      "a1": [
+        "-4",
+        "0"
+      ],
+      "a2": [
+        "0",
+        "4"
+      ],
+      "a3": [
+        "3",
+        "-4"
+      ],
+      "a4": [
+        "-3",
+        "-4"
+      ],
+      "a5": [
+        "0",
+        "-5"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a0",
+        "value": "3.66282208093067352",
+        "weight": "1"
+      },
+      {
+        "anchor": "a1",
+        "value": "4.38996773448193878",
+        "weight": "1"
+      },
+      {
+        "anchor": "a2",
+        "value": "3.55983047729113045",
+        "weight": "1"
+      },
+      {
+        "anchor": "a3",
+        "value": "5.17891801213885117",
+        "weight": "1"
+      },
+      {
+        "anchor": "a4",
+        "value": "5.58674589680524925",
+        "weight": "1"
+      },
+      {
+        "anchor": "a5",
+        "value": "5.47119819961150977",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [
+      {
+        "anchor": "a0",
+        "centre": [
+          "4",
+          "0"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a1",
+        "centre": [
+          "-4",
+          "0"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a2",
+        "centre": [
+          "0",
+          "4"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a3",
+        "centre": [
+          "3",
+          "-4"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a4",
+        "centre": [
+          "-3",
+          "-4"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a5",
+        "centre": [
+          "0",
+          "-5"
+        ],
+        "radius": "1/20",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a0",
+        "centre": [
+          "4",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a1",
+        "centre": [
+          "-4",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "a2",
+        "centre": [
+          "0",
+          "4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "reports": [],
+    "failure_groups": {
+      "issuer-A": "group-A",
+      "issuer-B": "group-B",
+      "issuer-C": "group-C",
+      "issuer-new": "group-new"
+    },
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 1,
+    "epsilon": "1/200",
+    "tolerance": "1/10",
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "budget": "0",
+    "offers": [
+      {
+        "id": "range-0",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "range-1",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "range-2",
+        "kind": "ordinary-range",
+        "cost": "1/4",
+        "anchors": [
+          "a0",
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "cost": "1/5",
+        "anchors": [
+          "a0",
+          "a1"
+        ],
+        "root": "external-baseline-instrument"
+      },
+      {
+        "id": "ref-a3",
+        "kind": "absolute-reference",
+        "cost": "8/5",
+        "anchors": [
+          "a3"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a4",
+        "kind": "absolute-reference",
+        "cost": "9/5",
+        "anchors": [
+          "a4"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-a5",
+        "kind": "absolute-reference",
+        "cost": "2",
+        "anchors": [
+          "a5"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [
+      {
+        "offer_id": "ref-a0",
+        "kind": "absolute-reference",
+        "payload": {
+          "points": [
+            {
+              "anchor": "a0",
+              "centre": [
+                "4",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "ref-a1",
+        "kind": "absolute-reference",
+        "payload": {
+          "points": [
+            {
+              "anchor": "a1",
+              "centre": [
+                "-4",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      },
+      {
+        "offer_id": "ref-a2",
+        "kind": "absolute-reference",
+        "payload": {
+          "points": [
+            {
+              "anchor": "a2",
+              "centre": [
+                "0",
+                "4"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          ]
+        },
+        "scope": "conditional on externally assumed roots and registered source budget, not a signature protocol"
+      }
+    ],
+    "forecast_frames": [
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "t": [
+          "4/5",
+          "0"
+        ]
+      },
+      {
+        "R": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "t": [
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "trust_scope": "externally assumed physical roots and source-group budget; untrusted nominal centres are metadata"
+  },
+  "spent": "18/5",
+  "actual": {
+    "old_all_measurement_pre_certified": false,
+    "old_pre_bound": "61068360252296/251335185420169",
+    "certificate": {
+      "certified": true,
+      "branches": [
+        {
+          "removed": [],
+          "status": "covered",
+          "selected": {
+            "a0": {
+              "anchor": "a0",
+              "centre": [
+                "4",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "a1": {
+              "anchor": "a1",
+              "centre": [
+                "-4",
+                "0"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            },
+            "a2": {
+              "anchor": "a2",
+              "centre": [
+                "0",
+                "4"
+              ],
+              "radius": "0",
+              "root": "external-position-instrument"
+            }
+          },
+          "measurement_indices": [
+            0,
+            1,
+            2
+          ],
+          "model": {
+            "anchors": [
+              [
+                "4",
+                "0"
+              ],
+              [
+                "-4",
+                "0"
+              ],
+              [
+                "0",
+                "4"
+              ]
+            ],
+            "radii": [
+              "0",
+              "0",
+              "0"
+            ],
+            "weights": [
+              "1",
+              "1",
+              "1"
+            ],
+            "measurements": [
+              "3.66282208093067352",
+              "4.38996773448193878",
+              "3.55983047729113045"
+            ],
+            "domain": [
+              "-2",
+              "2",
+              "-2",
+              "2"
+            ],
+            "q_max": 0,
+            "epsilon_max": "1/200",
+            "error_tolerance": "1/10"
+          },
+          "certificate": {
+            "certificate_id": "2452c8cc3f4a50601172531fed658cb79e8524d3fcb2808f1359fbe81368642e"
+          },
+          "lower": "447213595499957/1000000000000000",
+          "zeta": "0",
+          "centre": [
+            "0.365977669969",
+            "0.459014985378"
+          ],
+          "residual_upper": "21141144929/200000000000000",
+          "radius": "5105705724645/447213595499957"
+        }
+      ],
+      "search": {
+        "subset_nodes": 42,
+        "subset_enumeration_complete": true,
+        "nonlinear_search_complete": false,
+        "candidate_failures": 0,
+        "node_limit": null
+      },
+      "scope": "continuous conditional cover; numerical candidate search is incomplete; failure is not impossibility",
+      "position": [
+        "0.365977669969",
+        "0.459014985378"
+      ],
+      "radius_upper": "5105705724645/447213595499957",
+      "diameter_upper": "10211411449290/447213595499957"
+    },
+    "error2": "144638367652769/200000000000000000000000",
+    "bound_violation": false,
+    "automatic_old_miss_repaired": true
+  }
+}

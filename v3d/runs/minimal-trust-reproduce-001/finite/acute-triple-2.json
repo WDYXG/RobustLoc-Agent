@@ -1,0 +1,396 @@
+{
+  "observation": {
+    "episode_id": "acute-triple-2",
+    "nominal": {
+      "a": [
+        "3",
+        "0"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "a",
+        "value": "4",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [],
+    "failure_groups": {},
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 0,
+    "epsilon": "1/1000000",
+    "tolerance": "21/20",
+    "domain": [
+      "-3",
+      "3",
+      "-3",
+      "3"
+    ],
+    "budget": "20",
+    "offers": [
+      {
+        "id": "ref-a",
+        "kind": "absolute-reference",
+        "anchors": [
+          "a"
+        ],
+        "radius": "0",
+        "cost": "7/4",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "repeat",
+        "kind": "ordinary-range",
+        "anchors": [
+          "a"
+        ],
+        "cost": "1/4"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": []
+  },
+  "model": {
+    "worlds": [
+      {
+        "id": "w0",
+        "target": [
+          "-1",
+          "0"
+        ],
+        "positions": {
+          "a": [
+            "3",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w1",
+        "target": [
+          "1",
+          "0"
+        ],
+        "positions": {
+          "a": [
+            "5",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w2",
+        "target": [
+          "0",
+          "3/2"
+        ],
+        "positions": {
+          "a": [
+            "4",
+            "3/2"
+          ]
+        }
+      }
+    ],
+    "tolerance": "21/20",
+    "actions": [
+      {
+        "id": "ref-a",
+        "cost": "7/4",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "a",
+                "centre": [
+                  "3",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "a",
+                "centre": [
+                  "5",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "a",
+                "centre": [
+                  "4",
+                  "3/2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "repeat",
+        "cost": "1/4",
+        "responses": {
+          "w0": {
+            "measurements": [
+              {
+                "anchor": "a",
+                "value": "4",
+                "weight": "1"
+              }
+            ]
+          },
+          "w1": {
+            "measurements": [
+              {
+                "anchor": "a",
+                "value": "4",
+                "weight": "1"
+              }
+            ]
+          },
+          "w2": {
+            "measurements": [
+              {
+                "anchor": "a",
+                "value": "4",
+                "weight": "1"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "model_semantics": "explicit complete finite prior for exact optimum; also a checked restriction of the larger continuous contract"
+  },
+  "budget": "2",
+  "decision": {
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "7/4",
+      "cost_upper": "7/4",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "finite": {
+      "schema": "finite-minimal-trust-v1",
+      "adaptive_cost": "7/4",
+      "adaptive_status": "finite",
+      "optimal_tree": {
+        "terminal": false,
+        "worlds": [
+          0,
+          1,
+          2
+        ],
+        "action": "ref-a",
+        "children": {
+          "{\"points\":[{\"anchor\":\"a\",\"centre\":[\"3\",\"0\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": true,
+            "worlds": [
+              0
+            ],
+            "circle": {
+              "centre": [
+                "-1",
+                "0"
+              ],
+              "radius2": "0",
+              "support": [
+                0
+              ]
+            }
+          },
+          "{\"points\":[{\"anchor\":\"a\",\"centre\":[\"4\",\"3/2\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": true,
+            "worlds": [
+              2
+            ],
+            "circle": {
+              "centre": [
+                "0",
+                "3/2"
+              ],
+              "radius2": "0",
+              "support": [
+                0
+              ]
+            }
+          },
+          "{\"points\":[{\"anchor\":\"a\",\"centre\":[\"5\",\"0\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": true,
+            "worlds": [
+              1
+            ],
+            "circle": {
+              "centre": [
+                "1",
+                "0"
+              ],
+              "radius2": "0",
+              "support": [
+                0
+              ]
+            }
+          }
+        }
+      },
+      "pair_batch": {
+        "cost": "0",
+        "actions": [],
+        "status": "finite"
+      },
+      "hypergraph_batch": {
+        "cost": "7/4",
+        "actions": [
+          "ref-a"
+        ],
+        "status": "finite"
+      },
+      "incident_lower": "7/4",
+      "incident_status": "finite",
+      "incident_covers": [
+        {
+          "cost": "7/4",
+          "actions": [
+            "ref-a"
+          ],
+          "status": "finite"
+        },
+        {
+          "cost": "7/4",
+          "actions": [
+            "ref-a"
+          ],
+          "status": "finite"
+        },
+        {
+          "cost": "7/4",
+          "actions": [
+            "ref-a"
+          ],
+          "status": "finite"
+        }
+      ],
+      "witnesses": [
+        {
+          "worlds": [
+            0,
+            1,
+            2
+          ],
+          "radius2": "169/144",
+          "breakers": [
+            0
+          ]
+        }
+      ],
+      "pair_count": 0,
+      "triple_count": 1,
+      "search": {
+        "adaptive_states": 4,
+        "cover_nodes": 20,
+        "complete": true
+      },
+      "scope": "exact optimum only for the declared complete finite deterministic-response model; restriction supplies a lower bound only"
+    },
+    "verification": {
+      "passed": true,
+      "independent_states": 7,
+      "adaptive_cost": "7/4",
+      "witnesses": 1,
+      "scope": "independent Helly predicate, exhaustive batch costs, bottom-up minimax and full tree traversal"
+    },
+    "physics": {
+      "passed": true,
+      "worlds": 3,
+      "responses": 6,
+      "scope": "valid finite restriction of the full continuous contract; completeness is not established by sampling"
+    },
+    "scope": "complete finite prior ONLY: equality is not transferred to the continuous nuisance model"
+  },
+  "outcomes": [
+    {
+      "world": "w0",
+      "cost": "7/4",
+      "actions": [
+        "ref-a"
+      ],
+      "terminal_worlds": [
+        0
+      ],
+      "circle": {
+        "centre": [
+          "-1",
+          "0"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    },
+    {
+      "world": "w1",
+      "cost": "7/4",
+      "actions": [
+        "ref-a"
+      ],
+      "terminal_worlds": [
+        1
+      ],
+      "circle": {
+        "centre": [
+          "1",
+          "0"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    },
+    {
+      "world": "w2",
+      "cost": "7/4",
+      "actions": [
+        "ref-a"
+      ],
+      "terminal_worlds": [
+        2
+      ],
+      "circle": {
+        "centre": [
+          "0",
+          "3/2"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "finite_cases": 24,
+  "finite_exact_finite_optima": 20,
+  "finite_proved_infinite": 4,
+  "continuous_cases": 15,
+  "continuous_exact_reduction_cases": 3,
+  "continuous_nonzero_closed_gaps": 3,
+  "continuous_closed_gaps": 0,
+  "continuous_states": {
+    "certifiably-recoverable": 3,
+    "unresolved-certificate-or-search-gap": 9,
+    "provably-insufficient-information-budget": 3
+  },
+  "finite_states": {
+    "certifiably-recoverable": 14,
+    "provably-insufficient-information-budget": 10
+  },
+  "automatic_old_miss_repairs": 3,
+  "compulsory_development_repaired": true,
+  "subset_nodes": 126,
+  "uniform_certificate_nodes": 16014,
+  "finite_adaptive_states": 128,
+  "finite_cover_nodes": 608,
+  "witness_count": 263,
+  "incomplete_uniform_searches": 3,
+  "full_results": "results.json",
+  "runtime": "runtime.json"
+}

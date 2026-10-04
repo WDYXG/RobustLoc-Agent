@@ -1,0 +1,20 @@
+{
+  "case": "compulsory-development-regression",
+  "mode": "continuous",
+  "budget": "18/5",
+  "interval": {
+    "state": "certifiably-recoverable",
+    "cost_lower": "0",
+    "cost_upper": "18/5",
+    "lower_infinite": false,
+    "gap": "18/5",
+    "relative_gap": "1"
+  },
+  "witness_count": 0,
+  "adaptive_states": 1,
+  "uniform_nodes": 883,
+  "uniform_search_complete": true,
+  "subset_nodes": 42,
+  "actual_output": true,
+  "automatic_old_miss_repaired": true
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "previous_files_unchanged": 3686,
+  "finite_cases": 24,
+  "finite_optima_closed": 20,
+  "finite_impossibility_cases": 4,
+  "continuous_cases_including_development": 16,
+  "continuous_nonzero_exact_optima": 3,
+  "continuous_outputs": 4,
+  "automatic_old_miss_repairs_including_development": 4,
+  "geometric_certificates": 9,
+  "history_events": 78,
+  "scope": "independent Helly/Bellman/tree and continuous-bound consumers; analytic tangency completeness checked separately; physical responses and histories checked; generic finite-prior completeness and root truth remain external"
+}

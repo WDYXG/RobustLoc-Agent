@@ -1,0 +1,122 @@
+{
+  "interval": {
+    "state": "certifiably-recoverable",
+    "cost_lower": "7/5",
+    "cost_upper": "7/5",
+    "lower_infinite": false,
+    "gap": "0",
+    "relative_gap": "0"
+  },
+  "finite": {
+    "schema": "finite-minimal-trust-v1",
+    "adaptive_cost": "7/5",
+    "adaptive_status": "finite",
+    "optimal_tree": {
+      "terminal": false,
+      "worlds": [
+        0,
+        1
+      ],
+      "action": "ref-u",
+      "children": {
+        "{\"points\":[{\"anchor\":\"u\",\"centre\":[\"0\",\"-2\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+          "terminal": true,
+          "worlds": [
+            0
+          ],
+          "circle": {
+            "centre": [
+              "0",
+              "1"
+            ],
+            "radius2": "0",
+            "support": [
+              0
+            ]
+          }
+        },
+        "{\"points\":[{\"anchor\":\"u\",\"centre\":[\"0\",\"2\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+          "terminal": true,
+          "worlds": [
+            1
+          ],
+          "circle": {
+            "centre": [
+              "0",
+              "-1"
+            ],
+            "radius2": "0",
+            "support": [
+              0
+            ]
+          }
+        }
+      }
+    },
+    "pair_batch": {
+      "cost": "7/5",
+      "actions": [
+        "ref-u"
+      ],
+      "status": "finite"
+    },
+    "hypergraph_batch": {
+      "cost": "7/5",
+      "actions": [
+        "ref-u"
+      ],
+      "status": "finite"
+    },
+    "incident_lower": "7/5",
+    "incident_status": "finite",
+    "incident_covers": [
+      {
+        "cost": "7/5",
+        "actions": [
+          "ref-u"
+        ],
+        "status": "finite"
+      },
+      {
+        "cost": "7/5",
+        "actions": [
+          "ref-u"
+        ],
+        "status": "finite"
+      }
+    ],
+    "witnesses": [
+      {
+        "worlds": [
+          0,
+          1
+        ],
+        "radius2": "1",
+        "breakers": [
+          2
+        ]
+      }
+    ],
+    "pair_count": 1,
+    "triple_count": 0,
+    "search": {
+      "adaptive_states": 3,
+      "cover_nodes": 128,
+      "complete": true
+    },
+    "scope": "exact optimum only for the declared complete finite deterministic-response model; restriction supplies a lower bound only"
+  },
+  "verification": {
+    "passed": true,
+    "independent_states": 3,
+    "adaptive_cost": "7/5",
+    "witnesses": 1,
+    "scope": "independent Helly predicate, exhaustive batch costs, bottom-up minimax and full tree traversal"
+  },
+  "completeness": {
+    "passed": true,
+    "world_count": 2,
+    "scope": "continuous target and all anchor positions reduced exactly; zero noise, q=r=0, checked tangency only"
+  },
+  "scope": "continuous physical cost equality authorized by a checked exact prior reduction; not by sampling"
+}

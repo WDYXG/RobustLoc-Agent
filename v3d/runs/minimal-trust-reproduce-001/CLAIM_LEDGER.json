@@ -1,0 +1,80 @@
+[
+  {
+    "id": "K1",
+    "status": "known",
+    "claim": "Helly/enclosing disks, test-cost decision trees, set cover and restriction monotonicity"
+  },
+  {
+    "id": "P1",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P1",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P2",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P2",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P3",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P3",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P4",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P4",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P5",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P5",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P6",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P6",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P7",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P7",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "P8",
+    "status": "proved-in-project",
+    "proof": "THEORY.md P8",
+    "novelty": "unestablished"
+  },
+  {
+    "id": "C1",
+    "status": "refuted",
+    "claim": "pair diameter alone characterizes planar enclosing radius"
+  },
+  {
+    "id": "C2",
+    "status": "refuted",
+    "claim": "global batch hitting set is always an adaptive cost lower bound"
+  },
+  {
+    "id": "R1",
+    "status": "numerically-supported",
+    "claim": "automatic recovery of the fixed old cost3.6 miss and declared held-out variants"
+  },
+  {
+    "id": "F1",
+    "status": "proved-in-project",
+    "claim": "checked exact optima for explicitly complete finite catalogs; not continuous upper bounds"
+  },
+  {
+    "id": "H1",
+    "status": "conjectured",
+    "claim": "stronger continuous witness/certificate families may close remaining physical gaps"
+  }
+]

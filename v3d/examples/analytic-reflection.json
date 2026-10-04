@@ -1,0 +1,356 @@
+{
+  "mode": "analytic",
+  "observation": {
+    "episode_id": "analytic-reflection-0",
+    "nominal": {
+      "left": [
+        "-3/4",
+        "0"
+      ],
+      "right": [
+        "3/4",
+        "0"
+      ],
+      "u": [
+        "0",
+        "-2"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "left",
+        "value": "5/4",
+        "weight": "1"
+      },
+      {
+        "anchor": "right",
+        "value": "5/4",
+        "weight": "1"
+      },
+      {
+        "anchor": "u",
+        "value": "3",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [
+      {
+        "anchor": "left",
+        "centre": [
+          "-3/4",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "right",
+        "centre": [
+          "3/4",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "u",
+        "centre": [
+          "0",
+          "0"
+        ],
+        "radius": "2",
+        "root": "external-position-instrument"
+      }
+    ],
+    "reports": [],
+    "failure_groups": {},
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 0,
+    "epsilon": "0",
+    "tolerance": "1/10",
+    "domain": [
+      "-3",
+      "3",
+      "-3",
+      "3"
+    ],
+    "budget": "20",
+    "offers": [
+      {
+        "id": "ref-left",
+        "kind": "absolute-reference",
+        "anchors": [
+          "left"
+        ],
+        "radius": "0",
+        "cost": "1",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-right",
+        "kind": "absolute-reference",
+        "anchors": [
+          "right"
+        ],
+        "radius": "0",
+        "cost": "6/5",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-u",
+        "kind": "absolute-reference",
+        "anchors": [
+          "u"
+        ],
+        "radius": "0",
+        "cost": "7/5",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "repeat",
+        "kind": "ordinary-range",
+        "anchors": [
+          "left",
+          "right",
+          "u"
+        ],
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "anchors": [
+          "left",
+          "u"
+        ],
+        "cost": "1/5",
+        "root": "external-baseline-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": []
+  },
+  "model": {
+    "worlds": [
+      {
+        "id": "up",
+        "target": [
+          "0",
+          "1"
+        ],
+        "positions": {
+          "left": [
+            "-3/4",
+            "0"
+          ],
+          "right": [
+            "3/4",
+            "0"
+          ],
+          "u": [
+            "0",
+            "-2"
+          ]
+        }
+      },
+      {
+        "id": "down",
+        "target": [
+          "0",
+          "-1"
+        ],
+        "positions": {
+          "left": [
+            "-3/4",
+            "0"
+          ],
+          "right": [
+            "3/4",
+            "0"
+          ],
+          "u": [
+            "0",
+            "2"
+          ]
+        }
+      }
+    ],
+    "tolerance": "1/10",
+    "actions": [
+      {
+        "id": "ref-left",
+        "cost": "1",
+        "responses": {
+          "up": {
+            "points": [
+              {
+                "anchor": "left",
+                "centre": [
+                  "-3/4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "down": {
+            "points": [
+              {
+                "anchor": "left",
+                "centre": [
+                  "-3/4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-right",
+        "cost": "6/5",
+        "responses": {
+          "up": {
+            "points": [
+              {
+                "anchor": "right",
+                "centre": [
+                  "3/4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "down": {
+            "points": [
+              {
+                "anchor": "right",
+                "centre": [
+                  "3/4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-u",
+        "cost": "7/5",
+        "responses": {
+          "up": {
+            "points": [
+              {
+                "anchor": "u",
+                "centre": [
+                  "0",
+                  "-2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "down": {
+            "points": [
+              {
+                "anchor": "u",
+                "centre": [
+                  "0",
+                  "2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "repeat",
+        "cost": "1/4",
+        "responses": {
+          "up": {
+            "measurements": [
+              {
+                "anchor": "left",
+                "value": "5/4",
+                "weight": "1"
+              },
+              {
+                "anchor": "right",
+                "value": "5/4",
+                "weight": "1"
+              },
+              {
+                "anchor": "u",
+                "value": "3",
+                "weight": "1"
+              }
+            ]
+          },
+          "down": {
+            "measurements": [
+              {
+                "anchor": "left",
+                "value": "5/4",
+                "weight": "1"
+              },
+              {
+                "anchor": "right",
+                "value": "5/4",
+                "weight": "1"
+              },
+              {
+                "anchor": "u",
+                "value": "3",
+                "weight": "1"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "baseline",
+        "cost": "1/5",
+        "responses": {
+          "up": {
+            "baseline": {
+              "a": "left",
+              "b": "u",
+              "distance2": "73/16",
+              "root": "external-baseline-instrument"
+            }
+          },
+          "down": {
+            "baseline": {
+              "a": "left",
+              "b": "u",
+              "distance2": "73/16",
+              "root": "external-baseline-instrument"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "completeness": {
+    "schema": "reflection-tangency-completeness-v1",
+    "a": "3/4",
+    "h": "1",
+    "delta": "2"
+  },
+  "budget": "2"
+}

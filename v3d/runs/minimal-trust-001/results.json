@@ -1,0 +1,830 @@
+[
+  {
+    "case": "adaptive-four-0",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "1",
+      "cost_upper": "1",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "3/2",
+    "pair_batch_cost": "3/2",
+    "incident_lower": "1",
+    "witness_count": 10,
+    "pair_count": 6,
+    "triple_count": 4,
+    "adaptive_states": 20,
+    "cover_nodes": 48
+  },
+  {
+    "case": "adaptive-four-1",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "1",
+      "cost_upper": "1",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "3/2",
+    "pair_batch_cost": "3/2",
+    "incident_lower": "1",
+    "witness_count": 10,
+    "pair_count": 6,
+    "triple_count": 4,
+    "adaptive_states": 20,
+    "cover_nodes": 48
+  },
+  {
+    "case": "adaptive-four-2",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "7/2",
+      "cost_upper": "7/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "21/4",
+    "pair_batch_cost": "21/4",
+    "incident_lower": "7/2",
+    "witness_count": 10,
+    "pair_count": 6,
+    "triple_count": 4,
+    "adaptive_states": 20,
+    "cover_nodes": 48
+  },
+  {
+    "case": "adaptive-four-3",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "3",
+      "cost_upper": "3",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "9/2",
+    "pair_batch_cost": "9/2",
+    "incident_lower": "3",
+    "witness_count": 10,
+    "pair_count": 6,
+    "triple_count": 4,
+    "adaptive_states": 20,
+    "cover_nodes": 48
+  },
+  {
+    "case": "acute-triple-0",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "1/2",
+    "pair_batch_cost": "0",
+    "incident_lower": "1/2",
+    "witness_count": 1,
+    "pair_count": 0,
+    "triple_count": 1,
+    "adaptive_states": 4,
+    "cover_nodes": 20
+  },
+  {
+    "case": "acute-triple-1",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "1/2",
+    "pair_batch_cost": "0",
+    "incident_lower": "1/2",
+    "witness_count": 1,
+    "pair_count": 0,
+    "triple_count": 1,
+    "adaptive_states": 4,
+    "cover_nodes": 20
+  },
+  {
+    "case": "acute-triple-2",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "7/4",
+      "cost_upper": "7/4",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "7/4",
+    "pair_batch_cost": "0",
+    "incident_lower": "7/4",
+    "witness_count": 1,
+    "pair_count": 0,
+    "triple_count": 1,
+    "adaptive_states": 4,
+    "cover_nodes": 20
+  },
+  {
+    "case": "acute-triple-3",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "3/2",
+      "cost_upper": "3/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "3/2",
+    "pair_batch_cost": "0",
+    "incident_lower": "3/2",
+    "witness_count": 1,
+    "pair_count": 0,
+    "triple_count": 1,
+    "adaptive_states": 4,
+    "cover_nodes": 20
+  },
+  {
+    "case": "near-cluster-0",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "0",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "0",
+    "pair_batch_cost": "0",
+    "incident_lower": "0",
+    "witness_count": 0,
+    "pair_count": 0,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 20
+  },
+  {
+    "case": "near-cluster-1",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "0",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "0",
+    "pair_batch_cost": "0",
+    "incident_lower": "0",
+    "witness_count": 0,
+    "pair_count": 0,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 20
+  },
+  {
+    "case": "near-cluster-2",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "0",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "0",
+    "pair_batch_cost": "0",
+    "incident_lower": "0",
+    "witness_count": 0,
+    "pair_count": 0,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 20
+  },
+  {
+    "case": "near-cluster-3",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "0",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "0",
+    "pair_batch_cost": "0",
+    "incident_lower": "0",
+    "witness_count": 0,
+    "pair_count": 0,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 20
+  },
+  {
+    "case": "unseparable-reflection-0",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": null,
+      "cost_upper": null,
+      "lower_infinite": true,
+      "gap": null,
+      "relative_gap": null
+    },
+    "batch_cost": null,
+    "pair_batch_cost": null,
+    "incident_lower": null,
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 32
+  },
+  {
+    "case": "unseparable-reflection-1",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": null,
+      "cost_upper": null,
+      "lower_infinite": true,
+      "gap": null,
+      "relative_gap": null
+    },
+    "batch_cost": null,
+    "pair_batch_cost": null,
+    "incident_lower": null,
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 32
+  },
+  {
+    "case": "unseparable-reflection-2",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": null,
+      "cost_upper": null,
+      "lower_infinite": true,
+      "gap": null,
+      "relative_gap": null
+    },
+    "batch_cost": null,
+    "pair_batch_cost": null,
+    "incident_lower": null,
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 32
+  },
+  {
+    "case": "unseparable-reflection-3",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": null,
+      "cost_upper": null,
+      "lower_infinite": true,
+      "gap": null,
+      "relative_gap": null
+    },
+    "batch_cost": null,
+    "pair_batch_cost": null,
+    "incident_lower": null,
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 1,
+    "cover_nodes": 32
+  },
+  {
+    "case": "simple-pair-0",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "1/2",
+    "pair_batch_cost": "1/2",
+    "incident_lower": "1/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "simple-pair-1",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "1/2",
+      "cost_upper": "1/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "1/2",
+    "pair_batch_cost": "1/2",
+    "incident_lower": "1/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "simple-pair-2",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "7/4",
+      "cost_upper": "7/4",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "7/4",
+    "pair_batch_cost": "7/4",
+    "incident_lower": "7/4",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "simple-pair-3",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "3/2",
+      "cost_upper": "3/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "3/2",
+    "pair_batch_cost": "3/2",
+    "incident_lower": "3/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "expensive-pair-0",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "9/2",
+      "cost_upper": "9/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "9/2",
+    "pair_batch_cost": "9/2",
+    "incident_lower": "9/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "expensive-pair-1",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "9/2",
+      "cost_upper": "9/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "9/2",
+    "pair_batch_cost": "9/2",
+    "incident_lower": "9/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "expensive-pair-2",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "9/2",
+      "cost_upper": "9/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "9/2",
+    "pair_batch_cost": "9/2",
+    "incident_lower": "9/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "expensive-pair-3",
+    "mode": "finite-complete",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "9/2",
+      "cost_upper": "9/2",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "batch_cost": "9/2",
+    "pair_batch_cost": "9/2",
+    "incident_lower": "9/2",
+    "witness_count": 1,
+    "pair_count": 1,
+    "triple_count": 0,
+    "adaptive_states": 3,
+    "cover_nodes": 16
+  },
+  {
+    "case": "regression-0",
+    "mode": "continuous",
+    "budget": "18/5",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "18/5",
+      "relative_gap": "1"
+    },
+    "witness_count": 0,
+    "adaptive_states": 1,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 42,
+    "actual_output": true,
+    "automatic_old_miss_repaired": true
+  },
+  {
+    "case": "regression-1",
+    "mode": "continuous",
+    "budget": "18/5",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "18/5",
+      "relative_gap": "1"
+    },
+    "witness_count": 0,
+    "adaptive_states": 1,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 42,
+    "actual_output": true,
+    "automatic_old_miss_repaired": true
+  },
+  {
+    "case": "regression-2",
+    "mode": "continuous",
+    "budget": "18/5",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "0",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "18/5",
+      "relative_gap": "1"
+    },
+    "witness_count": 0,
+    "adaptive_states": 1,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 42,
+    "actual_output": true,
+    "automatic_old_miss_repaired": true
+  },
+  {
+    "case": "positive-gap-0",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "13/5",
+      "relative_gap": "13/18"
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "positive-gap-1",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "13/5",
+      "relative_gap": "13/18"
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "positive-gap-2",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "13/5",
+      "relative_gap": "13/18"
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "insufficient-budget-0",
+    "mode": "continuous",
+    "budget": "1/2",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "1",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "13/5",
+      "relative_gap": "13/18"
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "insufficient-budget-1",
+    "mode": "continuous",
+    "budget": "1/2",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "1",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "13/5",
+      "relative_gap": "13/18"
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "insufficient-budget-2",
+    "mode": "continuous",
+    "budget": "1/2",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "1",
+      "cost_upper": "18/5",
+      "lower_infinite": false,
+      "gap": "13/5",
+      "relative_gap": "13/18"
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 883,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "search-limited-0",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": null,
+      "lower_infinite": false,
+      "gap": null,
+      "relative_gap": null
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 1,
+    "uniform_search_complete": false,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "search-limited-1",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": null,
+      "lower_infinite": false,
+      "gap": null,
+      "relative_gap": null
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 1,
+    "uniform_search_complete": false,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "search-limited-2",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": null,
+      "lower_infinite": false,
+      "gap": null,
+      "relative_gap": null
+    },
+    "witness_count": 16,
+    "adaptive_states": 31,
+    "uniform_nodes": 1,
+    "uniform_search_complete": false,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "family-limited-0",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": null,
+      "lower_infinite": false,
+      "gap": null,
+      "relative_gap": null
+    },
+    "witness_count": 20,
+    "adaptive_states": 31,
+    "uniform_nodes": 2688,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "family-limited-1",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": null,
+      "lower_infinite": false,
+      "gap": null,
+      "relative_gap": null
+    },
+    "witness_count": 20,
+    "adaptive_states": 31,
+    "uniform_nodes": 2688,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "family-limited-2",
+    "mode": "continuous",
+    "budget": "2",
+    "interval": {
+      "state": "unresolved-certificate-or-search-gap",
+      "cost_lower": "1",
+      "cost_upper": null,
+      "lower_infinite": false,
+      "gap": null,
+      "relative_gap": null
+    },
+    "witness_count": 20,
+    "adaptive_states": 31,
+    "uniform_nodes": 2688,
+    "uniform_search_complete": true,
+    "subset_nodes": 0,
+    "actual_output": false,
+    "automatic_old_miss_repaired": false
+  },
+  {
+    "case": "analytic-reflection-0",
+    "mode": "continuous-exact-reduction",
+    "budget": "2",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "7/5",
+      "cost_upper": "7/5",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "witness_count": 1,
+    "adaptive_states": 3,
+    "uniform_ball_family_upper": null
+  },
+  {
+    "case": "analytic-reflection-1",
+    "mode": "continuous-exact-reduction",
+    "budget": "2",
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "7/10",
+      "cost_upper": "7/10",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "witness_count": 1,
+    "adaptive_states": 3,
+    "uniform_ball_family_upper": null
+  },
+  {
+    "case": "analytic-reflection-2",
+    "mode": "continuous-exact-reduction",
+    "budget": "2",
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "21/10",
+      "cost_upper": "21/10",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "witness_count": 1,
+    "adaptive_states": 3,
+    "uniform_ball_family_upper": null
+  }
+]

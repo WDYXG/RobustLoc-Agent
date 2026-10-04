@@ -1,0 +1,747 @@
+{
+  "observation": {
+    "episode_id": "adaptive-four-3",
+    "nominal": {
+      "g": [
+        "-4",
+        "0"
+      ],
+      "l": [
+        "0",
+        "0"
+      ],
+      "r": [
+        "0",
+        "0"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "g",
+        "value": "6324555320336759/2000000000000000",
+        "weight": "1"
+      },
+      {
+        "anchor": "l",
+        "value": "2828427124746191/2000000000000000",
+        "weight": "1"
+      },
+      {
+        "anchor": "r",
+        "value": "2828427124746191/2000000000000000",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [],
+    "failure_groups": {},
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 0,
+    "epsilon": "1/1000000",
+    "tolerance": "1/10",
+    "domain": [
+      "-3",
+      "3",
+      "-3",
+      "3"
+    ],
+    "budget": "20",
+    "offers": [
+      {
+        "id": "ref-g",
+        "kind": "absolute-reference",
+        "anchors": [
+          "g"
+        ],
+        "radius": "0",
+        "cost": "3/2",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-l",
+        "kind": "absolute-reference",
+        "anchors": [
+          "l"
+        ],
+        "radius": "0",
+        "cost": "3/2",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-r",
+        "kind": "absolute-reference",
+        "anchors": [
+          "r"
+        ],
+        "radius": "0",
+        "cost": "3/2",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": []
+  },
+  "model": {
+    "worlds": [
+      {
+        "id": "w0",
+        "target": [
+          "-1",
+          "-1"
+        ],
+        "positions": {
+          "g": [
+            "-4",
+            "0"
+          ],
+          "l": [
+            "0",
+            "0"
+          ],
+          "r": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w1",
+        "target": [
+          "-1",
+          "1"
+        ],
+        "positions": {
+          "g": [
+            "-4",
+            "0"
+          ],
+          "l": [
+            "-2",
+            "2"
+          ],
+          "r": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w2",
+        "target": [
+          "1",
+          "-1"
+        ],
+        "positions": {
+          "g": [
+            "4",
+            "0"
+          ],
+          "l": [
+            "0",
+            "0"
+          ],
+          "r": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w3",
+        "target": [
+          "1",
+          "1"
+        ],
+        "positions": {
+          "g": [
+            "4",
+            "0"
+          ],
+          "l": [
+            "0",
+            "0"
+          ],
+          "r": [
+            "2",
+            "2"
+          ]
+        }
+      }
+    ],
+    "tolerance": "1/10",
+    "actions": [
+      {
+        "id": "ref-g",
+        "cost": "3/2",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "-4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "-4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w3": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-l",
+        "cost": "3/2",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "-2",
+                  "2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w3": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-r",
+        "cost": "3/2",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w3": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "2",
+                  "2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "model_semantics": "explicit complete finite prior for exact optimum; also a checked restriction of the larger continuous contract"
+  },
+  "budget": "2",
+  "decision": {
+    "interval": {
+      "state": "provably-insufficient-information-budget",
+      "cost_lower": "3",
+      "cost_upper": "3",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "finite": {
+      "schema": "finite-minimal-trust-v1",
+      "adaptive_cost": "3",
+      "adaptive_status": "finite",
+      "optimal_tree": {
+        "terminal": false,
+        "worlds": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "action": "ref-g",
+        "children": {
+          "{\"points\":[{\"anchor\":\"g\",\"centre\":[\"-4\",\"0\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": false,
+            "worlds": [
+              0,
+              1
+            ],
+            "action": "ref-l",
+            "children": {
+              "{\"points\":[{\"anchor\":\"l\",\"centre\":[\"-2\",\"2\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+                "terminal": true,
+                "worlds": [
+                  1
+                ],
+                "circle": {
+                  "centre": [
+                    "-1",
+                    "1"
+                  ],
+                  "radius2": "0",
+                  "support": [
+                    0
+                  ]
+                }
+              },
+              "{\"points\":[{\"anchor\":\"l\",\"centre\":[\"0\",\"0\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+                "terminal": true,
+                "worlds": [
+                  0
+                ],
+                "circle": {
+                  "centre": [
+                    "-1",
+                    "-1"
+                  ],
+                  "radius2": "0",
+                  "support": [
+                    0
+                  ]
+                }
+              }
+            }
+          },
+          "{\"points\":[{\"anchor\":\"g\",\"centre\":[\"4\",\"0\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": false,
+            "worlds": [
+              2,
+              3
+            ],
+            "action": "ref-r",
+            "children": {
+              "{\"points\":[{\"anchor\":\"r\",\"centre\":[\"0\",\"0\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+                "terminal": true,
+                "worlds": [
+                  2
+                ],
+                "circle": {
+                  "centre": [
+                    "1",
+                    "-1"
+                  ],
+                  "radius2": "0",
+                  "support": [
+                    0
+                  ]
+                }
+              },
+              "{\"points\":[{\"anchor\":\"r\",\"centre\":[\"2\",\"2\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+                "terminal": true,
+                "worlds": [
+                  3
+                ],
+                "circle": {
+                  "centre": [
+                    "1",
+                    "1"
+                  ],
+                  "radius2": "0",
+                  "support": [
+                    0
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "pair_batch": {
+        "cost": "9/2",
+        "actions": [
+          "ref-g",
+          "ref-l",
+          "ref-r"
+        ],
+        "status": "finite"
+      },
+      "hypergraph_batch": {
+        "cost": "9/2",
+        "actions": [
+          "ref-g",
+          "ref-l",
+          "ref-r"
+        ],
+        "status": "finite"
+      },
+      "incident_lower": "3",
+      "incident_status": "finite",
+      "incident_covers": [
+        {
+          "cost": "3",
+          "actions": [
+            "ref-g",
+            "ref-l"
+          ],
+          "status": "finite"
+        },
+        {
+          "cost": "3/2",
+          "actions": [
+            "ref-l"
+          ],
+          "status": "finite"
+        },
+        {
+          "cost": "3",
+          "actions": [
+            "ref-g",
+            "ref-r"
+          ],
+          "status": "finite"
+        },
+        {
+          "cost": "3/2",
+          "actions": [
+            "ref-r"
+          ],
+          "status": "finite"
+        }
+      ],
+      "witnesses": [
+        {
+          "worlds": [
+            0,
+            1
+          ],
+          "radius2": "1",
+          "breakers": [
+            1
+          ]
+        },
+        {
+          "worlds": [
+            0,
+            2
+          ],
+          "radius2": "1",
+          "breakers": [
+            0
+          ]
+        },
+        {
+          "worlds": [
+            0,
+            3
+          ],
+          "radius2": "2",
+          "breakers": [
+            0,
+            2
+          ]
+        },
+        {
+          "worlds": [
+            1,
+            2
+          ],
+          "radius2": "2",
+          "breakers": [
+            0,
+            1
+          ]
+        },
+        {
+          "worlds": [
+            1,
+            3
+          ],
+          "radius2": "1",
+          "breakers": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "worlds": [
+            2,
+            3
+          ],
+          "radius2": "1",
+          "breakers": [
+            2
+          ]
+        },
+        {
+          "worlds": [
+            0,
+            1,
+            2
+          ],
+          "radius2": "2",
+          "breakers": [
+            0,
+            1
+          ]
+        },
+        {
+          "worlds": [
+            0,
+            1,
+            3
+          ],
+          "radius2": "2",
+          "breakers": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "worlds": [
+            0,
+            2,
+            3
+          ],
+          "radius2": "2",
+          "breakers": [
+            0,
+            2
+          ]
+        },
+        {
+          "worlds": [
+            1,
+            2,
+            3
+          ],
+          "radius2": "2",
+          "breakers": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "pair_count": 6,
+      "triple_count": 4,
+      "search": {
+        "adaptive_states": 20,
+        "cover_nodes": 48,
+        "complete": true
+      },
+      "scope": "exact optimum only for the declared complete finite deterministic-response model; restriction supplies a lower bound only"
+    },
+    "verification": {
+      "passed": true,
+      "independent_states": 15,
+      "adaptive_cost": "3",
+      "witnesses": 10,
+      "scope": "independent Helly predicate, exhaustive batch costs, bottom-up minimax and full tree traversal"
+    },
+    "physics": {
+      "passed": true,
+      "worlds": 4,
+      "responses": 12,
+      "scope": "valid finite restriction of the full continuous contract; completeness is not established by sampling"
+    },
+    "scope": "complete finite prior ONLY: equality is not transferred to the continuous nuisance model"
+  },
+  "outcomes": [
+    {
+      "world": "w0",
+      "cost": "3",
+      "actions": [
+        "ref-g",
+        "ref-l"
+      ],
+      "terminal_worlds": [
+        0
+      ],
+      "circle": {
+        "centre": [
+          "-1",
+          "-1"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    },
+    {
+      "world": "w1",
+      "cost": "3",
+      "actions": [
+        "ref-g",
+        "ref-l"
+      ],
+      "terminal_worlds": [
+        1
+      ],
+      "circle": {
+        "centre": [
+          "-1",
+          "1"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    },
+    {
+      "world": "w2",
+      "cost": "3",
+      "actions": [
+        "ref-g",
+        "ref-r"
+      ],
+      "terminal_worlds": [
+        2
+      ],
+      "circle": {
+        "centre": [
+          "1",
+          "-1"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    },
+    {
+      "world": "w3",
+      "cost": "3",
+      "actions": [
+        "ref-g",
+        "ref-r"
+      ],
+      "terminal_worlds": [
+        3
+      ],
+      "circle": {
+        "centre": [
+          "1",
+          "1"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    }
+  ]
+}

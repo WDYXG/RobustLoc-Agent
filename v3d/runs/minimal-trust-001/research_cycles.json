@@ -1,0 +1,26 @@
+[
+  {
+    "status": "known",
+    "step": "audit enclosing disks, decision trees and adaptive cover"
+  },
+  {
+    "status": "refuted",
+    "step": "test pair-only radius and batch-to-adaptive lower-bound transfer"
+  },
+  {
+    "status": "proved-in-project",
+    "step": "derive incident-hyperedge lower bound, exact finite DP, uniform subset-policy upper"
+  },
+  {
+    "status": "proved-in-project",
+    "step": "check exact zero-noise tangency reduction before transferring finite equality to continuous cost"
+  },
+  {
+    "status": "numerically-supported",
+    "step": "automatically repair old miss and run frozen gap experiment"
+  },
+  {
+    "status": "conjectured",
+    "step": "retain nonzero continuous gap rather than claim physical optimality"
+  }
+]

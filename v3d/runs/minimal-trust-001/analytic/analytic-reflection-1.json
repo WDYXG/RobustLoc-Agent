@@ -1,0 +1,530 @@
+{
+  "observation": {
+    "episode_id": "analytic-reflection-1",
+    "nominal": {
+      "left": [
+        "-3/8",
+        "0"
+      ],
+      "right": [
+        "3/8",
+        "0"
+      ],
+      "u": [
+        "0",
+        "-1"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "left",
+        "value": "5/8",
+        "weight": "1"
+      },
+      {
+        "anchor": "right",
+        "value": "5/8",
+        "weight": "1"
+      },
+      {
+        "anchor": "u",
+        "value": "3/2",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [
+      {
+        "anchor": "left",
+        "centre": [
+          "-3/8",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "right",
+        "centre": [
+          "3/8",
+          "0"
+        ],
+        "radius": "0",
+        "root": "external-position-instrument"
+      },
+      {
+        "anchor": "u",
+        "centre": [
+          "0",
+          "0"
+        ],
+        "radius": "1",
+        "root": "external-position-instrument"
+      }
+    ],
+    "reports": [],
+    "failure_groups": {},
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 0,
+    "epsilon": "0",
+    "tolerance": "1/20",
+    "domain": [
+      "-3",
+      "3",
+      "-3",
+      "3"
+    ],
+    "budget": "20",
+    "offers": [
+      {
+        "id": "ref-left",
+        "kind": "absolute-reference",
+        "anchors": [
+          "left"
+        ],
+        "radius": "0",
+        "cost": "1/2",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-right",
+        "kind": "absolute-reference",
+        "anchors": [
+          "right"
+        ],
+        "radius": "0",
+        "cost": "3/5",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-u",
+        "kind": "absolute-reference",
+        "anchors": [
+          "u"
+        ],
+        "radius": "0",
+        "cost": "7/10",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "repeat",
+        "kind": "ordinary-range",
+        "anchors": [
+          "left",
+          "right",
+          "u"
+        ],
+        "cost": "1/4"
+      },
+      {
+        "id": "baseline",
+        "kind": "baseline",
+        "anchors": [
+          "left",
+          "u"
+        ],
+        "cost": "1/5",
+        "root": "external-baseline-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": []
+  },
+  "model": {
+    "worlds": [
+      {
+        "id": "up",
+        "target": [
+          "0",
+          "1/2"
+        ],
+        "positions": {
+          "left": [
+            "-3/8",
+            "0"
+          ],
+          "right": [
+            "3/8",
+            "0"
+          ],
+          "u": [
+            "0",
+            "-1"
+          ]
+        }
+      },
+      {
+        "id": "down",
+        "target": [
+          "0",
+          "-1/2"
+        ],
+        "positions": {
+          "left": [
+            "-3/8",
+            "0"
+          ],
+          "right": [
+            "3/8",
+            "0"
+          ],
+          "u": [
+            "0",
+            "1"
+          ]
+        }
+      }
+    ],
+    "tolerance": "1/20",
+    "actions": [
+      {
+        "id": "ref-left",
+        "cost": "1/2",
+        "responses": {
+          "up": {
+            "points": [
+              {
+                "anchor": "left",
+                "centre": [
+                  "-3/8",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "down": {
+            "points": [
+              {
+                "anchor": "left",
+                "centre": [
+                  "-3/8",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-right",
+        "cost": "3/5",
+        "responses": {
+          "up": {
+            "points": [
+              {
+                "anchor": "right",
+                "centre": [
+                  "3/8",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "down": {
+            "points": [
+              {
+                "anchor": "right",
+                "centre": [
+                  "3/8",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-u",
+        "cost": "7/10",
+        "responses": {
+          "up": {
+            "points": [
+              {
+                "anchor": "u",
+                "centre": [
+                  "0",
+                  "-1"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "down": {
+            "points": [
+              {
+                "anchor": "u",
+                "centre": [
+                  "0",
+                  "1"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "repeat",
+        "cost": "1/4",
+        "responses": {
+          "up": {
+            "measurements": [
+              {
+                "anchor": "left",
+                "value": "5/8",
+                "weight": "1"
+              },
+              {
+                "anchor": "right",
+                "value": "5/8",
+                "weight": "1"
+              },
+              {
+                "anchor": "u",
+                "value": "3/2",
+                "weight": "1"
+              }
+            ]
+          },
+          "down": {
+            "measurements": [
+              {
+                "anchor": "left",
+                "value": "5/8",
+                "weight": "1"
+              },
+              {
+                "anchor": "right",
+                "value": "5/8",
+                "weight": "1"
+              },
+              {
+                "anchor": "u",
+                "value": "3/2",
+                "weight": "1"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "baseline",
+        "cost": "1/5",
+        "responses": {
+          "up": {
+            "baseline": {
+              "a": "left",
+              "b": "u",
+              "distance2": "73/64",
+              "root": "external-baseline-instrument"
+            }
+          },
+          "down": {
+            "baseline": {
+              "a": "left",
+              "b": "u",
+              "distance2": "73/64",
+              "root": "external-baseline-instrument"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "completeness_certificate": {
+    "schema": "reflection-tangency-completeness-v1",
+    "a": "3/8",
+    "h": "1/2",
+    "delta": "1"
+  },
+  "budget": "2",
+  "decision": {
+    "interval": {
+      "state": "certifiably-recoverable",
+      "cost_lower": "7/10",
+      "cost_upper": "7/10",
+      "lower_infinite": false,
+      "gap": "0",
+      "relative_gap": "0"
+    },
+    "finite": {
+      "schema": "finite-minimal-trust-v1",
+      "adaptive_cost": "7/10",
+      "adaptive_status": "finite",
+      "optimal_tree": {
+        "terminal": false,
+        "worlds": [
+          0,
+          1
+        ],
+        "action": "ref-u",
+        "children": {
+          "{\"points\":[{\"anchor\":\"u\",\"centre\":[\"0\",\"-1\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": true,
+            "worlds": [
+              0
+            ],
+            "circle": {
+              "centre": [
+                "0",
+                "1/2"
+              ],
+              "radius2": "0",
+              "support": [
+                0
+              ]
+            }
+          },
+          "{\"points\":[{\"anchor\":\"u\",\"centre\":[\"0\",\"1\"],\"radius\":\"0\",\"root\":\"external-position-instrument\"}]}": {
+            "terminal": true,
+            "worlds": [
+              1
+            ],
+            "circle": {
+              "centre": [
+                "0",
+                "-1/2"
+              ],
+              "radius2": "0",
+              "support": [
+                0
+              ]
+            }
+          }
+        }
+      },
+      "pair_batch": {
+        "cost": "7/10",
+        "actions": [
+          "ref-u"
+        ],
+        "status": "finite"
+      },
+      "hypergraph_batch": {
+        "cost": "7/10",
+        "actions": [
+          "ref-u"
+        ],
+        "status": "finite"
+      },
+      "incident_lower": "7/10",
+      "incident_status": "finite",
+      "incident_covers": [
+        {
+          "cost": "7/10",
+          "actions": [
+            "ref-u"
+          ],
+          "status": "finite"
+        },
+        {
+          "cost": "7/10",
+          "actions": [
+            "ref-u"
+          ],
+          "status": "finite"
+        }
+      ],
+      "witnesses": [
+        {
+          "worlds": [
+            0,
+            1
+          ],
+          "radius2": "1/4",
+          "breakers": [
+            2
+          ]
+        }
+      ],
+      "pair_count": 1,
+      "triple_count": 0,
+      "search": {
+        "adaptive_states": 3,
+        "cover_nodes": 128,
+        "complete": true
+      },
+      "scope": "exact optimum only for the declared complete finite deterministic-response model; restriction supplies a lower bound only"
+    },
+    "verification": {
+      "passed": true,
+      "independent_states": 3,
+      "adaptive_cost": "7/10",
+      "witnesses": 1,
+      "scope": "independent Helly predicate, exhaustive batch costs, bottom-up minimax and full tree traversal"
+    },
+    "completeness": {
+      "passed": true,
+      "world_count": 2,
+      "scope": "continuous target and all anchor positions reduced exactly; zero noise, q=r=0, checked tangency only"
+    },
+    "scope": "continuous physical cost equality authorized by a checked exact prior reduction; not by sampling"
+  },
+  "outcomes": [
+    {
+      "world": "up",
+      "cost": "7/10",
+      "actions": [
+        "ref-u"
+      ],
+      "terminal_worlds": [
+        0
+      ],
+      "circle": {
+        "centre": [
+          "0",
+          "1/2"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    },
+    {
+      "world": "down",
+      "cost": "7/10",
+      "actions": [
+        "ref-u"
+      ],
+      "terminal_worlds": [
+        1
+      ],
+      "circle": {
+        "centre": [
+          "0",
+          "-1/2"
+        ],
+        "radius2": "0",
+        "support": [
+          0
+        ]
+      },
+      "error2": "0"
+    }
+  ],
+  "uniform_ball_family": {
+    "cost_upper": null,
+    "reason": "no-uniform-certificate-in-family",
+    "search": {
+      "nodes": 8,
+      "bundles": 8,
+      "complete": true
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "mode": "finite",
+  "observation": {
+    "episode_id": "adaptive-four-0",
+    "nominal": {
+      "g": [
+        "-4",
+        "0"
+      ],
+      "l": [
+        "0",
+        "0"
+      ],
+      "r": [
+        "0",
+        "0"
+      ]
+    },
+    "measurements": [
+      {
+        "anchor": "g",
+        "value": "6324555320336759/2000000000000000",
+        "weight": "1"
+      },
+      {
+        "anchor": "l",
+        "value": "2828427124746191/2000000000000000",
+        "weight": "1"
+      },
+      {
+        "anchor": "r",
+        "value": "2828427124746191/2000000000000000",
+        "weight": "1"
+      }
+    ],
+    "hard_refs": [],
+    "reports": [],
+    "failure_groups": {},
+    "external_roots": [
+      "external-position-instrument",
+      "external-baseline-instrument"
+    ],
+    "q": 0,
+    "r": 0,
+    "epsilon": "1/1000000",
+    "tolerance": "1/10",
+    "domain": [
+      "-3",
+      "3",
+      "-3",
+      "3"
+    ],
+    "budget": "20",
+    "offers": [
+      {
+        "id": "ref-g",
+        "kind": "absolute-reference",
+        "anchors": [
+          "g"
+        ],
+        "radius": "0",
+        "cost": "1",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-l",
+        "kind": "absolute-reference",
+        "anchors": [
+          "l"
+        ],
+        "radius": "0",
+        "cost": "1",
+        "root": "external-position-instrument"
+      },
+      {
+        "id": "ref-r",
+        "kind": "absolute-reference",
+        "anchors": [
+          "r"
+        ],
+        "radius": "0",
+        "cost": "1",
+        "root": "external-position-instrument"
+      }
+    ],
+    "baselines": [],
+    "receipts": [],
+    "forecast_frames": []
+  },
+  "model": {
+    "worlds": [
+      {
+        "id": "w0",
+        "target": [
+          "-1",
+          "-1"
+        ],
+        "positions": {
+          "g": [
+            "-4",
+            "0"
+          ],
+          "l": [
+            "0",
+            "0"
+          ],
+          "r": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w1",
+        "target": [
+          "-1",
+          "1"
+        ],
+        "positions": {
+          "g": [
+            "-4",
+            "0"
+          ],
+          "l": [
+            "-2",
+            "2"
+          ],
+          "r": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w2",
+        "target": [
+          "1",
+          "-1"
+        ],
+        "positions": {
+          "g": [
+            "4",
+            "0"
+          ],
+          "l": [
+            "0",
+            "0"
+          ],
+          "r": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      {
+        "id": "w3",
+        "target": [
+          "1",
+          "1"
+        ],
+        "positions": {
+          "g": [
+            "4",
+            "0"
+          ],
+          "l": [
+            "0",
+            "0"
+          ],
+          "r": [
+            "2",
+            "2"
+          ]
+        }
+      }
+    ],
+    "tolerance": "1/10",
+    "actions": [
+      {
+        "id": "ref-g",
+        "cost": "1",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "-4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "-4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w3": {
+            "points": [
+              {
+                "anchor": "g",
+                "centre": [
+                  "4",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-l",
+        "cost": "1",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "-2",
+                  "2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w3": {
+            "points": [
+              {
+                "anchor": "l",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "ref-r",
+        "cost": "1",
+        "responses": {
+          "w0": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w1": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w2": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "0",
+                  "0"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          },
+          "w3": {
+            "points": [
+              {
+                "anchor": "r",
+                "centre": [
+                  "2",
+                  "2"
+                ],
+                "radius": "0",
+                "root": "external-position-instrument"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "model_semantics": "explicit complete finite prior for exact optimum; also a checked restriction of the larger continuous contract"
+  },
+  "budget": "2"
+}

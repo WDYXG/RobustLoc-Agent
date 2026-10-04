@@ -1,0 +1,14 @@
+{
+  "run": "v3d/runs/minimal-trust-001",
+  "date": "2026-10-04",
+  "development_seed": 430051,
+  "heldout_seed": 430052,
+  "finite_kinds": ["adaptive-four", "acute-triple", "near-cluster", "unseparable-reflection", "simple-pair", "expensive-pair"],
+  "finite_variants": 4,
+  "finite_budget": "2",
+  "analytic_variants": 3,
+  "continuous_kinds": ["regression", "positive-gap", "insufficient-budget", "search-limited", "family-limited"],
+  "continuous_variants": 3,
+  "search_limit": 1,
+  "old_config": "v3c/trust_agent/config.json"
+}
