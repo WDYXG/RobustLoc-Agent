@@ -1,0 +1,19 @@
+{
+  "action": "refute",
+  "assumptions": [
+    "Exactly the assumptions encoded in formal_statement_json."
+  ],
+  "claim": "Are all 4-point covers sufficient for a planar sign cover?",
+  "claimed_status": "conjectured",
+  "evidence_request_json": "{}",
+  "family": "radius",
+  "formal_statement_json": "{\"k\":4,\"max_size\":5,\"rho\":\"4/5\",\"scope\":\"all-planar\",\"symmetry\":\"sign\",\"universe\":[[\"1\",\"0\"],[\"0\",\"1\"],[\"3/5\",\"4/5\"],[\"-4/5\",\"3/5\"],[\"4/5\",\"3/5\"],[\"-3/5\",\"4/5\"]]}",
+  "parent_id": "",
+  "possible_failure_mode": "Finite evidence may not justify a universal conclusion.",
+  "research_question": "Are all 4-point covers sufficient for a planar sign cover?",
+  "stop_condition": "Stop at the per-round tool budget and accept only the verifier disposition.",
+  "verification_plan": [
+    "Use the registered exact consumer; retain failures."
+  ],
+  "why_this_matters": "Advance or delimit a current mathematical frontier under a bounded check."
+}

@@ -1,0 +1,17 @@
+{
+  "completed_turns": 0,
+  "dollar_cost": null,
+  "dollar_cost_reason": "no authenticated billing receipt or validated price in this experiment",
+  "error": "CLI failure, missing completion receipt, timeout or forbidden external tool use",
+  "model_id": null,
+  "model_id_reason": "not inferred from the surrounding chat; fill only if transport reports it",
+  "provider": "codex-cli",
+  "returncode": 1,
+  "thread_ids": [
+    "01a1076a-f0a6-7673-b66e-5f2a4053a6b2"
+  ],
+  "timed_out": false,
+  "unexpected_tool_items": 1,
+  "usage": [],
+  "wall_seconds": 6.726903900009347
+}

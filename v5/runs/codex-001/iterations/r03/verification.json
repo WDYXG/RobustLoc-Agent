@@ -1,0 +1,20 @@
+{
+  "accepted": false,
+  "duplicate_existing": false,
+  "evidence": null,
+  "failure_kind": "provider-failure",
+  "formal_statement": null,
+  "operation_units": 0,
+  "repeated_attempt": false,
+  "semantic_key": null,
+  "tool_seconds": 0.0,
+  "unsupported_overclaim": false,
+  "valid_proposal": false,
+  "verdict": {
+    "nontrivial": false,
+    "novelty": "novelty-uncertain",
+    "reason": "CLI failure, missing completion receipt, timeout or forbidden external tool use",
+    "scope": "no conclusion authorized",
+    "status": "unresolved"
+  }
+}

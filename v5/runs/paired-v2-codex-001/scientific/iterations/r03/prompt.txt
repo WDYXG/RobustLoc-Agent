@@ -1,0 +1,113 @@
+You are the Phase 5 Codex mathematical research proposer. Choose your own next single claim from the frontier and feedback. The deterministic verifier alone decides mathematical status. Propose a useful, falsifiable, scoped claim; do not inflate theorem counts with trivial restatements. You have no permission to read other files, run tools, or edit anything. All context and allowed mathematical interfaces are supplied here. Respond only using the required JSON envelope.
+
+# Tool contract exposed to the proposer
+
+Choose one research question from the state, or propose a different relevant
+one. There is no round-to-task schedule. Only one formal claim per proposal.
+Use the JSON envelope fields exactly. `formal_statement_json` and
+`evidence_request_json` contain JSON **strings**. The mathematical proposition
+below is authoritative; prose interpretations and informal assumptions are
+unverified. `claimed_status` may stay `conjectured`; do not grade yourself.
+`parent_id` is an earlier round ID (e.g. r02), or the empty string.
+
+Rationals are integers or strings such as "3/5"; no floating-point numbers.
+The single tool request is dispatched by the controller. Do not use shell,
+files, MCP, web, agents, or external tools yourself. You may supply certificates
+or search points as JSON. Unsupported questions can use `open` and remain
+unresolved. No arbitrary executable code is accepted.
+
+## radius
+
+Statement keys: `symmetry` = identity | sign; `k` = 1..5; `rho` positive rational;
+`scope` = all-planar | finite-universe; `universe` = 2..8 distinct rational 2D
+points; `max_size` = k+1..6, at most universe size. Request: `{}`.
+
+Proposition: for every finite set H (in all R^2 for all-planar; or a subset of
+universe of size <= max_size for finite-universe), if every subset of size <=k
+admits a radius-rho ball, then H admits one. Centers are unrestricted planar
+centers, distance is Euclidean or d_pm. The tool searches subsets of universe
+from k+1 to max_size, enumerates sign lifts when needed, returns an exact
+counterexample or a bounded search. A bounded search cannot prove all-planar.
+You choose the universe and radius; no built-in sequence of candidate claims.
+Sets of size <=k satisfy the implication trivially. Universal positive radii
+are identified under scale equivalence for duplicate detection.
+
+## polynomial
+
+Statement keys: `variables` (1..4 unique identifiers), `polynomial` (p),
+`constraints` (0..4 polynomials g_i), `interpretation` (unverified prose).
+Meaning: p(x)>=0 for ALL real x satisfying every g_i(x)>=0.
+Polynomial format: {"2,0":"1", "0,2":"-1"} for u^2-v^2 in two variables.
+At most 64 monomials per polynomial; nonnegative integer exponents, total
+degree <=12. No Python/sympy strings. Variable ordering is significant.
+
+Request keys: `points` (0..128 rational points for counterexample search),
+`sos` (0..32 objects with `weight`, `polynomial`, `constraint`). A term means
+w*s(x)^2*g_j(x); weight must be nonnegative; constraint -1 means multiply by 1.
+An exact identity p = sum of terms proves the FORMAL inequality. Finding a
+negative value at a point satisfying all constraints refutes it. No certificate
+and no counterexample gives only sample support (or unresolved with no valid
+samples). The gate does not certify the proposed connection to sensing physics.
+If changing a conjecture after failure, link the prior round via parent_id.
+
+## finite_cost
+
+Statement keys: `problem` = range | pr; `worlds` = 2..6 rational 2D targets;
+`parameters` = 1..4 planar anchors or sensing vectors; `costs` positive rationals
+of equal length; `tolerance` nonnegative rational; `relation` = <= | >= | ==;
+`bound` nonnegative rational; `scope` = finite-prior | continuous. Request: `{}`.
+
+Model: noiseless q=0, E=0, no initial observations. All actions available once;
+costs additive; the objective is worst-case adaptive total cost to achieve a
+radius-tolerance cover of all remaining possibilities. Range replies are
+encoded by squared distances (exact nonnegative ranges have identical reply
+partitions); PR replies are squared inner products, with sign quotient covers.
+For finite-prior, worlds are the complete prior. For continuous, the prior is
+all R^2 and worlds are only a restriction. In the latter case, finite values
+can prove lower bounds or refute upper bounds, never establish a continuous
+upper bound or completeness. This tool cannot answer old q=1 acquisition
+instances by silently dropping corruption, noise or initial transcripts.
+
+## pr_injectivity
+
+Statement keys: `design` = 1..7 rational planar sensing vectors; `q` integer in
+[0,m]. Proposition: every transcript with at most q arbitrary changed squared
+intensities has at most one real state modulo sign (all R^2). Request: `{}`.
+The tool checks CP on all m-2q survivors or constructs two states and a shared
+transcript. This is an instance of already known CP/support-union structure;
+it is logged as a known-result repetition, not a new research advance.
+
+## literature
+
+Action must be literature-audit. Statement keys: `topic_id`, `query`; request
+`{}`. Audited topic IDs: real-pr-complement-property, intensity-origin-degeneracy,
+two-support-union. Other IDs are allowed, with novelty-uncertain result.
+This is a frozen primary-source topic registry, NOT open-web literature search.
+Only the exact registry statement gets a known label; a model-supplied query
+cannot expand its scope. No lookup grants originality or a mathematical proof.
+
+## open
+
+Statement keys: `statement` (nonempty string); request `{}`. An unsupported
+question is recorded as unresolved. It is valid to conclude that tools are
+insufficient, stop a line of investigation, or select another frontier.
+
+## Limits and scoring
+
+One mathematical tool request per round, including verification, <=50,000
+declared operation units and <=60 seconds in its worker. Units are deterministic
+charges, not CPU instructions. Oversized cases may exhaust the budget before
+search. CLI wall time <=180 seconds per proposal. Twelve rounds per policy.
+Invalid proposals, runtime failures and timeouts consume a round; no retries
+chosen after seeing a result. Both policies get the identical initial state
+and mathematical budget. Codex inference is an additional measured cost.
+
+Progress means a nonduplicated, nonvacuous verified formal ledger step, using a
+limited canonicalizer, not an automatic verdict on novelty or importance.
+Finite instances and bounded support are always separately reported. You do
+not gain progress by declaring proof success, relabeling known CP results,
+changing prose, or rescaling an identical polynomial. Honest failures matter.
+
+
+RESEARCH STATE
+{"current_ledger":[{"accepted":true,"assumption_repair":false,"duplicate_existing":false,"failure_kind":null,"family":"polynomial","formal_statement":{"constraints":[{"0,1,0,1":"1","1,0,1,0":"1"},{"0,0,0,0":"-2","0,0,0,2":"1","0,0,2,0":"1","0,2,0,0":"1","2,0,0,0":"1"}],"interpretation":"For x=(u,v) and y=(s,t), p=||xx^T-yy^T||_F^2-||x-y||_2^2. The constraints impose sign alignment and a combined energy floor. Under sign alignment, Euclidean distance equals sign-quotient distance. This proposition alone does not certify a sensing design's measurement margin.","polynomial":{"0,0,0,2":"-1","0,0,0,4":"1","0,0,2,0":"-1","0,0,2,2":"2","0,0,4,0":"1","0,1,0,1":"2","0,2,0,0":"-1","0,2,0,2":"-2","0,4,0,0":"1","1,0,1,0":"2","1,1,1,1":"-4","2,0,0,0":"-1","2,0,2,0":"-2","2,2,0,0":"2","4,0,0,0":"1"},"variables":["u","v","s","t"]},"hash":"fc5980e06f81644f1e121d282e96ef1ff5109a4ff17fbd9ee221d0ccddc73132","id":"r01","ledger_advancing":true,"novelty":"novelty-uncertain","parent_id":"","parent_valid":true,"previous_hash":null,"proposal_claim_unverified":"For sign-aligned planar states with combined squared norm at least 2, the squared Frobenius distance between their rank-one lifts is at least their squared Euclidean distance.","reason":"exact nonnegative weighted SOS identity on declared semialgebraic domain","repeated_attempt":false,"semantic_key":"44d4e2de551348ceee2b940543e696ab0b7862e7ec1aa14c3991a4a098ac8f74","status":"proved-in-project","successful_revision":false,"unsupported_overclaim":false},{"accepted":false,"assumption_repair":false,"duplicate_existing":false,"failure_kind":"verification-rejected","family":"polynomial","formal_statement":{"constraints":[{"0,1,0,1":"1","1,0,1,0":"1"},{"0,0,0,0":"-2","0,0,0,2":"1","0,0,2,0":"1","0,2,0,0":"1","2,0,0,0":"1"}],"interpretation":"Writing x=(u,v), y=(s,t), and M(x)=(u^2,v^2,(u+v)^2,(u-v)^2), the polynomial is ||M(x)-M(y)||_2^2-||x-y||_2^2. Sign alignment makes the latter state distance equal to d_pm(x,y). The verifier certifies the polynomial inequality; this interpretation and any recovery application require separate checking.","polynomial":{"0,0,0,2":"-1","0,0,0,4":"3","0,0,2,0":"-1","0,0,2,2":"10","0,0,4,0":"3","0,1,0,1":"2","0,2,0,0":"-1","0,2,0,2":"-6","0,2,2,0":"-4","0,4,0,0":"3","1,0,1,0":"2","1,1,1,1":"-16","2,0,0,0":"-1","2,0,0,2":"-4","2,0,2,0":"-6","2,2,0,0":"10","4,0,0,0":"3"},"variables":["u","v","s","t"]},"hash":"31c45554487b8b27e4d65ecc4bb01ffe24b1705f0089bf7d41620c4a8481e531","id":"r02","ledger_advancing":false,"novelty":"novelty-uncertain","parent_id":"r01","parent_valid":true,"previous_hash":"fc5980e06f81644f1e121d282e96ef1ff5109a4ff17fbd9ee221d0ccddc73132","proposal_claim_unverified":"For this four-vector design, the sum of squared intensity differences is at least the squared Euclidean state distance on the declared sign-aligned energy domain.","reason":"ValueError: SOS polynomial identity is false","repeated_attempt":false,"semantic_key":"2bf178681776aa708ce40204ded1536ed8296b1c30b4a721da6714c7568924a9","status":"unresolved","successful_revision":false,"unsupported_overclaim":false}],"instruction":"Choose the next ONE research action from this state. No fixed task order. Honest unresolved results and assumption revisions are welcome.","recent_feedback":[{"evidence":{"counterexample":{"admissible_checked":2,"point":null},"sample_points":[[1,0,0,1],[1,0,1,0]],"sos":[{"constraint":-1,"polynomial":{"0,0,0,2":-1,"0,0,2,0":-1,"0,2,0,0":1,"2,0,0,0":1},"weight":"1/2"},{"constraint":0,"polynomial":{"0,0,1,0":-1,"1,0,0,0":1},"weight":1},{"constraint":0,"polynomial":{"0,0,0,1":-1,"0,1,0,0":1},"weight":1},{"constraint":1,"polynomial":{"0,0,1,0":-1,"1,0,0,0":1},"weight":"1/2"},{"constraint":1,"polynomial":{"0,0,0,1":-1,"0,1,0,0":1},"weight":"1/2"}]},"failure_kind":null,"round":"r01","verdict":{"nontrivial":true,"novelty":"novelty-uncertain","reason":"exact nonnegative weighted SOS identity on declared semialgebraic domain","scope":"formal statement only; free-text interpretation is not certified","status":"proved-in-project"}},{"evidence":{"counterexample":{"admissible_checked":2,"point":null},"sample_points":[[1,0,0,1],[1,0,1,0]],"sos":[{"constraint":-1,"polynomial":{"0,0,0,2":-1,"0,0,2,0":-1,"0,2,0,0":1,"2,0,0,0":1},"weight":"1/2"},{"constraint":0,"polynomial":{"0,0,1,0":-1,"1,0,0,0":1},"weight":1},{"constraint":0,"polynomial":{"0,0,0,1":-1,"0,1,0,0":1},"weight":1},{"constraint":1,"polynomial":{"0,0,1,0":-1,"1,0,0,0":1},"weight":"1/2"},{"constraint":1,"polynomial":{"0,0,0,1":-1,"0,1,0,0":1},"weight":"1/2"},{"constraint":-1,"polynomial":{"0,0,0,2":-1,"0,0,2,0":-1,"0,2,0,0":1,"2,0,0,0":1},"weight":2},{"constraint":-1,"polynomial":{"0,0,1,1":-1,"1,1,0,0":1},"weight":6}]},"failure_kind":"verification-rejected","round":"r02","verdict":{"nontrivial":false,"novelty":"novelty-uncertain","reason":"ValueError: SOS polynomial identity is false","scope":"no conclusion authorized","status":"unresolved"}}],"remaining_rounds":10,"starting_frontier":{"allowed_tools":["exact rational planar cover enumeration","weighted SOS polynomial identity with nonnegative constraints","rational counterexample evaluation","exact finite minimax with physical noiseless observation partitions","real CP and sparse corruption certificates","frozen primary-source topic lookup","unsupported open conjectures recorded unresolved"],"existing_conclusions":[{"claim":"Shared clean support is m-2q. A positive global metric margin gives the corresponding robust recovery bound.","id":"v4-support-union","novelty":"known","source":"v4/THEORY.md","status":"proved-in-project"},{"claim":"Real PR uses sign quotient; complement property controls injectivity. All m-2q survivors must be checked for arbitrary q corruption.","id":"v4-real-cp","source":"v4/LITERATURE_AUDIT.md","status":"known"},{"claim":"Injectivity alone gives positive intensity/d_pm stability on a domain containing zero.","id":"v4-origin","novelty":"known","source":"v4/runs/PHASE4_REVIEW.md","status":"refuted"},{"claim":"Three-point Euclidean radius witnesses remain complete in the sign quotient.","id":"v4-helly3","novelty":"novelty-uncertain","source":"v4/runs/PHASE4_REVIEW.md","status":"refuted","witness":{"full_radius2":"4/5","max_triple_radius2":"1/2","points":[["1","0"],["0","1"],["3/5","4/5"],["-4/5","3/5"]]}},{"claim":"Exact Bellman values apply to a complete finite prior; a physically realizable finite restriction is only a lower bound for a continuous problem.","id":"v4-finite-cost","novelty":"known","source":"v4/THEORY.md","status":"proved-in-project"},{"claim":"Four q=1 continuous PR cost intervals have relative gap 1/2; no global continuous optimum established.","id":"v4-pr-gap","source":"v4/runs/PHASE4_REVIEW.md","status":"numerically-supported"},{"claim":"Euclidean planar smallest enclosing ball radius is controlled by subsets of size at most three.","id":"euclidean-helly3","source":"v3d/minimal_trust/THEORY.md","status":"known"}],"origin_commit":"1440f9c483faec510e965d912fc71e610fc8f173","question":"Which next single mathematical research action produces a nonduplicated checkable advance, under the current evidence and tool limits?","recent_failures":["Finite grids do not certify continuous completeness.","Sign quotient invalidates unchanged planar Helly witness-size reasoning.","Positive annulus margin cannot be extrapolated through the origin.","A proof in this repository is not evidence of literature novelty."],"schema":"research-state-v1","tool_limitations":["Only real two-dimensional Range and PR; no third inverse problem.","Finite cost tool is q=0, E=0, no initial observations; it cannot silently answer old q=1 acquisition instances.","Polynomial verifier certifies its formal algebra only; a proposed physical interpretation is not automatically verified.","Literature registry lookup is not live or exhaustive literature search.","Search with no counterexample is not a universal proof.","The formal tool catalog is human provided; the choice of claim and its parameters is left to the proposer."],"unresolved_gaps":[{"id":"pr-continuous-cost","question":"Can rigorous lower or uniform upper bounds reduce the remaining PR continuous information-cost gaps?","status":"conjectured"},{"id":"quotient-witness","question":"What witness structure replaces Euclidean three-point completeness under a quotient?","status":"conjectured"},{"id":"sensing-uncertainty","question":"How does uncertainty in sensing vectors change a valid recovery contract?","status":"conjectured"},{"id":"continuous-completeness","question":"When does a finite restriction characterize continuous minimax cost, and when does it fail?","status":"conjectured"}]}}

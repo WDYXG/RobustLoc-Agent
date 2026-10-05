@@ -1,0 +1,54 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "radius",
+  "formal_statement": {
+    "k": 4,
+    "max_size": 5,
+    "rho": "4/5",
+    "scope": "finite-universe",
+    "symmetry": "sign",
+    "universe": [
+      [
+        "-3/5",
+        "4/5"
+      ],
+      [
+        "-4/5",
+        "3/5"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "3/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "3/5"
+      ]
+    ]
+  },
+  "hash": "7c36ba74987c5381c85d3b058f44c26f7ef1d33301447a566c98213729aeb062",
+  "id": "r04",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "",
+  "parent_valid": true,
+  "previous_hash": "49d8bf7de3f74cee588887300b530dc9db12711a7685a2dfb361f6571a5cbddb",
+  "proposal_claim_unverified": "Are all 4-point covers sufficient for a planar sign cover?",
+  "reason": "exhaustive rational finite-universe implication only",
+  "repeated_attempt": false,
+  "semantic_key": "7a0de8dd5b85c7dc3c84f83c287f232db4a789b84f2393b26b53de038db3186f",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

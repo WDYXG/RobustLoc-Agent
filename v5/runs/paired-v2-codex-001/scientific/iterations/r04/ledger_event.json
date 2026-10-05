@@ -1,0 +1,70 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,1,0,1": "1",
+        "1,0,1,0": "1"
+      },
+      {
+        "0,0,0,0": "-2",
+        "0,0,0,2": "1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1",
+        "2,0,0,0": "1"
+      }
+    ],
+    "interpretation": "The proposed polynomial equals ||N(u,v)-N(s,t)||_2^2-(1/3)||(u,v)-(s,t)||_2^2 for N(u,v)=(u^2,v^2,(u+v)^2). The verifier certifies only the formal inequality; the measurement interpretation is separately checkable and is not certified by the gate.",
+    "polynomial": {
+      "0,0,0,2": "-1/3",
+      "0,0,0,4": "2",
+      "0,0,1,3": "4",
+      "0,0,2,0": "-1/3",
+      "0,0,2,2": "6",
+      "0,0,3,1": "4",
+      "0,0,4,0": "2",
+      "0,1,0,1": "2/3",
+      "0,2,0,0": "-1/3",
+      "0,2,0,2": "-4",
+      "0,2,1,1": "-4",
+      "0,2,2,0": "-2",
+      "0,4,0,0": "2",
+      "1,0,1,0": "2/3",
+      "1,1,0,2": "-4",
+      "1,1,1,1": "-8",
+      "1,1,2,0": "-4",
+      "1,3,0,0": "4",
+      "2,0,0,0": "-1/3",
+      "2,0,0,2": "-2",
+      "2,0,1,1": "-4",
+      "2,0,2,0": "-4",
+      "2,2,0,0": "6",
+      "3,1,0,0": "4",
+      "4,0,0,0": "2"
+    },
+    "variables": [
+      "u",
+      "v",
+      "s",
+      "t"
+    ]
+  },
+  "hash": "ae9180b8fb541271b699effbbeb9394f5e5057306980841f396859b6464a3520",
+  "id": "r04",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r03",
+  "parent_valid": true,
+  "previous_hash": "8d71f999fd048414bbc02937ac747dd5dcdf59bac16b64a28a24eae7eda27f8a",
+  "proposal_claim_unverified": "After deleting the (1,-1) sensing vector from the r03 design, the remaining three intensity measurements retain a squared-distance lower bound of one third on the declared sign-aligned energy domain.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "1170d15b6774959e0d15295176425903f1a058877d0a9215b0670de612176d49",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

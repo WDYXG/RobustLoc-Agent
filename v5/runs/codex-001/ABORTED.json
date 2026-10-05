@@ -1,0 +1,9 @@
+{
+  "completed_provider_turns": 2,
+  "interrupted_iteration": "r05",
+  "interrupted_token_cost": null,
+  "primary_comparison_eligible": false,
+  "reason": "EVALUATOR_ISSUE_001 plus observed provider usage-limit failures",
+  "recorded_iterations": 4,
+  "records_overwritten": false
+}

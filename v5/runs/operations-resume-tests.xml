@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="2.777" timestamp="2026-10-05T11:49:19.284487+08:00" hostname="Wangyixin"><testcase classname="v5.runs.operations_v1.test_resume" name="test_missing_receipt_never_becomes_research_success" time="0.007" /></testsuite></testsuites>

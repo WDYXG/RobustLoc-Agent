@@ -1,0 +1,775 @@
+{
+  "current_ledger": [
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [
+          {
+            "0,1,0,1": "1",
+            "1,0,1,0": "1"
+          },
+          {
+            "0,0,0,0": "-2",
+            "0,0,0,2": "1",
+            "0,0,2,0": "1",
+            "0,2,0,0": "1",
+            "2,0,0,0": "1"
+          }
+        ],
+        "interpretation": "For x=(u,v) and y=(s,t), p=||xx^T-yy^T||_F^2-||x-y||_2^2. The constraints impose sign alignment and a combined energy floor. Under sign alignment, Euclidean distance equals sign-quotient distance. This proposition alone does not certify a sensing design's measurement margin.",
+        "polynomial": {
+          "0,0,0,2": "-1",
+          "0,0,0,4": "1",
+          "0,0,2,0": "-1",
+          "0,0,2,2": "2",
+          "0,0,4,0": "1",
+          "0,1,0,1": "2",
+          "0,2,0,0": "-1",
+          "0,2,0,2": "-2",
+          "0,4,0,0": "1",
+          "1,0,1,0": "2",
+          "1,1,1,1": "-4",
+          "2,0,0,0": "-1",
+          "2,0,2,0": "-2",
+          "2,2,0,0": "2",
+          "4,0,0,0": "1"
+        },
+        "variables": [
+          "u",
+          "v",
+          "s",
+          "t"
+        ]
+      },
+      "hash": "fc5980e06f81644f1e121d282e96ef1ff5109a4ff17fbd9ee221d0ccddc73132",
+      "id": "r01",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": null,
+      "proposal_claim_unverified": "For sign-aligned planar states with combined squared norm at least 2, the squared Frobenius distance between their rank-one lifts is at least their squared Euclidean distance.",
+      "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+      "repeated_attempt": false,
+      "semantic_key": "44d4e2de551348ceee2b940543e696ab0b7862e7ec1aa14c3991a4a098ac8f74",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": false,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": "verification-rejected",
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [
+          {
+            "0,1,0,1": "1",
+            "1,0,1,0": "1"
+          },
+          {
+            "0,0,0,0": "-2",
+            "0,0,0,2": "1",
+            "0,0,2,0": "1",
+            "0,2,0,0": "1",
+            "2,0,0,0": "1"
+          }
+        ],
+        "interpretation": "Writing x=(u,v), y=(s,t), and M(x)=(u^2,v^2,(u+v)^2,(u-v)^2), the polynomial is ||M(x)-M(y)||_2^2-||x-y||_2^2. Sign alignment makes the latter state distance equal to d_pm(x,y). The verifier certifies the polynomial inequality; this interpretation and any recovery application require separate checking.",
+        "polynomial": {
+          "0,0,0,2": "-1",
+          "0,0,0,4": "3",
+          "0,0,2,0": "-1",
+          "0,0,2,2": "10",
+          "0,0,4,0": "3",
+          "0,1,0,1": "2",
+          "0,2,0,0": "-1",
+          "0,2,0,2": "-6",
+          "0,2,2,0": "-4",
+          "0,4,0,0": "3",
+          "1,0,1,0": "2",
+          "1,1,1,1": "-16",
+          "2,0,0,0": "-1",
+          "2,0,0,2": "-4",
+          "2,0,2,0": "-6",
+          "2,2,0,0": "10",
+          "4,0,0,0": "3"
+        },
+        "variables": [
+          "u",
+          "v",
+          "s",
+          "t"
+        ]
+      },
+      "hash": "31c45554487b8b27e4d65ecc4bb01ffe24b1705f0089bf7d41620c4a8481e531",
+      "id": "r02",
+      "ledger_advancing": false,
+      "novelty": "novelty-uncertain",
+      "parent_id": "r01",
+      "parent_valid": true,
+      "previous_hash": "fc5980e06f81644f1e121d282e96ef1ff5109a4ff17fbd9ee221d0ccddc73132",
+      "proposal_claim_unverified": "For this four-vector design, the sum of squared intensity differences is at least the squared Euclidean state distance on the declared sign-aligned energy domain.",
+      "reason": "ValueError: SOS polynomial identity is false",
+      "repeated_attempt": false,
+      "semantic_key": "2bf178681776aa708ce40204ded1536ed8296b1c30b4a721da6714c7568924a9",
+      "status": "unresolved",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [
+          {
+            "0,1,0,1": "1",
+            "1,0,1,0": "1"
+          },
+          {
+            "0,0,0,0": "-2",
+            "0,0,0,2": "1",
+            "0,0,2,0": "1",
+            "0,2,0,0": "1",
+            "2,0,0,0": "1"
+          }
+        ],
+        "interpretation": "The proposed polynomial is ||M(u,v)-M(s,t)||_2^2-||(u,v)-(s,t)||_2^2. Relative to r02, the u^2v^2 and s^2t^2 coefficients are corrected from 10 to 12. The verifier certifies only the formal inequality; the measurement interpretation requires separate checking.",
+        "polynomial": {
+          "0,0,0,2": "-1",
+          "0,0,0,4": "3",
+          "0,0,2,0": "-1",
+          "0,0,2,2": "12",
+          "0,0,4,0": "3",
+          "0,1,0,1": "2",
+          "0,2,0,0": "-1",
+          "0,2,0,2": "-6",
+          "0,2,2,0": "-4",
+          "0,4,0,0": "3",
+          "1,0,1,0": "2",
+          "1,1,1,1": "-16",
+          "2,0,0,0": "-1",
+          "2,0,0,2": "-4",
+          "2,0,2,0": "-6",
+          "2,2,0,0": "12",
+          "4,0,0,0": "3"
+        },
+        "variables": [
+          "u",
+          "v",
+          "s",
+          "t"
+        ]
+      },
+      "hash": "8d71f999fd048414bbc02937ac747dd5dcdf59bac16b64a28a24eae7eda27f8a",
+      "id": "r03",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "r02",
+      "parent_valid": true,
+      "previous_hash": "31c45554487b8b27e4d65ecc4bb01ffe24b1705f0089bf7d41620c4a8481e531",
+      "proposal_claim_unverified": "For M(u,v)=(u^2,v^2,(u+v)^2,(u-v)^2), the squared measurement distance is at least the squared state distance on the declared domain, using the corrected polynomial expansion.",
+      "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+      "repeated_attempt": false,
+      "semantic_key": "43b40c6caa9f28096f3d6e716c1dafd62a36128fc1b34cc6275e59bb1f3935d9",
+      "status": "proved-in-project",
+      "successful_revision": true,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [
+          {
+            "0,1,0,1": "1",
+            "1,0,1,0": "1"
+          },
+          {
+            "0,0,0,0": "-2",
+            "0,0,0,2": "1",
+            "0,0,2,0": "1",
+            "0,2,0,0": "1",
+            "2,0,0,0": "1"
+          }
+        ],
+        "interpretation": "The proposed polynomial equals ||N(u,v)-N(s,t)||_2^2-(1/3)||(u,v)-(s,t)||_2^2 for N(u,v)=(u^2,v^2,(u+v)^2). The verifier certifies only the formal inequality; the measurement interpretation is separately checkable and is not certified by the gate.",
+        "polynomial": {
+          "0,0,0,2": "-1/3",
+          "0,0,0,4": "2",
+          "0,0,1,3": "4",
+          "0,0,2,0": "-1/3",
+          "0,0,2,2": "6",
+          "0,0,3,1": "4",
+          "0,0,4,0": "2",
+          "0,1,0,1": "2/3",
+          "0,2,0,0": "-1/3",
+          "0,2,0,2": "-4",
+          "0,2,1,1": "-4",
+          "0,2,2,0": "-2",
+          "0,4,0,0": "2",
+          "1,0,1,0": "2/3",
+          "1,1,0,2": "-4",
+          "1,1,1,1": "-8",
+          "1,1,2,0": "-4",
+          "1,3,0,0": "4",
+          "2,0,0,0": "-1/3",
+          "2,0,0,2": "-2",
+          "2,0,1,1": "-4",
+          "2,0,2,0": "-4",
+          "2,2,0,0": "6",
+          "3,1,0,0": "4",
+          "4,0,0,0": "2"
+        },
+        "variables": [
+          "u",
+          "v",
+          "s",
+          "t"
+        ]
+      },
+      "hash": "ae9180b8fb541271b699effbbeb9394f5e5057306980841f396859b6464a3520",
+      "id": "r04",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "r03",
+      "parent_valid": true,
+      "previous_hash": "8d71f999fd048414bbc02937ac747dd5dcdf59bac16b64a28a24eae7eda27f8a",
+      "proposal_claim_unverified": "After deleting the (1,-1) sensing vector from the r03 design, the remaining three intensity measurements retain a squared-distance lower bound of one third on the declared sign-aligned energy domain.",
+      "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+      "repeated_attempt": false,
+      "semantic_key": "1170d15b6774959e0d15295176425903f1a058877d0a9215b0670de612176d49",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": false,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": "verification-rejected",
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [
+          {
+            "0,0,0,2": "-1",
+            "0,0,2,0": "1/6",
+            "0,2,0,0": "1/12",
+            "2,0,0,0": "1/12"
+          }
+        ],
+        "interpretation": "The polynomial is a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. For a symmetric lift difference [[a,c],[c,b]], the unperturbed outputs correspond to sensing vectors (1,0), (0,1), (1,1). This claim controls an additive perturbation of the third output difference. Translating sensing-vector uncertainty into the declared error constraint requires a separate argument; no such translation or state-distance bound is certified here.",
+        "polynomial": {
+          "0,0,0,2": "1",
+          "0,0,1,1": "4",
+          "0,0,2,0": "23/6",
+          "0,1,0,1": "2",
+          "0,1,1,0": "4",
+          "0,2,0,0": "23/12",
+          "1,0,0,1": "2",
+          "1,0,1,0": "4",
+          "1,1,0,0": "2",
+          "2,0,0,0": "23/12"
+        },
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "e"
+        ]
+      },
+      "hash": "8fa8bd87c603481ead8d2df03d603969ab882939d780f749b31828c0667b622f",
+      "id": "r05",
+      "ledger_advancing": false,
+      "novelty": "novelty-uncertain",
+      "parent_id": "r04",
+      "parent_valid": true,
+      "previous_hash": "ae9180b8fb541271b699effbbeb9394f5e5057306980841f396859b6464a3520",
+      "proposal_claim_unverified": "The three-measurement lifted map retains a squared margin of 1/12 under the declared relative error in its third measurement difference.",
+      "reason": "ValueError: SOS polynomial identity is false",
+      "repeated_attempt": false,
+      "semantic_key": "9b6e741f2d5ec5f2a0dea03050bf3f21de293c7e449d81516b16717d9d180e22",
+      "status": "unresolved",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [
+          {
+            "0,0,0,2": "-1",
+            "0,0,2,0": "1/6",
+            "0,2,0,0": "1/12",
+            "2,0,0,0": "1/12"
+          }
+        ],
+        "interpretation": "The polynomial equals a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. For a symmetric matrix with entries [[a,c],[c,b]], the unperturbed outputs are associated with vectors (1,0), (0,1), (1,1). The formal claim concerns additive output error only; translating sensing-vector uncertainty to this error condition requires separate justification.",
+        "polynomial": {
+          "0,0,0,2": "1",
+          "0,0,1,1": "4",
+          "0,0,2,0": "23/6",
+          "0,1,0,1": "2",
+          "0,1,1,0": "4",
+          "0,2,0,0": "23/12",
+          "1,0,0,1": "2",
+          "1,0,1,0": "4",
+          "1,1,0,0": "2",
+          "2,0,0,0": "23/12"
+        },
+        "variables": [
+          "a",
+          "b",
+          "c",
+          "e"
+        ]
+      },
+      "hash": "da0f449f3fa76aac77f66f7844a58298175b0d6d87f7ad3a295916569c9d41a3",
+      "id": "r06",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "r05",
+      "parent_valid": true,
+      "previous_hash": "8fa8bd87c603481ead8d2df03d603969ab882939d780f749b31828c0667b622f",
+      "proposal_claim_unverified": "The three-output lifted map retains squared margin 1/12 under the declared relative perturbation of its third output; this revisits r05 with a corrected exact SOS certificate.",
+      "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+      "repeated_attempt": true,
+      "semantic_key": "9b6e741f2d5ec5f2a0dea03050bf3f21de293c7e449d81516b16717d9d180e22",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": false,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": "provider-failure",
+      "family": null,
+      "formal_statement": null,
+      "hash": "cd9e0af7827b74356367273bdd52a2150c6e990505b358669a9e768baf531250",
+      "id": "r07",
+      "ledger_advancing": false,
+      "novelty": "novelty-uncertain",
+      "parent_id": null,
+      "parent_valid": true,
+      "previous_hash": "da0f449f3fa76aac77f66f7844a58298175b0d6d87f7ad3a295916569c9d41a3",
+      "proposal_claim_unverified": null,
+      "reason": "execution interrupted before a completion receipt was captured; this slot is consumed without retry",
+      "repeated_attempt": false,
+      "semantic_key": null,
+      "status": "unresolved",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    }
+  ],
+  "instruction": "Choose the next ONE research action from this state. No fixed task order. Honest unresolved results and assumption revisions are welcome.",
+  "recent_feedback": [
+    {
+      "evidence": {
+        "counterexample": {
+          "admissible_checked": 2,
+          "point": null
+        },
+        "sample_points": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0
+          ]
+        ],
+        "sos": [
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,0,2": -1,
+              "0,0,1,1": "-3/2",
+              "0,0,2,0": -1,
+              "0,2,0,0": 1,
+              "1,1,0,0": "3/2",
+              "2,0,0,0": 1
+            },
+            "weight": "4/3"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,1,1": -1,
+              "1,1,0,0": 1
+            },
+            "weight": "1/3"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,0,2": 1,
+              "0,0,2,0": -1,
+              "0,2,0,0": -1,
+              "2,0,0,0": 1
+            },
+            "weight": "1/3"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,0,2": -1,
+              "0,0,2,0": -1,
+              "0,2,0,0": 1,
+              "2,0,0,0": 1
+            },
+            "weight": "1/6"
+          },
+          {
+            "constraint": 0,
+            "polynomial": {
+              "0,0,1,0": -1,
+              "1,0,0,0": 1
+            },
+            "weight": "1/3"
+          },
+          {
+            "constraint": 0,
+            "polynomial": {
+              "0,0,0,1": -1,
+              "0,1,0,0": 1
+            },
+            "weight": "1/3"
+          },
+          {
+            "constraint": 1,
+            "polynomial": {
+              "0,0,1,0": -1,
+              "1,0,0,0": 1
+            },
+            "weight": "1/6"
+          },
+          {
+            "constraint": 1,
+            "polynomial": {
+              "0,0,0,1": -1,
+              "0,1,0,0": 1
+            },
+            "weight": "1/6"
+          }
+        ]
+      },
+      "failure_kind": null,
+      "round": "r04",
+      "verdict": {
+        "nontrivial": true,
+        "novelty": "novelty-uncertain",
+        "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+        "scope": "formal statement only; free-text interpretation is not certified",
+        "status": "proved-in-project"
+      }
+    },
+    {
+      "evidence": {
+        "counterexample": {
+          "admissible_checked": 2,
+          "point": null
+        },
+        "sample_points": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "sos": [
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,1,0": "3/2",
+              "0,1,0,0": 1,
+              "1,0,0,0": 1
+            },
+            "weight": "2/3"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,1,0": 1
+            },
+            "weight": "1/6"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,1,0,0": -1,
+              "1,0,0,0": 1
+            },
+            "weight": "1/6"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,0,1": 2,
+              "0,0,1,0": 2,
+              "0,1,0,0": 1,
+              "1,0,0,0": 1
+            },
+            "weight": "1/2"
+          },
+          {
+            "constraint": 0,
+            "polynomial": {
+              "0,0,0,0": 1
+            },
+            "weight": 1
+          }
+        ]
+      },
+      "failure_kind": "verification-rejected",
+      "round": "r05",
+      "verdict": {
+        "nontrivial": false,
+        "novelty": "novelty-uncertain",
+        "reason": "ValueError: SOS polynomial identity is false",
+        "scope": "no conclusion authorized",
+        "status": "unresolved"
+      }
+    },
+    {
+      "evidence": {
+        "counterexample": {
+          "admissible_checked": 3,
+          "point": null
+        },
+        "sample_points": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            -1,
+            -1,
+            1,
+            0
+          ]
+        ],
+        "sos": [
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,0,1": 2,
+              "0,0,1,0": 2,
+              "0,1,0,0": 1,
+              "1,0,0,0": 1
+            },
+            "weight": "1/2"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,1,0": "12/11",
+              "0,1,0,0": 1,
+              "1,0,0,0": 1
+            },
+            "weight": "11/12"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,0,1,0": 1
+            },
+            "weight": "19/33"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,1,0,0": -1,
+              "1,0,0,0": 1
+            },
+            "weight": "5/12"
+          },
+          {
+            "constraint": 0,
+            "polynomial": {
+              "0,0,0,0": 1
+            },
+            "weight": 1
+          }
+        ]
+      },
+      "failure_kind": null,
+      "round": "r06",
+      "verdict": {
+        "nontrivial": true,
+        "novelty": "novelty-uncertain",
+        "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+        "scope": "formal statement only; free-text interpretation is not certified",
+        "status": "proved-in-project"
+      }
+    },
+    {
+      "evidence": null,
+      "failure_kind": "provider-failure",
+      "round": "r07",
+      "verdict": {
+        "nontrivial": false,
+        "novelty": "novelty-uncertain",
+        "reason": "execution interrupted before a completion receipt was captured; this slot is consumed without retry",
+        "scope": "no conclusion authorized",
+        "status": "unresolved"
+      }
+    }
+  ],
+  "remaining_rounds": 5,
+  "starting_frontier": {
+    "allowed_tools": [
+      "exact rational planar cover enumeration",
+      "weighted SOS polynomial identity with nonnegative constraints",
+      "rational counterexample evaluation",
+      "exact finite minimax with physical noiseless observation partitions",
+      "real CP and sparse corruption certificates",
+      "frozen primary-source topic lookup",
+      "unsupported open conjectures recorded unresolved"
+    ],
+    "existing_conclusions": [
+      {
+        "claim": "Shared clean support is m-2q. A positive global metric margin gives the corresponding robust recovery bound.",
+        "id": "v4-support-union",
+        "novelty": "known",
+        "source": "v4/THEORY.md",
+        "status": "proved-in-project"
+      },
+      {
+        "claim": "Real PR uses sign quotient; complement property controls injectivity. All m-2q survivors must be checked for arbitrary q corruption.",
+        "id": "v4-real-cp",
+        "source": "v4/LITERATURE_AUDIT.md",
+        "status": "known"
+      },
+      {
+        "claim": "Injectivity alone gives positive intensity/d_pm stability on a domain containing zero.",
+        "id": "v4-origin",
+        "novelty": "known",
+        "source": "v4/runs/PHASE4_REVIEW.md",
+        "status": "refuted"
+      },
+      {
+        "claim": "Three-point Euclidean radius witnesses remain complete in the sign quotient.",
+        "id": "v4-helly3",
+        "novelty": "novelty-uncertain",
+        "source": "v4/runs/PHASE4_REVIEW.md",
+        "status": "refuted",
+        "witness": {
+          "full_radius2": "4/5",
+          "max_triple_radius2": "1/2",
+          "points": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/5",
+              "4/5"
+            ],
+            [
+              "-4/5",
+              "3/5"
+            ]
+          ]
+        }
+      },
+      {
+        "claim": "Exact Bellman values apply to a complete finite prior; a physically realizable finite restriction is only a lower bound for a continuous problem.",
+        "id": "v4-finite-cost",
+        "novelty": "known",
+        "source": "v4/THEORY.md",
+        "status": "proved-in-project"
+      },
+      {
+        "claim": "Four q=1 continuous PR cost intervals have relative gap 1/2; no global continuous optimum established.",
+        "id": "v4-pr-gap",
+        "source": "v4/runs/PHASE4_REVIEW.md",
+        "status": "numerically-supported"
+      },
+      {
+        "claim": "Euclidean planar smallest enclosing ball radius is controlled by subsets of size at most three.",
+        "id": "euclidean-helly3",
+        "source": "v3d/minimal_trust/THEORY.md",
+        "status": "known"
+      }
+    ],
+    "origin_commit": "1440f9c483faec510e965d912fc71e610fc8f173",
+    "question": "Which next single mathematical research action produces a nonduplicated checkable advance, under the current evidence and tool limits?",
+    "recent_failures": [
+      "Finite grids do not certify continuous completeness.",
+      "Sign quotient invalidates unchanged planar Helly witness-size reasoning.",
+      "Positive annulus margin cannot be extrapolated through the origin.",
+      "A proof in this repository is not evidence of literature novelty."
+    ],
+    "schema": "research-state-v1",
+    "tool_limitations": [
+      "Only real two-dimensional Range and PR; no third inverse problem.",
+      "Finite cost tool is q=0, E=0, no initial observations; it cannot silently answer old q=1 acquisition instances.",
+      "Polynomial verifier certifies its formal algebra only; a proposed physical interpretation is not automatically verified.",
+      "Literature registry lookup is not live or exhaustive literature search.",
+      "Search with no counterexample is not a universal proof.",
+      "The formal tool catalog is human provided; the choice of claim and its parameters is left to the proposer."
+    ],
+    "unresolved_gaps": [
+      {
+        "id": "pr-continuous-cost",
+        "question": "Can rigorous lower or uniform upper bounds reduce the remaining PR continuous information-cost gaps?",
+        "status": "conjectured"
+      },
+      {
+        "id": "quotient-witness",
+        "question": "What witness structure replaces Euclidean three-point completeness under a quotient?",
+        "status": "conjectured"
+      },
+      {
+        "id": "sensing-uncertainty",
+        "question": "How does uncertainty in sensing vectors change a valid recovery contract?",
+        "status": "conjectured"
+      },
+      {
+        "id": "continuous-completeness",
+        "question": "When does a finite restriction characterize continuous minimax cost, and when does it fail?",
+        "status": "conjectured"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "accepted": false,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": "verification-rejected",
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,0,0,2": "-1",
+        "0,0,2,0": "1/6",
+        "0,2,0,0": "1/12",
+        "2,0,0,0": "1/12"
+      }
+    ],
+    "interpretation": "The polynomial is a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. For a symmetric lift difference [[a,c],[c,b]], the unperturbed outputs correspond to sensing vectors (1,0), (0,1), (1,1). This claim controls an additive perturbation of the third output difference. Translating sensing-vector uncertainty into the declared error constraint requires a separate argument; no such translation or state-distance bound is certified here.",
+    "polynomial": {
+      "0,0,0,2": "1",
+      "0,0,1,1": "4",
+      "0,0,2,0": "23/6",
+      "0,1,0,1": "2",
+      "0,1,1,0": "4",
+      "0,2,0,0": "23/12",
+      "1,0,0,1": "2",
+      "1,0,1,0": "4",
+      "1,1,0,0": "2",
+      "2,0,0,0": "23/12"
+    },
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ]
+  },
+  "hash": "8fa8bd87c603481ead8d2df03d603969ab882939d780f749b31828c0667b622f",
+  "id": "r05",
+  "ledger_advancing": false,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r04",
+  "parent_valid": true,
+  "previous_hash": "ae9180b8fb541271b699effbbeb9394f5e5057306980841f396859b6464a3520",
+  "proposal_claim_unverified": "The three-measurement lifted map retains a squared margin of 1/12 under the declared relative error in its third measurement difference.",
+  "reason": "ValueError: SOS polynomial identity is false",
+  "repeated_attempt": false,
+  "semantic_key": "9b6e741f2d5ec5f2a0dea03050bf3f21de293c7e449d81516b16717d9d180e22",
+  "status": "unresolved",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

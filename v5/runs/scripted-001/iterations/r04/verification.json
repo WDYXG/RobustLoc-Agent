@@ -1,0 +1,261 @@
+{
+  "accepted": true,
+  "duplicate_existing": false,
+  "evidence": {
+    "checked": 6,
+    "feasible_small_covers": [
+      {
+        "full": {
+          "centre": [
+            "0",
+            "3/5"
+          ],
+          "orientations_checked": 16,
+          "radius2": "16/25",
+          "signs": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "symmetry": "sign"
+        },
+        "indices": [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "small": [
+          {
+            "centre": [
+              "-1/10",
+              "7/10"
+            ],
+            "orientations_checked": 8,
+            "radius2": "1/2",
+            "signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "0",
+              "3/5"
+            ],
+            "orientations_checked": 8,
+            "radius2": "16/25",
+            "signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "-3/5",
+              "0"
+            ],
+            "orientations_checked": 8,
+            "radius2": "16/25",
+            "signs": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "1/10",
+              "7/10"
+            ],
+            "orientations_checked": 8,
+            "radius2": "1/2",
+            "signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "0",
+              "3/5"
+            ],
+            "orientations_checked": 8,
+            "radius2": "16/25",
+            "signs": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "symmetry": "sign"
+          }
+        ]
+      },
+      {
+        "full": {
+          "centre": [
+            "-3/5",
+            "0"
+          ],
+          "orientations_checked": 16,
+          "radius2": "16/25",
+          "signs": [
+            1,
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "symmetry": "sign"
+        },
+        "indices": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "small": [
+          {
+            "centre": [
+              "-3/5",
+              "0"
+            ],
+            "orientations_checked": 8,
+            "radius2": "16/25",
+            "signs": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "-7/10",
+              "1/10"
+            ],
+            "orientations_checked": 8,
+            "radius2": "1/2",
+            "signs": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "-3/5",
+              "0"
+            ],
+            "orientations_checked": 8,
+            "radius2": "16/25",
+            "signs": [
+              1,
+              1,
+              -1,
+              -1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "-3/5",
+              "0"
+            ],
+            "orientations_checked": 8,
+            "radius2": "16/25",
+            "signs": [
+              1,
+              -1,
+              -1,
+              -1
+            ],
+            "symmetry": "sign"
+          },
+          {
+            "centre": [
+              "-7/10",
+              "-1/10"
+            ],
+            "orientations_checked": 8,
+            "radius2": "1/2",
+            "signs": [
+              1,
+              -1,
+              -1,
+              -1
+            ],
+            "symmetry": "sign"
+          }
+        ]
+      }
+    ],
+    "witness": null
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "k": 4,
+    "max_size": 5,
+    "rho": "4/5",
+    "scope": "finite-universe",
+    "symmetry": "sign",
+    "universe": [
+      [
+        "-3/5",
+        "4/5"
+      ],
+      [
+        "-4/5",
+        "3/5"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "3/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "3/5"
+      ]
+    ]
+  },
+  "operation_units": 14982,
+  "repeated_attempt": false,
+  "semantic_key": "7a0de8dd5b85c7dc3c84f83c287f232db4a789b84f2393b26b53de038db3186f",
+  "tool_seconds": 0.1518118000094546,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": true,
+    "novelty": "novelty-uncertain",
+    "reason": "exhaustive rational finite-universe implication only",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "proved-in-project"
+  }
+}

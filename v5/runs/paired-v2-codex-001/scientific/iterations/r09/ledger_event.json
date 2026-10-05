@@ -1,0 +1,47 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,0,0,0": "1/36",
+        "0,0,0,2": "-1"
+      }
+    ],
+    "interpretation": "The polynomial is (a^2+b^2+2c^2)/2-[2hc+(2h+h^2)b]^2. The bracketed expression is the proposed change in the quadratic measurement of the symmetric matrix [[a,c],[c,b]] when (1,1) becomes (1,1+h). The verifier certifies the formal inequality only. Its combination with r08 requires separately checking this measurement identity and the shared perturbation model.",
+    "polynomial": {
+      "0,0,2,0": "1",
+      "0,0,2,2": "-4",
+      "0,1,1,2": "-8",
+      "0,1,1,3": "-4",
+      "0,2,0,0": "1/2",
+      "0,2,0,2": "-4",
+      "0,2,0,3": "-4",
+      "0,2,0,4": "-1",
+      "2,0,0,0": "1/2"
+    },
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "h"
+    ]
+  },
+  "hash": "0c4a9a2675c84ca4bcf7d9e8d0ea501a4b6db15531f761a591d6c43d20f2c7c3",
+  "id": "r09",
+  "ledger_advancing": false,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r08",
+  "parent_valid": true,
+  "previous_hash": "8288b2a4c5d56dd5803211d380ca5da1bcf9a900203ce2eb099ac13e3ae3cd01",
+  "proposal_claim_unverified": "For a symmetric lift difference [[a,c],[c,b]], perturbing the sensing vector (1,1) to (1,1+h), with |h|<=1/6, changes its intensity difference by an error whose square is at most half the squared Frobenius norm of the lift difference.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "77247ff92351d595dbbc1589a084990fa7b61b678f6e173c3a7bb1b3b7220a78",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

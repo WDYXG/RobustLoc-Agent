@@ -1,0 +1,22 @@
+{
+  "accepted": false,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": "provider-failure",
+  "family": null,
+  "formal_statement": null,
+  "hash": "cd9e0af7827b74356367273bdd52a2150c6e990505b358669a9e768baf531250",
+  "id": "r07",
+  "ledger_advancing": false,
+  "novelty": "novelty-uncertain",
+  "parent_id": null,
+  "parent_valid": true,
+  "previous_hash": "da0f449f3fa76aac77f66f7844a58298175b0d6d87f7ad3a295916569c9d41a3",
+  "proposal_claim_unverified": null,
+  "reason": "execution interrupted before a completion receipt was captured; this slot is consumed without retry",
+  "repeated_attempt": false,
+  "semantic_key": null,
+  "status": "unresolved",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

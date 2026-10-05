@@ -1,0 +1,26 @@
+{
+  "completed_turns": 1,
+  "dollar_cost": null,
+  "dollar_cost_reason": "no authenticated billing receipt or validated price in this experiment",
+  "model_id": null,
+  "model_id_reason": "not inferred from the surrounding chat; fill only if transport reports it",
+  "provider": "codex-cli",
+  "requested_model": "gpt-6.1-sol",
+  "returncode": 0,
+  "thread_ids": [
+    "01a10773-c0b0-7392-8db6-e1a1ad1d3659"
+  ],
+  "timed_out": false,
+  "transport_version": 2,
+  "unexpected_tool_items": 0,
+  "usage": [
+    {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 0,
+      "input_tokens": 22116,
+      "output_tokens": 1335,
+      "reasoning_output_tokens": 483
+    }
+  ],
+  "wall_seconds": 61.40532580000581
+}

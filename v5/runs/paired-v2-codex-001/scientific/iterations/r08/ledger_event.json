@@ -1,0 +1,50 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,0,0,2": "-1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1/2",
+        "2,0,0,0": "1/2"
+      }
+    ],
+    "interpretation": "The polynomial equals a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. The constraint allows squared additive error up to half the squared Frobenius norm of the symmetric matrix [[a,c],[c,b]], versus one twelfth in r06. This concerns output error; sensing-vector uncertainty and state recovery require separate arguments.",
+    "polynomial": {
+      "0,0,0,2": "1",
+      "0,0,1,1": "4",
+      "0,0,2,0": "23/6",
+      "0,1,0,1": "2",
+      "0,1,1,0": "4",
+      "0,2,0,0": "23/12",
+      "1,0,0,1": "2",
+      "1,0,1,0": "4",
+      "1,1,0,0": "2",
+      "2,0,0,0": "23/12"
+    },
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ]
+  },
+  "hash": "8288b2a4c5d56dd5803211d380ca5da1bcf9a900203ce2eb099ac13e3ae3cd01",
+  "id": "r08",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r06",
+  "parent_valid": true,
+  "previous_hash": "cd9e0af7827b74356367273bdd52a2150c6e990505b358669a9e768baf531250",
+  "proposal_claim_unverified": "The three-output lifted map retains squared margin 1/12 when the allowed squared error in its third output is increased sixfold relative to r06.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "a433b0a9017162d72168d3e177654b2ecdb9d7ec60906083663fa8ad357d262c",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

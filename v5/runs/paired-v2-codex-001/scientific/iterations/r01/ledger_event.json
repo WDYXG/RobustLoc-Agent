@@ -1,0 +1,60 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,1,0,1": "1",
+        "1,0,1,0": "1"
+      },
+      {
+        "0,0,0,0": "-2",
+        "0,0,0,2": "1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1",
+        "2,0,0,0": "1"
+      }
+    ],
+    "interpretation": "For x=(u,v) and y=(s,t), p=||xx^T-yy^T||_F^2-||x-y||_2^2. The constraints impose sign alignment and a combined energy floor. Under sign alignment, Euclidean distance equals sign-quotient distance. This proposition alone does not certify a sensing design's measurement margin.",
+    "polynomial": {
+      "0,0,0,2": "-1",
+      "0,0,0,4": "1",
+      "0,0,2,0": "-1",
+      "0,0,2,2": "2",
+      "0,0,4,0": "1",
+      "0,1,0,1": "2",
+      "0,2,0,0": "-1",
+      "0,2,0,2": "-2",
+      "0,4,0,0": "1",
+      "1,0,1,0": "2",
+      "1,1,1,1": "-4",
+      "2,0,0,0": "-1",
+      "2,0,2,0": "-2",
+      "2,2,0,0": "2",
+      "4,0,0,0": "1"
+    },
+    "variables": [
+      "u",
+      "v",
+      "s",
+      "t"
+    ]
+  },
+  "hash": "fc5980e06f81644f1e121d282e96ef1ff5109a4ff17fbd9ee221d0ccddc73132",
+  "id": "r01",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "",
+  "parent_valid": true,
+  "previous_hash": null,
+  "proposal_claim_unverified": "For sign-aligned planar states with combined squared norm at least 2, the squared Frobenius distance between their rank-one lifts is at least their squared Euclidean distance.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "44d4e2de551348ceee2b940543e696ab0b7862e7ec1aa14c3991a4a098ac8f74",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

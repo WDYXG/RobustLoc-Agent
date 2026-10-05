@@ -1,0 +1,8 @@
+{
+  "actual_tokens": null,
+  "actual_wall_seconds": null,
+  "captured_provider_events": 0,
+  "completed_turn_known": false,
+  "model_output_present": false,
+  "reason": "prior execution process absent at continuation; never classify as a mathematical refutation"
+}

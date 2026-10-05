@@ -1,0 +1,23 @@
+{
+  "real-pr-complement-property": {
+    "statement": "Real finite-dimensional magnitude phase retrieval modulo sign is injective exactly under the complement property. Squaring preserves injectivity, not metric stability constants.",
+    "status": "known",
+    "primary_url": "https://arxiv.org/abs/1302.4618",
+    "source": "Bandeira, Cahill, Mixon, Nelson, Saving phase, Theorem 3",
+    "audited_in": "v4/LITERATURE_AUDIT.md"
+  },
+  "intensity-origin-degeneracy": {
+    "statement": "Intensity and amplitude have different stable metrics; the intensity map has quadratic scaling at zero while the natural signal quotient metric has linear scaling.",
+    "status": "known",
+    "primary_url": "https://arxiv.org/abs/1506.02092",
+    "source": "Balan and Zou, On Lipschitz Analysis and Lipschitz Synthesis for the Phase Retrieval Problem, Proposition 3.1(iv)",
+    "audited_in": "v4/LITERATURE_AUDIT.md"
+  },
+  "two-support-union": {
+    "statement": "Two explanations with q arbitrary corrupted coordinates can disagree on up to 2q coordinates; a shared clean subset has size at least m-2q.",
+    "status": "known",
+    "primary_url": "https://arxiv.org/abs/1302.4618",
+    "source": "Generic coding/support-union argument, project proof v4/THEORY T1; URL is related PR injectivity source, not a priority citation for support union.",
+    "audited_in": "v4/THEORY.md"
+  }
+}

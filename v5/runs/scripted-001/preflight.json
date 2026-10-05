@@ -1,0 +1,5 @@
+{
+  "authenticated": false,
+  "provider": "scripted",
+  "requires_auth": false
+}

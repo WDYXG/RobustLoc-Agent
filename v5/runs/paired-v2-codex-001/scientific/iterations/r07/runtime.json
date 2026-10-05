@@ -1,0 +1,20 @@
+{
+  "capture_interrupted": true,
+  "completed_turns": 0,
+  "dollar_cost": null,
+  "dollar_cost_reason": "interrupted capture; actual inference usage unknown, not zero",
+  "error": "execution interrupted before a completion receipt was captured; this slot is consumed without retry",
+  "inference_tokens_unknown": true,
+  "model_id": null,
+  "provider": "codex-cli",
+  "requested_model": "gpt-6.1-sol",
+  "returncode": null,
+  "thread_ids": [],
+  "timed_out": false,
+  "transport_version": 2,
+  "uncaptured_wall_seconds": null,
+  "unexpected_tool_items": 0,
+  "usage": [],
+  "wall_seconds": 0.0,
+  "wall_seconds_is_lower_bound": true
+}

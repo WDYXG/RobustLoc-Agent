@@ -1,0 +1,70 @@
+{
+  "accepted": true,
+  "duplicate_existing": false,
+  "evidence": {
+    "counterexample": {
+      "admissible_checked": 1,
+      "point": null
+    },
+    "sample_points": [
+      [
+        "1",
+        "-1"
+      ]
+    ],
+    "sos": [
+      {
+        "constraint": -1,
+        "polynomial": {
+          "2,0": "1"
+        },
+        "weight": "2"
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,2": "1"
+        },
+        "weight": "1"
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,1": "1"
+        },
+        "weight": "4"
+      }
+    ]
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "constraints": [
+      {
+        "1,1": "-1"
+      }
+    ],
+    "interpretation": "Preset repair: require uv<=0 for the scalar intensity-increment bound.",
+    "polynomial": {
+      "0,4": "1",
+      "1,3": "-4",
+      "4,0": "2"
+    },
+    "variables": [
+      "u",
+      "v"
+    ]
+  },
+  "operation_units": 14,
+  "repeated_attempt": false,
+  "semantic_key": "e1c7dc59d1d6f8b703f71ad75362dbabb10e9101e57114ac5f694d1480d0b5c0",
+  "tool_seconds": 0.0006862000009277835,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": true,
+    "novelty": "novelty-uncertain",
+    "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "proved-in-project"
+  }
+}

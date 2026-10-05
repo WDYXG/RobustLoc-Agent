@@ -1,0 +1,6 @@
+{
+  "history_files_unchanged": 4083,
+  "passed": true,
+  "rounds": 12,
+  "scope": "same recorded proposals replayed through frozen tools and verifier; NOT fresh model regeneration"
+}

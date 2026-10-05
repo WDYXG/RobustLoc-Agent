@@ -1,0 +1,62 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,1,0,1": "1",
+        "1,0,1,0": "1"
+      },
+      {
+        "0,0,0,0": "-2",
+        "0,0,0,2": "1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1",
+        "2,0,0,0": "1"
+      }
+    ],
+    "interpretation": "The proposed polynomial is ||M(u,v)-M(s,t)||_2^2-||(u,v)-(s,t)||_2^2. Relative to r02, the u^2v^2 and s^2t^2 coefficients are corrected from 10 to 12. The verifier certifies only the formal inequality; the measurement interpretation requires separate checking.",
+    "polynomial": {
+      "0,0,0,2": "-1",
+      "0,0,0,4": "3",
+      "0,0,2,0": "-1",
+      "0,0,2,2": "12",
+      "0,0,4,0": "3",
+      "0,1,0,1": "2",
+      "0,2,0,0": "-1",
+      "0,2,0,2": "-6",
+      "0,2,2,0": "-4",
+      "0,4,0,0": "3",
+      "1,0,1,0": "2",
+      "1,1,1,1": "-16",
+      "2,0,0,0": "-1",
+      "2,0,0,2": "-4",
+      "2,0,2,0": "-6",
+      "2,2,0,0": "12",
+      "4,0,0,0": "3"
+    },
+    "variables": [
+      "u",
+      "v",
+      "s",
+      "t"
+    ]
+  },
+  "hash": "8d71f999fd048414bbc02937ac747dd5dcdf59bac16b64a28a24eae7eda27f8a",
+  "id": "r03",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r02",
+  "parent_valid": true,
+  "previous_hash": "31c45554487b8b27e4d65ecc4bb01ffe24b1705f0089bf7d41620c4a8481e531",
+  "proposal_claim_unverified": "For M(u,v)=(u^2,v^2,(u+v)^2,(u-v)^2), the squared measurement distance is at least the squared state distance on the declared domain, using the corrected polynomial expansion.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "43b40c6caa9f28096f3d6e716c1dafd62a36128fc1b34cc6275e59bb1f3935d9",
+  "status": "proved-in-project",
+  "successful_revision": true,
+  "unsupported_overclaim": false
+}

@@ -1,0 +1,52 @@
+{
+  "accepted": false,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "finite_cost",
+  "formal_statement": {
+    "bound": "1",
+    "costs": [
+      "1",
+      "2"
+    ],
+    "parameters": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-1"
+      ]
+    ],
+    "problem": "pr",
+    "relation": "==",
+    "scope": "continuous",
+    "tolerance": "1/10",
+    "worlds": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-1"
+      ]
+    ]
+  },
+  "hash": "5b6c9aeccaa31fcc46be97f31ac2f9a41c3292010bb7034f07bd139eda4a9d93",
+  "id": "r09",
+  "ledger_advancing": false,
+  "novelty": "novelty-uncertain",
+  "parent_id": "",
+  "parent_valid": true,
+  "previous_hash": "3789a6d5d4fcc5a53b627a807a83fdc9674b3a903c1a98447c7e3ac8ddf8a76e",
+  "proposal_claim_unverified": "The declared noiseless information cost equals one.",
+  "reason": "finite restriction does not establish the proposed continuous conclusion",
+  "repeated_attempt": false,
+  "semantic_key": "b1bc2f55e843cb22090f5792c7a1b53a8b6afb1447fdd7236d376bba5a427e02",
+  "status": "unresolved",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

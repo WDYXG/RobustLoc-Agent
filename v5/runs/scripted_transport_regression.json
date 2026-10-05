@@ -1,0 +1,8 @@
+{
+  "entire_ledger_identical": true,
+  "initial_state_identical": true,
+  "runtime_excluded": true,
+  "scientific_sources_identical": true,
+  "status": "baseline transport-version regression, not a fresh scientific replication",
+  "tool_budget_identical": true
+}

@@ -1,0 +1,89 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "enum": [
+        "prove",
+        "refute",
+        "literature-audit",
+        "experiment",
+        "generalize"
+      ],
+      "type": "string"
+    },
+    "assumptions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "claim": {
+      "type": "string"
+    },
+    "claimed_status": {
+      "enum": [
+        "conjectured",
+        "proved-in-project",
+        "refuted",
+        "numerically-supported",
+        "unresolved",
+        "known"
+      ],
+      "type": "string"
+    },
+    "evidence_request_json": {
+      "type": "string"
+    },
+    "family": {
+      "enum": [
+        "radius",
+        "polynomial",
+        "finite_cost",
+        "pr_injectivity",
+        "literature",
+        "open"
+      ],
+      "type": "string"
+    },
+    "formal_statement_json": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": "string"
+    },
+    "possible_failure_mode": {
+      "type": "string"
+    },
+    "research_question": {
+      "type": "string"
+    },
+    "stop_condition": {
+      "type": "string"
+    },
+    "verification_plan": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "why_this_matters": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "research_question",
+    "claim",
+    "why_this_matters",
+    "possible_failure_mode",
+    "stop_condition",
+    "formal_statement_json",
+    "evidence_request_json",
+    "parent_id",
+    "assumptions",
+    "verification_plan",
+    "action",
+    "family",
+    "claimed_status"
+  ],
+  "type": "object"
+}

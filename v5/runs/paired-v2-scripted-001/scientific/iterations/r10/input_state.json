@@ -1,0 +1,1055 @@
+{
+  "current_ledger": [
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "radius",
+      "formal_statement": {
+        "k": 4,
+        "max_size": 5,
+        "rho": "4/5",
+        "scope": "all-planar",
+        "symmetry": "sign",
+        "universe": [
+          [
+            "-3/5",
+            "4/5"
+          ],
+          [
+            "-4/5",
+            "3/5"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "3/5",
+            "4/5"
+          ],
+          [
+            "4/5",
+            "3/5"
+          ]
+        ]
+      },
+      "hash": "5da0ca9d7b60436f2376c6ce4366db39c3ebb75c22457c3b131ac1e4d4fa11ed",
+      "id": "r01",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": null,
+      "proposal_claim_unverified": "Are all 4-point covers sufficient for a planar sign cover?",
+      "reason": "bounded exact search cannot prove all-planar witness completeness",
+      "repeated_attempt": false,
+      "semantic_key": "49fb4e575364ccc97e74580ae3b4c38c307f82bae8bb76e7f5f6c0904b85446a",
+      "status": "numerically-supported",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": false,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "radius",
+      "formal_statement": {
+        "k": 4,
+        "max_size": 5,
+        "rho": "3/4",
+        "scope": "all-planar",
+        "symmetry": "sign",
+        "universe": [
+          [
+            "-3/5",
+            "4/5"
+          ],
+          [
+            "-4/5",
+            "3/5"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "3/5",
+            "4/5"
+          ],
+          [
+            "4/5",
+            "3/5"
+          ]
+        ]
+      },
+      "hash": "37a88f390b651d2c6093049aa9af8ef87eff211853aedc251dfb91661d98e1cb",
+      "id": "r02",
+      "ledger_advancing": false,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "5da0ca9d7b60436f2376c6ce4366db39c3ebb75c22457c3b131ac1e4d4fa11ed",
+      "proposal_claim_unverified": "Are all 4-point covers sufficient for a planar sign cover?",
+      "reason": "bounded exact search cannot prove all-planar witness completeness",
+      "repeated_attempt": true,
+      "semantic_key": "49fb4e575364ccc97e74580ae3b4c38c307f82bae8bb76e7f5f6c0904b85446a",
+      "status": "unresolved",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": false,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "radius",
+      "formal_statement": {
+        "k": 5,
+        "max_size": 6,
+        "rho": "4/5",
+        "scope": "all-planar",
+        "symmetry": "sign",
+        "universe": [
+          [
+            "-3/5",
+            "4/5"
+          ],
+          [
+            "-4/5",
+            "3/5"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "3/5",
+            "4/5"
+          ],
+          [
+            "4/5",
+            "3/5"
+          ]
+        ]
+      },
+      "hash": "49d8bf7de3f74cee588887300b530dc9db12711a7685a2dfb361f6571a5cbddb",
+      "id": "r03",
+      "ledger_advancing": false,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "37a88f390b651d2c6093049aa9af8ef87eff211853aedc251dfb91661d98e1cb",
+      "proposal_claim_unverified": "Are all 5-point covers sufficient for a planar sign cover?",
+      "reason": "bounded exact search cannot prove all-planar witness completeness",
+      "repeated_attempt": false,
+      "semantic_key": "7020502fe072762cf62ed1dea84bb6c0e4fac5fbb00118e99977559d6dfa11d8",
+      "status": "unresolved",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "radius",
+      "formal_statement": {
+        "k": 4,
+        "max_size": 5,
+        "rho": "4/5",
+        "scope": "finite-universe",
+        "symmetry": "sign",
+        "universe": [
+          [
+            "-3/5",
+            "4/5"
+          ],
+          [
+            "-4/5",
+            "3/5"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "3/5",
+            "4/5"
+          ],
+          [
+            "4/5",
+            "3/5"
+          ]
+        ]
+      },
+      "hash": "7c36ba74987c5381c85d3b058f44c26f7ef1d33301447a566c98213729aeb062",
+      "id": "r04",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "49d8bf7de3f74cee588887300b530dc9db12711a7685a2dfb361f6571a5cbddb",
+      "proposal_claim_unverified": "Are all 4-point covers sufficient for a planar sign cover?",
+      "reason": "exhaustive rational finite-universe implication only",
+      "repeated_attempt": false,
+      "semantic_key": "7a0de8dd5b85c7dc3c84f83c287f232db4a789b84f2393b26b53de038db3186f",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [],
+        "interpretation": "A scalar algebraic envelope for the intensity increment 2uv+v^2; physical mapping not certified.",
+        "polynomial": {
+          "0,4": "1",
+          "1,3": "-4",
+          "4,0": "2"
+        },
+        "variables": [
+          "u",
+          "v"
+        ]
+      },
+      "hash": "3e0e8946bfd35e3dbf1553aa58fa4fd600c012c4195fdfabd8b46e2238b36595",
+      "id": "r05",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "7c36ba74987c5381c85d3b058f44c26f7ef1d33301447a566c98213729aeb062",
+      "proposal_claim_unverified": "Constant 2 bounds the squared scalar intensity increment.",
+      "reason": "exact negative value satisfying every polynomial constraint",
+      "repeated_attempt": false,
+      "semantic_key": "10b1c51bbc12175aad5e2711a27f68452ee31c5fe77fe1320bec48853c091cae",
+      "status": "refuted",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "polynomial",
+      "formal_statement": {
+        "constraints": [],
+        "interpretation": "A scalar algebraic envelope for the intensity increment 2uv+v^2; physical mapping not certified.",
+        "polynomial": {
+          "0,4": "2",
+          "1,3": "-4",
+          "2,2": "2",
+          "4,0": "3"
+        },
+        "variables": [
+          "u",
+          "v"
+        ]
+      },
+      "hash": "be716a6abe9e625950e6b1d3c5c320e9f42a9ded5c7d8056248e0f999f53bcf5",
+      "id": "r06",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "3e0e8946bfd35e3dbf1553aa58fa4fd600c012c4195fdfabd8b46e2238b36595",
+      "proposal_claim_unverified": "Constant 3 bounds the squared scalar intensity increment.",
+      "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+      "repeated_attempt": false,
+      "semantic_key": "dfca5a7e1b67e6cc2b9c8da3fed0fa3aa47dd6acc170f373c3c322f3f24ebf8e",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "finite_cost",
+      "formal_statement": {
+        "bound": "1",
+        "costs": [
+          "1",
+          "2"
+        ],
+        "parameters": [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "-3"
+          ]
+        ],
+        "problem": "range",
+        "relation": "==",
+        "scope": "finite-prior",
+        "tolerance": "1/10",
+        "worlds": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ]
+      },
+      "hash": "c59495d487487cc161c2faba24044ed09d57367b335d9c7a8c578ef5f865cbb9",
+      "id": "r07",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "be716a6abe9e625950e6b1d3c5c320e9f42a9ded5c7d8056248e0f999f53bcf5",
+      "proposal_claim_unverified": "The declared noiseless information cost equals one.",
+      "reason": "exact noiseless finite-prior minimax; no continuous completeness assertion",
+      "repeated_attempt": false,
+      "semantic_key": "690df7d33e85ad3171f61a23b310a0e96f7daa9a428ce7680e660682027cdd05",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": true,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "finite_cost",
+      "formal_statement": {
+        "bound": "1",
+        "costs": [
+          "1",
+          "2"
+        ],
+        "parameters": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "-1"
+          ]
+        ],
+        "problem": "pr",
+        "relation": "==",
+        "scope": "finite-prior",
+        "tolerance": "1/10",
+        "worlds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "-1"
+          ]
+        ]
+      },
+      "hash": "3789a6d5d4fcc5a53b627a807a83fdc9674b3a903c1a98447c7e3ac8ddf8a76e",
+      "id": "r08",
+      "ledger_advancing": true,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "c59495d487487cc161c2faba24044ed09d57367b335d9c7a8c578ef5f865cbb9",
+      "proposal_claim_unverified": "The declared noiseless information cost equals one.",
+      "reason": "exact noiseless finite-prior minimax; no continuous completeness assertion",
+      "repeated_attempt": false,
+      "semantic_key": "63b7e7a77dc44c2185a290b25db367a6f7f63c8b578556e914f0b4b6640f07d3",
+      "status": "proved-in-project",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    },
+    {
+      "accepted": false,
+      "assumption_repair": false,
+      "duplicate_existing": false,
+      "failure_kind": null,
+      "family": "finite_cost",
+      "formal_statement": {
+        "bound": "1",
+        "costs": [
+          "1",
+          "2"
+        ],
+        "parameters": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "-1"
+          ]
+        ],
+        "problem": "pr",
+        "relation": "==",
+        "scope": "continuous",
+        "tolerance": "1/10",
+        "worlds": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "-1"
+          ]
+        ]
+      },
+      "hash": "5b6c9aeccaa31fcc46be97f31ac2f9a41c3292010bb7034f07bd139eda4a9d93",
+      "id": "r09",
+      "ledger_advancing": false,
+      "novelty": "novelty-uncertain",
+      "parent_id": "",
+      "parent_valid": true,
+      "previous_hash": "3789a6d5d4fcc5a53b627a807a83fdc9674b3a903c1a98447c7e3ac8ddf8a76e",
+      "proposal_claim_unverified": "The declared noiseless information cost equals one.",
+      "reason": "finite restriction does not establish the proposed continuous conclusion",
+      "repeated_attempt": false,
+      "semantic_key": "b1bc2f55e843cb22090f5792c7a1b53a8b6afb1447fdd7236d376bba5a427e02",
+      "status": "unresolved",
+      "successful_revision": false,
+      "unsupported_overclaim": false
+    }
+  ],
+  "instruction": "Choose the next ONE research action from this state. No fixed task order. Honest unresolved results and assumption revisions are welcome.",
+  "recent_feedback": [
+    {
+      "evidence": {
+        "counterexample": {
+          "admissible_checked": 3,
+          "point": null
+        },
+        "sample_points": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "sos": [
+          {
+            "constraint": -1,
+            "polynomial": {
+              "2,0": "1"
+            },
+            "weight": "3"
+          },
+          {
+            "constraint": -1,
+            "polynomial": {
+              "0,2": "-1",
+              "1,1": "1"
+            },
+            "weight": "2"
+          }
+        ]
+      },
+      "failure_kind": null,
+      "round": "r06",
+      "verdict": {
+        "nontrivial": true,
+        "novelty": "novelty-uncertain",
+        "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+        "scope": "formal statement only; free-text interpretation is not certified",
+        "status": "proved-in-project"
+      }
+    },
+    {
+      "evidence": {
+        "model": {
+          "actions": [
+            {
+              "cost": "1",
+              "id": "a0",
+              "parameter": [
+                "0",
+                "3"
+              ],
+              "responses": {
+                "w0": {
+                  "value": "4"
+                },
+                "w1": {
+                  "value": "16"
+                }
+              }
+            },
+            {
+              "cost": "2",
+              "id": "a1",
+              "parameter": [
+                "0",
+                "-3"
+              ],
+              "responses": {
+                "w0": {
+                  "value": "16"
+                },
+                "w1": {
+                  "value": "4"
+                }
+              }
+            }
+          ],
+          "semantics": "complete-finite-prior",
+          "tolerance": "1/10",
+          "worlds": [
+            {
+              "id": "w0",
+              "target": [
+                "0",
+                "1"
+              ]
+            },
+            {
+              "id": "w1",
+              "target": [
+                "0",
+                "-1"
+              ]
+            }
+          ]
+        },
+        "result": {
+          "exact_catalog_cost": "1",
+          "incident_lower": "1",
+          "interval": {
+            "cost_lower": "1",
+            "cost_upper": "1",
+            "gap": "0",
+            "lower_infinite": false,
+            "relative_gap": "0",
+            "state": "certifiably-recoverable"
+          },
+          "nodes": 5,
+          "problem": "range-localization",
+          "semantics": "complete-finite-prior",
+          "tree": {
+            "action": "a0",
+            "children": {
+              "{\"value\":\"16\"}": {
+                "ball": {
+                  "centre": [
+                    "0",
+                    "-1"
+                  ],
+                  "orientations_checked": 1,
+                  "radius2": "0",
+                  "signs": [
+                    1
+                  ],
+                  "symmetry": "identity"
+                },
+                "terminal": true,
+                "worlds": [
+                  1
+                ]
+              },
+              "{\"value\":\"4\"}": {
+                "ball": {
+                  "centre": [
+                    "0",
+                    "1"
+                  ],
+                  "orientations_checked": 1,
+                  "radius2": "0",
+                  "signs": [
+                    1
+                  ],
+                  "symmetry": "identity"
+                },
+                "terminal": true,
+                "worlds": [
+                  0
+                ]
+              }
+            },
+            "terminal": false,
+            "worlds": [
+              0,
+              1
+            ]
+          },
+          "witnesses": {
+            "complete": true,
+            "edges": [
+              {
+                "breakers": [
+                  "a0",
+                  "a1"
+                ],
+                "radius2": "1",
+                "worlds": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "nodes": 1,
+            "scope": "minimal dangerous subsets under adapter quotient radius"
+          }
+        }
+      },
+      "failure_kind": null,
+      "round": "r07",
+      "verdict": {
+        "nontrivial": true,
+        "novelty": "novelty-uncertain",
+        "reason": "exact noiseless finite-prior minimax; no continuous completeness assertion",
+        "scope": "formal statement only; free-text interpretation is not certified",
+        "status": "proved-in-project"
+      }
+    },
+    {
+      "evidence": {
+        "model": {
+          "actions": [
+            {
+              "cost": "1",
+              "id": "a0",
+              "parameter": [
+                "1",
+                "1"
+              ],
+              "responses": {
+                "w0": {
+                  "value": "4"
+                },
+                "w1": {
+                  "value": "0"
+                }
+              }
+            },
+            {
+              "cost": "2",
+              "id": "a1",
+              "parameter": [
+                "1",
+                "-1"
+              ],
+              "responses": {
+                "w0": {
+                  "value": "0"
+                },
+                "w1": {
+                  "value": "4"
+                }
+              }
+            }
+          ],
+          "semantics": "complete-finite-prior",
+          "tolerance": "1/10",
+          "worlds": [
+            {
+              "id": "w0",
+              "target": [
+                "1",
+                "1"
+              ]
+            },
+            {
+              "id": "w1",
+              "target": [
+                "1",
+                "-1"
+              ]
+            }
+          ]
+        },
+        "result": {
+          "exact_catalog_cost": "1",
+          "incident_lower": "1",
+          "interval": {
+            "cost_lower": "1",
+            "cost_upper": "1",
+            "gap": "0",
+            "lower_infinite": false,
+            "relative_gap": "0",
+            "state": "certifiably-recoverable"
+          },
+          "nodes": 5,
+          "problem": "real-phase-retrieval",
+          "semantics": "complete-finite-prior",
+          "tree": {
+            "action": "a0",
+            "children": {
+              "{\"value\":\"0\"}": {
+                "ball": {
+                  "centre": [
+                    "1",
+                    "-1"
+                  ],
+                  "orientations_checked": 1,
+                  "radius2": "0",
+                  "signs": [
+                    1
+                  ],
+                  "symmetry": "sign"
+                },
+                "terminal": true,
+                "worlds": [
+                  1
+                ]
+              },
+              "{\"value\":\"4\"}": {
+                "ball": {
+                  "centre": [
+                    "1",
+                    "1"
+                  ],
+                  "orientations_checked": 1,
+                  "radius2": "0",
+                  "signs": [
+                    1
+                  ],
+                  "symmetry": "sign"
+                },
+                "terminal": true,
+                "worlds": [
+                  0
+                ]
+              }
+            },
+            "terminal": false,
+            "worlds": [
+              0,
+              1
+            ]
+          },
+          "witnesses": {
+            "complete": true,
+            "edges": [
+              {
+                "breakers": [
+                  "a0",
+                  "a1"
+                ],
+                "radius2": "1",
+                "worlds": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "nodes": 1,
+            "scope": "minimal dangerous subsets under adapter quotient radius"
+          }
+        }
+      },
+      "failure_kind": null,
+      "round": "r08",
+      "verdict": {
+        "nontrivial": true,
+        "novelty": "novelty-uncertain",
+        "reason": "exact noiseless finite-prior minimax; no continuous completeness assertion",
+        "scope": "formal statement only; free-text interpretation is not certified",
+        "status": "proved-in-project"
+      }
+    },
+    {
+      "evidence": {
+        "model": {
+          "actions": [
+            {
+              "cost": "1",
+              "id": "a0",
+              "parameter": [
+                "1",
+                "1"
+              ],
+              "responses": {
+                "w0": {
+                  "value": "4"
+                },
+                "w1": {
+                  "value": "0"
+                }
+              }
+            },
+            {
+              "cost": "2",
+              "id": "a1",
+              "parameter": [
+                "1",
+                "-1"
+              ],
+              "responses": {
+                "w0": {
+                  "value": "0"
+                },
+                "w1": {
+                  "value": "4"
+                }
+              }
+            }
+          ],
+          "semantics": "verified-restriction",
+          "tolerance": "1/10",
+          "worlds": [
+            {
+              "id": "w0",
+              "target": [
+                "1",
+                "1"
+              ]
+            },
+            {
+              "id": "w1",
+              "target": [
+                "1",
+                "-1"
+              ]
+            }
+          ]
+        },
+        "result": {
+          "exact_catalog_cost": "1",
+          "incident_lower": "1",
+          "interval": {
+            "cost_lower": "1",
+            "cost_upper": null,
+            "gap": null,
+            "lower_infinite": false,
+            "relative_gap": null,
+            "state": "unresolved-certificate-or-search-gap"
+          },
+          "nodes": 5,
+          "problem": "real-phase-retrieval",
+          "semantics": "verified-restriction",
+          "tree": {
+            "action": "a0",
+            "children": {
+              "{\"value\":\"0\"}": {
+                "ball": {
+                  "centre": [
+                    "1",
+                    "-1"
+                  ],
+                  "orientations_checked": 1,
+                  "radius2": "0",
+                  "signs": [
+                    1
+                  ],
+                  "symmetry": "sign"
+                },
+                "terminal": true,
+                "worlds": [
+                  1
+                ]
+              },
+              "{\"value\":\"4\"}": {
+                "ball": {
+                  "centre": [
+                    "1",
+                    "1"
+                  ],
+                  "orientations_checked": 1,
+                  "radius2": "0",
+                  "signs": [
+                    1
+                  ],
+                  "symmetry": "sign"
+                },
+                "terminal": true,
+                "worlds": [
+                  0
+                ]
+              }
+            },
+            "terminal": false,
+            "worlds": [
+              0,
+              1
+            ]
+          },
+          "witnesses": {
+            "complete": true,
+            "edges": [
+              {
+                "breakers": [
+                  "a0",
+                  "a1"
+                ],
+                "radius2": "1",
+                "worlds": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            "nodes": 1,
+            "scope": "minimal dangerous subsets under adapter quotient radius"
+          }
+        }
+      },
+      "failure_kind": null,
+      "round": "r09",
+      "verdict": {
+        "nontrivial": true,
+        "novelty": "novelty-uncertain",
+        "reason": "finite restriction does not establish the proposed continuous conclusion",
+        "scope": "formal statement only; free-text interpretation is not certified",
+        "status": "unresolved"
+      }
+    }
+  ],
+  "remaining_rounds": 3,
+  "starting_frontier": {
+    "allowed_tools": [
+      "exact rational planar cover enumeration",
+      "weighted SOS polynomial identity with nonnegative constraints",
+      "rational counterexample evaluation",
+      "exact finite minimax with physical noiseless observation partitions",
+      "real CP and sparse corruption certificates",
+      "frozen primary-source topic lookup",
+      "unsupported open conjectures recorded unresolved"
+    ],
+    "existing_conclusions": [
+      {
+        "claim": "Shared clean support is m-2q. A positive global metric margin gives the corresponding robust recovery bound.",
+        "id": "v4-support-union",
+        "novelty": "known",
+        "source": "v4/THEORY.md",
+        "status": "proved-in-project"
+      },
+      {
+        "claim": "Real PR uses sign quotient; complement property controls injectivity. All m-2q survivors must be checked for arbitrary q corruption.",
+        "id": "v4-real-cp",
+        "source": "v4/LITERATURE_AUDIT.md",
+        "status": "known"
+      },
+      {
+        "claim": "Injectivity alone gives positive intensity/d_pm stability on a domain containing zero.",
+        "id": "v4-origin",
+        "novelty": "known",
+        "source": "v4/runs/PHASE4_REVIEW.md",
+        "status": "refuted"
+      },
+      {
+        "claim": "Three-point Euclidean radius witnesses remain complete in the sign quotient.",
+        "id": "v4-helly3",
+        "novelty": "novelty-uncertain",
+        "source": "v4/runs/PHASE4_REVIEW.md",
+        "status": "refuted",
+        "witness": {
+          "full_radius2": "4/5",
+          "max_triple_radius2": "1/2",
+          "points": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/5",
+              "4/5"
+            ],
+            [
+              "-4/5",
+              "3/5"
+            ]
+          ]
+        }
+      },
+      {
+        "claim": "Exact Bellman values apply to a complete finite prior; a physically realizable finite restriction is only a lower bound for a continuous problem.",
+        "id": "v4-finite-cost",
+        "novelty": "known",
+        "source": "v4/THEORY.md",
+        "status": "proved-in-project"
+      },
+      {
+        "claim": "Four q=1 continuous PR cost intervals have relative gap 1/2; no global continuous optimum established.",
+        "id": "v4-pr-gap",
+        "source": "v4/runs/PHASE4_REVIEW.md",
+        "status": "numerically-supported"
+      },
+      {
+        "claim": "Euclidean planar smallest enclosing ball radius is controlled by subsets of size at most three.",
+        "id": "euclidean-helly3",
+        "source": "v3d/minimal_trust/THEORY.md",
+        "status": "known"
+      }
+    ],
+    "origin_commit": "1440f9c483faec510e965d912fc71e610fc8f173",
+    "question": "Which next single mathematical research action produces a nonduplicated checkable advance, under the current evidence and tool limits?",
+    "recent_failures": [
+      "Finite grids do not certify continuous completeness.",
+      "Sign quotient invalidates unchanged planar Helly witness-size reasoning.",
+      "Positive annulus margin cannot be extrapolated through the origin.",
+      "A proof in this repository is not evidence of literature novelty."
+    ],
+    "schema": "research-state-v1",
+    "tool_limitations": [
+      "Only real two-dimensional Range and PR; no third inverse problem.",
+      "Finite cost tool is q=0, E=0, no initial observations; it cannot silently answer old q=1 acquisition instances.",
+      "Polynomial verifier certifies its formal algebra only; a proposed physical interpretation is not automatically verified.",
+      "Literature registry lookup is not live or exhaustive literature search.",
+      "Search with no counterexample is not a universal proof.",
+      "The formal tool catalog is human provided; the choice of claim and its parameters is left to the proposer."
+    ],
+    "unresolved_gaps": [
+      {
+        "id": "pr-continuous-cost",
+        "question": "Can rigorous lower or uniform upper bounds reduce the remaining PR continuous information-cost gaps?",
+        "status": "conjectured"
+      },
+      {
+        "id": "quotient-witness",
+        "question": "What witness structure replaces Euclidean three-point completeness under a quotient?",
+        "status": "conjectured"
+      },
+      {
+        "id": "sensing-uncertainty",
+        "question": "How does uncertainty in sensing vectors change a valid recovery contract?",
+        "status": "conjectured"
+      },
+      {
+        "id": "continuous-completeness",
+        "question": "When does a finite restriction characterize continuous minimax cost, and when does it fail?",
+        "status": "conjectured"
+      }
+    ]
+  }
+}

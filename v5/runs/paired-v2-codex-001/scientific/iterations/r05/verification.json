@@ -1,0 +1,110 @@
+{
+  "accepted": false,
+  "duplicate_existing": false,
+  "evidence": {
+    "counterexample": {
+      "admissible_checked": 2,
+      "point": null
+    },
+    "sample_points": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ]
+    ],
+    "sos": [
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,1,0": "3/2",
+          "0,1,0,0": 1,
+          "1,0,0,0": 1
+        },
+        "weight": "2/3"
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,1,0": 1
+        },
+        "weight": "1/6"
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,1,0,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": "1/6"
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,0,1": 2,
+          "0,0,1,0": 2,
+          "0,1,0,0": 1,
+          "1,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,0,0": 1
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "failure_kind": "verification-rejected",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,0,0,2": "-1",
+        "0,0,2,0": "1/6",
+        "0,2,0,0": "1/12",
+        "2,0,0,0": "1/12"
+      }
+    ],
+    "interpretation": "The polynomial is a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. For a symmetric lift difference [[a,c],[c,b]], the unperturbed outputs correspond to sensing vectors (1,0), (0,1), (1,1). This claim controls an additive perturbation of the third output difference. Translating sensing-vector uncertainty into the declared error constraint requires a separate argument; no such translation or state-distance bound is certified here.",
+    "polynomial": {
+      "0,0,0,2": "1",
+      "0,0,1,1": "4",
+      "0,0,2,0": "23/6",
+      "0,1,0,1": "2",
+      "0,1,1,0": "4",
+      "0,2,0,0": "23/12",
+      "1,0,0,1": "2",
+      "1,0,1,0": "4",
+      "1,1,0,0": "2",
+      "2,0,0,0": "23/12"
+    },
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ]
+  },
+  "operation_units": 111,
+  "repeated_attempt": false,
+  "semantic_key": "9b6e741f2d5ec5f2a0dea03050bf3f21de293c7e449d81516b16717d9d180e22",
+  "tool_seconds": 0.001069999998435378,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": false,
+    "novelty": "novelty-uncertain",
+    "reason": "ValueError: SOS polynomial identity is false",
+    "scope": "no conclusion authorized",
+    "status": "unresolved"
+  }
+}

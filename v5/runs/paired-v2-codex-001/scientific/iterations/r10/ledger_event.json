@@ -1,0 +1,56 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,0,0,0": "1/36",
+        "0,0,0,2": "-1"
+      }
+    ],
+    "interpretation": "The polynomial is a^2+b^2+[a+(1+h)^2b+2(1+h)c]^2-(a^2+b^2+2c^2)/12. For a symmetric matrix [[a,c],[c,b]], the three outputs correspond algebraically to vectors (1,0), (0,1), and (1,1+h). This directly incorporates the perturbation into the formal margin inequality. State recovery, corruption tolerance, and literature novelty are outside this proposition.",
+    "polynomial": {
+      "0,0,2,0": "23/6",
+      "0,0,2,1": "8",
+      "0,0,2,2": "4",
+      "0,1,1,0": "4",
+      "0,1,1,1": "12",
+      "0,1,1,2": "12",
+      "0,1,1,3": "4",
+      "0,2,0,0": "23/12",
+      "0,2,0,1": "4",
+      "0,2,0,2": "6",
+      "0,2,0,3": "4",
+      "0,2,0,4": "1",
+      "1,0,1,0": "4",
+      "1,0,1,1": "4",
+      "1,1,0,0": "2",
+      "1,1,0,1": "4",
+      "1,1,0,2": "2",
+      "2,0,0,0": "23/12"
+    },
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "h"
+    ]
+  },
+  "hash": "98343a101692be357b294d04db52783c9b7c5a6bb30ebd95539c322d13cf43a3",
+  "id": "r10",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r09",
+  "parent_valid": true,
+  "previous_hash": "0c4a9a2675c84ca4bcf7d9e8d0ea501a4b6db15531f761a591d6c43d20f2c7c3",
+  "proposal_claim_unverified": "The perturbed three-output lifted map has squared margin at least 1/12 uniformly for |h|<=1/6: a^2+b^2+[a+(1+h)^2b+2(1+h)c]^2 >= (a^2+b^2+2c^2)/12.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "2bb0d9c40ea3dbb61fcd9d5dada7d4d3072f07b2134798fca2f3555488bce19f",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

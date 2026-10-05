@@ -1,0 +1,22 @@
+{
+  "action": "refute",
+  "assumptions": [
+    "Distance is d_pm(x,c)=min(||x-c||_2,||x+c||_2).",
+    "Ball centers are unrestricted points in R^2."
+  ],
+  "claim": "Four-point radius witnesses are sufficient for planar sign-quotient ball feasibility.",
+  "claimed_status": "conjectured",
+  "evidence_request_json": "{}",
+  "family": "radius",
+  "formal_statement_json": "{\"symmetry\":\"sign\",\"k\":4,\"rho\":\"9/10\",\"scope\":\"all-planar\",\"universe\":[[1,0],[\"4/5\",\"3/5\"],[\"7/25\",\"24/25\"],[\"-7/25\",\"24/25\"],[\"-4/5\",\"3/5\"]],\"max_size\":5}",
+  "parent_id": "",
+  "possible_failure_mode": "Five approximately equally spaced projective directions may require a larger covering radius collectively than every four-point subset. The proposed witness fails if an unrestricted center and alternative sign lift cover all five within radius 9/10.",
+  "research_question": "Does the failure of three-point completeness extend to four-point completeness in the planar sign quotient?",
+  "stop_condition": "Stop after exact verification of this five-point candidate; accept a counterexample only if every subset of size at most four is feasible and the full set is infeasible.",
+  "verification_plan": [
+    "Enumerate sign lifts and compute exact smallest enclosing ball radii for the five-point set and its four-point subsets.",
+    "Compare squared radii with 81/100 using exact arithmetic.",
+    "Use containment to infer feasibility of smaller subsets from feasibility of all four-point subsets."
+  ],
+  "why_this_matters": "A verified counterexample would raise the necessary universal witness size to at least five, materially strengthening the existing failure of three-point completeness and constraining replacement witness theorems."
+}

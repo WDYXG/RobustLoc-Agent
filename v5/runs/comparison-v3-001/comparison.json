@@ -1,0 +1,104 @@
+{
+  "codex": {
+    "acceptance_rate": 0.75,
+    "accepted": 9,
+    "counterexamples": 2,
+    "cross_problem_structure_reuse_observed": false,
+    "dollar_cost": null,
+    "duplicate_existing": 0,
+    "duplicate_rate": 0.0,
+    "failed_refuted_claim_repairs": 1,
+    "invalid_proposals": 0,
+    "legacy_successful_conjecture_revisions": 2,
+    "limits": "Progress is a canonicalized formal-ledger proxy, not an originality, importance, or general autonomous-research score.",
+    "new_counterexamples": 2,
+    "operation_units": 1683,
+    "outcomes": {
+      "proved-in-project": 7,
+      "provider-failure": 1,
+      "refuted": 2,
+      "verification-rejected": 2
+    },
+    "policy": "codex",
+    "productive_steps_operational": 8,
+    "proposal_seconds": 594.7683176000091,
+    "rejected_or_unresolved": 3,
+    "repair_metric_version": 3,
+    "rounds": 12,
+    "shared_finite_minimax_calls": 0,
+    "successful_assumption_repairs": 0,
+    "successful_formal_revisions": 1,
+    "successful_post_rejection_corrections": 2,
+    "successful_refuted_claim_repairs": 0,
+    "token_usage": {
+      "cached_input_tokens": 0,
+      "input_tokens": 242679,
+      "output_tokens": 14885
+    },
+    "tool_seconds": 0.014736800003902317,
+    "unsupported_overclaims": 0,
+    "usage_receipts": 11,
+    "verifier_rejections": 2
+  },
+  "comparison_complete": true,
+  "execution_note": {
+    "codex_completed_provider_turns": 11,
+    "codex_runtime_and_token_totals_are_lower_bounds": true,
+    "codex_unknown_cost_slots": [
+      "r07"
+    ],
+    "interrupted_slot_consumes_budget": true,
+    "new_model_calls_during_regrade": 0,
+    "planned_slots_per_policy": 12,
+    "requested_model": "gpt-6.1-sol",
+    "underlying_mathematical_statuses_unchanged": true
+  },
+  "limitations": [
+    "one trajectory per policy, no statistical superiority claim",
+    "matched mathematical budget; Codex inference is extra measured cost",
+    "human-authored tool grammar and frontier; no universal autonomous discovery claim",
+    "limited semantic deduplication; progress proxy still needs scientific review"
+  ],
+  "report_evaluator_version": 3,
+  "scripted": {
+    "acceptance_rate": 0.6666666666666666,
+    "accepted": 8,
+    "counterexamples": 1,
+    "cross_problem_structure_reuse_observed": true,
+    "dollar_cost": 0,
+    "duplicate_existing": 0,
+    "duplicate_rate": 0.0,
+    "failed_refuted_claim_repairs": 0,
+    "invalid_proposals": 0,
+    "legacy_successful_conjecture_revisions": 2,
+    "limits": "Progress is a canonicalized formal-ledger proxy, not an originality, importance, or general autonomous-research score.",
+    "new_counterexamples": 1,
+    "operation_units": 53560,
+    "outcomes": {
+      "numerically-supported": 1,
+      "proved-in-project": 6,
+      "refuted": 1,
+      "unresolved": 4
+    },
+    "policy": "scripted",
+    "productive_steps_operational": 8,
+    "proposal_seconds": 0.00027650000993162394,
+    "rejected_or_unresolved": 4,
+    "repair_metric_version": 3,
+    "rounds": 12,
+    "shared_finite_minimax_calls": 3,
+    "successful_assumption_repairs": 1,
+    "successful_formal_revisions": 2,
+    "successful_post_rejection_corrections": 0,
+    "successful_refuted_claim_repairs": 1,
+    "token_usage": {
+      "cached_input_tokens": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "tool_seconds": 0.5180083999730414,
+    "unsupported_overclaims": 0,
+    "usage_receipts": 0,
+    "verifier_rejections": 0
+  }
+}

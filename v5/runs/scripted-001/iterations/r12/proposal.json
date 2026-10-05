@@ -1,0 +1,19 @@
+{
+  "action": "literature-audit",
+  "assumptions": [
+    "Exactly the assumptions encoded in formal_statement_json."
+  ],
+  "claim": "Audit the unresolved general quotient-witness literature boundary.",
+  "claimed_status": "conjectured",
+  "evidence_request_json": "{}",
+  "family": "literature",
+  "formal_statement_json": "{\"query\":\"Does existing literature settle a general sign-quotient witness bound?\",\"topic_id\":\"quotient-general-witness-number\"}",
+  "parent_id": "",
+  "possible_failure_mode": "Finite evidence may not justify a universal conclusion.",
+  "research_question": "Audit the unresolved general quotient-witness literature boundary.",
+  "stop_condition": "Stop at the per-round tool budget and accept only the verifier disposition.",
+  "verification_plan": [
+    "Use the registered exact consumer; retain failures."
+  ],
+  "why_this_matters": "Advance or delimit a current mathematical frontier under a bounded check."
+}

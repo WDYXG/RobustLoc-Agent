@@ -1,0 +1,141 @@
+{
+  "accepted": false,
+  "duplicate_existing": false,
+  "evidence": {
+    "counterexample": {
+      "admissible_checked": 2,
+      "point": null
+    },
+    "sample_points": [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "sos": [
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,0,2": -1,
+          "0,0,2,0": -1,
+          "0,2,0,0": 1,
+          "2,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,1,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": 1
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,0,1": -1,
+          "0,1,0,0": 1
+        },
+        "weight": 1
+      },
+      {
+        "constraint": 1,
+        "polynomial": {
+          "0,0,1,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 1,
+        "polynomial": {
+          "0,0,0,1": -1,
+          "0,1,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,0,2": -1,
+          "0,0,2,0": -1,
+          "0,2,0,0": 1,
+          "2,0,0,0": 1
+        },
+        "weight": 2
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,1,1": -1,
+          "1,1,0,0": 1
+        },
+        "weight": 6
+      }
+    ]
+  },
+  "failure_kind": "verification-rejected",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,1,0,1": "1",
+        "1,0,1,0": "1"
+      },
+      {
+        "0,0,0,0": "-2",
+        "0,0,0,2": "1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1",
+        "2,0,0,0": "1"
+      }
+    ],
+    "interpretation": "Writing x=(u,v), y=(s,t), and M(x)=(u^2,v^2,(u+v)^2,(u-v)^2), the polynomial is ||M(x)-M(y)||_2^2-||x-y||_2^2. Sign alignment makes the latter state distance equal to d_pm(x,y). The verifier certifies the polynomial inequality; this interpretation and any recovery application require separate checking.",
+    "polynomial": {
+      "0,0,0,2": "-1",
+      "0,0,0,4": "3",
+      "0,0,2,0": "-1",
+      "0,0,2,2": "10",
+      "0,0,4,0": "3",
+      "0,1,0,1": "2",
+      "0,2,0,0": "-1",
+      "0,2,0,2": "-6",
+      "0,2,2,0": "-4",
+      "0,4,0,0": "3",
+      "1,0,1,0": "2",
+      "1,1,1,1": "-16",
+      "2,0,0,0": "-1",
+      "2,0,0,2": "-4",
+      "2,0,2,0": "-6",
+      "2,2,0,0": "10",
+      "4,0,0,0": "3"
+    },
+    "variables": [
+      "u",
+      "v",
+      "s",
+      "t"
+    ]
+  },
+  "operation_units": 213,
+  "repeated_attempt": false,
+  "semantic_key": "2bf178681776aa708ce40204ded1536ed8296b1c30b4a721da6714c7568924a9",
+  "tool_seconds": 0.0015899999998509884,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": false,
+    "novelty": "novelty-uncertain",
+    "reason": "ValueError: SOS polynomial identity is false",
+    "scope": "no conclusion authorized",
+    "status": "unresolved"
+  }
+}

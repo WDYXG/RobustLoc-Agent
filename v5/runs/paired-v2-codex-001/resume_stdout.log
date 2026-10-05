@@ -1,0 +1,13 @@
+r01 proved-in-project None; resumed/verified
+r02 unresolved verification-rejected; resumed/verified
+r03 proved-in-project None; resumed/verified
+r04 proved-in-project None; resumed/verified
+r05 unresolved verification-rejected; resumed/verified
+r06 proved-in-project None; resumed/verified
+r07 unresolved provider-failure; resumed/verified
+r08 proved-in-project None; resumed/verified
+r09 proved-in-project None; resumed/verified
+r10 proved-in-project None; resumed/verified
+r11 refuted None; resumed/verified
+r12 refuted None; resumed/verified
+{"passed": true, "rounds": 12, "history_files_unchanged": 4083, "scope": "same recorded proposals replayed through frozen tools and verifier; NOT fresh model regeneration", "transport_version": 2, "requested_model": "gpt-6.1-sol", "actual_model_id": "only reported IDs in per-round runtime are authoritative"}

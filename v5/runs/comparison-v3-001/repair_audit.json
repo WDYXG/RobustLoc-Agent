@@ -1,0 +1,46 @@
+{
+  "codex": [
+    {
+      "formal_revision": true,
+      "parent": "r02",
+      "post_rejection_correction": true,
+      "refuted_claim_repair_failed": false,
+      "refuted_claim_repaired": false,
+      "round": "r03"
+    },
+    {
+      "formal_revision": false,
+      "parent": "r05",
+      "post_rejection_correction": true,
+      "refuted_claim_repair_failed": false,
+      "refuted_claim_repaired": false,
+      "round": "r06"
+    },
+    {
+      "formal_revision": false,
+      "parent": "r11",
+      "post_rejection_correction": false,
+      "refuted_claim_repair_failed": true,
+      "refuted_claim_repaired": false,
+      "round": "r12"
+    }
+  ],
+  "scripted": [
+    {
+      "formal_revision": true,
+      "parent": "r05",
+      "post_rejection_correction": false,
+      "refuted_claim_repair_failed": false,
+      "refuted_claim_repaired": true,
+      "round": "r10"
+    },
+    {
+      "formal_revision": true,
+      "parent": "r09",
+      "post_rejection_correction": false,
+      "refuted_claim_repair_failed": false,
+      "refuted_claim_repaired": false,
+      "round": "r11"
+    }
+  ]
+}

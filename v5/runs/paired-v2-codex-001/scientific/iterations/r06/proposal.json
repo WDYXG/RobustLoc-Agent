@@ -1,0 +1,22 @@
+{
+  "action": "prove",
+  "assumptions": [
+    "a,b,c,e are arbitrary real numbers.",
+    "The perturbation satisfies e^2 <= (a^2+b^2+2c^2)/12."
+  ],
+  "claim": "The three-output lifted map retains squared margin 1/12 under the declared relative perturbation of its third output; this revisits r05 with a corrected exact SOS certificate.",
+  "claimed_status": "conjectured",
+  "evidence_request_json": "{\"points\":[[1,0,0,0],[0,0,1,0],[-1,-1,1,0]],\"sos\":[{\"weight\":\"1/2\",\"polynomial\":{\"1,0,0,0\":1,\"0,1,0,0\":1,\"0,0,1,0\":2,\"0,0,0,1\":2},\"constraint\":-1},{\"weight\":\"11/12\",\"polynomial\":{\"1,0,0,0\":1,\"0,1,0,0\":1,\"0,0,1,0\":\"12/11\"},\"constraint\":-1},{\"weight\":\"19/33\",\"polynomial\":{\"0,0,1,0\":1},\"constraint\":-1},{\"weight\":\"5/12\",\"polynomial\":{\"1,0,0,0\":1,\"0,1,0,0\":-1},\"constraint\":-1},{\"weight\":1,\"polynomial\":{\"0,0,0,0\":1},\"constraint\":0}]}",
+  "family": "polynomial",
+  "formal_statement_json": "{\"variables\":[\"a\",\"b\",\"c\",\"e\"],\"polynomial\":{\"2,0,0,0\":\"23/12\",\"0,2,0,0\":\"23/12\",\"0,0,2,0\":\"23/6\",\"0,0,0,2\":1,\"1,1,0,0\":2,\"1,0,1,0\":4,\"0,1,1,0\":4,\"1,0,0,1\":2,\"0,1,0,1\":2,\"0,0,1,1\":4},\"constraints\":[{\"2,0,0,0\":\"1/12\",\"0,2,0,0\":\"1/12\",\"0,0,2,0\":\"1/6\",\"0,0,0,2\":-1}],\"interpretation\":\"The polynomial equals a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. For a symmetric matrix with entries [[a,c],[c,b]], the unperturbed outputs are associated with vectors (1,0), (0,1), (1,1). The formal claim concerns additive output error only; translating sensing-vector uncertainty to this error condition requires separate justification.\"}",
+  "parent_id": "r05",
+  "possible_failure_mode": "The replacement SOS certificate could still have an algebraic mismatch. Even if verified, it does not establish that physical sensing-vector errors satisfy the declared constraint.",
+  "research_question": "Can the unresolved r05 relative-output-error margin be certified without changing its assumptions or inequality?",
+  "stop_condition": "Stop after the deterministic verifier accepts or rejects the supplied exact identity; do not infer sensing-vector robustness from formal acceptance.",
+  "verification_plan": [
+    "Check the exact polynomial identity using the supplied five SOS terms.",
+    "Check all weights are nonnegative and the constraint multiplier is valid.",
+    "Evaluate the supplied rational admissible points for counterexamples."
+  ],
+  "why_this_matters": "Resolving r05 would provide a quantitative perturbation contract for the three-output lifted map, extending the clean margin investigation toward sensing uncertainty while preserving the distinction between output errors and sensing-vector errors."
+}

@@ -1,0 +1,26 @@
+{
+  "accepted": false,
+  "duplicate_existing": false,
+  "evidence": {
+    "record": null,
+    "search_scope": "frozen audited primary-source topic registry; not open-web novelty search"
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "query": "Does existing literature settle a general sign-quotient witness bound?",
+    "topic_id": "quotient-general-witness-number"
+  },
+  "operation_units": 1,
+  "repeated_attempt": false,
+  "semantic_key": "b0ca8605ea3a7a469277b3e566f66be7caf147545ee7f9486f44a170f973f883",
+  "tool_seconds": 0.0003515999997034669,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": false,
+    "novelty": "novelty-uncertain",
+    "reason": "no audited topic match; absence is not originality",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "unresolved"
+  }
+}

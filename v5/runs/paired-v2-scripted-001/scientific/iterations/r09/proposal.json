@@ -1,0 +1,19 @@
+{
+  "action": "prove",
+  "assumptions": [
+    "Exactly the assumptions encoded in formal_statement_json."
+  ],
+  "claim": "The declared noiseless information cost equals one.",
+  "claimed_status": "conjectured",
+  "evidence_request_json": "{}",
+  "family": "finite_cost",
+  "formal_statement_json": "{\"bound\":\"1\",\"costs\":[\"1\",\"2\"],\"parameters\":[[\"1\",\"1\"],[\"1\",\"-1\"]],\"problem\":\"pr\",\"relation\":\"==\",\"scope\":\"continuous\",\"tolerance\":\"1/10\",\"worlds\":[[\"1\",\"1\"],[\"1\",\"-1\"]]}",
+  "parent_id": "",
+  "possible_failure_mode": "Finite evidence may not justify a universal conclusion.",
+  "research_question": "The declared noiseless information cost equals one.",
+  "stop_condition": "Stop at the per-round tool budget and accept only the verifier disposition.",
+  "verification_plan": [
+    "Use the registered exact consumer; retain failures."
+  ],
+  "why_this_matters": "Advance or delimit a current mathematical frontier under a bounded check."
+}

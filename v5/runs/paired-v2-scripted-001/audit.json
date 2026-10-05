@@ -1,0 +1,9 @@
+{
+  "actual_model_id": "only reported IDs in per-round runtime are authoritative",
+  "history_files_unchanged": 4083,
+  "passed": true,
+  "requested_model": "gpt-6.1-sol",
+  "rounds": 12,
+  "scope": "same recorded proposals replayed through frozen tools and verifier; NOT fresh model regeneration",
+  "transport_version": 2
+}

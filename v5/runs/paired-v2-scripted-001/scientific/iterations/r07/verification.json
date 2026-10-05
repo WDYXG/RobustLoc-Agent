@@ -1,0 +1,184 @@
+{
+  "accepted": true,
+  "duplicate_existing": false,
+  "evidence": {
+    "model": {
+      "actions": [
+        {
+          "cost": "1",
+          "id": "a0",
+          "parameter": [
+            "0",
+            "3"
+          ],
+          "responses": {
+            "w0": {
+              "value": "4"
+            },
+            "w1": {
+              "value": "16"
+            }
+          }
+        },
+        {
+          "cost": "2",
+          "id": "a1",
+          "parameter": [
+            "0",
+            "-3"
+          ],
+          "responses": {
+            "w0": {
+              "value": "16"
+            },
+            "w1": {
+              "value": "4"
+            }
+          }
+        }
+      ],
+      "semantics": "complete-finite-prior",
+      "tolerance": "1/10",
+      "worlds": [
+        {
+          "id": "w0",
+          "target": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "id": "w1",
+          "target": [
+            "0",
+            "-1"
+          ]
+        }
+      ]
+    },
+    "result": {
+      "exact_catalog_cost": "1",
+      "incident_lower": "1",
+      "interval": {
+        "cost_lower": "1",
+        "cost_upper": "1",
+        "gap": "0",
+        "lower_infinite": false,
+        "relative_gap": "0",
+        "state": "certifiably-recoverable"
+      },
+      "nodes": 5,
+      "problem": "range-localization",
+      "semantics": "complete-finite-prior",
+      "tree": {
+        "action": "a0",
+        "children": {
+          "{\"value\":\"16\"}": {
+            "ball": {
+              "centre": [
+                "0",
+                "-1"
+              ],
+              "orientations_checked": 1,
+              "radius2": "0",
+              "signs": [
+                1
+              ],
+              "symmetry": "identity"
+            },
+            "terminal": true,
+            "worlds": [
+              1
+            ]
+          },
+          "{\"value\":\"4\"}": {
+            "ball": {
+              "centre": [
+                "0",
+                "1"
+              ],
+              "orientations_checked": 1,
+              "radius2": "0",
+              "signs": [
+                1
+              ],
+              "symmetry": "identity"
+            },
+            "terminal": true,
+            "worlds": [
+              0
+            ]
+          }
+        },
+        "terminal": false,
+        "worlds": [
+          0,
+          1
+        ]
+      },
+      "witnesses": {
+        "complete": true,
+        "edges": [
+          {
+            "breakers": [
+              "a0",
+              "a1"
+            ],
+            "radius2": "1",
+            "worlds": [
+              0,
+              1
+            ]
+          }
+        ],
+        "nodes": 1,
+        "scope": "minimal dangerous subsets under adapter quotient radius"
+      }
+    }
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "bound": "1",
+    "costs": [
+      "1",
+      "2"
+    ],
+    "parameters": [
+      [
+        "0",
+        "3"
+      ],
+      [
+        "0",
+        "-3"
+      ]
+    ],
+    "problem": "range",
+    "relation": "==",
+    "scope": "finite-prior",
+    "tolerance": "1/10",
+    "worlds": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "operation_units": 40,
+  "repeated_attempt": false,
+  "semantic_key": "690df7d33e85ad3171f61a23b310a0e96f7daa9a428ce7680e660682027cdd05",
+  "tool_seconds": 0.0010878999892156571,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": true,
+    "novelty": "novelty-uncertain",
+    "reason": "exact noiseless finite-prior minimax; no continuous completeness assertion",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "proved-in-project"
+  }
+}

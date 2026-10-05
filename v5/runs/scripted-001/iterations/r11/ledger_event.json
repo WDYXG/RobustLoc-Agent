@@ -1,0 +1,52 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "finite_cost",
+  "formal_statement": {
+    "bound": "1",
+    "costs": [
+      "1",
+      "2"
+    ],
+    "parameters": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-1"
+      ]
+    ],
+    "problem": "pr",
+    "relation": ">=",
+    "scope": "continuous",
+    "tolerance": "1/10",
+    "worlds": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "-1"
+      ]
+    ]
+  },
+  "hash": "feac7f1194ac532989ee9b752df251a767c7a139615e1be712a44c05c91c2279",
+  "id": "r11",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r09",
+  "parent_valid": true,
+  "previous_hash": "5e666f7205c3c1d63a183bfb6e4b51c5d270b012dd7ae8e5764cc6b0b6b30166",
+  "proposal_claim_unverified": "The declared noiseless information cost is at least one.",
+  "reason": "physically realizable finite restriction proves this continuous lower bound",
+  "repeated_attempt": false,
+  "semantic_key": "813e7f6739907de421c3d18302c68409da1f8facbadf46766dbc508879528edc",
+  "status": "proved-in-project",
+  "successful_revision": true,
+  "unsupported_overclaim": false
+}

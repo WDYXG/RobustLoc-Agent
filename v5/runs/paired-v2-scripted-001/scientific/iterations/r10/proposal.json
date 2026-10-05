@@ -1,0 +1,19 @@
+{
+  "action": "prove",
+  "assumptions": [
+    "Exactly the assumptions encoded in formal_statement_json."
+  ],
+  "claim": "Constant two suffices under the explicit sign restriction uv<=0.",
+  "claimed_status": "conjectured",
+  "evidence_request_json": "{\"points\":[[\"1\",\"-1\"]],\"sos\":[{\"constraint\":-1,\"polynomial\":{\"2,0\":\"1\"},\"weight\":\"2\"},{\"constraint\":-1,\"polynomial\":{\"0,2\":\"1\"},\"weight\":\"1\"},{\"constraint\":0,\"polynomial\":{\"0,1\":\"1\"},\"weight\":\"4\"}]}",
+  "family": "polynomial",
+  "formal_statement_json": "{\"constraints\":[{\"1,1\":\"-1\"}],\"interpretation\":\"Preset repair: require uv<=0 for the scalar intensity-increment bound.\",\"polynomial\":{\"0,4\":\"1\",\"1,3\":\"-4\",\"4,0\":\"2\"},\"variables\":[\"u\",\"v\"]}",
+  "parent_id": "r05",
+  "possible_failure_mode": "Finite evidence may not justify a universal conclusion.",
+  "research_question": "Constant two suffices under the explicit sign restriction uv<=0.",
+  "stop_condition": "Stop at the per-round tool budget and accept only the verifier disposition.",
+  "verification_plan": [
+    "Use the registered exact consumer; retain failures."
+  ],
+  "why_this_matters": "Advance or delimit a current mathematical frontier under a bounded check."
+}

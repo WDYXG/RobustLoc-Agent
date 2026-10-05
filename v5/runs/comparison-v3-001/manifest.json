@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "v5/runs/paired-v2-codex-001/audit.json": "e3bf8abfc01465a7def3e8aa01bbc19c188f8344a61610345a6c84aa0c1e9d8a",
+    "v5/runs/paired-v2-codex-001/scientific/ledger.json": "fffb72e1dffe1bd313f3b6a2a9c15b4d0b7a69a0ae77b25c6d10f4c49c523388",
+    "v5/runs/paired-v2-codex-001/scientific/manifest.json": "e19f6a2b999f37dc879eec2b2159ccef3f0e280be584bce3036a1772e20d55f3",
+    "v5/runs/paired-v2-codex-001/scientific/metrics.json": "e1fded9554c0f590db50c38c4eac2096acf466ea06c89dd6c9bdde739a5dd39d",
+    "v5/runs/paired-v2-codex-001/scientific/output_hashes.json": "703bc1d655034de3ce0f0027369729e87972452d6ec9c2219abc32de50003e03",
+    "v5/runs/paired-v2-codex-001/transport_manifest.json": "e2c23a7b9380a8a4b8bd2c236d4ba38b39f7ef2a4b04086a02db948089317ae5",
+    "v5/runs/paired-v2-scripted-001/audit.json": "e3bf8abfc01465a7def3e8aa01bbc19c188f8344a61610345a6c84aa0c1e9d8a",
+    "v5/runs/paired-v2-scripted-001/scientific/ledger.json": "23e0e52d6bb0b88e3696b35181b2a32aa972b9f0092392f6f23b7875065c4703",
+    "v5/runs/paired-v2-scripted-001/scientific/manifest.json": "9274b927a179a7833c8e77190baad7854997adef6ef18e5ae0220c7a17b53d03",
+    "v5/runs/paired-v2-scripted-001/scientific/metrics.json": "42edaf6a95aa1cdbbd04e9f122549cb833065d972f3bd3721434e1329f57a462",
+    "v5/runs/paired-v2-scripted-001/scientific/output_hashes.json": "913c73389c0b2189aadf3f29622d6e3d0e0e1eba4b0c221fa0ecada10d3700fa",
+    "v5/runs/paired-v2-scripted-001/transport_manifest.json": "7601feda9670eeca13e454b645edcebc64d031cc70215694ede2b6b0b1d269a3"
+  },
+  "mathematical_evaluator_changed": false,
+  "new_model_calls": 0,
+  "schema": "phase5-metric-regrade-v3",
+  "sources": {
+    "v5/runs/evaluator_v3/__init__.py": "90eff268d0017c7d232382cdb6703575cd32e560b85a7e88e580577c30c03d8b",
+    "v5/runs/evaluator_v3/run.py": "43cf80378d0e4d3e0de9ad88b286974f0d9effddf50dca44d99a07e08d441da8",
+    "v5/runs/evaluator_v3/test_metrics.py": "8e38b70f037470fe39f20107abaaf4aaee7cb8882bb933280bb4fc0e636cf24a"
+  }
+}

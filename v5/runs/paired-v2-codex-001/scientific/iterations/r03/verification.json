@@ -1,0 +1,147 @@
+{
+  "accepted": true,
+  "duplicate_existing": false,
+  "evidence": {
+    "counterexample": {
+      "admissible_checked": 3,
+      "point": null
+    },
+    "sample_points": [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "sos": [
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,0,2": -1,
+          "0,0,2,0": -1,
+          "0,2,0,0": 1,
+          "2,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,1,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": 1
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,0,1": -1,
+          "0,1,0,0": 1
+        },
+        "weight": 1
+      },
+      {
+        "constraint": 1,
+        "polynomial": {
+          "0,0,1,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 1,
+        "polynomial": {
+          "0,0,0,1": -1,
+          "0,1,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,0,2": -1,
+          "0,0,2,0": -1,
+          "0,2,0,0": 1,
+          "2,0,0,0": 1
+        },
+        "weight": 2
+      },
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,1,1": -1,
+          "1,1,0,0": 1
+        },
+        "weight": 6
+      }
+    ]
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,1,0,1": "1",
+        "1,0,1,0": "1"
+      },
+      {
+        "0,0,0,0": "-2",
+        "0,0,0,2": "1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1",
+        "2,0,0,0": "1"
+      }
+    ],
+    "interpretation": "The proposed polynomial is ||M(u,v)-M(s,t)||_2^2-||(u,v)-(s,t)||_2^2. Relative to r02, the u^2v^2 and s^2t^2 coefficients are corrected from 10 to 12. The verifier certifies only the formal inequality; the measurement interpretation requires separate checking.",
+    "polynomial": {
+      "0,0,0,2": "-1",
+      "0,0,0,4": "3",
+      "0,0,2,0": "-1",
+      "0,0,2,2": "12",
+      "0,0,4,0": "3",
+      "0,1,0,1": "2",
+      "0,2,0,0": "-1",
+      "0,2,0,2": "-6",
+      "0,2,2,0": "-4",
+      "0,4,0,0": "3",
+      "1,0,1,0": "2",
+      "1,1,1,1": "-16",
+      "2,0,0,0": "-1",
+      "2,0,0,2": "-4",
+      "2,0,2,0": "-6",
+      "2,2,0,0": "12",
+      "4,0,0,0": "3"
+    },
+    "variables": [
+      "u",
+      "v",
+      "s",
+      "t"
+    ]
+  },
+  "operation_units": 261,
+  "repeated_attempt": false,
+  "semantic_key": "43b40c6caa9f28096f3d6e716c1dafd62a36128fc1b34cc6275e59bb1f3935d9",
+  "tool_seconds": 0.0018743000109679997,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": true,
+    "novelty": "novelty-uncertain",
+    "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "proved-in-project"
+  }
+}

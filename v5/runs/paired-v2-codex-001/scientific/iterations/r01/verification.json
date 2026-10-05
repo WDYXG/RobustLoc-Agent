@@ -1,0 +1,121 @@
+{
+  "accepted": true,
+  "duplicate_existing": false,
+  "evidence": {
+    "counterexample": {
+      "admissible_checked": 2,
+      "point": null
+    },
+    "sample_points": [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    "sos": [
+      {
+        "constraint": -1,
+        "polynomial": {
+          "0,0,0,2": -1,
+          "0,0,2,0": -1,
+          "0,2,0,0": 1,
+          "2,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,1,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": 1
+      },
+      {
+        "constraint": 0,
+        "polynomial": {
+          "0,0,0,1": -1,
+          "0,1,0,0": 1
+        },
+        "weight": 1
+      },
+      {
+        "constraint": 1,
+        "polynomial": {
+          "0,0,1,0": -1,
+          "1,0,0,0": 1
+        },
+        "weight": "1/2"
+      },
+      {
+        "constraint": 1,
+        "polynomial": {
+          "0,0,0,1": -1,
+          "0,1,0,0": 1
+        },
+        "weight": "1/2"
+      }
+    ]
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,1,0,1": "1",
+        "1,0,1,0": "1"
+      },
+      {
+        "0,0,0,0": "-2",
+        "0,0,0,2": "1",
+        "0,0,2,0": "1",
+        "0,2,0,0": "1",
+        "2,0,0,0": "1"
+      }
+    ],
+    "interpretation": "For x=(u,v) and y=(s,t), p=||xx^T-yy^T||_F^2-||x-y||_2^2. The constraints impose sign alignment and a combined energy floor. Under sign alignment, Euclidean distance equals sign-quotient distance. This proposition alone does not certify a sensing design's measurement margin.",
+    "polynomial": {
+      "0,0,0,2": "-1",
+      "0,0,0,4": "1",
+      "0,0,2,0": "-1",
+      "0,0,2,2": "2",
+      "0,0,4,0": "1",
+      "0,1,0,1": "2",
+      "0,2,0,0": "-1",
+      "0,2,0,2": "-2",
+      "0,4,0,0": "1",
+      "1,0,1,0": "2",
+      "1,1,1,1": "-4",
+      "2,0,0,0": "-1",
+      "2,0,2,0": "-2",
+      "2,2,0,0": "2",
+      "4,0,0,0": "1"
+    },
+    "variables": [
+      "u",
+      "v",
+      "s",
+      "t"
+    ]
+  },
+  "operation_units": 172,
+  "repeated_attempt": false,
+  "semantic_key": "44d4e2de551348ceee2b940543e696ab0b7862e7ec1aa14c3991a4a098ac8f74",
+  "tool_seconds": 0.0013383000041358173,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": true,
+    "novelty": "novelty-uncertain",
+    "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "proved-in-project"
+  }
+}

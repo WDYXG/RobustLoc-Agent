@@ -1,0 +1,25 @@
+﻿policy,round,parent,family,status,ledger_advancing,claim_unverified_prose
+Scripted,r01,,radius,numerically-supported,True,Are all 4-point covers sufficient for a planar sign cover?
+Scripted,r02,,radius,unresolved,False,Are all 4-point covers sufficient for a planar sign cover?
+Scripted,r03,,radius,unresolved,False,Are all 5-point covers sufficient for a planar sign cover?
+Scripted,r04,,radius,proved-in-project,True,Are all 4-point covers sufficient for a planar sign cover?
+Scripted,r05,,polynomial,refuted,True,Constant 2 bounds the squared scalar intensity increment.
+Scripted,r06,,polynomial,proved-in-project,True,Constant 3 bounds the squared scalar intensity increment.
+Scripted,r07,,finite_cost,proved-in-project,True,The declared noiseless information cost equals one.
+Scripted,r08,,finite_cost,proved-in-project,True,The declared noiseless information cost equals one.
+Scripted,r09,,finite_cost,unresolved,False,The declared noiseless information cost equals one.
+Scripted,r10,r05,polynomial,proved-in-project,True,Constant two suffices under the explicit sign restriction uv<=0.
+Scripted,r11,r09,finite_cost,proved-in-project,True,The declared noiseless information cost is at least one.
+Scripted,r12,,literature,unresolved,False,Audit the unresolved general quotient-witness literature boundary.
+Codex,r01,,polynomial,proved-in-project,True,"For sign-aligned planar states with combined squared norm at least 2, the squared Frobenius distance between their rank-one lifts is at least their squared Euclidean distance."
+Codex,r02,r01,polynomial,unresolved,False,"For this four-vector design, the sum of squared intensity differences is at least the squared Euclidean state distance on the declared sign-aligned energy domain."
+Codex,r03,r02,polynomial,proved-in-project,True,"For M(u,v)=(u^2,v^2,(u+v)^2,(u-v)^2), the squared measurement distance is at least the squared state distance on the declared domain, using the corrected polynomial expansion."
+Codex,r04,r03,polynomial,proved-in-project,True,"After deleting the (1,-1) sensing vector from the r03 design, the remaining three intensity measurements retain a squared-distance lower bound of one third on the declared sign-aligned energy domain."
+Codex,r05,r04,polynomial,unresolved,False,The three-measurement lifted map retains a squared margin of 1/12 under the declared relative error in its third measurement difference.
+Codex,r06,r05,polynomial,proved-in-project,True,The three-output lifted map retains squared margin 1/12 under the declared relative perturbation of its third output; this revisits r05 with a corrected exact SOS certificate.
+Codex,r07,,,unresolved,False,
+Codex,r08,r06,polynomial,proved-in-project,True,The three-output lifted map retains squared margin 1/12 when the allowed squared error in its third output is increased sixfold relative to r06.
+Codex,r09,r08,polynomial,proved-in-project,False,"For a symmetric lift difference [[a,c],[c,b]], perturbing the sensing vector (1,1) to (1,1+h), with |h|<=1/6, changes its intensity difference by an error whose square is at most half the squared Frobenius norm of the lift difference."
+Codex,r10,r09,polynomial,proved-in-project,True,The perturbed three-output lifted map has squared margin at least 1/12 uniformly for |h|<=1/6: a^2+b^2+[a+(1+h)^2b+2(1+h)c]^2 >= (a^2+b^2+2c^2)/12.
+Codex,r11,r10,polynomial,refuted,True,The perturbed three-output lifted map retains squared margin 1/12 uniformly for |h| <= 3/4.
+Codex,r12,r11,polynomial,refuted,True,The perturbed three-output lifted map retains squared margin 1/12 uniformly for |h|<=5/7.

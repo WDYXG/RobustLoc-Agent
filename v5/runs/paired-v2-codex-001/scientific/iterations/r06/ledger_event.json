@@ -1,0 +1,50 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "0,0,0,2": "-1",
+        "0,0,2,0": "1/6",
+        "0,2,0,0": "1/12",
+        "2,0,0,0": "1/12"
+      }
+    ],
+    "interpretation": "The polynomial equals a^2+b^2+(a+b+2c+e)^2-(a^2+b^2+2c^2)/12. For a symmetric matrix with entries [[a,c],[c,b]], the unperturbed outputs are associated with vectors (1,0), (0,1), (1,1). The formal claim concerns additive output error only; translating sensing-vector uncertainty to this error condition requires separate justification.",
+    "polynomial": {
+      "0,0,0,2": "1",
+      "0,0,1,1": "4",
+      "0,0,2,0": "23/6",
+      "0,1,0,1": "2",
+      "0,1,1,0": "4",
+      "0,2,0,0": "23/12",
+      "1,0,0,1": "2",
+      "1,0,1,0": "4",
+      "1,1,0,0": "2",
+      "2,0,0,0": "23/12"
+    },
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "e"
+    ]
+  },
+  "hash": "da0f449f3fa76aac77f66f7844a58298175b0d6d87f7ad3a295916569c9d41a3",
+  "id": "r06",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r05",
+  "parent_valid": true,
+  "previous_hash": "8fa8bd87c603481ead8d2df03d603969ab882939d780f749b31828c0667b622f",
+  "proposal_claim_unverified": "The three-output lifted map retains squared margin 1/12 under the declared relative perturbation of its third output; this revisits r05 with a corrected exact SOS certificate.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": true,
+  "semantic_key": "9b6e741f2d5ec5f2a0dea03050bf3f21de293c7e449d81516b16717d9d180e22",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

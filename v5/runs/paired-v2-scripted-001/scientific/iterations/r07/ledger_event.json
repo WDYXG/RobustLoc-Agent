@@ -1,0 +1,52 @@
+{
+  "accepted": true,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "finite_cost",
+  "formal_statement": {
+    "bound": "1",
+    "costs": [
+      "1",
+      "2"
+    ],
+    "parameters": [
+      [
+        "0",
+        "3"
+      ],
+      [
+        "0",
+        "-3"
+      ]
+    ],
+    "problem": "range",
+    "relation": "==",
+    "scope": "finite-prior",
+    "tolerance": "1/10",
+    "worlds": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "hash": "c59495d487487cc161c2faba24044ed09d57367b335d9c7a8c578ef5f865cbb9",
+  "id": "r07",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "",
+  "parent_valid": true,
+  "previous_hash": "be716a6abe9e625950e6b1d3c5c320e9f42a9ded5c7d8056248e0f999f53bcf5",
+  "proposal_claim_unverified": "The declared noiseless information cost equals one.",
+  "reason": "exact noiseless finite-prior minimax; no continuous completeness assertion",
+  "repeated_attempt": false,
+  "semantic_key": "690df7d33e85ad3171f61a23b310a0e96f7daa9a428ce7680e660682027cdd05",
+  "status": "proved-in-project",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

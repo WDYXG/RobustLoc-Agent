@@ -1,0 +1,54 @@
+{
+  "accepted": false,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "radius",
+  "formal_statement": {
+    "k": 5,
+    "max_size": 6,
+    "rho": "4/5",
+    "scope": "all-planar",
+    "symmetry": "sign",
+    "universe": [
+      [
+        "-3/5",
+        "4/5"
+      ],
+      [
+        "-4/5",
+        "3/5"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "3/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "3/5"
+      ]
+    ]
+  },
+  "hash": "49d8bf7de3f74cee588887300b530dc9db12711a7685a2dfb361f6571a5cbddb",
+  "id": "r03",
+  "ledger_advancing": false,
+  "novelty": "novelty-uncertain",
+  "parent_id": "",
+  "parent_valid": true,
+  "previous_hash": "37a88f390b651d2c6093049aa9af8ef87eff211853aedc251dfb91661d98e1cb",
+  "proposal_claim_unverified": "Are all 5-point covers sufficient for a planar sign cover?",
+  "reason": "bounded exact search cannot prove all-planar witness completeness",
+  "repeated_attempt": false,
+  "semantic_key": "7020502fe072762cf62ed1dea84bb6c0e4fac5fbb00118e99977559d6dfa11d8",
+  "status": "unresolved",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

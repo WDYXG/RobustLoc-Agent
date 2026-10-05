@@ -1,0 +1,56 @@
+{
+  "accepted": false,
+  "duplicate_existing": false,
+  "evidence": {
+    "checked": 6,
+    "feasible_small_covers": [],
+    "witness": null
+  },
+  "failure_kind": null,
+  "formal_statement": {
+    "k": 4,
+    "max_size": 5,
+    "rho": "3/4",
+    "scope": "all-planar",
+    "symmetry": "sign",
+    "universe": [
+      [
+        "-3/5",
+        "4/5"
+      ],
+      [
+        "-4/5",
+        "3/5"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "3/5",
+        "4/5"
+      ],
+      [
+        "4/5",
+        "3/5"
+      ]
+    ]
+  },
+  "operation_units": 14982,
+  "repeated_attempt": true,
+  "semantic_key": "49fb4e575364ccc97e74580ae3b4c38c307f82bae8bb76e7f5f6c0904b85446a",
+  "tool_seconds": 0.11864220000279602,
+  "unsupported_overclaim": false,
+  "valid_proposal": true,
+  "verdict": {
+    "nontrivial": false,
+    "novelty": "novelty-uncertain",
+    "reason": "bounded exact search cannot prove all-planar witness completeness",
+    "scope": "formal statement only; free-text interpretation is not certified",
+    "status": "unresolved"
+  }
+}

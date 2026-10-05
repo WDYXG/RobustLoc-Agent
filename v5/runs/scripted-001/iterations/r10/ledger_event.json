@@ -1,0 +1,38 @@
+{
+  "accepted": true,
+  "assumption_repair": true,
+  "duplicate_existing": false,
+  "failure_kind": null,
+  "family": "polynomial",
+  "formal_statement": {
+    "constraints": [
+      {
+        "1,1": "-1"
+      }
+    ],
+    "interpretation": "Preset repair: require uv<=0 for the scalar intensity-increment bound.",
+    "polynomial": {
+      "0,4": "1",
+      "1,3": "-4",
+      "4,0": "2"
+    },
+    "variables": [
+      "u",
+      "v"
+    ]
+  },
+  "hash": "5e666f7205c3c1d63a183bfb6e4b51c5d270b012dd7ae8e5764cc6b0b6b30166",
+  "id": "r10",
+  "ledger_advancing": true,
+  "novelty": "novelty-uncertain",
+  "parent_id": "r05",
+  "parent_valid": true,
+  "previous_hash": "5b6c9aeccaa31fcc46be97f31ac2f9a41c3292010bb7034f07bd139eda4a9d93",
+  "proposal_claim_unverified": "Constant two suffices under the explicit sign restriction uv<=0.",
+  "reason": "exact nonnegative weighted SOS identity on declared semialgebraic domain",
+  "repeated_attempt": false,
+  "semantic_key": "e1c7dc59d1d6f8b703f71ad75362dbabb10e9101e57114ac5f694d1480d0b5c0",
+  "status": "proved-in-project",
+  "successful_revision": true,
+  "unsupported_overclaim": false
+}

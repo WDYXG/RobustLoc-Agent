@@ -1,0 +1,22 @@
+{
+  "accepted": false,
+  "assumption_repair": false,
+  "duplicate_existing": false,
+  "failure_kind": "provider-failure",
+  "family": null,
+  "formal_statement": null,
+  "hash": "f258d07f06dbf15bfed2fdf53290d97edfdc21b0a36cd4bda7074d9da0bd7476",
+  "id": "r03",
+  "ledger_advancing": false,
+  "novelty": "novelty-uncertain",
+  "parent_id": null,
+  "parent_valid": true,
+  "previous_hash": "cec3568f6ff27ebe6e4d59cd7fcd39a350667b2a65a5c8f77745c5dec069866b",
+  "proposal_claim_unverified": null,
+  "reason": "CLI failure, missing completion receipt, timeout or forbidden external tool use",
+  "repeated_attempt": false,
+  "semantic_key": null,
+  "status": "unresolved",
+  "successful_revision": false,
+  "unsupported_overclaim": false
+}

@@ -1,0 +1,36 @@
+{
+  "acceptance_rate": 0.6666666666666666,
+  "accepted": 8,
+  "counterexamples": 1,
+  "cross_problem_structure_reuse_observed": true,
+  "dollar_cost": 0,
+  "duplicate_existing": 0,
+  "duplicate_rate": 0.0,
+  "invalid_proposals": 0,
+  "limits": "Progress is a canonicalized formal-ledger proxy, not an originality, importance, or general autonomous-research score.",
+  "new_counterexamples": 1,
+  "operation_units": 53560,
+  "outcomes": {
+    "numerically-supported": 1,
+    "proved-in-project": 6,
+    "refuted": 1,
+    "unresolved": 4
+  },
+  "policy": "scripted",
+  "productive_steps_operational": 8,
+  "proposal_seconds": 0.00027650000993162394,
+  "rejected_or_unresolved": 4,
+  "rounds": 12,
+  "shared_finite_minimax_calls": 3,
+  "successful_assumption_repairs": 1,
+  "successful_conjecture_revisions": 2,
+  "token_usage": {
+    "cached_input_tokens": 0,
+    "input_tokens": 0,
+    "output_tokens": 0
+  },
+  "tool_seconds": 0.5180083999730414,
+  "unsupported_overclaims": 0,
+  "usage_receipts": 0,
+  "verifier_rejections": 0
+}
