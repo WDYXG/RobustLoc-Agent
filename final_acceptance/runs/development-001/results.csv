@@ -1,0 +1,241 @@
+﻿episode_id,scenario,stratum,policy,k,method,bound_violation,contract_valid,contract_violations,cost,error,output,severe,wrong,correct_output,lower,conservative_bound,optimizer_failure_count,estimator_seconds
+e00-000,spread,valid-premises,active,0,cauchy,False,True,[],0,0.011373698988238735,True,False,False,True,0.306918191208218,0.4114961001639851,0,0.008381900001040776
+e00-000,spread,valid-premises,active,0,certified,False,True,[],0,0.014549209464606418,True,False,False,True,0.306918191208218,0.4114961001639851,0,0.022575699998924392
+e00-000,spread,valid-premises,active,0,wls,False,True,[],0,0.011268825274269279,True,False,False,True,0.306918191208218,0.4114961001639851,0,0.0033260000000154832
+e00-000,spread,valid-premises,active,1,cauchy,False,True,[],1,0.007958805872855631,True,False,False,True,0.32787463256949,0.3936374677819216,0,0.007568499999251799
+e00-000,spread,valid-premises,active,1,certified,False,True,[],1,0.011268825152597708,True,False,False,True,0.32787463256949,0.3936374677819216,0,0.011878900000738213
+e00-000,spread,valid-premises,active,1,wls,False,True,[],1,0.0077581080079812716,True,False,False,True,0.32787463256949,0.3936374677819216,0,0.0029238000006444054
+e00-000,spread,valid-premises,active,2,cauchy,False,True,[],2,0.007994733576779076,True,False,False,True,0.391351872132991,0.3417476965188929,0,0.00798439999925904
+e00-000,spread,valid-premises,active,2,certified,False,True,[],2,0.00775810819552994,True,False,False,True,0.391351872132991,0.3417476965188929,0,0.012580599999637343
+e00-000,spread,valid-premises,active,2,wls,False,True,[],2,0.8474693668442119,True,False,True,False,0.391351872132991,0.3417476965188929,0,0.0034691999990172917
+e00-000,spread,valid-premises,active,3,cauchy,False,True,[],3,0.008561831967500606,True,False,False,True,0.47299527869966,0.28807272254628097,0,0.006944499999008258
+e00-000,spread,valid-premises,active,3,certified,False,True,[],3,0.008255291181805801,True,False,False,True,0.47299527869966,0.28807272254628097,0,0.011755300000004354
+e00-000,spread,valid-premises,active,3,wls,False,True,[],3,0.7663604787519699,True,False,True,False,0.47299527869966,0.28807272254628097,0,0.003513399999064859
+e00-000,spread,valid-premises,random,0,cauchy,False,True,[],0,0.011373698988238735,True,False,False,True,0.306918191208218,0.4114961001639851,0,0.008381900001040776
+e00-000,spread,valid-premises,random,0,certified,False,True,[],0,0.014549209464606418,True,False,False,True,0.306918191208218,0.4114961001639851,0,0.022575699998924392
+e00-000,spread,valid-premises,random,0,wls,False,True,[],0,0.011268825274269279,True,False,False,True,0.306918191208218,0.4114961001639851,0,0.0033260000000154832
+e00-000,spread,valid-premises,random,1,cauchy,False,True,[],1,0.007958805872855631,True,False,False,True,0.32787463256949,0.3936374677819216,0,0.008510100000421517
+e00-000,spread,valid-premises,random,1,certified,False,True,[],1,0.011268825152597708,True,False,False,True,0.32787463256949,0.3936374677819216,0,0.03072479999900679
+e00-000,spread,valid-premises,random,1,wls,False,True,[],1,0.0077581080079812716,True,False,False,True,0.32787463256949,0.3936374677819216,0,0.0030160000005707843
+e00-000,spread,valid-premises,random,2,cauchy,False,True,[],2,0.007218642473288431,True,False,False,True,0.346714178956396,0.40156044676025104,0,0.007365199999185279
+e00-000,spread,valid-premises,random,2,certified,False,True,[],2,0.010655639801592327,True,False,False,True,0.346714178956396,0.40156044676025104,0,0.04385259999980917
+e00-000,spread,valid-premises,random,2,wls,False,True,[],2,0.00703040821052506,True,False,False,True,0.346714178956396,0.40156044676025104,0,0.003008899999258574
+e00-000,spread,valid-premises,random,3,cauchy,False,True,[],3,0.007266329086157585,True,False,False,True,0.432847371020317,0.33121923027326095,0,0.006896099999721628
+e00-000,spread,valid-premises,random,3,certified,False,True,[],3,0.007030408218796171,True,False,False,True,0.432847371020317,0.33121923027326095,0,0.061269799998626695
+e00-000,spread,valid-premises,random,3,wls,False,True,[],3,0.8055195675422963,True,False,True,False,0.432847371020317,0.33121923027326095,0,0.004663900001105503
+e01-000,clustered,valid-premises,active,0,cauchy,False,True,[],0,0.013379189427647252,True,False,False,True,0.009722930365253,12.989462436439004,0,0.008656699999846751
+e01-000,clustered,valid-premises,active,0,certified,False,True,[],0,,False,False,False,False,0.009722930365253,12.989462436439004,0,0.009087100001124782
+e01-000,clustered,valid-premises,active,0,wls,False,True,[],0,0.011878565433272802,True,False,False,True,0.009722930365253,12.989462436439004,0,0.0031171999999060063
+e01-000,clustered,valid-premises,active,1,cauchy,False,True,[],1,0.002726924217877656,True,False,False,True,0.024007764649906,5.375916583516131,0,0.007915999998658663
+e01-000,clustered,valid-premises,active,1,certified,False,True,[],1,,False,False,False,False,0.024007764649906,5.375916583516131,0,0.00031319999834522605
+e01-000,clustered,valid-premises,active,1,wls,False,True,[],1,0.0027619860597019735,True,False,False,True,0.024007764649906,5.375916583516131,0,0.0028664999990724027
+e01-000,clustered,valid-premises,active,2,cauchy,False,True,[],2,0.0014785987223873765,True,False,False,True,0.081198377569113,1.6223413762539667,0,0.008287999999083695
+e01-000,clustered,valid-premises,active,2,certified,False,True,[],2,,False,False,False,False,0.081198377569113,1.6223413762539667,0,0.0003644999997050036
+e01-000,clustered,valid-premises,active,2,wls,False,True,[],2,0.00150099214425151,True,False,False,True,0.081198377569113,1.6223413762539667,0,0.0028848000001744367
+e01-000,clustered,valid-premises,active,3,cauchy,False,True,[],3,0.004235684495664315,True,False,False,True,0.113851805084665,1.1967929501444576,0,0.00883369999974093
+e01-000,clustered,valid-premises,active,3,certified,False,True,[],3,,False,False,False,False,0.113851805084665,1.1967929501444576,0,0.00040160000025935005
+e01-000,clustered,valid-premises,active,3,wls,False,True,[],3,0.0042327783212584525,True,False,False,True,0.113851805084665,1.1967929501444576,0,0.0028715000007650815
+e01-000,clustered,valid-premises,random,0,cauchy,False,True,[],0,0.013379189427647252,True,False,False,True,0.009722930365253,12.989462436439004,0,0.008656699999846751
+e01-000,clustered,valid-premises,random,0,certified,False,True,[],0,,False,False,False,False,0.009722930365253,12.989462436439004,0,0.009087100001124782
+e01-000,clustered,valid-premises,random,0,wls,False,True,[],0,0.011878565433272802,True,False,False,True,0.009722930365253,12.989462436439004,0,0.0031171999999060063
+e01-000,clustered,valid-premises,random,1,cauchy,False,True,[],1,0.006011076358297306,True,False,False,True,0.024007764649906,5.4626817555260185,0,0.008431000000200584
+e01-000,clustered,valid-premises,random,1,certified,False,True,[],1,,False,False,False,False,0.024007764649906,5.4626817555260185,0,0.01648679999925662
+e01-000,clustered,valid-premises,random,1,wls,False,True,[],1,0.006020801074322846,True,False,False,True,0.024007764649906,5.4626817555260185,0,0.0026705999989644624
+e01-000,clustered,valid-premises,random,2,cauchy,False,True,[],2,0.002024122111186761,True,False,False,True,0.081198377569113,1.737262345392315,0,0.007502300000851392
+e01-000,clustered,valid-premises,random,2,certified,False,True,[],2,,False,False,False,False,0.081198377569113,1.737262345392315,0,0.029206899998825975
+e01-000,clustered,valid-premises,random,2,wls,False,True,[],2,0.0020470132135040485,True,False,False,True,0.081198377569113,1.737262345392315,0,0.002631900000778842
+e01-000,clustered,valid-premises,random,3,cauchy,False,True,[],3,0.002294738488994739,True,False,False,True,0.117193518223327,1.2233387582233808,0,0.0078970999984449
+e01-000,clustered,valid-premises,random,3,certified,False,True,[],3,,False,False,False,False,0.117193518223327,1.2233387582233808,0,0.04976370000076713
+e01-000,clustered,valid-premises,random,3,wls,False,True,[],3,0.0023049777021241363,True,False,False,True,0.117193518223327,1.2233387582233808,0,0.002631400000609574
+e02-000,collinear,valid-premises,active,0,cauchy,False,True,[],0,0.011085858214500035,True,False,False,True,0.0,,0,0.00855539999975008
+e02-000,collinear,valid-premises,active,0,certified,False,True,[],0,,False,False,False,False,0.0,,0,0.0022802000003139256
+e02-000,collinear,valid-premises,active,0,wls,False,True,[],0,0.011085427508651734,True,False,False,True,0.0,,0,0.0032761000002210494
+e02-000,collinear,valid-premises,active,1,cauchy,False,True,[],1,1.988634546902712,True,False,True,False,0.0,,0,0.008169799999450333
+e02-000,collinear,valid-premises,active,1,certified,False,True,[],1,,False,False,False,False,0.0,,0,0.00024289999964821618
+e02-000,collinear,valid-premises,active,1,wls,False,True,[],1,2.997230013999387,True,True,True,False,0.0,,0,0.004661799999666982
+e02-000,collinear,valid-premises,active,2,cauchy,False,True,[],2,0.005638041445358055,True,False,False,True,0.0,,0,0.007867799999075942
+e02-000,collinear,valid-premises,active,2,certified,False,True,[],2,,False,False,False,False,0.0,,0,0.0002710999997361796
+e02-000,collinear,valid-premises,active,2,wls,False,True,[],2,2.432610033468215,True,True,True,False,0.0,,0,0.0031727999994473066
+e02-000,collinear,valid-premises,active,3,cauchy,False,True,[],3,0.005098806164641905,True,False,False,True,0.310480210842948,0.40014060727826833,0,0.00833529999908933
+e02-000,collinear,valid-premises,active,3,certified,False,True,[],3,0.004956204787522456,True,False,False,True,0.310480210842948,0.40014060727826833,0,0.013945699998657801
+e02-000,collinear,valid-premises,active,3,wls,False,True,[],3,1.7738620221172834,True,False,True,False,0.310480210842948,0.40014060727826833,0,0.0031951000000844942
+e02-000,collinear,valid-premises,random,0,cauchy,False,True,[],0,0.011085858214500035,True,False,False,True,0.0,,0,0.00855539999975008
+e02-000,collinear,valid-premises,random,0,certified,False,True,[],0,,False,False,False,False,0.0,,0,0.0022802000003139256
+e02-000,collinear,valid-premises,random,0,wls,False,True,[],0,0.011085427508651734,True,False,False,True,0.0,,0,0.0032761000002210494
+e02-000,collinear,valid-premises,random,1,cauchy,False,True,[],1,0.005604603648740184,True,False,False,True,0.0,,0,0.007264999998369603
+e02-000,collinear,valid-premises,random,1,certified,False,True,[],1,,False,False,False,False,0.0,,0,0.004443699999683304
+e02-000,collinear,valid-premises,random,1,wls,False,True,[],1,0.0056072603095886795,True,False,False,True,0.0,,0,0.0038980999997875188
+e02-000,collinear,valid-premises,random,2,cauchy,False,True,[],2,0.004953939497051325,True,False,False,True,0.0,,0,0.00765769999998156
+e02-000,collinear,valid-premises,random,2,certified,False,True,[],2,,False,False,False,False,0.0,,0,0.008629199999631965
+e02-000,collinear,valid-premises,random,2,wls,False,True,[],2,0.004956204702681668,True,False,False,True,0.0,,0,0.0033843000001070322
+e02-000,collinear,valid-premises,random,3,cauchy,False,True,[],3,0.0038263457357440946,True,False,False,True,0.315476194622323,0.41834230185331184,0,0.007884200000262354
+e02-000,collinear,valid-premises,random,3,certified,False,True,[],3,0.003056546084045148,True,False,False,True,0.315476194622323,0.41834230185331184,0,0.028697399999146
+e02-000,collinear,valid-premises,random,3,wls,False,True,[],3,0.0038285746808837556,True,False,False,True,0.315476194622323,0.41834230185331184,0,0.003335299999889685
+e03-000,sparse,valid-premises,active,0,cauchy,False,True,[],0,0.01092010209477194,True,False,False,True,0.0,,0,0.009943400000338443
+e03-000,sparse,valid-premises,active,0,certified,False,True,[],0,,False,False,False,False,0.0,,0,0.0019857000006595626
+e03-000,sparse,valid-premises,active,0,wls,False,True,[],0,0.010920102086710225,True,False,False,True,0.0,,0,0.003212800000255811
+e03-000,sparse,valid-premises,active,1,cauchy,False,True,[],1,0.010506048849306325,True,False,False,True,0.0,,0,0.00762140000006184
+e03-000,sparse,valid-premises,active,1,certified,False,True,[],1,,False,False,False,False,0.0,,0,0.0002167999991797842
+e03-000,sparse,valid-premises,active,1,wls,False,True,[],1,0.01050569031811045,True,False,False,True,0.0,,0,0.0032615000000078
+e03-000,sparse,valid-premises,active,2,cauchy,False,True,[],2,0.008136477813768014,True,False,False,True,0.088340608898887,1.205581033571049,0,0.009031600000525941
+e03-000,sparse,valid-premises,active,2,certified,False,True,[],2,,False,False,False,False,0.088340608898887,1.205581033571049,0,0.00027070000032836106
+e03-000,sparse,valid-premises,active,2,wls,False,True,[],2,0.008130096123377594,True,False,False,True,0.088340608898887,1.205581033571049,0,0.003372200000740122
+e03-000,sparse,valid-premises,active,3,cauchy,False,True,[],3,0.008331584447489134,True,False,False,True,0.174206012965313,0.644598904261974,0,0.00703100000100676
+e03-000,sparse,valid-premises,active,3,certified,False,True,[],3,,False,False,False,False,0.174206012965313,0.644598904261974,0,0.0002736999995249789
+e03-000,sparse,valid-premises,active,3,wls,False,True,[],3,0.5167423184160924,True,False,True,False,0.174206012965313,0.644598904261974,0,0.004072499999892898
+e03-000,sparse,valid-premises,random,0,cauchy,False,True,[],0,0.01092010209477194,True,False,False,True,0.0,,0,0.009943400000338443
+e03-000,sparse,valid-premises,random,0,certified,False,True,[],0,,False,False,False,False,0.0,,0,0.0019857000006595626
+e03-000,sparse,valid-premises,random,0,wls,False,True,[],0,0.010920102086710225,True,False,False,True,0.0,,0,0.003212800000255811
+e03-000,sparse,valid-premises,random,1,cauchy,False,True,[],1,0.008215166042412052,True,False,False,True,0.0,,0,0.00915069999973639
+e03-000,sparse,valid-premises,random,1,certified,False,True,[],1,,False,False,False,False,0.0,,0,0.0030429999987973133
+e03-000,sparse,valid-premises,random,1,wls,False,True,[],1,0.008208251977031678,True,False,False,True,0.0,,0,0.0031173999996099155
+e03-000,sparse,valid-premises,random,2,cauchy,False,True,[],2,0.00813647747781861,True,False,False,True,0.088340608898887,1.205581033571049,0,0.009776699998838012
+e03-000,sparse,valid-premises,random,2,certified,False,True,[],2,,False,False,False,False,0.088340608898887,1.205581033571049,0,0.005542700000660261
+e03-000,sparse,valid-premises,random,2,wls,False,True,[],2,0.008130096123377594,True,False,False,True,0.088340608898887,1.205581033571049,0,0.003258000000641914
+e03-000,sparse,valid-premises,random,3,cauchy,False,True,[],3,0.0042768562130482204,True,False,False,True,0.13167317251778,0.9027627760356034,0,0.011012799999662093
+e03-000,sparse,valid-premises,random,3,certified,False,True,[],3,,False,False,False,False,0.13167317251778,0.9027627760356034,0,0.01026110000020708
+e03-000,sparse,valid-premises,random,3,wls,False,True,[],3,0.0043085474888538726,True,False,False,True,0.13167317251778,0.9027627760356034,0,0.003433699999732198
+e04-000,noisy,valid-premises,active,0,cauchy,False,True,[],0,0.17593454449002857,True,False,False,True,0.306922987560972,7.00283695213474,0,0.004458299999896553
+e04-000,noisy,valid-premises,active,0,certified,False,True,[],0,,False,False,False,False,0.306922987560972,7.00283695213474,0,0.009301600000981125
+e04-000,noisy,valid-premises,active,0,wls,False,True,[],0,0.17483768448556367,True,False,False,True,0.306922987560972,7.00283695213474,0,0.0029961000000184868
+e04-000,noisy,valid-premises,active,1,cauchy,False,True,[],1,0.18850207934498384,True,False,False,True,0.399352770831866,5.3941851297457255,0,0.004386300000987831
+e04-000,noisy,valid-premises,active,1,certified,False,True,[],1,,False,False,False,False,0.399352770831866,5.3941851297457255,0,0.00031630000012228265
+e04-000,noisy,valid-premises,active,1,wls,False,True,[],1,0.19608097867140992,True,False,False,True,0.399352770831866,5.3941851297457255,0,0.003139599999485654
+e04-000,noisy,valid-premises,active,2,cauchy,False,True,[],2,0.14216132263500592,True,False,False,True,0.445339420501158,4.843001767960934,0,0.004777300000569085
+e04-000,noisy,valid-premises,active,2,certified,False,True,[],2,,False,False,False,False,0.445339420501158,4.843001767960934,0,0.0003704999999172287
+e04-000,noisy,valid-premises,active,2,wls,False,True,[],2,0.12701761475949774,True,False,False,True,0.445339420501158,4.843001767960934,0,0.0030234000005293638
+e04-000,noisy,valid-premises,active,3,cauchy,False,True,[],3,0.1856544199348563,True,False,False,True,0.512793890697653,4.214549347886432,0,0.004466899999897578
+e04-000,noisy,valid-premises,active,3,certified,False,True,[],3,,False,False,False,False,0.512793890697653,4.214549347886432,0,0.00041880000026139896
+e04-000,noisy,valid-premises,active,3,wls,False,True,[],3,0.17073461854498825,True,False,False,True,0.512793890697653,4.214549347886432,0,0.0030329999990499346
+e04-000,noisy,valid-premises,random,0,cauchy,False,True,[],0,0.17593454449002857,True,False,False,True,0.306922987560972,7.00283695213474,0,0.004458299999896553
+e04-000,noisy,valid-premises,random,0,certified,False,True,[],0,,False,False,False,False,0.306922987560972,7.00283695213474,0,0.009301600000981125
+e04-000,noisy,valid-premises,random,0,wls,False,True,[],0,0.17483768448556367,True,False,False,True,0.306922987560972,7.00283695213474,0,0.0029961000000184868
+e04-000,noisy,valid-premises,random,1,cauchy,False,True,[],1,0.16884746776987553,True,False,False,True,0.309622243798295,6.950727162601981,0,0.004480199999306933
+e04-000,noisy,valid-premises,random,1,certified,False,True,[],1,,False,False,False,False,0.309622243798295,6.950727162601981,0,0.017515100000309758
+e04-000,noisy,valid-premises,random,1,wls,False,True,[],1,0.16921719225102283,True,False,False,True,0.309622243798295,6.950727162601981,0,0.0032255999994958984
+e04-000,noisy,valid-premises,random,2,cauchy,False,True,[],2,0.14055533633784434,True,False,False,True,0.341580752904566,6.308222782731212,0,0.0047374999994644895
+e04-000,noisy,valid-premises,random,2,certified,False,True,[],2,,False,False,False,False,0.341580752904566,6.308222782731212,0,0.030914200000552228
+e04-000,noisy,valid-premises,random,2,wls,False,True,[],2,0.12970863329549115,True,False,False,True,0.341580752904566,6.308222782731212,0,0.0031346999985544244
+e04-000,noisy,valid-premises,random,3,cauchy,False,True,[],3,0.1828334982151778,True,False,False,True,0.354281371791642,6.094853440266285,0,0.0045107999994797865
+e04-000,noisy,valid-premises,random,3,certified,False,True,[],3,,False,False,False,False,0.354281371791642,6.094853440266285,0,0.05208970000057889
+e04-000,noisy,valid-premises,random,3,wls,False,True,[],3,0.17011425865825286,True,False,False,True,0.354281371791642,6.094853440266285,0,0.003211199998986558
+e05-000,uncertain-anchors,valid-premises,active,0,cauchy,False,True,[],0,0.1271066653798293,True,False,False,True,0.308831811921987,4.76887651523193,0,0.004710999999588239
+e05-000,uncertain-anchors,valid-premises,active,0,certified,False,True,[],0,,False,False,False,False,0.308831811921987,4.76887651523193,0,0.00911659999837866
+e05-000,uncertain-anchors,valid-premises,active,0,wls,False,True,[],0,0.12781801236779064,True,False,False,True,0.308831811921987,4.76887651523193,0,0.00303880000137724
+e05-000,uncertain-anchors,valid-premises,active,1,cauchy,False,True,[],1,0.07112621448716265,True,False,False,True,0.345324694890086,4.545876915578625,0,0.004958900000929134
+e05-000,uncertain-anchors,valid-premises,active,1,certified,False,True,[],1,,False,False,False,False,0.345324694890086,4.545876915578625,0,0.0003291000011813594
+e05-000,uncertain-anchors,valid-premises,active,1,wls,False,True,[],1,0.0683952706245042,True,False,False,True,0.345324694890086,4.545876915578625,0,0.003269400000135647
+e05-000,uncertain-anchors,valid-premises,active,2,cauchy,False,True,[],2,0.06121335824107988,True,False,False,True,0.392834750733901,4.128300802223667,0,0.005077300000266405
+e05-000,uncertain-anchors,valid-premises,active,2,certified,False,True,[],2,,False,False,False,False,0.392834750733901,4.128300802223667,0,0.00035200000093027484
+e05-000,uncertain-anchors,valid-premises,active,2,wls,False,True,[],2,0.0595207526285268,True,False,False,True,0.392834750733901,4.128300802223667,0,0.0032025000000430737
+e05-000,uncertain-anchors,valid-premises,active,3,cauchy,False,True,[],3,0.07081104140896155,True,False,False,True,0.463130138948799,3.9172908617455042,0,0.005093399999168469
+e05-000,uncertain-anchors,valid-premises,active,3,certified,False,True,[],3,,False,False,False,False,0.463130138948799,3.9172908617455042,0,0.0003958000015700236
+e05-000,uncertain-anchors,valid-premises,active,3,wls,False,True,[],3,0.06913428378656337,True,False,False,True,0.463130138948799,3.9172908617455042,0,0.0032303999996656785
+e05-000,uncertain-anchors,valid-premises,random,0,cauchy,False,True,[],0,0.1271066653798293,True,False,False,True,0.308831811921987,4.76887651523193,0,0.004710999999588239
+e05-000,uncertain-anchors,valid-premises,random,0,certified,False,True,[],0,,False,False,False,False,0.308831811921987,4.76887651523193,0,0.00911659999837866
+e05-000,uncertain-anchors,valid-premises,random,0,wls,False,True,[],0,0.12781801236779064,True,False,False,True,0.308831811921987,4.76887651523193,0,0.00303880000137724
+e05-000,uncertain-anchors,valid-premises,random,1,cauchy,False,True,[],1,0.07112621448716265,True,False,False,True,0.345324694890086,4.545876915578625,0,0.004951699998855474
+e05-000,uncertain-anchors,valid-premises,random,1,certified,False,True,[],1,,False,False,False,False,0.345324694890086,4.545876915578625,0,0.017099000000598608
+e05-000,uncertain-anchors,valid-premises,random,1,wls,False,True,[],1,0.0683952706245042,True,False,False,True,0.345324694890086,4.545876915578625,0,0.0030733000003237976
+e05-000,uncertain-anchors,valid-premises,random,2,cauchy,False,True,[],2,0.06928218215318327,True,False,False,True,0.365130692934796,4.842446037455139,0,0.004630100000213133
+e05-000,uncertain-anchors,valid-premises,random,2,certified,False,True,[],2,,False,False,False,False,0.365130692934796,4.842446037455139,0,0.02990739999950165
+e05-000,uncertain-anchors,valid-premises,random,2,wls,False,True,[],2,0.06707769856144119,True,False,False,True,0.365130692934796,4.842446037455139,0,0.003067100000407663
+e05-000,uncertain-anchors,valid-premises,random,3,cauchy,False,True,[],3,0.06865120130233653,True,False,False,True,0.508070873061382,3.639737362756506,0,0.004790000000866712
+e05-000,uncertain-anchors,valid-premises,random,3,certified,False,True,[],3,,False,False,False,False,0.508070873061382,3.639737362756506,0,0.05167810000057216
+e05-000,uncertain-anchors,valid-premises,random,3,wls,False,True,[],3,0.06680002578723312,True,False,False,True,0.508070873061382,3.639737362756506,0,0.003175800000462914
+e06-000,excess-corruption,violation-stress,active,0,cauchy,False,False,['global-corruption-budget'],0,0.0101060660717592,True,False,False,True,0.295601669629476,0.42724940934830363,0,0.008715300000403658
+e06-000,excess-corruption,violation-stress,active,0,certified,False,False,['global-corruption-budget'],0,,False,False,False,False,0.295601669629476,0.42724940934830363,0,0.025100400000155787
+e06-000,excess-corruption,violation-stress,active,0,wls,False,False,['global-corruption-budget'],0,1.7541527157910686,True,False,True,False,0.295601669629476,0.42724940934830363,0,0.0037568000007013325
+e06-000,excess-corruption,violation-stress,active,1,cauchy,False,False,['global-corruption-budget'],1,0.008242914033339458,True,False,False,True,0.365862156850132,0.3584595331561597,0,0.007393399999273242
+e06-000,excess-corruption,violation-stress,active,1,certified,False,False,['global-corruption-budget'],1,,False,False,False,False,0.365862156850132,0.3584595331561597,0,0.013642300000356045
+e06-000,excess-corruption,violation-stress,active,1,wls,False,False,['global-corruption-budget'],1,1.7541527157998886,True,False,True,False,0.365862156850132,0.3584595331561597,0,0.003581399998438428
+e06-000,excess-corruption,violation-stress,active,2,cauchy,False,False,['global-corruption-budget'],2,0.007743138852051487,True,False,False,True,0.413439478642109,0.3234901545180697,0,0.008424100000411272
+e06-000,excess-corruption,violation-stress,active,2,certified,False,False,['global-corruption-budget'],2,,False,False,False,False,0.413439478642109,0.3234901545180697,0,0.01455089999944903
+e06-000,excess-corruption,violation-stress,active,2,wls,False,False,['global-corruption-budget'],2,1.75415271579921,True,False,True,False,0.413439478642109,0.3234901545180697,0,0.005289799999445677
+e06-000,excess-corruption,violation-stress,active,3,cauchy,False,False,['global-corruption-budget'],3,0.008670269350310488,True,False,False,True,0.501787358240271,0.2715433847604108,0,0.008150700001351652
+e06-000,excess-corruption,violation-stress,active,3,certified,False,False,['global-corruption-budget'],3,,False,False,False,False,0.501787358240271,0.2715433847604108,0,0.014028499999767519
+e06-000,excess-corruption,violation-stress,active,3,wls,False,False,['global-corruption-budget'],3,1.7541527157998886,True,False,True,False,0.501787358240271,0.2715433847604108,0,0.0040026999995461665
+e06-000,excess-corruption,violation-stress,random,0,cauchy,False,False,['global-corruption-budget'],0,0.0101060660717592,True,False,False,True,0.295601669629476,0.42724940934830363,0,0.008715300000403658
+e06-000,excess-corruption,violation-stress,random,0,certified,False,False,['global-corruption-budget'],0,,False,False,False,False,0.295601669629476,0.42724940934830363,0,0.025100400000155787
+e06-000,excess-corruption,violation-stress,random,0,wls,False,False,['global-corruption-budget'],0,1.7541527157910686,True,False,True,False,0.295601669629476,0.42724940934830363,0,0.0037568000007013325
+e06-000,excess-corruption,violation-stress,random,1,cauchy,False,False,['global-corruption-budget'],1,0.008326282908636512,True,False,False,True,0.334102106226826,0.3925350229757811,0,0.007892800000263378
+e06-000,excess-corruption,violation-stress,random,1,certified,False,False,['global-corruption-budget'],1,,False,False,False,False,0.334102106226826,0.3925350229757811,0,0.03249859999959881
+e06-000,excess-corruption,violation-stress,random,1,wls,False,False,['global-corruption-budget'],1,1.7541527157951393,True,False,True,False,0.334102106226826,0.3925350229757811,0,0.004974600000423379
+e06-000,excess-corruption,violation-stress,random,2,cauchy,False,False,['global-corruption-budget'],2,0.00874914181466044,True,False,False,True,0.361666708357627,0.36979793201633665,0,0.007428599999911967
+e06-000,excess-corruption,violation-stress,random,2,certified,False,False,['global-corruption-budget'],2,,False,False,False,False,0.361666708357627,0.36979793201633665,0,0.04408330000114802
+e06-000,excess-corruption,violation-stress,random,2,wls,False,False,['global-corruption-budget'],2,1.6419876953255574,True,False,True,False,0.361666708357627,0.36979793201633665,0,0.004709600001660874
+e06-000,excess-corruption,violation-stress,random,3,cauchy,False,False,['global-corruption-budget'],3,0.011416835476241767,True,False,False,True,0.456269604034041,0.31421635758243005,0,0.00814170000012382
+e06-000,excess-corruption,violation-stress,random,3,certified,False,False,['global-corruption-budget'],3,,False,False,False,False,0.456269604034041,0.31421635758243005,0,0.06465059999936784
+e06-000,excess-corruption,violation-stress,random,3,wls,False,False,['global-corruption-budget'],3,1.5394892225452197,True,False,True,False,0.456269604034041,0.31421635758243005,0,0.004341399999248097
+e07-000,understated-noise,violation-stress,active,0,cauchy,False,False,['clean-noise-budget'],0,0.3424122885352741,True,False,False,True,0.292048358476346,0.4324476926029191,0,0.010722700000769692
+e07-000,understated-noise,violation-stress,active,0,certified,False,False,['clean-noise-budget'],0,,False,False,False,False,0.292048358476346,0.4324476926029191,0,0.02586220000011963
+e07-000,understated-noise,violation-stress,active,0,wls,False,False,['clean-noise-budget'],0,0.04971543795861678,True,False,False,True,0.292048358476346,0.4324476926029191,0,0.0033285999998042826
+e07-000,understated-noise,violation-stress,active,1,cauchy,False,False,['clean-noise-budget'],1,0.34291286171063984,True,False,False,True,0.388322609870264,0.332362156707026,0,0.009330599999884726
+e07-000,understated-noise,violation-stress,active,1,certified,False,False,['clean-noise-budget'],1,,False,False,False,False,0.388322609870264,0.332362156707026,0,0.014832099999694037
+e07-000,understated-noise,violation-stress,active,1,wls,False,False,['clean-noise-budget'],1,0.8171370379439878,True,False,True,False,0.388322609870264,0.332362156707026,0,0.0031233999998221407
+e07-000,understated-noise,violation-stress,active,2,cauchy,False,False,['clean-noise-budget'],2,0.28929427037791633,True,False,False,True,0.50110397953026,0.2778399419824136,0,0.008238000000346801
+e07-000,understated-noise,violation-stress,active,2,certified,False,False,['clean-noise-budget'],2,,False,False,False,False,0.50110397953026,0.2778399419824136,0,0.0142507000000478
+e07-000,understated-noise,violation-stress,active,2,wls,False,False,['clean-noise-budget'],2,0.7774115916515446,True,False,True,False,0.50110397953026,0.2778399419824136,0,0.0034324000007472932
+e07-000,understated-noise,violation-stress,active,3,cauchy,False,False,['clean-noise-budget'],3,0.2431183891496978,True,False,False,True,0.579241221018697,0.25599683942919804,0,0.007971500001076492
+e07-000,understated-noise,violation-stress,active,3,certified,False,False,['clean-noise-budget'],3,,False,False,False,False,0.579241221018697,0.25599683942919804,0,0.01377649999994901
+e07-000,understated-noise,violation-stress,active,3,wls,False,False,['clean-noise-budget'],3,0.5812715232664082,True,False,True,False,0.579241221018697,0.25599683942919804,0,0.0029818000002705958
+e07-000,understated-noise,violation-stress,random,0,cauchy,False,False,['clean-noise-budget'],0,0.3424122885352741,True,False,False,True,0.292048358476346,0.4324476926029191,0,0.010722700000769692
+e07-000,understated-noise,violation-stress,random,0,certified,False,False,['clean-noise-budget'],0,,False,False,False,False,0.292048358476346,0.4324476926029191,0,0.02586220000011963
+e07-000,understated-noise,violation-stress,random,0,wls,False,False,['clean-noise-budget'],0,0.04971543795861678,True,False,False,True,0.292048358476346,0.4324476926029191,0,0.0033285999998042826
+e07-000,understated-noise,violation-stress,random,1,cauchy,False,False,['clean-noise-budget'],1,0.34291286171063984,True,False,False,True,0.388322609870264,0.332362156707026,0,0.01032370000029914
+e07-000,understated-noise,violation-stress,random,1,certified,False,False,['clean-noise-budget'],1,,False,False,False,False,0.388322609870264,0.332362156707026,0,0.03400269999838201
+e07-000,understated-noise,violation-stress,random,1,wls,False,False,['clean-noise-budget'],1,0.8171370379439878,True,False,True,False,0.388322609870264,0.332362156707026,0,0.003343200000017532
+e07-000,understated-noise,violation-stress,random,2,cauchy,False,False,['clean-noise-budget'],2,0.22596099307135667,True,False,False,True,0.396393591503026,0.3323249680086172,0,0.00965110000106506
+e07-000,understated-noise,violation-stress,random,2,certified,False,False,['clean-noise-budget'],2,,False,False,False,False,0.396393591503026,0.3323249680086172,0,0.04711219999990135
+e07-000,understated-noise,violation-stress,random,2,wls,False,False,['clean-noise-budget'],2,0.6819496106677989,True,False,True,False,0.396393591503026,0.3323249680086172,0,0.0032499999997526174
+e07-000,understated-noise,violation-stress,random,3,cauchy,False,False,['clean-noise-budget'],3,0.24668481861008978,True,False,False,True,0.472989012472812,0.28807653897537466,0,0.010394799999630777
+e07-000,understated-noise,violation-stress,random,3,certified,False,False,['clean-noise-budget'],3,,False,False,False,False,0.472989012472812,0.28807653897537466,0,0.07033010000122886
+e07-000,understated-noise,violation-stress,random,3,wls,False,False,['clean-noise-budget'],3,0.5978251385717928,True,False,True,False,0.472989012472812,0.28807653897537466,0,0.0031374999998661224
+e08-000,understated-anchor-error,violation-stress,active,0,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5']",0,0.6015015042910428,True,False,True,False,0.324212442708179,0.38954593382229835,0,0.006622399998377659
+e08-000,understated-anchor-error,violation-stress,active,0,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5']",0,0.5998234744280955,True,False,True,False,0.324212442708179,0.38954593382229835,0,0.02064339999924414
+e08-000,understated-anchor-error,violation-stress,active,0,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5']",0,0.6014902721589378,True,False,True,False,0.324212442708179,0.38954593382229835,0,0.0031706000008853152
+e08-000,understated-anchor-error,violation-stress,active,1,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10']",1,0.6012492651335253,True,False,True,False,0.390858273096157,0.33553537681352835,0,0.0072101999994629296
+e08-000,understated-anchor-error,violation-stress,active,1,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10']",1,0.5997970231392638,True,False,True,False,0.390858273096157,0.33553537681352835,0,0.011924799999178504
+e08-000,understated-anchor-error,violation-stress,active,1,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10']",1,0.6012381562682108,True,False,True,False,0.390858273096157,0.33553537681352835,0,0.00326390000009269
+e08-000,understated-anchor-error,violation-stress,active,2,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:7']",2,0.602141383219569,True,False,True,False,0.455426506478667,0.2979740864035692,0,0.007800800000040908
+e08-000,understated-anchor-error,violation-stress,active,2,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:7']",2,0.6011871114766764,True,False,True,False,0.455426506478667,0.2979740864035692,0,0.01238790000024892
+e08-000,understated-anchor-error,violation-stress,active,2,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:7']",2,0.6020814558679762,True,False,True,False,0.455426506478667,0.2979740864035692,0,0.003306200000224635
+e08-000,understated-anchor-error,violation-stress,active,3,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:7', 'anchor-ball:6']",3,0.6017999880600111,True,False,True,False,0.500346009397855,0.2900369429450158,0,0.008939699999245931
+e08-000,understated-anchor-error,violation-stress,active,3,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:7', 'anchor-ball:6']",3,0.6008260794200567,True,False,True,False,0.500346009397855,0.2900369429450158,0,0.013901299998906325
+e08-000,understated-anchor-error,violation-stress,active,3,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:7', 'anchor-ball:6']",3,0.601775971498966,True,False,True,False,0.500346009397855,0.2900369429450158,0,0.0032417000002169516
+e08-000,understated-anchor-error,violation-stress,random,0,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5']",0,0.6015015042910428,True,False,True,False,0.324212442708179,0.38954593382229835,0,0.006622399998377659
+e08-000,understated-anchor-error,violation-stress,random,0,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5']",0,0.5998234744280955,True,False,True,False,0.324212442708179,0.38954593382229835,0,0.02064339999924414
+e08-000,understated-anchor-error,violation-stress,random,0,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5']",0,0.6014902721589378,True,False,True,False,0.324212442708179,0.38954593382229835,0,0.0031706000008853152
+e08-000,understated-anchor-error,violation-stress,random,1,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10']",1,0.6012492651335253,True,False,True,False,0.390858273096157,0.33553537681352835,0,0.006813799998781178
+e08-000,understated-anchor-error,violation-stress,random,1,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10']",1,0.5997970231392638,True,False,True,False,0.390858273096157,0.33553537681352835,0,0.02913769999940996
+e08-000,understated-anchor-error,violation-stress,random,1,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10']",1,0.6012381562682108,True,False,True,False,0.390858273096157,0.33553537681352835,0,0.0030298000001494074
+e08-000,understated-anchor-error,violation-stress,random,2,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:8']",2,0.6013328063436294,True,False,True,False,0.432277615032648,0.30939284427139474,0,0.007464499998604879
+e08-000,understated-anchor-error,violation-stress,random,2,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:8']",2,0.6012381560654262,True,False,True,False,0.432277615032648,0.30939284427139474,0,0.04340729999967152
+e08-000,understated-anchor-error,violation-stress,random,2,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:8']",2,1.0014181535142552,True,False,True,False,0.432277615032648,0.30939284427139474,0,0.003169399999023881
+e08-000,understated-anchor-error,violation-stress,random,3,cauchy,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:8', 'anchor-ball:11']",3,0.6012096162114156,True,False,True,False,0.449077390373674,0.30341549275765034,0,0.008444399998552399
+e08-000,understated-anchor-error,violation-stress,random,3,certified,True,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:8', 'anchor-ball:11']",3,0.6011290103614261,True,False,True,False,0.449077390373674,0.30341549275765034,0,0.06952110000020184
+e08-000,understated-anchor-error,violation-stress,random,3,wls,False,False,"['anchor-ball:0', 'anchor-ball:1', 'anchor-ball:2', 'anchor-ball:3', 'anchor-ball:4', 'anchor-ball:5', 'anchor-ball:10', 'anchor-ball:8', 'anchor-ball:11']",3,0.9499007398116205,True,False,True,False,0.449077390373674,0.30341549275765034,0,0.0036920999991707504
+e09-000,target-outside-domain,violation-stress,active,0,cauchy,False,False,['target-outside-domain'],0,1.200170683015721,True,False,True,False,0.277894540747586,0.4544732631731741,0,0.012002400000710622
+e09-000,target-outside-domain,violation-stress,active,0,certified,False,False,['target-outside-domain'],0,,False,False,False,False,0.277894540747586,0.4544732631731741,0,0.027941600001213374
+e09-000,target-outside-domain,violation-stress,active,0,wls,False,False,['target-outside-domain'],0,1.2002228709727847,True,False,True,False,0.277894540747586,0.4544732631731741,0,0.003360499998962041
+e09-000,target-outside-domain,violation-stress,active,1,cauchy,False,False,['target-outside-domain'],1,1.2001875687536627,True,False,True,False,0.401050049499441,0.32700850706212614,0,0.013025600001128623
+e09-000,target-outside-domain,violation-stress,active,1,certified,False,False,['target-outside-domain'],1,,False,False,False,False,0.401050049499441,0.32700850706212614,0,0.020116599998800666
+e09-000,target-outside-domain,violation-stress,active,1,wls,False,False,['target-outside-domain'],1,1.2001908254796034,True,False,True,False,0.401050049499441,0.32700850706212614,0,0.003602099999625352
+e09-000,target-outside-domain,violation-stress,active,2,cauchy,False,False,['target-outside-domain'],2,1.200223201439622,True,False,True,False,0.486074843539738,0.27515022142649126,0,0.011154200001328718
+e09-000,target-outside-domain,violation-stress,active,2,certified,False,False,['target-outside-domain'],2,,False,False,False,False,0.486074843539738,0.27515022142649126,0,0.01895460000014282
+e09-000,target-outside-domain,violation-stress,active,2,wls,False,False,['target-outside-domain'],2,1.20081745190815,True,False,True,False,0.486074843539738,0.27515022142649126,0,0.004226200000630342
+e09-000,target-outside-domain,violation-stress,active,3,cauchy,False,False,['target-outside-domain'],3,1.2002332949322132,True,False,True,False,0.502653889043947,0.2748594224600951,0,0.011554700000488083
+e09-000,target-outside-domain,violation-stress,active,3,certified,False,False,['target-outside-domain'],3,,False,False,False,False,0.502653889043947,0.2748594224600951,0,0.016768700001193793
+e09-000,target-outside-domain,violation-stress,active,3,wls,False,False,['target-outside-domain'],3,1.6288948590957357,True,False,True,False,0.502653889043947,0.2748594224600951,0,0.0037362999992183177
+e09-000,target-outside-domain,violation-stress,random,0,cauchy,False,False,['target-outside-domain'],0,1.200170683015721,True,False,True,False,0.277894540747586,0.4544732631731741,0,0.012002400000710622
+e09-000,target-outside-domain,violation-stress,random,0,certified,False,False,['target-outside-domain'],0,,False,False,False,False,0.277894540747586,0.4544732631731741,0,0.027941600001213374
+e09-000,target-outside-domain,violation-stress,random,0,wls,False,False,['target-outside-domain'],0,1.2002228709727847,True,False,True,False,0.277894540747586,0.4544732631731741,0,0.003360499998962041
+e09-000,target-outside-domain,violation-stress,random,1,cauchy,False,False,['target-outside-domain'],1,1.2001894413271361,True,False,True,False,0.39108600008318,0.33001370564819876,0,0.013516699998945114
+e09-000,target-outside-domain,violation-stress,random,1,certified,False,False,['target-outside-domain'],1,,False,False,False,False,0.39108600008318,0.33001370564819876,0,0.037900200000876794
+e09-000,target-outside-domain,violation-stress,random,1,wls,False,False,['target-outside-domain'],1,1.2006347597791072,True,False,True,False,0.39108600008318,0.33001370564819876,0,0.003524499999912223
+e09-000,target-outside-domain,violation-stress,random,2,cauchy,False,False,['target-outside-domain'],2,1.200202623464522,True,False,True,False,0.444024363860493,0.3012077978491887,0,0.012428100000761333
+e09-000,target-outside-domain,violation-stress,random,2,certified,False,False,['target-outside-domain'],2,,False,False,False,False,0.444024363860493,0.3012077978491887,0,0.049174499999935506
+e09-000,target-outside-domain,violation-stress,random,2,wls,False,False,['target-outside-domain'],2,1.6724315632823408,True,False,True,False,0.444024363860493,0.3012077978491887,0,0.0037902999993093545
+e09-000,target-outside-domain,violation-stress,random,3,cauchy,False,False,['target-outside-domain'],3,1.200198238418125,True,False,True,False,0.508711625423982,0.28182444805672663,0,0.013598300000012387
+e09-000,target-outside-domain,violation-stress,random,3,certified,False,False,['target-outside-domain'],3,,False,False,False,False,0.508711625423982,0.28182444805672663,0,0.07133070000054431
+e09-000,target-outside-domain,violation-stress,random,3,wls,False,False,['target-outside-domain'],3,1.7169846218958824,True,False,True,False,0.508711625423982,0.28182444805672663,0,0.004189299999779905

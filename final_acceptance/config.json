@@ -1,0 +1,15 @@
+{
+  "final_seed": 10102673,
+  "development_seed": 10100131,
+  "random_policy_seed": 10103991,
+  "bootstrap_seed": 10105493,
+  "bootstrap_samples": 2000,
+  "episodes_per_scenario": 12,
+  "scenarios": ["spread", "clustered", "collinear", "sparse", "noisy", "uncertain-anchors", "excess-corruption", "understated-noise", "understated-anchor-error", "target-outside-domain"],
+  "domain": ["-2", "2", "-2", "2"],
+  "error_tolerance": "1/2",
+  "max_acquisitions": 3,
+  "candidate_count": 6,
+  "solver_starts": [["0", "0"], ["-3/2", "-3/2"], ["-3/2", "3/2"], ["3/2", "-3/2"], ["3/2", "3/2"]],
+  "solver_max_nfev": 100
+}

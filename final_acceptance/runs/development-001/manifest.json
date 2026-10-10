@@ -1,0 +1,73 @@
+{
+  "config": {
+    "bootstrap_samples": 2000,
+    "bootstrap_seed": 10105493,
+    "candidate_count": 6,
+    "development_seed": 10100131,
+    "domain": [
+      "-2",
+      "2",
+      "-2",
+      "2"
+    ],
+    "episodes_per_scenario": 12,
+    "error_tolerance": "1/2",
+    "final_seed": 10102673,
+    "max_acquisitions": 3,
+    "random_policy_seed": 10103991,
+    "scenarios": [
+      "spread",
+      "clustered",
+      "collinear",
+      "sparse",
+      "noisy",
+      "uncertain-anchors",
+      "excess-corruption",
+      "understated-noise",
+      "understated-anchor-error",
+      "target-outside-domain"
+    ],
+    "solver_max_nfev": 100,
+    "solver_starts": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-3/2",
+        "-3/2"
+      ],
+      [
+        "-3/2",
+        "3/2"
+      ],
+      [
+        "3/2",
+        "-3/2"
+      ],
+      [
+        "3/2",
+        "3/2"
+      ]
+    ]
+  },
+  "count_per_scenario": 1,
+  "development": true,
+  "numpy": "2.3.5",
+  "previous_freeze_sha256": "88ea529328e520a363d706e45d075e0ab25cb671c978b9b14309dcca6beca530",
+  "python": "3.12.14",
+  "schema": "original-question-acceptance-v1",
+  "scipy": "1.15.1",
+  "seed": 10100131,
+  "sources": {
+    "final_acceptance/AGENTS.md": "13f1edf03e97e264c327931696e81a12ea68c8b1f4392d3041acde08cdb074a1",
+    "final_acceptance/PREVIOUS_FREEZE.json": "88ea529328e520a363d706e45d075e0ab25cb671c978b9b14309dcca6beca530",
+    "final_acceptance/PROTOCOL.md": "841a3a2f1b50b03a1767df631c582a0a5d96fc02f101faf7311c0e9f75315c59",
+    "final_acceptance/__init__.py": "ad0c39e391dd34bf415ac58895447f6f1090da949079a9d56e20af9ed7c64bc6",
+    "final_acceptance/audit.py": "ad6659b73928dcfcc7b55a0bcf1f7d0d4f3066146f83900d605c4572ca56b278",
+    "final_acceptance/config.json": "343c9c4fcd1f162e63dff6ed69c1c0db5c8dfb534fd8aa8667acf7c2dbfe4816",
+    "final_acceptance/report.py": "3fe40573d370aa82aace20df76527a2ee1553645ebc0f683e18c5fb4164597ab",
+    "final_acceptance/study.py": "ed293a3a96bb077407c521c09ea8208fa2708dbbca0056dc26eb96cd26173323",
+    "final_acceptance/tests/test_acceptance.py": "2ebe6f99d18528001a20b721983b11e47817384119dd1aa810d2d4f7e872a5f5"
+  }
+}

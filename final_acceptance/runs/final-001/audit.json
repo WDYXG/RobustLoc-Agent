@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "cases": 120,
+    "checkpoints": 960,
+    "invalid_contract_checkpoints": 384,
+    "solver_replays": 2880,
+    "valid_bound_violations": 0,
+    "verified_recoveries": 194
+  },
+  "historical_files_unchanged": 4483,
+  "note": "Conditional synthetic acceptance; no field or teacher sign-off.",
+  "passed": true,
+  "solver_replay": true
+}

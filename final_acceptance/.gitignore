@@ -1,0 +1,3 @@
+__pycache__/
+runs/_pytest_tmp*/
+*.pyc
