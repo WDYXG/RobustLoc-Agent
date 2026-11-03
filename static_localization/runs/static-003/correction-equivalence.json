@@ -1,0 +1,11 @@
+{
+  "same_observations_and_predictions": {
+    "unweighted-ls": true,
+    "weighted-ls": true,
+    "frozen-cauchy": true,
+    "final": true
+  },
+  "compared_method_outputs": 21120,
+  "new_independent_samples": 0,
+  "excluded_comparison_field": "wall-clock seconds"
+}

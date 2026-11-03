@@ -1,0 +1,732 @@
+{
+  "best_method": {
+    "name": "frozen-cauchy",
+    "config": {
+      "loss": "cauchy",
+      "threshold": 1.0,
+      "uncertainty": true,
+      "confidence": false,
+      "multistart": false,
+      "adaptive": true
+    }
+  },
+  "best_validation_metrics": {
+    "overall": {
+      "cases": 1056,
+      "mean_error": 14.809586652749543,
+      "cep50": 8.72659245573885,
+      "cep90": 36.03350303309246,
+      "max_error": 173.02506014831786,
+      "cep90_order_statistic_95_interval": [
+        30.587966460773824,
+        41.652355830884865
+      ],
+      "failure_rate": 0.1278409090909091,
+      "failure_count": 135,
+      "failure_rate_wilson95": [
+        0.10904163764463877,
+        0.1493380063498534
+      ],
+      "nonfinite_cases": 0,
+      "optimization_failures": 0,
+      "total_solver_seconds": 2.285317400001304,
+      "meets_30m_point_estimate": false
+    },
+    "by_scenario": {
+      "line/high/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 15.24041699239973,
+        "cep50": 13.933709967705697,
+        "cep90": 26.259676321636007,
+        "max_error": 36.67042483454654,
+        "cep90_order_statistic_95_interval": [
+          20.83792006249734,
+          null
+        ],
+        "failure_rate": 0.0625,
+        "failure_count": 2,
+        "failure_rate_wilson95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.07872939999992923,
+        "meets_30m_point_estimate": true
+      },
+      "line/high/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 13.158816919260856,
+        "cep50": 13.779055541917707,
+        "cep90": 21.65283384826992,
+        "max_error": 24.263718931779906,
+        "cep90_order_statistic_95_interval": [
+          17.53723188171914,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.06549939999968046,
+        "meets_30m_point_estimate": true
+      },
+      "line/high/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 19.785961951121443,
+        "cep50": 19.797022585643433,
+        "cep90": 28.34203470543904,
+        "max_error": 55.886514912584246,
+        "cep90_order_statistic_95_interval": [
+          24.158964604122403,
+          null
+        ],
+        "failure_rate": 0.09375,
+        "failure_count": 3,
+        "failure_rate_wilson95": [
+          0.032401551298366194,
+          0.24218154728387864
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05724419999933161,
+        "meets_30m_point_estimate": true
+      },
+      "line/low/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 2.4988426967922734,
+        "cep50": 1.6468473118791005,
+        "cep90": 5.012806929417688,
+        "max_error": 7.791143530294606,
+        "cep90_order_statistic_95_interval": [
+          4.376489657746319,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.08000180000021828,
+        "meets_30m_point_estimate": true
+      },
+      "line/low/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 3.099860190643789,
+        "cep50": 2.3917572193164016,
+        "cep90": 6.019366612330489,
+        "max_error": 7.317412197789518,
+        "cep90_order_statistic_95_interval": [
+          5.108492263985969,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.07247799999981908,
+        "meets_30m_point_estimate": true
+      },
+      "line/low/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 4.5758678003215465,
+        "cep50": 4.658551502383711,
+        "cep90": 8.349254333605662,
+        "max_error": 10.947214898365004,
+        "cep90_order_statistic_95_interval": [
+          7.0900849042899585,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.07173089999969307,
+        "meets_30m_point_estimate": true
+      },
+      "line/medium/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 7.269880820822387,
+        "cep50": 5.337440750952565,
+        "cep90": 14.516505720799987,
+        "max_error": 21.078599566730535,
+        "cep90_order_statistic_95_interval": [
+          11.419701129591257,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05975050000029114,
+        "meets_30m_point_estimate": true
+      },
+      "line/medium/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 9.316937215045634,
+        "cep50": 7.658212631960129,
+        "cep90": 19.855789153581473,
+        "max_error": 34.28931650389235,
+        "cep90_order_statistic_95_interval": [
+          13.155948277328529,
+          null
+        ],
+        "failure_rate": 0.03125,
+        "failure_count": 1,
+        "failure_rate_wilson95": [
+          0.005537860164003122,
+          0.15744263820012558
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05865869999979623,
+        "meets_30m_point_estimate": true
+      },
+      "line/medium/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 9.878931223893794,
+        "cep50": 7.531050872398244,
+        "cep90": 18.367924640305517,
+        "max_error": 33.605642290729705,
+        "cep90_order_statistic_95_interval": [
+          14.487846959367472,
+          null
+        ],
+        "failure_rate": 0.03125,
+        "failure_count": 1,
+        "failure_rate_wilson95": [
+          0.005537860164003122,
+          0.15744263820012558
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.06068479999930787,
+        "meets_30m_point_estimate": true
+      },
+      "rssi/line/mismatch-False": {
+        "cases": 32,
+        "mean_error": 8.568533541180757,
+        "cep50": 7.185142397973291,
+        "cep90": 16.159092164728204,
+        "max_error": 27.62039186202147,
+        "cep90_order_statistic_95_interval": [
+          13.092525499929556,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.0718093999996654,
+        "meets_30m_point_estimate": true
+      },
+      "rssi/line/mismatch-True": {
+        "cases": 32,
+        "mean_error": 51.43132800028202,
+        "cep50": 48.670926350644635,
+        "cep90": 68.35265776219443,
+        "max_error": 146.66059141929986,
+        "cep90_order_statistic_95_interval": [
+          60.607824361951565,
+          null
+        ],
+        "failure_rate": 0.84375,
+        "failure_count": 27,
+        "failure_rate_wilson95": [
+          0.682458504024696,
+          0.9313557971749429
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.08818349999955899,
+        "meets_30m_point_estimate": false
+      },
+      "rssi/sector/mismatch-False": {
+        "cases": 32,
+        "mean_error": 14.315269577468927,
+        "cep50": 12.235112804490274,
+        "cep90": 26.54290010247282,
+        "max_error": 37.805600600249164,
+        "cep90_order_statistic_95_interval": [
+          20.76758560600356,
+          null
+        ],
+        "failure_rate": 0.09375,
+        "failure_count": 3,
+        "failure_rate_wilson95": [
+          0.032401551298366194,
+          0.24218154728387864
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.069901200000686,
+        "meets_30m_point_estimate": true
+      },
+      "rssi/sector/mismatch-True": {
+        "cases": 32,
+        "mean_error": 46.46601572276711,
+        "cep50": 40.55342757319322,
+        "cep90": 68.6371149180739,
+        "max_error": 173.02506014831786,
+        "cep90_order_statistic_95_interval": [
+          58.180501065080165,
+          null
+        ],
+        "failure_rate": 0.65625,
+        "failure_count": 21,
+        "failure_rate_wilson95": [
+          0.4831108797896222,
+          0.7958956207556682
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.11637860000064393,
+        "meets_30m_point_estimate": false
+      },
+      "rssi/surround/mismatch-False": {
+        "cases": 32,
+        "mean_error": 8.288128629767078,
+        "cep50": 7.474996673765838,
+        "cep90": 14.749400490060436,
+        "max_error": 30.02176181845874,
+        "cep90_order_statistic_95_interval": [
+          12.337589190164472,
+          null
+        ],
+        "failure_rate": 0.03125,
+        "failure_count": 1,
+        "failure_rate_wilson95": [
+          0.005537860164003122,
+          0.15744263820012558
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.053545599999551996,
+        "meets_30m_point_estimate": true
+      },
+      "rssi/surround/mismatch-True": {
+        "cases": 32,
+        "mean_error": 62.5636337285829,
+        "cep50": 63.36693373650478,
+        "cep90": 92.60369944328045,
+        "max_error": 108.87280730897619,
+        "cep90_order_statistic_95_interval": [
+          87.62428857179627,
+          null
+        ],
+        "failure_rate": 0.8125,
+        "failure_count": 26,
+        "failure_rate_wilson95": [
+          0.6469084479862404,
+          0.9111045531043405
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.09649530000069717,
+        "meets_30m_point_estimate": false
+      },
+      "sector/high/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 23.773406749088338,
+        "cep50": 20.90359561159864,
+        "cep90": 45.790106785148,
+        "max_error": 85.52889877078808,
+        "cep90_order_statistic_95_interval": [
+          25.654071488137774,
+          null
+        ],
+        "failure_rate": 0.21875,
+        "failure_count": 7,
+        "failure_rate_wilson95": [
+          0.11023836252604186,
+          0.3875499364924353
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.06910760000050686,
+        "meets_30m_point_estimate": false
+      },
+      "sector/high/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 24.930011021553085,
+        "cep50": 19.514224286024437,
+        "cep90": 49.22502226596889,
+        "max_error": 69.14422773432167,
+        "cep90_order_statistic_95_interval": [
+          35.997051547639316,
+          null
+        ],
+        "failure_rate": 0.28125,
+        "failure_count": 9,
+        "failure_rate_wilson95": [
+          0.15564580497742764,
+          0.45374509425916565
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05785470000046189,
+        "meets_30m_point_estimate": false
+      },
+      "sector/high/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 33.77169654668515,
+        "cep50": 30.34831300408006,
+        "cep90": 63.699743992748395,
+        "max_error": 87.3523733009992,
+        "cep90_order_statistic_95_interval": [
+          52.45512253157327,
+          null
+        ],
+        "failure_rate": 0.53125,
+        "failure_count": 17,
+        "failure_rate_wilson95": [
+          0.3644951711897464,
+          0.6913061289193116
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05776169999853664,
+        "meets_30m_point_estimate": false
+      },
+      "sector/low/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 4.034663503932115,
+        "cep50": 2.589324168756537,
+        "cep90": 9.799254735431894,
+        "max_error": 14.287549965337174,
+        "cep90_order_statistic_95_interval": [
+          6.332524110649672,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.09377169999970647,
+        "meets_30m_point_estimate": true
+      },
+      "sector/low/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 5.828649394483321,
+        "cep50": 4.722621441463383,
+        "cep90": 10.016057985478794,
+        "max_error": 21.07680942370531,
+        "cep90_order_statistic_95_interval": [
+          8.305848649092939,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.09590670000011414,
+        "meets_30m_point_estimate": true
+      },
+      "sector/low/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 7.720605370063289,
+        "cep50": 6.776752731913158,
+        "cep90": 13.646127528938758,
+        "max_error": 24.7427842742222,
+        "cep90_order_statistic_95_interval": [
+          9.10767771047302,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.09026529999982813,
+        "meets_30m_point_estimate": true
+      },
+      "sector/medium/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 10.920621181635708,
+        "cep50": 8.115773908334072,
+        "cep90": 21.693887433864596,
+        "max_error": 34.72414029867483,
+        "cep90_order_statistic_95_interval": [
+          15.676608394261939,
+          null
+        ],
+        "failure_rate": 0.03125,
+        "failure_count": 1,
+        "failure_rate_wilson95": [
+          0.005537860164003122,
+          0.15744263820012558
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.07408910000049218,
+        "meets_30m_point_estimate": true
+      },
+      "sector/medium/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 10.955081843267598,
+        "cep50": 10.814826068686767,
+        "cep90": 20.399096713437753,
+        "max_error": 26.156245582739167,
+        "cep90_order_statistic_95_interval": [
+          15.934869549815604,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.08590410000078919,
+        "meets_30m_point_estimate": true
+      },
+      "sector/medium/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 15.81656438299877,
+        "cep50": 13.851048527435644,
+        "cep90": 23.314227823030453,
+        "max_error": 54.32992166610106,
+        "cep90_order_statistic_95_interval": [
+          17.72001813322755,
+          null
+        ],
+        "failure_rate": 0.09375,
+        "failure_count": 3,
+        "failure_rate_wilson95": [
+          0.032401551298366194,
+          0.24218154728387864
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.08015350000027865,
+        "meets_30m_point_estimate": true
+      },
+      "surround/high/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 14.380744217335632,
+        "cep50": 12.118503440246407,
+        "cep90": 22.51680485541637,
+        "max_error": 44.748238385942045,
+        "cep90_order_statistic_95_interval": [
+          17.08853425610062,
+          null
+        ],
+        "failure_rate": 0.0625,
+        "failure_count": 2,
+        "failure_rate_wilson95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.058176100000309816,
+        "meets_30m_point_estimate": true
+      },
+      "surround/high/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 15.588193655972624,
+        "cep50": 12.052739207168926,
+        "cep90": 26.919194701195565,
+        "max_error": 38.69585116149557,
+        "cep90_order_statistic_95_interval": [
+          21.515580843802024,
+          null
+        ],
+        "failure_rate": 0.0625,
+        "failure_count": 2,
+        "failure_rate_wilson95": [
+          0.017310567031640967,
+          0.2014712314415458
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.06225440000071103,
+        "meets_30m_point_estimate": true
+      },
+      "surround/high/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 21.881503879252527,
+        "cep50": 19.761539917996515,
+        "cep90": 42.6132085026522,
+        "max_error": 49.620891825632235,
+        "cep90_order_statistic_95_interval": [
+          30.500853529836423,
+          null
+        ],
+        "failure_rate": 0.28125,
+        "failure_count": 9,
+        "failure_rate_wilson95": [
+          0.15564580497742764,
+          0.45374509425916565
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05970210000032239,
+        "meets_30m_point_estimate": false
+      },
+      "surround/low/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 1.3440627116203618,
+        "cep50": 1.1680450455210252,
+        "cep90": 2.480335808991386,
+        "max_error": 4.0060958070144475,
+        "cep90_order_statistic_95_interval": [
+          2.0095695757313856,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05212059999985286,
+        "meets_30m_point_estimate": true
+      },
+      "surround/low/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 1.2595989470435072,
+        "cep50": 1.0278121344402276,
+        "cep90": 2.2061927428570693,
+        "max_error": 3.617207036966548,
+        "cep90_order_statistic_95_interval": [
+          1.7037306288681824,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05219179999926382,
+        "meets_30m_point_estimate": true
+      },
+      "surround/low/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 1.6423961625480255,
+        "cep50": 1.1400461869096787,
+        "cep90": 2.8618048546838937,
+        "max_error": 8.297197985284997,
+        "cep90_order_statistic_95_interval": [
+          1.6341543941646264,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.05371820000027583,
+        "meets_30m_point_estimate": true
+      },
+      "surround/medium/outliers-0.0": {
+        "cases": 32,
+        "mean_error": 5.134539122390123,
+        "cep50": 4.654818383584278,
+        "cep90": 10.496711830652023,
+        "max_error": 12.607043030212855,
+        "cep90_order_statistic_95_interval": [
+          7.19673446157021,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.04682989999946585,
+        "meets_30m_point_estimate": true
+      },
+      "surround/medium/outliers-0.1": {
+        "cases": 32,
+        "mean_error": 5.767049911590095,
+        "cep50": 4.063782552976547,
+        "cep90": 11.439186331368557,
+        "max_error": 16.085024629586666,
+        "cep90_order_statistic_95_interval": [
+          8.432447304706647,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.04499290000126166,
+        "meets_30m_point_estimate": true
+      },
+      "surround/medium/outliers-0.3": {
+        "cases": 32,
+        "mean_error": 7.5085459289243905,
+        "cep50": 6.228740627900109,
+        "cep90": 15.605062415041068,
+        "max_error": 19.924441511947094,
+        "cep90_order_statistic_95_interval": [
+          8.848466596369265,
+          null
+        ],
+        "failure_rate": 0.0,
+        "failure_count": 0,
+        "failure_rate_wilson95": [
+          0.0,
+          0.1071791982550706
+        ],
+        "nonfinite_cases": 0,
+        "optimization_failures": 0,
+        "total_solver_seconds": 0.049425700000256256,
+        "meets_30m_point_estimate": true
+      }
+    }
+  },
+  "last_result": "initial"
+}

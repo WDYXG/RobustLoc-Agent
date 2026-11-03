@@ -1,0 +1,23 @@
+{
+  "elapsed_seconds": 21.217605590820312,
+  "sources_unchanged": true,
+  "historical_files_unchanged": 4783,
+  "final_cases": 5280,
+  "selected_method": {
+    "name": "frozen-cauchy",
+    "config": {
+      "loss": "cauchy",
+      "threshold": 1.0,
+      "uncertainty": true,
+      "confidence": false,
+      "multistart": false,
+      "adaptive": true
+    }
+  },
+  "final_sha256": {
+    "test-final.json": "85ce711264526401853601c0ba8271838b7d61b2384a09299ef19ea689e0c077",
+    "test-frozen-cauchy.json": "0c5966064634645992ce2828d7db26fcdd5b256777033488a6fe6fe47fffbeb7",
+    "test-unweighted-ls.json": "094156a358eac36e8387a236e1fe9cceda8478981ed59a2836d6bf0148793473",
+    "test-weighted-ls.json": "31b30db4c8fbc4a4e97425b8f52dbab49b50e1f204391095eea9b28b49e9e55e"
+  }
+}

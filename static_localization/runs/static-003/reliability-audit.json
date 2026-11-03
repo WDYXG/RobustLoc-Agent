@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "full_bounded_solver_replays": 36,
+  "independently_verified_recoveries": 12,
+  "acquisition_steps_replayed": 4,
+  "q1_verified_lower_bounds": [
+    0.0,
+    0.0,
+    0.0,
+    0.231584513819395
+  ],
+  "valid_contract_error_bound_violations": 0,
+  "invalid_contract_false_outputs": 12
+}

@@ -1,0 +1,25 @@
+{
+  "n_reporters": 8,
+  "estimate": [
+    25.83355353704711,
+    62.11743345441104
+  ],
+  "optimizer_success": true,
+  "nfev": 11,
+  "decision": "abstain",
+  "reliable_position": null,
+  "reliability": {
+    "status": "not-certified",
+    "reason": "no-hard-contract"
+  },
+  "skipped_reporters": [],
+  "diagnostics": {
+    "local_direction_eigenvalues": [
+      1.3379978009843643,
+      6.662002199015636
+    ],
+    "median_abs_residual": 0.658885585979351,
+    "scope": "Diagnostics at numerical estimate, not a recoverability certificate"
+  },
+  "request": null
+}

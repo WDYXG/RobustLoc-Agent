@@ -1,0 +1,11 @@
+{
+  "source": "runs/run-001/frozen_method.json",
+  "skipped_mechanisms": [
+    "robust_loss",
+    "cauchy",
+    "adaptive_scale",
+    "soft_l1",
+    "confidence"
+  ],
+  "reason": "Bounded transfer check only: threshold, weighting, multistart"
+}

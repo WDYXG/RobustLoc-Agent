@@ -1,0 +1,98 @@
+import copy
+from fractions import Fraction as F
+import numpy as np
+import pytest
+from static_localization.service import observations, localize, certify, INCUMBENT
+from static_localization.simulation import specifications, generate
+from static_localization.study import metrics, public_state
+from static_localization.reliability import make_case, score
+from v3b.assumption_agent.verifier import verify_recovery
+
+
+def sample():
+    return generate(next(specifications('development')))[0]
+
+
+def test_truth_unknown_fields_and_duplicate_reporters_rejected():
+    p=sample(); p['truth']=[0,0]
+    with pytest.raises(ValueError): localize(p)
+    p=sample(); p['reports'][0]['truth_position']=[0,0]
+    with pytest.raises(ValueError): localize(p)
+    p=sample(); p['reports'][1]['id']=p['reports'][0]['id']
+    with pytest.raises(ValueError): localize(p)
+
+
+def test_sigma_not_promoted_to_certificate():
+    p=sample(); a=localize(p)
+    assert a['reliability']['reason']=='no-hard-contract'
+    assert a['reliable_position'] is None and np.isfinite(a['estimate']).all()
+    p['information_available']=True
+    assert localize(p)['decision']=='acquire-more-data'
+
+
+def test_missing_rssi_and_valid_conversion():
+    p=sample()
+    for i,r in enumerate(p['reports']):
+        r.pop('distance'); r.pop('distance_sigma')
+        r.update(rssi_dbm=-200 if i==0 else -79.,
+                 calibration=dict(a_at_1m_dbm=-59,path_loss_exponent=2,sigma_db=4))
+    obs,skipped=observations(p)
+    assert len(obs.distances)==7 and len(skipped)==1
+    assert np.allclose(obs.distances,10)
+
+
+def test_split_seeds_disjoint_and_boundary_eleven_present():
+    splits=[list(specifications(s)) for s in ('development','validation','test')]
+    sets=[{r['seed'] for r in split} for split in splits]
+    assert all(len(s)==len(rows) for s,rows in zip(sets,splits))
+    assert not sets[0]&sets[1] and not sets[1]&sets[2] and not sets[0]&sets[2]
+    assert all(11 in {r['n'] for r in rows} for rows in splits)
+
+
+def test_metrics_include_failures_and_abstentions():
+    rows=[dict(error=e,optimizer_success=False,seconds=0,decision='abstain') for e in [0,0,0,100]]
+    m=metrics(rows)
+    assert m['cep90']>30 and m['failure_rate']==.25 and m['cases']==4
+    import json
+    assert json.loads(json.dumps(m, allow_nan=False))['failure_count']==1
+
+
+def test_certificate_checks_and_tampering():
+    p,truth=make_case(11,'surround',42)
+    # Candidate point is supplied only for testing a verifier, not runtime localization.
+    obs,_=observations(p); cert=certify(obs,truth,p['contract'])
+    assert cert['status']=='conditionally-certified'
+    assert verify_recovery(cert['observation'],cert['decision'])>0
+    bad=copy.deepcopy(cert['decision']); bad['error_bound']='0'
+    with pytest.raises(ValueError): verify_recovery(cert['observation'],bad)
+    p['contract']['epsilon_max']='-1'
+    with pytest.raises(ValueError): certify(obs,truth,p['contract'])
+
+
+def test_budget_cap_and_public_research_state():
+    p,_=make_case(32,'surround',3); p['contract']['q_max']=5
+    obs,_=observations(p)
+    assert certify(obs,[0,0],p['contract'])['reason']=='exact-enumeration-budget-exceeded'
+    state=public_state(dict(config=INCUMBENT),dict(overall={},by_scenario={},rows=[{'truth':[1,2]}]),'x')
+    assert 'rows' not in state['best_validation_metrics']
+
+
+def test_information_score_ignores_ranges():
+    p,_=make_case(11,'line',3); before=score(p,[0,60])
+    for r in p['reports']: r['distance']+=9999
+    assert before==score(p,[0,60])
+
+
+def test_bounded_recovery_uses_observations_and_verifies_actual_output():
+    p,t=make_case(11,'surround',42)
+    answer=localize(p)
+    assert answer['decision']=='recover'
+    assert np.linalg.norm(np.array(answer['reliable_position'])-t)<answer['reliability']['error_bound_metres']
+    assert verify_recovery(answer['reliability']['observation'],answer['reliability']['decision'])>0
+
+
+def test_certification_response_is_a_stable_snapshot():
+    p,_=make_case(11,'line',42)
+    result=localize(p); before=copy.deepcopy(result)
+    p['contract']['radii'].append('1/20')
+    assert result==before

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "historical_files_unchanged": 4783,
+  "source_hashes_match": true,
+  "all_observations_and_private_labels_regenerated": true,
+  "all_final_error_values_recomputed": true,
+  "verifier_decisions_replayed": true,
+  "stratified_solver_replays": 528,
+  "full_solver_replay": false
+}

@@ -1,0 +1,89 @@
+{
+  "verdict": "rejected",
+  "decision": "reject candidate",
+  "relative_cep90_gain": -0.4313137459514125,
+  "failure_rate_difference": 0.02651515151515152,
+  "scenario_regressions": [
+    "rssi/line/mismatch-True",
+    "rssi/sector/mismatch-True",
+    "rssi/surround/mismatch-False",
+    "rssi/surround/mismatch-True"
+  ],
+  "comparison_to_baseline": {
+    "cep90_difference": 8.868199120816342,
+    "failure_rate_difference": -0.07859848484848483
+  },
+  "failure_cases": [
+    {
+      "scenario": "rssi/sector/mismatch-True",
+      "seed": 22503000,
+      "candidate_error": 235.62622820428885,
+      "incumbent_error": 58.73318559422469,
+      "excess": 176.89304261006416
+    },
+    {
+      "scenario": "rssi/line/mismatch-True",
+      "seed": 22511002,
+      "candidate_error": 193.00606768782538,
+      "incumbent_error": 38.83594110010871,
+      "excess": 154.17012658771665
+    },
+    {
+      "scenario": "rssi/surround/mismatch-True",
+      "seed": 22513002,
+      "candidate_error": 176.99117613977728,
+      "incumbent_error": 28.80052707071864,
+      "excess": 148.19064906905865
+    },
+    {
+      "scenario": "rssi/line/mismatch-True",
+      "seed": 22505002,
+      "candidate_error": 154.51808021116804,
+      "incumbent_error": 15.18756288847217,
+      "excess": 139.33051732269587
+    },
+    {
+      "scenario": "rssi/line/mismatch-True",
+      "seed": 22511000,
+      "candidate_error": 172.04920499830675,
+      "incumbent_error": 34.1412656031559,
+      "excess": 137.90793939515083
+    },
+    {
+      "scenario": "rssi/line/mismatch-True",
+      "seed": 22511004,
+      "candidate_error": 167.00004970935865,
+      "incumbent_error": 34.10893425755867,
+      "excess": 132.89111545179998
+    },
+    {
+      "scenario": "rssi/surround/mismatch-True",
+      "seed": 22513000,
+      "candidate_error": 173.97799178920766,
+      "incumbent_error": 44.498040673035106,
+      "excess": 129.47995111617257
+    },
+    {
+      "scenario": "rssi/surround/mismatch-True",
+      "seed": 22519002,
+      "candidate_error": 214.9889488954345,
+      "incumbent_error": 86.88107241337279,
+      "excess": 128.10787648206173
+    },
+    {
+      "scenario": "rssi/surround/mismatch-True",
+      "seed": 22519001,
+      "candidate_error": 155.5922242917363,
+      "incumbent_error": 29.447094970118165,
+      "excess": 126.14512932161813
+    },
+    {
+      "scenario": "rssi/sector/mismatch-True",
+      "seed": 22509002,
+      "candidate_error": 169.94315603336162,
+      "incumbent_error": 44.35579759814657,
+      "excess": 125.58735843521504
+    }
+  ],
+  "evidence_class": "empirical evidence; repeated validation selection, no mathematical proof"
+}

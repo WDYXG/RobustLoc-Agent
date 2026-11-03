@@ -1,0 +1,10 @@
+{
+  "candidate": "D:\\ATongji\\AI4Math\\RobustLoc-Agent\\static_localization\\runs\\static-003\\study\\iteration-03\\validation.json",
+  "incumbent": "D:\\ATongji\\AI4Math\\RobustLoc-Agent\\static_localization\\runs\\static-003\\study\\validation-incumbent.json",
+  "baseline": "D:\\ATongji\\AI4Math\\RobustLoc-Agent\\static_localization\\runs\\static-003\\study\\validation-baseline.json",
+  "policy": {
+    "minimum_relative_cep90_gain": 0.01,
+    "maximum_failure_rate_increase": 0.01,
+    "maximum_scenario_cep90_ratio": 1.25
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "mechanism": "threshold",
+  "hypothesis": "Changing the robust transition threshold addresses the observed worst-scenario tail.",
+  "config": {
+    "loss": "cauchy",
+    "threshold": 0.5,
+    "uncertainty": true,
+    "confidence": false,
+    "multistart": false,
+    "adaptive": true
+  },
+  "parent": "frozen-cauchy",
+  "motivation": "Incumbent worst validation scenario: rssi/surround/mismatch-True, CEP90=92.604 m; last verdict=initial.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "threshold": 0.5
+  },
+  "mathematical_reasoning_summary": "Changing the robust transition threshold addresses the observed worst-scenario tail. This is an empirical hypothesis, not a proof."
+}

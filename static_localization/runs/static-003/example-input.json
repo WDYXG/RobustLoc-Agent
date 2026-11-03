@@ -1,0 +1,93 @@
+{
+  "reports": [
+    {
+      "id": "reporter-0",
+      "position": [
+        -25.995984350415824,
+        54.10146201372948
+      ],
+      "position_sigma": 1.1372444596256073,
+      "confidence": 1.0,
+      "distance": 54.30363357191907,
+      "distance_sigma": 2.242997586703609
+    },
+    {
+      "id": "reporter-1",
+      "position": [
+        -22.019226925903336,
+        86.0124625167318
+      ],
+      "position_sigma": 0.7111361792343962,
+      "confidence": 1.0,
+      "distance": 56.791177888087965,
+      "distance_sigma": 2.4742257336046842
+    },
+    {
+      "id": "reporter-2",
+      "position": [
+        40.060076251595646,
+        71.7773169194514
+      ],
+      "position_sigma": 0.8144782445536967,
+      "confidence": 1.0,
+      "distance": 17.527602687224004,
+      "distance_sigma": 1.480863767354144
+    },
+    {
+      "id": "reporter-3",
+      "position": [
+        63.2158250745903,
+        60.12541008183874
+      ],
+      "position_sigma": 0.7171114035965989,
+      "confidence": 1.0,
+      "distance": 38.90007473601479,
+      "distance_sigma": 2.088395258489478
+    },
+    {
+      "id": "reporter-4",
+      "position": [
+        34.1510306254911,
+        55.12793774218643
+      ],
+      "position_sigma": 1.2544060364317917,
+      "confidence": 1.0,
+      "distance": 11.585436848611707,
+      "distance_sigma": 2.273424536898618
+    },
+    {
+      "id": "reporter-5",
+      "position": [
+        7.784915074331891,
+        68.75615044643304
+      ],
+      "position_sigma": 0.8727294586955492,
+      "confidence": 1.0,
+      "distance": 19.73014512765206,
+      "distance_sigma": 2.342739785057522
+    },
+    {
+      "id": "reporter-6",
+      "position": [
+        55.16715161342236,
+        31.380903406164762
+      ],
+      "position_sigma": 1.2544348223480288,
+      "confidence": 1.0,
+      "distance": 43.084233197909576,
+      "distance_sigma": 2.0733596827574248
+    },
+    {
+      "id": "reporter-7",
+      "position": [
+        -31.43842330806204,
+        61.77212921383515
+      ],
+      "position_sigma": 0.9918467144953867,
+      "confidence": 1.0,
+      "distance": 57.34971633426868,
+      "distance_sigma": 2.0703325683978235
+    }
+  ],
+  "units": "metres"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "frozen-cauchy",
+  "config": {
+    "loss": "cauchy",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": false,
+    "multistart": false,
+    "adaptive": true
+  },
+  "source_sha256": {
+    "robustloc/baseline.py": "1ce5698ac6f47801916a2ba98183c6cac4d51936b1117532c41f7fd30721dcff",
+    "robustloc/candidate.py": "2f3f4bea656eeeda321154784379b654632e5cdfac6d4f82c5df08427c8379a6",
+    "robustloc/optimizer.py": "8d1421119a6a76d5311305adddb8871b29ddbfa4d941a876af6020381362e25f",
+    "robustloc/proposer.py": "ee804f9979ed68c0892e49306e71b273726bc4ae3bbb2de9b0b5d1c018016e7f",
+    "robustloc/simulator.py": "ab256cee44f62d9f3e115b552eaaf740f2837c61c3273721cdcc4a7b36d25ee9",
+    "robustloc/verifier.py": "80997926e8e8706fbece1c227593f72aa009859225ef16701a823cf638612652",
+    "static_localization/__init__.py": "65717a1e74e59eb14d2743649919269c21168fa0ac724633f674e9be381c872b",
+    "static_localization/PROTOCOL.md": "4c82f83a11fb64cbe584b88d2908f056cbc6328425c7400deedbb3999a47edc4",
+    "static_localization/real_data.py": "a78ea5d3af1efec43d4f6a8edf5f12f6c5f035e366c47fba4a9c9cf54b24e97f",
+    "static_localization/reliability.py": "80847ff0a0de0e9a2c0e7e519812262f13d55a7459ffc5d2ebc5949e0e492235",
+    "static_localization/review.py": "efbf5bb599181436577d9685f83c37ef978f6ee353ccc1b16f2433bd9e448afb",
+    "static_localization/service.py": "e10cb297c0418fce2b99f8f30609f561e42f071d08dd4a4db5f1d57e94cf5159",
+    "static_localization/simulation.py": "8966f837184fc8f61f04cbb47ec99b22247bc83b1d8b9191818e076e3be24502",
+    "static_localization/study.py": "c89e5fe71052354b2717db04d57b4d262945d9f168ed5982c2d863928ea0b95b",
+    "static_localization/tests/test_pipeline.py": "f729e0cf39dbbd53bad0be35468251f3a3d28a347366800c503055e4cf72fd91",
+    "v2/global_stability/exact.py": "9523240315cce7e46066bed11bb01afe3fdaee25d7ab2c64bf9f11c65ef68b1f",
+    "v3/certified_agent/certificates.py": "68138c9be55c616ebc0dcdf1f1d18884d350d7a188e2bcff84da2bc79f1d7a6e",
+    "v3/certified_agent/decoder.py": "137b6fa9c4c0265a470eaefaa2094e8e7613d6fe765e4a6612f1fbf621d74a03",
+    "v3b/assumption_agent/certificates.py": "9c5a031fa629d48f5e6da1f79522c5317040456119a58f275a2602b6403b2b5c",
+    "v3b/assumption_agent/verifier.py": "1f9e61f662a8cb94ad7340d44ee354c5428a64a55a1540f8ab80f281876e543a"
+  },
+  "selected_using": "development and validation only",
+  "evidence": "numerically-supported"
+}

@@ -1,0 +1,15 @@
+weighted-ls: 1056 cases; CEP90=42.707 m
+frozen-cauchy: 1056 cases; CEP90=36.034 m
+proposal-1: 528 cases; CEP90=38.269 m
+proposal-1: 1056 cases; CEP90=38.478 m
+Agent step 1 threshold: rejected
+proposal-2: 528 cases; CEP90=51.031 m
+proposal-2: 1056 cases; CEP90=51.575 m
+Agent step 2 uncertainty: rejected
+proposal-3: 528 cases; CEP90=35.275 m
+proposal-3: 1056 cases; CEP90=36.450 m
+Agent step 3 multistart: rejected
+unweighted-ls: 5280 cases; CEP90=85.386 m
+weighted-ls: 5280 cases; CEP90=44.460 m
+frozen-cauchy: 5280 cases; CEP90=37.125 m
+final: 5280 cases; CEP90=37.125 m
