@@ -1,0 +1,8 @@
+{
+  "agent": "Current Codex session",
+  "claim": "Same-model transmitter identity and wearing differences need calibration offsets; receiver offsets alone are insufficient",
+  "status": "conjectured",
+  "evidence_before": "r2 dB-Huber worsened validation CEP90 by 7.12%; reject its bundled inference changes and retain Cauchy",
+  "mechanism": "Add transmitter offsets to receiver calibration, shared slope; retain Cauchy",
+  "failure_mode": "Device effects may be body/environment confounded; no claim of cross-model transfer"
+}

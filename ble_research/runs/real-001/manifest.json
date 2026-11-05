@@ -1,0 +1,26 @@
+{
+  "sources": {
+    "ble_research\\__init__.py": "bbb5be7b892752d3f3b681b3806290ea0656057db29d9b7c7a1a9ba920a88d22",
+    "ble_research\\core.py": "545f7229f68c12a4210fbd37e0a5f3c3f4829bad465fee6c628e888c20098f45",
+    "ble_research\\runner.py": "ec1206f2a0d2d1721faed2e8dd7861efd6aec772cc55f680a2c93515ea5eaea9"
+  },
+  "protocol_sha256": "454d848a78640cad55f02f3e3bb96d56bd90e7c46e3cccd1eb4f78be43f68981",
+  "counts": {
+    "calibration": 9527,
+    "validation": 3171,
+    "test": 3183
+  },
+  "data_sha256": {
+    "104D.csv": "d0db81521fdb0a48443cfb4321e2e1462438634d8318a8eb11229391e1444d06",
+    "10B2.csv": "c217d6301a9fc589f8ead3fe2ebd37c5551377c13749c7c21648b06e46222d7b",
+    "10CE.csv": "276f0a7c7c794e367cf3aa40e9ec7ec6a5c8b25f5f0fc094f7b66fe1a6bb553f",
+    "1210.csv": "d3b3f5ac0f791aea7d229d93a2b0fce68fddefe695d50aabf036084ae81ccf20",
+    "1211.csv": "074efbb2a3d0f26866cd62b88d259a6662851111548b1e6bed5a92534376e48d",
+    "1212.csv": "c51b6ffb6fc178d2457a1b311fd62c23e49eca8dc747cf1733b29ca5a78daab1",
+    "121B.csv": "df41dc2a8918a7122b00849c9d392bbfb5b39370fe3ec68bcbcc67023d72b72f",
+    "121D.csv": "0be7670e8002327449c8058b0d614130501413ed22f444ec2d4ca4cde3fa3404",
+    "1F61.csv": "3253bb1a5fbe92c8d840cd8fceb1ffad9fe7c88e162630355da2bf916b0b7268",
+    "2055.csv": "083eead2b229ecab0196662a2ccb3ef2c52fc0d1ae3675709a8fd076de1abdd5",
+    "20B5.csv": "429349512a7299a9c7e3c8b5536b585d48dac542c2d754403f2c6299bf5005c5"
+  }
+}

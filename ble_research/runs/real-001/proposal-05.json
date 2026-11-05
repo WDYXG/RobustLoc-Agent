@@ -1,0 +1,9 @@
+{
+  "agent": "Current Codex session",
+  "claim": "Spatially correlated propagation residuals, beyond distance and device identity, can improve unseen-position localization",
+  "status": "conjectured",
+  "evidence_before": "Single and dual slope dB objectives are worse; device offset gain below gate. Distance-only model is likely insufficient for walls.",
+  "mechanism": "Known Gaussian-kernel smoothing of calibration-only receiver residuals added to path-loss field; bandwidth4m; Huber dB solver",
+  "failure_mode": "Spatial leakage if test points entered field; extrapolation and sparse receiver coverage; audit training positions explicitly",
+  "novelty": "Project integration experiment, not a new kernel regression theorem"
+}

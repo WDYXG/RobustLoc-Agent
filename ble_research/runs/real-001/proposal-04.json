@@ -1,0 +1,9 @@
+{
+  "agent": "Current Codex session",
+  "claim": "Near/far propagation slopes need a fixed 10m breakpoint instead of one slope",
+  "status": "conjectured",
+  "evidence_before": "Device offsets improve only 0.89%, below acceptance threshold; same-model identity alone does not explain remaining errors",
+  "mechanism": "Two continuous distance slopes with receiver intercepts, use dB-Huber to avoid an ambiguous analytic inverse",
+  "failure_mode": "NLOS is spatial, not solely distance-dependent; near/far fit may fail on unseen rooms",
+  "ablation_reference": "Compare both incumbent Cauchy and r2 dB-Huber; cannot isolate slope effect from incumbent comparison alone"
+}

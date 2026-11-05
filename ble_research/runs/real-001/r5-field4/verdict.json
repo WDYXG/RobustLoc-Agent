@@ -1,0 +1,8 @@
+{
+  "accepted": false,
+  "relative_gain": 0.0007801854141415767,
+  "device_regressions": [
+    "20B5"
+  ],
+  "evidence": "numerically-supported validation only; selection bias remains"
+}

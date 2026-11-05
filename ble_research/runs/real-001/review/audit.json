@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "historical_files_unchanged": 5007,
+  "final_sources_unchanged": true,
+  "all_final_errors_recomputed": true,
+  "independent_gate_replays": 6,
+  "stratified_solver_replays": 192,
+  "field_labels_calibration_only": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "scipy": "1.15.1",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "heldout_locations": 32,
+  "conditional_metric_warning": "CEP90 only among outputs; failure rate counts no output as failure",
+  "novelty": "All methods are established modeling primitives; new project integration does not prove originality"
+}

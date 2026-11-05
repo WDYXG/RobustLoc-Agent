@@ -1,0 +1,9 @@
+{
+  "agent": "Current Codex session",
+  "claim": "Smoother spatial correction repairs the tail instability of local residual interpolation",
+  "status": "conjectured",
+  "evidence_before": "4m field improves median but CEP90 gain only0.078%, below1% gate and one device regresses. Increase smoothing using the predeclared8m alternative.",
+  "mechanism": "Same field algorithm, change only bandwidth4 to8m",
+  "failure_mode": "Broader smoothing may erase walls or retain distance-dependent bias",
+  "stop_condition": "This is the last predeclared field bandwidth; freeze winner after validation, do not search test-driven alternatives"
+}

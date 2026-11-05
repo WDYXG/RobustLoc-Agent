@@ -1,0 +1,272 @@
+{
+  "centre": {
+    "rows": 3183,
+    "positions": 32,
+    "outputs": 3183,
+    "coverage": 1.0,
+    "cep50": 12.220465530321572,
+    "cep90": 19.81281852179991,
+    "success_rates": {
+      "5": 0.15625,
+      "10": 0.5,
+      "30": 1.0
+    },
+    "failure_rate": 0.0,
+    "optimization_failures": 0,
+    "intervals": {
+      "cep90_95": [
+        16.181319819814178,
+        20.284290582725454
+      ],
+      "coverage_95": [
+        1.0,
+        1.0
+      ],
+      "failure_rate_95": [
+        0.0,
+        0.0
+      ],
+      "unit": "resampled physical locations, 500 draws"
+    },
+    "n_ge_11": {
+      "rows": 2,
+      "positions": 1,
+      "outputs": 2,
+      "coverage": 1.0,
+      "cep50": 9.77672974181267,
+      "cep90": 9.77672974181267,
+      "success_rates": {
+        "5": 0.0,
+        "10": 1.0,
+        "30": 1.0
+      },
+      "failure_rate": 0.0,
+      "optimization_failures": 0
+    }
+  },
+  "fixed-wls": {
+    "rows": 3183,
+    "positions": 32,
+    "outputs": 2560,
+    "coverage": 0.8059259633586242,
+    "cep50": 12.45270447198892,
+    "cep90": 30.467628038983303,
+    "success_rates": {
+      "5": 0.09154302196955655,
+      "10": 0.29713277891366957,
+      "30": 0.7212346896910145
+    },
+    "failure_rate": 0.27876531030898555,
+    "optimization_failures": 0,
+    "intervals": {
+      "cep90_95": [
+        24.38158500509881,
+        37.32804324399329
+      ],
+      "coverage_95": [
+        0.7124801253912874,
+        0.8777672099041927
+      ],
+      "failure_rate_95": [
+        0.19141106583525827,
+        0.3778955737096704
+      ],
+      "unit": "resampled physical locations, 500 draws"
+    },
+    "n_ge_11": {
+      "rows": 2,
+      "positions": 1,
+      "outputs": 2,
+      "coverage": 1.0,
+      "cep50": 1.9265929362453655,
+      "cep90": 7.889457117758647,
+      "success_rates": {
+        "5": 0.5,
+        "10": 1.0,
+        "30": 1.0
+      },
+      "failure_rate": 0.0,
+      "optimization_failures": 0
+    }
+  },
+  "fixed-cauchy": {
+    "rows": 3183,
+    "positions": 32,
+    "outputs": 2560,
+    "coverage": 0.8059259633586242,
+    "cep50": 14.354827275397547,
+    "cep90": 34.24660621891585,
+    "success_rates": {
+      "5": 0.09417887451796647,
+      "10": 0.2699241455895678,
+      "30": 0.6794886576416082
+    },
+    "failure_rate": 0.32051134235839185,
+    "optimization_failures": 1,
+    "intervals": {
+      "cep90_95": [
+        29.475104488686387,
+        38.9922902100066
+      ],
+      "coverage_95": [
+        0.7124801253912874,
+        0.8777672099041927
+      ],
+      "failure_rate_95": [
+        0.2350656047651807,
+        0.4148345741229123
+      ],
+      "unit": "resampled physical locations, 500 draws"
+    },
+    "n_ge_11": {
+      "rows": 2,
+      "positions": 1,
+      "outputs": 2,
+      "coverage": 1.0,
+      "cep50": 1.2887804960371225,
+      "cep90": 12.096038555511146,
+      "success_rates": {
+        "5": 0.5,
+        "10": 0.5,
+        "30": 1.0
+      },
+      "failure_rate": 0.0,
+      "optimization_failures": 0
+    }
+  },
+  "global-wls": {
+    "rows": 3183,
+    "positions": 32,
+    "outputs": 2560,
+    "coverage": 0.8059259633586242,
+    "cep50": 2.728458963792869,
+    "cep90": 6.021688489150841,
+    "success_rates": {
+      "5": 0.6707285524426729,
+      "10": 0.7887335590529652,
+      "30": 0.8059259633586242
+    },
+    "failure_rate": 0.1940740366413758,
+    "optimization_failures": 0,
+    "intervals": {
+      "cep90_95": [
+        5.006475860390106,
+        7.309341955022814
+      ],
+      "coverage_95": [
+        0.7124801253912874,
+        0.8777672099041927
+      ],
+      "failure_rate_95": [
+        0.12223279009580734,
+        0.2875198746087126
+      ],
+      "unit": "resampled physical locations, 500 draws"
+    },
+    "n_ge_11": {
+      "rows": 2,
+      "positions": 1,
+      "outputs": 2,
+      "coverage": 1.0,
+      "cep50": 1.3776865773027593,
+      "cep90": 1.4496153434102543,
+      "success_rates": {
+        "5": 1.0,
+        "10": 1.0,
+        "30": 1.0
+      },
+      "failure_rate": 0.0,
+      "optimization_failures": 0
+    }
+  },
+  "global-cauchy": {
+    "rows": 3183,
+    "positions": 32,
+    "outputs": 2560,
+    "coverage": 0.8059259633586242,
+    "cep50": 2.8219246808702927,
+    "cep90": 6.292209195931647,
+    "success_rates": {
+      "5": 0.6592576569350386,
+      "10": 0.7890148974736116,
+      "30": 0.8059259633586242
+    },
+    "failure_rate": 0.1940740366413758,
+    "optimization_failures": 0,
+    "intervals": {
+      "cep90_95": [
+        5.146899884595628,
+        7.356797244162131
+      ],
+      "coverage_95": [
+        0.7124801253912874,
+        0.8777672099041927
+      ],
+      "failure_rate_95": [
+        0.12223279009580734,
+        0.2875198746087126
+      ],
+      "unit": "resampled physical locations, 500 draws"
+    },
+    "n_ge_11": {
+      "rows": 2,
+      "positions": 1,
+      "outputs": 2,
+      "coverage": 1.0,
+      "cep50": 1.3914365423363826,
+      "cep90": 1.4324880185825966,
+      "success_rates": {
+        "5": 1.0,
+        "10": 1.0,
+        "30": 1.0
+      },
+      "failure_rate": 0.0,
+      "optimization_failures": 0
+    }
+  },
+  "final": {
+    "rows": 3183,
+    "positions": 32,
+    "outputs": 2560,
+    "coverage": 0.8059259633586242,
+    "cep50": 2.733882466750159,
+    "cep90": 5.921422063810713,
+    "success_rates": {
+      "5": 0.6724608341526327,
+      "10": 0.7941046823787495,
+      "30": 0.8059259633586242
+    },
+    "failure_rate": 0.1940740366413758,
+    "optimization_failures": 0,
+    "intervals": {
+      "cep90_95": [
+        4.980981311806585,
+        6.8167293117154015
+      ],
+      "coverage_95": [
+        0.7124801253912874,
+        0.8777672099041927
+      ],
+      "failure_rate_95": [
+        0.12223279009580734,
+        0.2875198746087126
+      ],
+      "unit": "resampled physical locations, 500 draws"
+    },
+    "n_ge_11": {
+      "rows": 2,
+      "positions": 1,
+      "outputs": 2,
+      "coverage": 1.0,
+      "cep50": 1.2617725526024832,
+      "cep90": 1.3478612913396275,
+      "success_rates": {
+        "5": 1.0,
+        "10": 1.0,
+        "30": 1.0
+      },
+      "failure_rate": 0.0,
+      "optimization_failures": 0
+    }
+  }
+}

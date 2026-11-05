@@ -1,0 +1,72 @@
+{
+  "fixed": {
+    "calibration": {
+      "rssi_rmse": 14.217446123824715,
+      "range_mae": 33.664997782375096
+    },
+    "validation": {
+      "rssi_rmse": 14.304854463905713,
+      "range_mae": 32.8235896308189
+    },
+    "test": {
+      "rssi_rmse": 14.25601965727497,
+      "range_mae": 33.22327792710594
+    }
+  },
+  "global": {
+    "calibration": {
+      "rssi_rmse": 4.044374139883871,
+      "range_mae": 2.666797350850064
+    },
+    "validation": {
+      "rssi_rmse": 3.8118044518700294,
+      "range_mae": 2.5181710110647204
+    },
+    "test": {
+      "rssi_rmse": 3.922031940185053,
+      "range_mae": 2.650554487155314
+    }
+  },
+  "receiver": {
+    "calibration": {
+      "rssi_rmse": 3.8513177050263856,
+      "range_mae": 2.4534458341410006
+    },
+    "validation": {
+      "rssi_rmse": 3.718020915411565,
+      "range_mae": 2.4170764767595543
+    },
+    "test": {
+      "rssi_rmse": 3.745685472869721,
+      "range_mae": 2.486660129010149
+    }
+  },
+  "device": {
+    "calibration": {
+      "rssi_rmse": 3.828156166898196,
+      "range_mae": 2.4219389547674446
+    },
+    "validation": {
+      "rssi_rmse": 3.6986612365118567,
+      "range_mae": 2.3971463293309556
+    },
+    "test": {
+      "rssi_rmse": 3.7217203690204967,
+      "range_mae": 2.462317324890887
+    }
+  },
+  "dual": {
+    "calibration": {
+      "rssi_rmse": 3.83719553934823,
+      "range_mae": null
+    },
+    "validation": {
+      "rssi_rmse": 3.7170974497465576,
+      "range_mae": null
+    },
+    "test": {
+      "rssi_rmse": 3.718400269505521,
+      "range_mae": null
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "refits_using_calibration_only": {
+    "model-global.json": true,
+    "r1-receiver/model.json": true,
+    "r3-device/model.json": true,
+    "r4-dual/model.json": true
+  },
+  "position_partition_disjoint": true
+}

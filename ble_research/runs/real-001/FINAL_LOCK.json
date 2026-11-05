@@ -1,0 +1,15 @@
+{
+  "selected": {
+    "name": "r1-receiver",
+    "model": "r1-receiver/model.json",
+    "method": "cauchy"
+  },
+  "sources": {
+    "ble_research\\__init__.py": "bbb5be7b892752d3f3b681b3806290ea0656057db29d9b7c7a1a9ba920a88d22",
+    "ble_research\\core.py": "7190516f7b5fee0407b444e4fe85e73f811b83fbabdd1d0d06dc0c0be1aa791f",
+    "ble_research\\localize.py": "17751a4011a58622de6a3e1f719637b24b96aca456a2ed450220f300a068bb53",
+    "ble_research\\runner.py": "ec1206f2a0d2d1721faed2e8dd7861efd6aec772cc55f680a2c93515ea5eaea9"
+  },
+  "timestamp": 1793865443.6457698,
+  "model_sha256": "8712c51b883b4972df9337c45da48928d1b5311515aa6a46d8543f9204ad6e47"
+}

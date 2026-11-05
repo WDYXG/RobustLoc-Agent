@@ -1,0 +1,9 @@
+{
+  "agent": "Current Codex session",
+  "claim": "Fit normalized robust residuals in dB instead of inverting into biased, heteroscedastic ranges",
+  "status": "conjectured",
+  "mechanism": "Same receiver calibration, public-layout bounded multi-start Huber in RSSI space",
+  "why_now": "Receiver intercept calibration only 1.07% gain; inversion mismatch may dominate remaining tails",
+  "failure_mode": "Bounds and extra restarts confound loss mechanism; report as bundled solver change, no pure-loss causal claim",
+  "mathematics": "known: Gaussian RSSI noise exponentiates to lognormal range noise; this motivates but does not prove localization improvement"
+}

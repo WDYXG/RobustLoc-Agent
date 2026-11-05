@@ -1,0 +1,10 @@
+{
+  "agent": "Current Codex session",
+  "action": "calibration",
+  "claim": "Receiver-specific intercepts reduce persistent hardware/environment bias beyond global calibration",
+  "status": "conjectured",
+  "evidence_before": "Validation: fixed Cauchy CEP90 34.82m; global calibration 5.77m. Calibration dominates loss-only robustness.",
+  "mechanism": "15 receiver intercepts, one shared slope; same Cauchy estimator",
+  "verification": "unchanged deterministic gate on 32 validation positions",
+  "possible_failure": "Sparse per-receiver coverage overfits local walls"
+}
