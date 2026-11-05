@@ -1,0 +1,14 @@
+{
+  "url": "https://tede.ufam.edu.br/bitstream/tede/10855/5/TESE_YuriAssayag_PPGI.pdf",
+  "author": "Yuri Freitas Assayag",
+  "title": "Strategic Cost Reduction in Indoor Positioning Systems Using Signal Propagation Modeling Techniques",
+  "date": "April 2025",
+  "sha256": "21e196e1a8ac3d382d92c31dbc273f21d4d4d40d06f234cb96623c689df9ad42",
+  "pdf_page": 63,
+  "printed_page": 47,
+  "section": "3.3.2",
+  "short_quote": "we use the value -105 to represent no signal",
+  "verification": "Downloaded, text extracted and page rendered/visually checked on 2026-11-05",
+  "scope": "Author primary source for the related BLE path-loss system; 2024 data article itself does not state the sentinel convention",
+  "redistribution": "PDF and rendered page retained locally only, excluded from Git"
+}

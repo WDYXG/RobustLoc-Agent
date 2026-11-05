@@ -1,0 +1,1426 @@
+{
+  "raw_rows": 15881,
+  "target_transmitters": 11,
+  "receiver_columns": 15,
+  "unique_positions": 160,
+  "rooms": 14,
+  "effective_receiver_histogram": {
+    "0": 6,
+    "1": 532,
+    "2": 2675,
+    "3": 3106,
+    "4": 2956,
+    "5": 2535,
+    "6": 2029,
+    "7": 1090,
+    "8": 556,
+    "9": 273,
+    "10": 98,
+    "11": 25
+  },
+  "threshold_subset": {
+    "rows": 25,
+    "positions": 8,
+    "devices": 8,
+    "rooms": 2,
+    "fraction": 0.0015742081732888357,
+    "labels": {
+      "43_5_5": 1,
+      "43_7_1": 1,
+      "43_7_3": 1,
+      "62_11_1": 1,
+      "62_3_1": 2,
+      "62_5_1": 10,
+      "62_7_1": 7,
+      "62_9_1": 2
+    }
+  },
+  "fewer_than_three_receivers": 3213,
+  "minus105_entries": 170552,
+  "rssi_entries": 238215,
+  "rssi_value_histogram": {
+    "-105.0": 170552,
+    "-101.0": 2,
+    "-100.0": 35,
+    "-99.0": 305,
+    "-98.0": 897,
+    "-97.0": 2276,
+    "-96.0": 2241,
+    "-95.0": 4113,
+    "-94.0": 4600,
+    "-93.0": 6283,
+    "-92.0": 3349,
+    "-91.0": 4514,
+    "-90.0": 2476,
+    "-89.0": 3890,
+    "-88.0": 3675,
+    "-87.0": 4608,
+    "-86.0": 2392,
+    "-85.0": 2952,
+    "-84.0": 1614,
+    "-83.0": 2324,
+    "-82.0": 2201,
+    "-81.0": 2491,
+    "-80.0": 1193,
+    "-79.0": 1182,
+    "-78.0": 1577,
+    "-77.0": 1152,
+    "-76.0": 1010,
+    "-75.0": 1118,
+    "-74.0": 560,
+    "-73.0": 453,
+    "-72.0": 541,
+    "-71.0": 395,
+    "-70.0": 166,
+    "-69.0": 149,
+    "-68.0": 262,
+    "-67.0": 208,
+    "-66.0": 197,
+    "-65.0": 80,
+    "-64.0": 63,
+    "-63.0": 28,
+    "-62.0": 43,
+    "-61.0": 27,
+    "-60.0": 11,
+    "-59.0": 6,
+    "-58.0": 1,
+    "-57.0": 3
+  },
+  "exact_duplicate_rows": 107,
+  "device_position_groups": 1760,
+  "rows_per_group_histogram": {
+    "4": 1,
+    "5": 3,
+    "6": 10,
+    "7": 63,
+    "8": 351,
+    "9": 858,
+    "10": 400,
+    "11": 60,
+    "12": 11,
+    "13": 3
+  },
+  "grouped_union": {
+    "histogram": {
+      "1": 3,
+      "2": 79,
+      "3": 200,
+      "4": 205,
+      "5": 230,
+      "6": 320,
+      "7": 228,
+      "8": 201,
+      "9": 140,
+      "10": 99,
+      "11": 44,
+      "12": 11
+    },
+    "eligible_groups": 55,
+    "eligible_positions": 15,
+    "warning": "Descriptive union across repeated records, NOT simultaneous independent receivers or extra test trials; no aggregation used for localization"
+  },
+  "bounding_box_metres": [
+    1.4,
+    43.3,
+    1.5,
+    22.5
+  ],
+  "bounding_box_diagonal_metres": 46.86800614491724,
+  "per_device": {
+    "104D": {
+      "rows": 1454,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "0": 2,
+        "1": 42,
+        "2": 228,
+        "3": 184,
+        "4": 262,
+        "5": 270,
+        "6": 239,
+        "7": 128,
+        "8": 68,
+        "9": 25,
+        "10": 6
+      },
+      "eligible_n_ge_11": 0
+    },
+    "10B2": {
+      "rows": 1421,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 70,
+        "2": 318,
+        "3": 287,
+        "4": 219,
+        "5": 197,
+        "6": 185,
+        "7": 85,
+        "8": 34,
+        "9": 19,
+        "10": 7
+      },
+      "eligible_n_ge_11": 0
+    },
+    "10CE": {
+      "rows": 1440,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 34,
+        "2": 246,
+        "3": 337,
+        "4": 232,
+        "5": 231,
+        "6": 185,
+        "7": 90,
+        "8": 45,
+        "9": 27,
+        "10": 9,
+        "11": 4
+      },
+      "eligible_n_ge_11": 4
+    },
+    "1210": {
+      "rows": 1414,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 77,
+        "2": 243,
+        "3": 299,
+        "4": 278,
+        "5": 240,
+        "6": 143,
+        "7": 65,
+        "8": 46,
+        "9": 17,
+        "10": 3,
+        "11": 3
+      },
+      "eligible_n_ge_11": 3
+    },
+    "1211": {
+      "rows": 1427,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 60,
+        "2": 250,
+        "3": 269,
+        "4": 282,
+        "5": 234,
+        "6": 157,
+        "7": 87,
+        "8": 51,
+        "9": 26,
+        "10": 10,
+        "11": 1
+      },
+      "eligible_n_ge_11": 1
+    },
+    "1212": {
+      "rows": 1440,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 73,
+        "2": 270,
+        "3": 325,
+        "4": 293,
+        "5": 189,
+        "6": 144,
+        "7": 85,
+        "8": 47,
+        "9": 13,
+        "10": 1
+      },
+      "eligible_n_ge_11": 0
+    },
+    "121B": {
+      "rows": 1474,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 31,
+        "2": 209,
+        "3": 267,
+        "4": 280,
+        "5": 217,
+        "6": 222,
+        "7": 148,
+        "8": 67,
+        "9": 22,
+        "10": 10,
+        "11": 1
+      },
+      "eligible_n_ge_11": 1
+    },
+    "121D": {
+      "rows": 1468,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "0": 1,
+        "1": 23,
+        "2": 213,
+        "3": 325,
+        "4": 310,
+        "5": 270,
+        "6": 173,
+        "7": 78,
+        "8": 32,
+        "9": 29,
+        "10": 13,
+        "11": 1
+      },
+      "eligible_n_ge_11": 1
+    },
+    "1F61": {
+      "rows": 1445,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "0": 2,
+        "1": 39,
+        "2": 248,
+        "3": 262,
+        "4": 255,
+        "5": 210,
+        "6": 204,
+        "7": 106,
+        "8": 57,
+        "9": 35,
+        "10": 18,
+        "11": 9
+      },
+      "eligible_n_ge_11": 9
+    },
+    "2055": {
+      "rows": 1464,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "1": 47,
+        "2": 221,
+        "3": 256,
+        "4": 288,
+        "5": 243,
+        "6": 180,
+        "7": 113,
+        "8": 56,
+        "9": 38,
+        "10": 17,
+        "11": 5
+      },
+      "eligible_n_ge_11": 5
+    },
+    "20B5": {
+      "rows": 1434,
+      "positions": 160,
+      "effective_receiver_histogram": {
+        "0": 1,
+        "1": 36,
+        "2": 229,
+        "3": 295,
+        "4": 257,
+        "5": 234,
+        "6": 197,
+        "7": 105,
+        "8": 53,
+        "9": 22,
+        "10": 4,
+        "11": 1
+      },
+      "eligible_n_ge_11": 1
+    }
+  },
+  "per_anchor": {
+    "WAP11": {
+      "observed_rows": 3076,
+      "excluded_minus105_rows": 12805,
+      "min_non_sentinel_rssi": -99.0,
+      "max_rssi": -61.0
+    },
+    "WAP5": {
+      "observed_rows": 6098,
+      "excluded_minus105_rows": 9783,
+      "min_non_sentinel_rssi": -100.0,
+      "max_rssi": -59.0
+    },
+    "WAP3": {
+      "observed_rows": 4757,
+      "excluded_minus105_rows": 11124,
+      "min_non_sentinel_rssi": -100.0,
+      "max_rssi": -60.0
+    },
+    "WAP1": {
+      "observed_rows": 3195,
+      "excluded_minus105_rows": 12686,
+      "min_non_sentinel_rssi": -98.0,
+      "max_rssi": -61.0
+    },
+    "WAP9": {
+      "observed_rows": 4825,
+      "excluded_minus105_rows": 11056,
+      "min_non_sentinel_rssi": -100.0,
+      "max_rssi": -65.0
+    },
+    "WAP12": {
+      "observed_rows": 1231,
+      "excluded_minus105_rows": 14650,
+      "min_non_sentinel_rssi": -99.0,
+      "max_rssi": -78.0
+    },
+    "WAP8": {
+      "observed_rows": 4198,
+      "excluded_minus105_rows": 11683,
+      "min_non_sentinel_rssi": -99.0,
+      "max_rssi": -61.0
+    },
+    "WAP10": {
+      "observed_rows": 5208,
+      "excluded_minus105_rows": 10673,
+      "min_non_sentinel_rssi": -100.0,
+      "max_rssi": -63.0
+    },
+    "WAP6": {
+      "observed_rows": 4948,
+      "excluded_minus105_rows": 10933,
+      "min_non_sentinel_rssi": -98.0,
+      "max_rssi": -57.0
+    },
+    "WAP7": {
+      "observed_rows": 4066,
+      "excluded_minus105_rows": 11815,
+      "min_non_sentinel_rssi": -99.0,
+      "max_rssi": -57.0
+    },
+    "WAP4": {
+      "observed_rows": 5048,
+      "excluded_minus105_rows": 10833,
+      "min_non_sentinel_rssi": -101.0,
+      "max_rssi": -59.0
+    },
+    "WAP2": {
+      "observed_rows": 4052,
+      "excluded_minus105_rows": 11829,
+      "min_non_sentinel_rssi": -100.0,
+      "max_rssi": -64.0
+    },
+    "WAP14": {
+      "observed_rows": 5433,
+      "excluded_minus105_rows": 10448,
+      "min_non_sentinel_rssi": -99.0,
+      "max_rssi": -59.0
+    },
+    "WAP15": {
+      "observed_rows": 6083,
+      "excluded_minus105_rows": 9798,
+      "min_non_sentinel_rssi": -100.0,
+      "max_rssi": -61.0
+    },
+    "WAP13": {
+      "observed_rows": 5445,
+      "excluded_minus105_rows": 10436,
+      "min_non_sentinel_rssi": -99.0,
+      "max_rssi": -66.0
+    }
+  },
+  "positions": [
+    {
+      "label": "16_1_1",
+      "x": 1.5,
+      "y": 10.2,
+      "room": "16"
+    },
+    {
+      "label": "16_1_3",
+      "x": 1.5,
+      "y": 12.5,
+      "room": "16"
+    },
+    {
+      "label": "16_1_5",
+      "x": 1.5,
+      "y": 14.8,
+      "room": "16"
+    },
+    {
+      "label": "16_3_1",
+      "x": 3.5,
+      "y": 10.2,
+      "room": "16"
+    },
+    {
+      "label": "16_3_3",
+      "x": 3.5,
+      "y": 12.5,
+      "room": "16"
+    },
+    {
+      "label": "16_3_5",
+      "x": 3.5,
+      "y": 14.8,
+      "room": "16"
+    },
+    {
+      "label": "16_5_1",
+      "x": 5.5,
+      "y": 10.2,
+      "room": "16"
+    },
+    {
+      "label": "16_5_3",
+      "x": 5.5,
+      "y": 12.5,
+      "room": "16"
+    },
+    {
+      "label": "16_5_5",
+      "x": 5.5,
+      "y": 14.8,
+      "room": "16"
+    },
+    {
+      "label": "16_7_1",
+      "x": 7.5,
+      "y": 10.2,
+      "room": "16"
+    },
+    {
+      "label": "16_7_3",
+      "x": 7.5,
+      "y": 12.5,
+      "room": "16"
+    },
+    {
+      "label": "16_7_5",
+      "x": 7.5,
+      "y": 14.8,
+      "room": "16"
+    },
+    {
+      "label": "16_9_1",
+      "x": 9.5,
+      "y": 10.2,
+      "room": "16"
+    },
+    {
+      "label": "16_9_3",
+      "x": 9.5,
+      "y": 12.5,
+      "room": "16"
+    },
+    {
+      "label": "16_9_5",
+      "x": 9.5,
+      "y": 14.8,
+      "room": "16"
+    },
+    {
+      "label": "39_1_1",
+      "x": 30.7,
+      "y": 1.5,
+      "room": "39"
+    },
+    {
+      "label": "39_1_3",
+      "x": 30.7,
+      "y": 3.8,
+      "room": "39"
+    },
+    {
+      "label": "39_1_5",
+      "x": 30.7,
+      "y": 6.1,
+      "room": "39"
+    },
+    {
+      "label": "39_3_1",
+      "x": 32.9,
+      "y": 1.5,
+      "room": "39"
+    },
+    {
+      "label": "39_3_3",
+      "x": 32.9,
+      "y": 3.8,
+      "room": "39"
+    },
+    {
+      "label": "39_3_5",
+      "x": 32.9,
+      "y": 6.1,
+      "room": "39"
+    },
+    {
+      "label": "39_5_1",
+      "x": 35.2,
+      "y": 1.5,
+      "room": "39"
+    },
+    {
+      "label": "39_5_3",
+      "x": 35.2,
+      "y": 3.8,
+      "room": "39"
+    },
+    {
+      "label": "39_5_5",
+      "x": 35.2,
+      "y": 6.1,
+      "room": "39"
+    },
+    {
+      "label": "40_1_1",
+      "x": 16.6,
+      "y": 1.5,
+      "room": "40"
+    },
+    {
+      "label": "40_1_3",
+      "x": 16.6,
+      "y": 3.8,
+      "room": "40"
+    },
+    {
+      "label": "40_1_5",
+      "x": 16.6,
+      "y": 6.1,
+      "room": "40"
+    },
+    {
+      "label": "40_3_1",
+      "x": 18.6,
+      "y": 1.5,
+      "room": "40"
+    },
+    {
+      "label": "40_3_3",
+      "x": 18.6,
+      "y": 3.8,
+      "room": "40"
+    },
+    {
+      "label": "40_3_5",
+      "x": 18.6,
+      "y": 6.1,
+      "room": "40"
+    },
+    {
+      "label": "40_5_1",
+      "x": 20.6,
+      "y": 1.5,
+      "room": "40"
+    },
+    {
+      "label": "40_5_3",
+      "x": 20.6,
+      "y": 3.8,
+      "room": "40"
+    },
+    {
+      "label": "40_5_5",
+      "x": 20.6,
+      "y": 6.1,
+      "room": "40"
+    },
+    {
+      "label": "41_1_1",
+      "x": 1.4,
+      "y": 1.6,
+      "room": "41"
+    },
+    {
+      "label": "41_1_3",
+      "x": 1.4,
+      "y": 3.8,
+      "room": "41"
+    },
+    {
+      "label": "41_1_5",
+      "x": 1.4,
+      "y": 6.0,
+      "room": "41"
+    },
+    {
+      "label": "41_1_7",
+      "x": 1.4,
+      "y": 8.2,
+      "room": "41"
+    },
+    {
+      "label": "41_3_1",
+      "x": 3.4,
+      "y": 1.6,
+      "room": "41"
+    },
+    {
+      "label": "41_3_3",
+      "x": 3.4,
+      "y": 3.8,
+      "room": "41"
+    },
+    {
+      "label": "41_3_5",
+      "x": 3.4,
+      "y": 6.0,
+      "room": "41"
+    },
+    {
+      "label": "41_3_7",
+      "x": 3.4,
+      "y": 8.2,
+      "room": "41"
+    },
+    {
+      "label": "41_5_1",
+      "x": 5.4,
+      "y": 1.6,
+      "room": "41"
+    },
+    {
+      "label": "41_5_3",
+      "x": 5.4,
+      "y": 3.8,
+      "room": "41"
+    },
+    {
+      "label": "41_5_5",
+      "x": 5.4,
+      "y": 6.0,
+      "room": "41"
+    },
+    {
+      "label": "41_5_7",
+      "x": 5.4,
+      "y": 8.2,
+      "room": "41"
+    },
+    {
+      "label": "43_1_1",
+      "x": 22.6,
+      "y": 10.2,
+      "room": "43"
+    },
+    {
+      "label": "43_1_3",
+      "x": 22.6,
+      "y": 12.5,
+      "room": "43"
+    },
+    {
+      "label": "43_1_5",
+      "x": 22.6,
+      "y": 14.8,
+      "room": "43"
+    },
+    {
+      "label": "43_3_1",
+      "x": 24.6,
+      "y": 10.2,
+      "room": "43"
+    },
+    {
+      "label": "43_3_3",
+      "x": 24.6,
+      "y": 12.5,
+      "room": "43"
+    },
+    {
+      "label": "43_3_5",
+      "x": 24.6,
+      "y": 14.8,
+      "room": "43"
+    },
+    {
+      "label": "43_5_1",
+      "x": 26.6,
+      "y": 10.2,
+      "room": "43"
+    },
+    {
+      "label": "43_5_3",
+      "x": 26.6,
+      "y": 12.5,
+      "room": "43"
+    },
+    {
+      "label": "43_5_5",
+      "x": 26.6,
+      "y": 14.8,
+      "room": "43"
+    },
+    {
+      "label": "43_7_1",
+      "x": 28.6,
+      "y": 10.2,
+      "room": "43"
+    },
+    {
+      "label": "43_7_3",
+      "x": 28.6,
+      "y": 12.5,
+      "room": "43"
+    },
+    {
+      "label": "43_7_5",
+      "x": 28.6,
+      "y": 14.8,
+      "room": "43"
+    },
+    {
+      "label": "45_1_1",
+      "x": 30.6,
+      "y": 10.2,
+      "room": "45"
+    },
+    {
+      "label": "45_1_3",
+      "x": 30.6,
+      "y": 12.5,
+      "room": "45"
+    },
+    {
+      "label": "45_1_5",
+      "x": 30.6,
+      "y": 14.8,
+      "room": "45"
+    },
+    {
+      "label": "45_3_1",
+      "x": 32.6,
+      "y": 10.2,
+      "room": "45"
+    },
+    {
+      "label": "45_3_3",
+      "x": 32.6,
+      "y": 12.5,
+      "room": "45"
+    },
+    {
+      "label": "45_3_5",
+      "x": 32.6,
+      "y": 14.8,
+      "room": "45"
+    },
+    {
+      "label": "45_5_1",
+      "x": 34.6,
+      "y": 10.2,
+      "room": "45"
+    },
+    {
+      "label": "45_5_3",
+      "x": 34.6,
+      "y": 12.5,
+      "room": "45"
+    },
+    {
+      "label": "45_5_5",
+      "x": 34.6,
+      "y": 14.8,
+      "room": "45"
+    },
+    {
+      "label": "45_7_1",
+      "x": 36.6,
+      "y": 10.2,
+      "room": "45"
+    },
+    {
+      "label": "45_7_3",
+      "x": 36.6,
+      "y": 12.5,
+      "room": "45"
+    },
+    {
+      "label": "45_7_5",
+      "x": 36.6,
+      "y": 14.8,
+      "room": "45"
+    },
+    {
+      "label": "46_1_1",
+      "x": 14.6,
+      "y": 10.2,
+      "room": "46"
+    },
+    {
+      "label": "46_1_3",
+      "x": 14.6,
+      "y": 12.5,
+      "room": "46"
+    },
+    {
+      "label": "46_1_5",
+      "x": 14.6,
+      "y": 14.8,
+      "room": "46"
+    },
+    {
+      "label": "46_3_1",
+      "x": 16.6,
+      "y": 10.2,
+      "room": "46"
+    },
+    {
+      "label": "46_3_3",
+      "x": 16.6,
+      "y": 12.5,
+      "room": "46"
+    },
+    {
+      "label": "46_3_5",
+      "x": 16.6,
+      "y": 14.8,
+      "room": "46"
+    },
+    {
+      "label": "46_5_1",
+      "x": 18.6,
+      "y": 10.2,
+      "room": "46"
+    },
+    {
+      "label": "46_5_3",
+      "x": 18.6,
+      "y": 12.5,
+      "room": "46"
+    },
+    {
+      "label": "46_5_5",
+      "x": 18.6,
+      "y": 14.8,
+      "room": "46"
+    },
+    {
+      "label": "46_7_1",
+      "x": 20.6,
+      "y": 10.2,
+      "room": "46"
+    },
+    {
+      "label": "46_7_3",
+      "x": 20.6,
+      "y": 12.5,
+      "room": "46"
+    },
+    {
+      "label": "46_7_5",
+      "x": 20.6,
+      "y": 14.8,
+      "room": "46"
+    },
+    {
+      "label": "47_1_1",
+      "x": 37.3,
+      "y": 1.5,
+      "room": "47"
+    },
+    {
+      "label": "47_1_3",
+      "x": 37.3,
+      "y": 3.8,
+      "room": "47"
+    },
+    {
+      "label": "47_1_5",
+      "x": 37.3,
+      "y": 6.1,
+      "room": "47"
+    },
+    {
+      "label": "47_3_1",
+      "x": 39.3,
+      "y": 1.5,
+      "room": "47"
+    },
+    {
+      "label": "47_3_3",
+      "x": 39.3,
+      "y": 3.8,
+      "room": "47"
+    },
+    {
+      "label": "47_3_5",
+      "x": 39.3,
+      "y": 6.1,
+      "room": "47"
+    },
+    {
+      "label": "47_5_1",
+      "x": 41.3,
+      "y": 1.5,
+      "room": "47"
+    },
+    {
+      "label": "47_5_3",
+      "x": 41.3,
+      "y": 3.8,
+      "room": "47"
+    },
+    {
+      "label": "47_5_5",
+      "x": 41.3,
+      "y": 6.1,
+      "room": "47"
+    },
+    {
+      "label": "47_7_1",
+      "x": 43.3,
+      "y": 1.5,
+      "room": "47"
+    },
+    {
+      "label": "47_7_3",
+      "x": 43.3,
+      "y": 3.8,
+      "room": "47"
+    },
+    {
+      "label": "47_7_5",
+      "x": 43.3,
+      "y": 6.1,
+      "room": "47"
+    },
+    {
+      "label": "51_1_1",
+      "x": 38.8,
+      "y": 8.2,
+      "room": "51"
+    },
+    {
+      "label": "51_1_3",
+      "x": 38.8,
+      "y": 10.4,
+      "room": "51"
+    },
+    {
+      "label": "51_1_5",
+      "x": 38.8,
+      "y": 12.5,
+      "room": "51"
+    },
+    {
+      "label": "51_1_7",
+      "x": 38.8,
+      "y": 14.6,
+      "room": "51"
+    },
+    {
+      "label": "51_3_1",
+      "x": 40.8,
+      "y": 8.2,
+      "room": "51"
+    },
+    {
+      "label": "51_3_3",
+      "x": 40.8,
+      "y": 10.4,
+      "room": "51"
+    },
+    {
+      "label": "51_3_5",
+      "x": 40.8,
+      "y": 12.5,
+      "room": "51"
+    },
+    {
+      "label": "51_3_7",
+      "x": 40.8,
+      "y": 14.6,
+      "room": "51"
+    },
+    {
+      "label": "51_5_1",
+      "x": 43.1,
+      "y": 8.2,
+      "room": "51"
+    },
+    {
+      "label": "51_5_3",
+      "x": 43.1,
+      "y": 10.4,
+      "room": "51"
+    },
+    {
+      "label": "51_5_5",
+      "x": 43.1,
+      "y": 12.5,
+      "room": "51"
+    },
+    {
+      "label": "51_5_7",
+      "x": 43.1,
+      "y": 14.6,
+      "room": "51"
+    },
+    {
+      "label": "53_1_1",
+      "x": 22.6,
+      "y": 1.5,
+      "room": "53"
+    },
+    {
+      "label": "53_1_3",
+      "x": 22.6,
+      "y": 3.8,
+      "room": "53"
+    },
+    {
+      "label": "53_1_5",
+      "x": 22.6,
+      "y": 6.1,
+      "room": "53"
+    },
+    {
+      "label": "53_3_1",
+      "x": 24.6,
+      "y": 1.5,
+      "room": "53"
+    },
+    {
+      "label": "53_3_3",
+      "x": 24.6,
+      "y": 3.8,
+      "room": "53"
+    },
+    {
+      "label": "53_3_5",
+      "x": 24.6,
+      "y": 6.1,
+      "room": "53"
+    },
+    {
+      "label": "53_5_1",
+      "x": 26.6,
+      "y": 1.5,
+      "room": "53"
+    },
+    {
+      "label": "53_5_3",
+      "x": 26.6,
+      "y": 3.8,
+      "room": "53"
+    },
+    {
+      "label": "53_5_5",
+      "x": 26.6,
+      "y": 6.1,
+      "room": "53"
+    },
+    {
+      "label": "53_7_1",
+      "x": 28.6,
+      "y": 1.5,
+      "room": "53"
+    },
+    {
+      "label": "53_7_3",
+      "x": 28.6,
+      "y": 3.8,
+      "room": "53"
+    },
+    {
+      "label": "53_7_5",
+      "x": 28.6,
+      "y": 6.1,
+      "room": "53"
+    },
+    {
+      "label": "57_1_1",
+      "x": 7.3,
+      "y": 1.6,
+      "room": "57"
+    },
+    {
+      "label": "57_1_2",
+      "x": 7.3,
+      "y": 3.2,
+      "room": "57"
+    },
+    {
+      "label": "57_1_4",
+      "x": 7.3,
+      "y": 4.9,
+      "room": "57"
+    },
+    {
+      "label": "57_1_6",
+      "x": 7.3,
+      "y": 6.6,
+      "room": "57"
+    },
+    {
+      "label": "57_2_1",
+      "x": 8.5,
+      "y": 1.6,
+      "room": "57"
+    },
+    {
+      "label": "57_2_2",
+      "x": 8.5,
+      "y": 3.2,
+      "room": "57"
+    },
+    {
+      "label": "57_2_4",
+      "x": 8.5,
+      "y": 4.9,
+      "room": "57"
+    },
+    {
+      "label": "57_2_6",
+      "x": 8.5,
+      "y": 6.6,
+      "room": "57"
+    },
+    {
+      "label": "61_10_1",
+      "x": 16.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "61_12_1",
+      "x": 18.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "61_14_1",
+      "x": 20.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "61_2_1",
+      "x": 8.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "61_4_1",
+      "x": 10.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "61_6_1",
+      "x": 12.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "61_8_1",
+      "x": 14.3,
+      "y": 8.2,
+      "room": "61"
+    },
+    {
+      "label": "62_11_1",
+      "x": 32.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_13_1",
+      "x": 34.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_15_1",
+      "x": 36.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_1_1",
+      "x": 22.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_3_1",
+      "x": 24.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_5_1",
+      "x": 26.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_7_1",
+      "x": 28.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "62_9_1",
+      "x": 30.6,
+      "y": 7.9,
+      "room": "62"
+    },
+    {
+      "label": "63_1_11",
+      "x": 8.5,
+      "y": 18.5,
+      "room": "63"
+    },
+    {
+      "label": "63_1_13",
+      "x": 8.5,
+      "y": 20.5,
+      "room": "63"
+    },
+    {
+      "label": "63_1_15",
+      "x": 8.5,
+      "y": 22.5,
+      "room": "63"
+    },
+    {
+      "label": "63_1_9",
+      "x": 8.5,
+      "y": 16.5,
+      "room": "63"
+    },
+    {
+      "label": "63_2_11",
+      "x": 9.9,
+      "y": 18.5,
+      "room": "63"
+    },
+    {
+      "label": "63_2_13",
+      "x": 9.9,
+      "y": 20.5,
+      "room": "63"
+    },
+    {
+      "label": "63_2_15",
+      "x": 9.9,
+      "y": 22.5,
+      "room": "63"
+    },
+    {
+      "label": "63_2_9",
+      "x": 9.9,
+      "y": 16.5,
+      "room": "63"
+    },
+    {
+      "label": "63_4_1",
+      "x": 11.4,
+      "y": 9.5,
+      "room": "63"
+    },
+    {
+      "label": "63_4_11",
+      "x": 11.4,
+      "y": 18.5,
+      "room": "63"
+    },
+    {
+      "label": "63_4_3",
+      "x": 11.4,
+      "y": 11.3,
+      "room": "63"
+    },
+    {
+      "label": "63_4_5",
+      "x": 11.4,
+      "y": 13.1,
+      "room": "63"
+    },
+    {
+      "label": "63_4_7",
+      "x": 11.4,
+      "y": 14.9,
+      "room": "63"
+    },
+    {
+      "label": "63_4_9",
+      "x": 11.4,
+      "y": 16.5,
+      "room": "63"
+    },
+    {
+      "label": "63_5_1",
+      "x": 12.7,
+      "y": 9.5,
+      "room": "63"
+    },
+    {
+      "label": "63_5_11",
+      "x": 12.7,
+      "y": 18.5,
+      "room": "63"
+    },
+    {
+      "label": "63_5_3",
+      "x": 12.7,
+      "y": 11.3,
+      "room": "63"
+    },
+    {
+      "label": "63_5_5",
+      "x": 12.7,
+      "y": 13.1,
+      "room": "63"
+    },
+    {
+      "label": "63_5_7",
+      "x": 12.7,
+      "y": 14.9,
+      "room": "63"
+    },
+    {
+      "label": "63_5_9",
+      "x": 12.7,
+      "y": 16.5,
+      "room": "63"
+    }
+  ],
+  "dataset_doi": "10.17632/3v9mcsvcd2.1",
+  "source_sha256": {
+    "104D.csv": "d0db81521fdb0a48443cfb4321e2e1462438634d8318a8eb11229391e1444d06",
+    "10B2.csv": "c217d6301a9fc589f8ead3fe2ebd37c5551377c13749c7c21648b06e46222d7b",
+    "10CE.csv": "276f0a7c7c794e367cf3aa40e9ec7ec6a5c8b25f5f0fc094f7b66fe1a6bb553f",
+    "1210.csv": "d3b3f5ac0f791aea7d229d93a2b0fce68fddefe695d50aabf036084ae81ccf20",
+    "1211.csv": "074efbb2a3d0f26866cd62b88d259a6662851111548b1e6bed5a92534376e48d",
+    "1212.csv": "c51b6ffb6fc178d2457a1b311fd62c23e49eca8dc747cf1733b29ca5a78daab1",
+    "121B.csv": "df41dc2a8918a7122b00849c9d392bbfb5b39370fe3ec68bcbcc67023d72b72f",
+    "121D.csv": "0be7670e8002327449c8058b0d614130501413ed22f444ec2d4ca4cde3fa3404",
+    "1F61.csv": "3253bb1a5fbe92c8d840cd8fceb1ffad9fe7c88e162630355da2bf916b0b7268",
+    "2055.csv": "083eead2b229ecab0196662a2ccb3ef2c52fc0d1ae3675709a8fd076de1abdd5",
+    "20B5.csv": "429349512a7299a9c7e3c8b5536b585d48dac542c2d754403f2c6299bf5005c5",
+    "APS_Positions.txt": "087871be13a9f2312c70e91fa919163b456fb00c7df5a7c5e098228461721eb6"
+  },
+  "sentinel_semantics": {
+    "value": -105,
+    "documented_in_reviewed_article": false,
+    "interpretation": "no-signal marker supported by author primary thesis; never convert to an exact distance",
+    "evidence": "Author thesis section 3.3.2, printed p.47 / PDF p.63; downloaded and visually checked",
+    "source": "https://tede.ufam.edu.br/bitstream/tede/10855/5/TESE_YuriAssayag_PPGI.pdf#page=63",
+    "source_scope": "Related-system author explanation, not an additional statement inside the 2024 CSV metadata"
+  },
+  "coordinate_scope": "2D map coordinates, metre interpretation supported by source methods/room dimensions; independent survey accuracy unspecified",
+  "time_scope": "Article describes 1-second RSSI averages; CSV has no timestamp/session/channel, so simultaneity and across-day independence cannot be verified",
+  "qualification": {
+    "partial_static_calibration": "supported",
+    "robust_n_ge_11_huawei_acceptance": "not-supported-by-this-release-alone",
+    "reason": "Sparse qualifying positions; fixed receivers; missing error bounds, timing and independent collection sessions",
+    "calibration_performed": false,
+    "localization_performed": false,
+    "cep90": null
+  },
+  "provenance": {
+    "dataset": "https://data.mendeley.com/datasets/3v9mcsvcd2/1",
+    "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11283029/",
+    "paper_xml": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11283029/fullTextXML",
+    "license": "CC BY 4.0",
+    "access_date": "2026-11-05"
+  },
+  "previous_files_unchanged": 4972,
+  "audit_source_sha256": "66d4ad9cd51c60900a8024b02e8f2dc0acad283b71d1e32819fac95a4bd3ce2d"
+}

@@ -1,0 +1,129 @@
+"""Data-only audit. Does not import or run a calibration/localization solver."""
+import argparse
+import ast
+from collections import Counter, defaultdict
+import csv
+import hashlib
+import json
+import math
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+
+
+def save(path, obj):
+    Path(path).write_text(json.dumps(obj,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+
+
+def parse_anchors(path):
+    text=Path(path).read_text(encoding='utf-8')
+    # Data literal only; never execute the downloaded Python-looking assignment.
+    obj=ast.literal_eval(text.split('=',1)[1].strip())
+    if not isinstance(obj,dict) or any(not k.startswith('WAP') or len(v)!=2 or
+        not all(math.isfinite(float(x)) for x in v) for k,v in obj.items()):
+        raise ValueError('Invalid anchor coordinate table')
+    return obj
+
+
+def usable(value):
+    # Author's related-system thesis p.47 identifies -105 as no signal.
+    return math.isfinite(float(value)) and float(value)!=-105.
+
+
+def summarize(rows, anchor_ids):
+    if not rows: raise ValueError('Empty dataset')
+    label_map=defaultdict(set); xy_map=defaultdict(set); groups=defaultdict(list)
+    histogram=Counter(); values=Counter(); per_device={}; per_anchor={}
+    metadata={'LABEL','X','Y','DEVICE','ROOM_ID'}
+    for row in rows:
+        if set(row)!=set(anchor_ids)|metadata: raise ValueError('CSV schema mismatch')
+        x,y=float(row['X']),float(row['Y'])
+        if not math.isfinite(x) or not math.isfinite(y): raise ValueError('Nonfinite position')
+        rss=[float(row[k]) for k in anchor_ids]
+        if not all(math.isfinite(v) and v<0 for v in rss): raise ValueError('Invalid RSSI')
+        label_map[row['LABEL']].add((x,y,row['ROOM_ID']))
+        xy_map[(x,y)].add(row['LABEL'])
+        groups[(row['DEVICE'],row['LABEL'])].append(row)
+        histogram[sum(usable(v) for v in rss)]+=1; values.update(rss)
+    if any(len(v)!=1 for v in label_map.values()): raise ValueError('Inconsistent position label')
+    if any(len(v)!=1 for v in xy_map.values()): raise ValueError('Coordinate aliases require grouped splitting')
+    eligible=[r for r in rows if sum(usable(r[k]) for k in anchor_ids)>=11]
+    for dev in sorted({r['DEVICE'] for r in rows}):
+        rs=[r for r in rows if r['DEVICE']==dev]
+        h=Counter(sum(usable(r[k]) for k in anchor_ids) for r in rs)
+        per_device[dev]=dict(rows=len(rs),positions=len({r['LABEL'] for r in rs}),
+                            effective_receiver_histogram=dict(sorted(h.items())),eligible_n_ge_11=sum(v for k,v in h.items() if k>=11))
+    for k in anchor_ids:
+        obs=[float(r[k]) for r in rows if usable(r[k])]
+        per_anchor[k]=dict(observed_rows=len(obs),excluded_minus105_rows=len(rows)-len(obs),
+                           min_non_sentinel_rssi=min(obs) if obs else None,max_rssi=max(obs) if obs else None)
+    union_counts={k:sum(any(usable(r[c]) for r in rs) for c in anchor_ids) for k,rs in groups.items()}
+    el_union=[k for k,n in union_counts.items() if n>=11]
+    positions=[dict(label=k,x=next(iter(v))[0],y=next(iter(v))[1],room=next(iter(v))[2]) for k,v in sorted(label_map.items())]
+    xmin=min(r['x'] for r in positions); xmax=max(r['x'] for r in positions)
+    ymin=min(r['y'] for r in positions); ymax=max(r['y'] for r in positions)
+    return dict(raw_rows=len(rows),target_transmitters=len(per_device),receiver_columns=len(anchor_ids),
+        unique_positions=len(positions),rooms=len({r['ROOM_ID'] for r in rows}),
+        effective_receiver_histogram=dict(sorted(histogram.items())),
+        threshold_subset=dict(rows=len(eligible),positions=len({r['LABEL'] for r in eligible}),
+            devices=len({r['DEVICE'] for r in eligible}),rooms=len({r['ROOM_ID'] for r in eligible}),
+            fraction=len(eligible)/len(rows),labels=dict(sorted(Counter(r['LABEL'] for r in eligible).items()))),
+        fewer_than_three_receivers=sum(v for k,v in histogram.items() if k<3),
+        minus105_entries=values[-105.],rssi_entries=len(rows)*len(anchor_ids),
+        rssi_value_histogram={str(k):v for k,v in sorted(values.items())},
+        exact_duplicate_rows=len(rows)-len({tuple(sorted(r.items())) for r in rows}),
+        device_position_groups=len(groups),rows_per_group_histogram=dict(sorted(Counter(map(len,groups.values())).items())),
+        grouped_union=dict(histogram=dict(sorted(Counter(union_counts.values()).items())),
+            eligible_groups=len(el_union),eligible_positions=len({k[1] for k in el_union}),
+            warning='Descriptive union across repeated records, NOT simultaneous independent receivers or extra test trials; no aggregation used for localization'),
+        bounding_box_metres=[xmin,xmax,ymin,ymax],bounding_box_diagonal_metres=math.hypot(xmax-xmin,ymax-ymin),
+        per_device=per_device,per_anchor=per_anchor,positions=positions)
+
+
+def audit(data, output):
+    data=Path(data); out=Path(output); out.mkdir(parents=True,exist_ok=False)
+    index=json.loads((data/'source-index.json').read_text())
+    checked={}
+    for item in index:
+        p=data/item['filename']; actual=hashlib.sha256(p.read_bytes()).hexdigest()
+        if actual!=item['content_details']['sha256_hash']: raise AssertionError('Release hash mismatch: '+p.name)
+        checked[p.name]=actual
+    anchors=parse_anchors(data/'APS_Positions.txt'); rows=[]
+    for p in sorted(data.glob('*.csv')):
+        with p.open(encoding='utf-8',newline='') as f: rs=list(csv.DictReader(f))
+        if any(r['DEVICE']!=p.stem for r in rs): raise ValueError('Transmitter ID/file mismatch')
+        rows+=rs
+    result=summarize(rows,list(anchors))
+    result.update(dataset_doi='10.17632/3v9mcsvcd2.1',source_sha256=checked,
+        sentinel_semantics=dict(value=-105,documented_in_reviewed_article=False,
+            interpretation='no-signal marker supported by author primary thesis; never convert to an exact distance',
+            evidence='Author thesis section 3.3.2, printed p.47 / PDF p.63; downloaded and visually checked',
+            source='https://tede.ufam.edu.br/bitstream/tede/10855/5/TESE_YuriAssayag_PPGI.pdf#page=63',
+            source_scope='Related-system author explanation, not an additional statement inside the 2024 CSV metadata'),
+        coordinate_scope='2D map coordinates, metre interpretation supported by source methods/room dimensions; independent survey accuracy unspecified',
+        time_scope='Article describes 1-second RSSI averages; CSV has no timestamp/session/channel, so simultaneity and across-day independence cannot be verified',
+        qualification=dict(partial_static_calibration='supported',
+             robust_n_ge_11_huawei_acceptance='not-supported-by-this-release-alone',
+             reason='Sparse qualifying positions; fixed receivers; missing error bounds, timing and independent collection sessions',
+             calibration_performed=False,localization_performed=False,cep90=None),
+        provenance=dict(dataset='https://data.mendeley.com/datasets/3v9mcsvcd2/1',
+          paper='https://pmc.ncbi.nlm.nih.gov/articles/PMC11283029/',
+          paper_xml='https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11283029/fullTextXML',
+          license='CC BY 4.0',access_date='2026-11-05'))
+    freeze=json.loads((Path(__file__).parent/'PREVIOUS_FREEZE.json').read_text())
+    changed=[p for p,h in freeze['sha256'].items() if hashlib.sha256((ROOT/p).read_bytes()).hexdigest()!=h]
+    if changed: raise AssertionError(changed)
+    result['previous_files_unchanged']=freeze['count']
+    result['audit_source_sha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    save(out/'audit.json',result)
+    for name,key in [('positions.csv','positions')]:
+        with (out/name).open('w',newline='',encoding='utf-8') as f:
+            w=csv.DictWriter(f,fieldnames=list(result[key][0])); w.writeheader();w.writerows(result[key])
+    with (out/'receiver-counts.csv').open('w',newline='',encoding='utf-8') as f:
+        w=csv.writer(f); w.writerow(['effective_receivers','records'])
+        w.writerows(result['effective_receiver_histogram'].items())
+    print(json.dumps({k:result[k] for k in ('raw_rows','unique_positions','target_transmitters','receiver_columns','threshold_subset','previous_files_unchanged')},ensure_ascii=False))
+
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('data');p.add_argument('output');a=p.parse_args();audit(a.data,a.output)
