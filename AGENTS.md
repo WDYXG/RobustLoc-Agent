@@ -22,3 +22,24 @@ The independent verifier makes acceptance decisions. Preserve rejected proposals
 and positive-excess failure cases. Do not tune after held-out. Skills live in
 .agents/skills. Evidence labels: mathematical fact, empirical support, hypothesis,
 conjecture, unresolved. No industrial or novelty claim without evidence.
+
+## Static BLE research freeze
+
+The static algorithm research stage ended at ble_crowd/runs/crowd-001.
+ble_crowd/STATIC_FREEZE.json records the frozen inputs, code, reports and run
+artifacts. Verify them with python -m ble_crowd.verify_freeze. Keep Cauchy+MAD
+as the frozen main method, Soft-L1+MAD as a validation-accepted candidate, and
+WLS as the baseline. Preserve the historical static runs at the Git snapshot
+recorded in the manifest. Future field or mobile studies use their own scope
+and output directory. Public fixed-receiver replay and semi-synthetic pressure
+tests do not establish real crowdsourced phone acceptance.
+
+## Mobile BLE research freeze
+
+Mobile algorithm research ended at ble_mobile/runs/adaptive-001. Preserve both
+mobile-001 and adaptive-001, their source trajectories, and the code recorded in
+ble_mobile/MOBILE_FREEZE.json. Check them with python -m ble_mobile.freeze.verify.
+The frozen Adaptive Tracking result uses the original all-frame 10 m success
+metric and falls short of the 20% relative target on semi-synthetic replay.
+Use these archived results for the course report. Real mobile and crowdsourced
+acceptance require their own measurements.
