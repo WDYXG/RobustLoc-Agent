@@ -1,0 +1,841 @@
+{
+  "real": {
+    "centre": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 10.442471237956825,
+      "coverage": 1.0,
+      "success5": 0.3,
+      "success10": 0.8500000000000001,
+      "success30": 1.0
+    },
+    "strongest": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 7.779203044014212,
+      "coverage": 1.0,
+      "success5": 0.61,
+      "success10": 0.9616666666666667,
+      "success30": 1.0
+    },
+    "fixed-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1199,
+      "cep90": 6.90393464130848,
+      "coverage": 0.9991666666666668,
+      "success5": 0.8083333333333333,
+      "success10": 0.9733333333333334,
+      "success30": 0.9991666666666668
+    },
+    "fixed-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 6.181754466893175,
+      "coverage": 1.0,
+      "success5": 0.8400000000000001,
+      "success10": 0.9525000000000001,
+      "success30": 1.0
+    },
+    "source-global-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 7.435367022832519,
+      "coverage": 1.0,
+      "success5": 0.7833333333333334,
+      "success10": 0.9925000000000002,
+      "success30": 1.0
+    },
+    "source-global-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 8.94068928331747,
+      "coverage": 1.0,
+      "success5": 0.5825,
+      "success10": 0.9733333333333334,
+      "success30": 1.0
+    },
+    "source-final-projection": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 8.946477433044768,
+      "coverage": 1.0,
+      "success5": 0.5741666666666667,
+      "success10": 0.9733333333333334,
+      "success30": 1.0
+    },
+    "target-offset8": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.713334319194356,
+      "coverage": 1.0,
+      "success5": 0.8258333333333334,
+      "success10": 0.9633333333333334,
+      "success30": 1.0
+    },
+    "target-global-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 6.020707815104821,
+      "coverage": 1.0,
+      "success5": 0.8058333333333334,
+      "success10": 0.9833333333333334,
+      "success30": 1.0
+    },
+    "target-global-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.616821960772639,
+      "coverage": 1.0,
+      "success5": 0.8566666666666667,
+      "success10": 0.9708333333333334,
+      "success30": 1.0
+    },
+    "target-receiver-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.354177254730743,
+      "coverage": 1.0,
+      "success5": 0.8591666666666666,
+      "success10": 1.0,
+      "success30": 1.0
+    },
+    "target-receiver-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.252925964710807,
+      "coverage": 1.0,
+      "success5": 0.8766666666666667,
+      "success10": 0.9991666666666668,
+      "success30": 1.0
+    },
+    "selected": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.252925964710807,
+      "coverage": 1.0,
+      "success5": 0.8766666666666667,
+      "success10": 0.9991666666666668,
+      "success30": 1.0
+    }
+  },
+  "n_ge_11": {
+    "centre": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 10.442471237956825,
+      "coverage": 1.0,
+      "success5": 0.3,
+      "success10": 0.8500000000000001,
+      "success30": 1.0
+    },
+    "strongest": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 7.779203044014212,
+      "coverage": 1.0,
+      "success5": 0.61,
+      "success10": 0.9616666666666667,
+      "success30": 1.0
+    },
+    "fixed-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1199,
+      "cep90": 6.90393464130848,
+      "coverage": 0.9991666666666668,
+      "success5": 0.8083333333333333,
+      "success10": 0.9733333333333334,
+      "success30": 0.9991666666666668
+    },
+    "fixed-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 6.181754466893175,
+      "coverage": 1.0,
+      "success5": 0.8400000000000001,
+      "success10": 0.9525000000000001,
+      "success30": 1.0
+    },
+    "source-global-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 7.435367022832519,
+      "coverage": 1.0,
+      "success5": 0.7833333333333334,
+      "success10": 0.9925000000000002,
+      "success30": 1.0
+    },
+    "source-global-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 8.94068928331747,
+      "coverage": 1.0,
+      "success5": 0.5825,
+      "success10": 0.9733333333333334,
+      "success30": 1.0
+    },
+    "source-final-projection": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 8.946477433044768,
+      "coverage": 1.0,
+      "success5": 0.5741666666666667,
+      "success10": 0.9733333333333334,
+      "success30": 1.0
+    },
+    "target-offset8": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.713334319194356,
+      "coverage": 1.0,
+      "success5": 0.8258333333333334,
+      "success10": 0.9633333333333334,
+      "success30": 1.0
+    },
+    "target-global-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 6.020707815104821,
+      "coverage": 1.0,
+      "success5": 0.8058333333333334,
+      "success10": 0.9833333333333334,
+      "success30": 1.0
+    },
+    "target-global-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.616821960772639,
+      "coverage": 1.0,
+      "success5": 0.8566666666666667,
+      "success10": 0.9708333333333334,
+      "success30": 1.0
+    },
+    "target-receiver-wls": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.354177254730743,
+      "coverage": 1.0,
+      "success5": 0.8591666666666666,
+      "success10": 1.0,
+      "success30": 1.0
+    },
+    "target-receiver-cauchy": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.252925964710807,
+      "coverage": 1.0,
+      "success5": 0.8766666666666667,
+      "success10": 0.9991666666666668,
+      "success30": 1.0
+    },
+    "selected": {
+      "rows": 1200,
+      "positions": 20,
+      "outputs": 1200,
+      "cep90": 5.252925964710807,
+      "coverage": 1.0,
+      "success5": 0.8766666666666667,
+      "success10": 0.9991666666666668,
+      "success30": 1.0
+    }
+  },
+  "hosts_ge_11": {
+    "rows": 0,
+    "positions": 0,
+    "outputs": 0,
+    "cep90": null,
+    "coverage": null,
+    "success5": null,
+    "success10": null,
+    "success30": null
+  },
+  "stress": {
+    "strongest": {
+      "overall": {
+        "rows": 39600,
+        "positions": 20,
+        "outputs": 39599,
+        "cep90": 28.941651064084038,
+        "coverage": 0.9999747474747475,
+        "success5": 0.2971717171717172,
+        "success10": 0.6158585858585859,
+        "success30": 0.9118181818181819
+      },
+      "by_scenario": {
+        "cluster4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 15.867476169826126,
+          "coverage": 1.0,
+          "success5": 0.3111111111111111,
+          "success10": 0.7322222222222222,
+          "success30": 1.0
+        },
+        "drop25": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 8.414012122643989,
+          "coverage": 1.0,
+          "success5": 0.5480555555555555,
+          "success10": 0.9386111111111112,
+          "success30": 1.0
+        },
+        "drop50": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 10.946341854701963,
+          "coverage": 0.9997222222222224,
+          "success5": 0.4538888888888889,
+          "success10": 0.8852777777777778,
+          "success30": 0.9997222222222224
+        },
+        "host1": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 9.658705917461198,
+          "coverage": 1.0,
+          "success5": 0.5097222222222222,
+          "success10": 0.9005555555555556,
+          "success30": 1.0
+        },
+        "iid10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 22.671899465675935,
+          "coverage": 1.0,
+          "success5": 0.11249999999999999,
+          "success10": 0.30194444444444446,
+          "success30": 0.9661111111111111
+        },
+        "iid2": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 9.107156500266345,
+          "coverage": 1.0,
+          "success5": 0.5791666666666666,
+          "success10": 0.9497222222222224,
+          "success30": 1.0
+        },
+        "iid20": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 42.380858149400794,
+          "coverage": 1.0,
+          "success5": 0.03777777777777778,
+          "success10": 0.15249999999999997,
+          "success30": 0.6619444444444444
+        },
+        "iid5": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 13.195697464640592,
+          "coverage": 1.0,
+          "success5": 0.2936111111111111,
+          "success10": 0.7177777777777777,
+          "success30": 1.0
+        },
+        "random4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 11.779889642946575,
+          "coverage": 1.0,
+          "success5": 0.39249999999999996,
+          "success10": 0.8338888888888889,
+          "success30": 1.0
+        },
+        "shift10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 16.47547743924517,
+          "coverage": 1.0,
+          "success5": 0.030555555555555548,
+          "success10": 0.36194444444444446,
+          "success30": 1.0
+        },
+        "shift30": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 36.471784581416216,
+          "coverage": 1.0,
+          "success5": 0.0,
+          "success10": 0.0,
+          "success30": 0.40222222222222226
+        }
+      }
+    },
+    "target-receiver-wls": {
+      "overall": {
+        "rows": 39600,
+        "positions": 20,
+        "outputs": 39526,
+        "cep90": 25.29734481059961,
+        "coverage": 0.9981313131313131,
+        "success5": 0.49376262626262624,
+        "success10": 0.7263383838383839,
+        "success30": 0.9453787878787878
+      },
+      "by_scenario": {
+        "cluster4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 17.912106296253143,
+          "coverage": 1.0,
+          "success5": 0.5277777777777778,
+          "success10": 0.7758333333333334,
+          "success30": 0.993888888888889
+        },
+        "drop25": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 6.149671755784758,
+          "coverage": 1.0,
+          "success5": 0.8238888888888889,
+          "success10": 0.9780555555555557,
+          "success30": 1.0
+        },
+        "drop50": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3528,
+          "cep90": 8.478995777018513,
+          "coverage": 0.9800000000000001,
+          "success5": 0.7105555555555556,
+          "success10": 0.9102777777777779,
+          "success30": 0.9797222222222223
+        },
+        "host1": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 7.038688370039196,
+          "coverage": 1.0,
+          "success5": 0.8125,
+          "success10": 0.9600000000000001,
+          "success30": 1.0
+        },
+        "iid10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 14.016331468337487,
+          "coverage": 1.0,
+          "success5": 0.31055555555555553,
+          "success10": 0.7447222222222223,
+          "success30": 0.9997222222222224
+        },
+        "iid2": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 6.770801595917491,
+          "coverage": 0.9997222222222224,
+          "success5": 0.8316666666666667,
+          "success10": 0.9972222222222222,
+          "success30": 0.9997222222222224
+        },
+        "iid20": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 23.857091086114508,
+          "coverage": 1.0,
+          "success5": 0.11111111111111112,
+          "success10": 0.3652777777777778,
+          "success30": 0.9391666666666667
+        },
+        "iid5": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 8.49893610562835,
+          "coverage": 1.0,
+          "success5": 0.66,
+          "success10": 0.9308333333333334,
+          "success30": 1.0
+        },
+        "random4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 11.922535935430304,
+          "coverage": 0.9997222222222224,
+          "success5": 0.6230555555555556,
+          "success10": 0.8663888888888889,
+          "success30": 0.9977777777777779
+        },
+        "shift10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 12.828980038636484,
+          "coverage": 1.0,
+          "success5": 0.020277777777777777,
+          "success10": 0.46111111111111114,
+          "success30": 1.0
+        },
+        "shift30": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 32.578514355513796,
+          "coverage": 1.0,
+          "success5": 0.0,
+          "success10": 0.0,
+          "success30": 0.4891666666666667
+        }
+      }
+    },
+    "target-receiver-cauchy": {
+      "overall": {
+        "rows": 39600,
+        "positions": 20,
+        "outputs": 39524,
+        "cep90": 25.39757712097006,
+        "coverage": 0.9980808080808081,
+        "success5": 0.47964646464646465,
+        "success10": 0.7129292929292929,
+        "success30": 0.9488383838383837
+      },
+      "by_scenario": {
+        "cluster4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 17.8224681623158,
+          "coverage": 0.9997222222222224,
+          "success5": 0.5161111111111111,
+          "success10": 0.7627777777777778,
+          "success30": 0.9944444444444446
+        },
+        "drop25": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 6.494362804675996,
+          "coverage": 1.0,
+          "success5": 0.8113888888888889,
+          "success10": 0.9708333333333334,
+          "success30": 1.0
+        },
+        "drop50": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3528,
+          "cep90": 8.807688780750182,
+          "coverage": 0.9800000000000001,
+          "success5": 0.6922222222222223,
+          "success10": 0.9008333333333334,
+          "success30": 0.9794444444444446
+        },
+        "host1": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 7.424483410753329,
+          "coverage": 1.0,
+          "success5": 0.8052777777777779,
+          "success10": 0.9555555555555557,
+          "success30": 1.0
+        },
+        "iid10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 15.106856239145355,
+          "coverage": 0.9997222222222224,
+          "success5": 0.3144444444444444,
+          "success10": 0.6327777777777779,
+          "success30": 0.9994444444444446
+        },
+        "iid2": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 6.80533359890723,
+          "coverage": 1.0,
+          "success5": 0.8005555555555556,
+          "success10": 0.9966666666666668,
+          "success30": 1.0
+        },
+        "iid20": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 25.32590031533844,
+          "coverage": 1.0,
+          "success5": 0.13305555555555557,
+          "success10": 0.3672222222222222,
+          "success30": 0.9577777777777778
+        },
+        "iid5": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 8.821882316374749,
+          "coverage": 0.9997222222222224,
+          "success5": 0.571388888888889,
+          "success10": 0.921388888888889,
+          "success30": 0.9997222222222224
+        },
+        "random4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 11.907454924505986,
+          "coverage": 0.9997222222222224,
+          "success5": 0.6108333333333333,
+          "success10": 0.8652777777777778,
+          "success30": 0.9980555555555557
+        },
+        "shift10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 12.747054900499673,
+          "coverage": 1.0,
+          "success5": 0.02083333333333333,
+          "success10": 0.4688888888888889,
+          "success30": 1.0
+        },
+        "shift30": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 32.42316270247475,
+          "coverage": 1.0,
+          "success5": 0.0,
+          "success10": 0.0,
+          "success30": 0.5083333333333333
+        }
+      }
+    },
+    "selected": {
+      "overall": {
+        "rows": 39600,
+        "positions": 20,
+        "outputs": 39524,
+        "cep90": 25.39757712097006,
+        "coverage": 0.9980808080808081,
+        "success5": 0.47964646464646465,
+        "success10": 0.7129292929292929,
+        "success30": 0.9488383838383837
+      },
+      "by_scenario": {
+        "cluster4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 17.8224681623158,
+          "coverage": 0.9997222222222224,
+          "success5": 0.5161111111111111,
+          "success10": 0.7627777777777778,
+          "success30": 0.9944444444444446
+        },
+        "drop25": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 6.494362804675996,
+          "coverage": 1.0,
+          "success5": 0.8113888888888889,
+          "success10": 0.9708333333333334,
+          "success30": 1.0
+        },
+        "drop50": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3528,
+          "cep90": 8.807688780750182,
+          "coverage": 0.9800000000000001,
+          "success5": 0.6922222222222223,
+          "success10": 0.9008333333333334,
+          "success30": 0.9794444444444446
+        },
+        "host1": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 7.424483410753329,
+          "coverage": 1.0,
+          "success5": 0.8052777777777779,
+          "success10": 0.9555555555555557,
+          "success30": 1.0
+        },
+        "iid10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 15.106856239145355,
+          "coverage": 0.9997222222222224,
+          "success5": 0.3144444444444444,
+          "success10": 0.6327777777777779,
+          "success30": 0.9994444444444446
+        },
+        "iid2": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 6.80533359890723,
+          "coverage": 1.0,
+          "success5": 0.8005555555555556,
+          "success10": 0.9966666666666668,
+          "success30": 1.0
+        },
+        "iid20": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 25.32590031533844,
+          "coverage": 1.0,
+          "success5": 0.13305555555555557,
+          "success10": 0.3672222222222222,
+          "success30": 0.9577777777777778
+        },
+        "iid5": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 8.821882316374749,
+          "coverage": 0.9997222222222224,
+          "success5": 0.571388888888889,
+          "success10": 0.921388888888889,
+          "success30": 0.9997222222222224
+        },
+        "random4": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3599,
+          "cep90": 11.907454924505986,
+          "coverage": 0.9997222222222224,
+          "success5": 0.6108333333333333,
+          "success10": 0.8652777777777778,
+          "success30": 0.9980555555555557
+        },
+        "shift10": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 12.747054900499673,
+          "coverage": 1.0,
+          "success5": 0.02083333333333333,
+          "success10": 0.4688888888888889,
+          "success30": 1.0
+        },
+        "shift30": {
+          "rows": 3600,
+          "positions": 20,
+          "outputs": 3600,
+          "cep90": 32.42316270247475,
+          "coverage": 1.0,
+          "success5": 0.0,
+          "success10": 0.0,
+          "success30": 0.5083333333333333
+        }
+      }
+    }
+  },
+  "geometry": {
+    "real": {
+      "weak": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread": {
+        "rows": 1200,
+        "positions": 20,
+        "outputs": 1200,
+        "cep90": 5.252925964710807,
+        "coverage": 1.0,
+        "success5": 0.8766666666666667,
+        "success10": 0.9991666666666668,
+        "success30": 1.0
+      }
+    },
+    "stress": {
+      "weak": {
+        "rows": 2187,
+        "positions": 20,
+        "outputs": 2115,
+        "cep90": 17.12488893915285,
+        "coverage": 0.9375196060323471,
+        "success5": 0.5202022913512732,
+        "success10": 0.733752809349647,
+        "success30": 0.9339308948934111
+      },
+      "spread": {
+        "rows": 37413,
+        "positions": 20,
+        "outputs": 37409,
+        "cep90": 25.298170916134683,
+        "coverage": 0.9998821400991973,
+        "success5": 0.485628621265388,
+        "success10": 0.7193326005109408,
+        "success30": 0.9507334030440302
+      }
+    }
+  },
+  "natural_windows_test": {
+    "1": {
+      "11": 6911,
+      "12": 26739,
+      "10": 1690,
+      "8": 119,
+      "9": 492,
+      "7": 28,
+      "6": 13,
+      "0": 2,
+      "5": 4,
+      "4": 1,
+      "3": 1
+    },
+    "5": {
+      "12": 7200
+    },
+    "30": {
+      "12": 1200
+    }
+  }
+}

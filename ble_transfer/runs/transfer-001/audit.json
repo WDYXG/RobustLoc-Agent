@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "gates_replayed": 2,
+  "solver_replays": 1140,
+  "errors_recomputed": 174000,
+  "historical_tracked_files_unchanged": 5071,
+  "raw_members_verified": 978,
+  "calibration_refit": true,
+  "distinct_positions_by_split": {
+    "calibration": 40,
+    "development": 10,
+    "validation": 11,
+    "test": 20
+  }
+}

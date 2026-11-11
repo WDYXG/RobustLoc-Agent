@@ -1,0 +1,14 @@
+{
+  "mechanism": "position_sigma",
+  "parent": "frozen-local-cauchy",
+  "hypothesis": "Development with iid5 raises the 5 m error tail and reduces 5 m success relative to real windows. Combine a fixed assumed 5 m coordinate standard deviation with range uncertainty so that short predicted ranges do not receive excessive weight. Apply the same assumption to every window without using its injected error label.",
+  "config": {
+    "loss": "cauchy",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": false,
+    "multistart": false,
+    "adaptive": true,
+    "position_sigma": 5.0
+  }
+}

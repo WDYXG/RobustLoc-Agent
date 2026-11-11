@@ -1,0 +1,22 @@
+{
+  "mechanism": "robust_loss",
+  "hypothesis": "Replacing squared loss with Huber loss reduces contamination-driven tail errors.",
+  "config": {
+    "loss": "huber",
+    "threshold": 1.0,
+    "uncertainty": true,
+    "confidence": false,
+    "multistart": false,
+    "adaptive": true
+  },
+  "parent": "frozen-local-cauchy",
+  "motivation": "Incumbent worst validation scenario: drop50, CEP90=13.403 m; last verdict=False.",
+  "expected_effect": "Lower aggregate validation CEP90 without material failure-rate or scenario regression.",
+  "possible_downside": "Biased inlier fit, additional local minima, higher runtime, or poor sparse/geometry behavior.",
+  "changed_parameters": {
+    "loss": "huber",
+    "threshold": 1.0
+  },
+  "mathematical_reasoning_summary": "Replacing squared loss with Huber loss reduces contamination-driven tail errors. This is an empirical hypothesis, not a proof.",
+  "context": "Fixed 5 m coordinate weighting lowered clean validation CEP90 but worsened the iid5 tail and failed the joint gate. Existing proposer now offers Huber. Relative to the actual Cauchy incumbent, test whether Huber retains useful moderately inconsistent reports under sparse visibility. The legacy proposal text mentions squared loss, but the paired comparator is frozen Cauchy+MAD."
+}

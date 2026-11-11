@@ -1,0 +1,527 @@
+{
+  "strata": {
+    "cluster4": {
+      "receiver_count": {
+        "4": 3600
+      },
+      "host_count": {
+        "3": 596,
+        "2": 3004
+      },
+      "weak_geometry": {
+        "rows": 917,
+        "positions": 20,
+        "outputs": 917,
+        "cep90": 19.781083172214096,
+        "coverage": 1.0,
+        "success5": 0.41104969798276236,
+        "success10": 0.6559693329158697,
+        "success30": 0.9940509745127436
+      },
+      "spread_geometry": {
+        "rows": 2683,
+        "positions": 20,
+        "outputs": 2682,
+        "cep90": 16.740017110618176,
+        "coverage": 0.9996350364963503,
+        "success5": 0.555218667545519,
+        "success10": 0.8011240787514856,
+        "success30": 0.9945082980384407
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "drop25": {
+      "receiver_count": {
+        "7": 351,
+        "11": 485,
+        "10": 829,
+        "6": 146,
+        "8": 689,
+        "9": 914,
+        "12": 131,
+        "5": 46,
+        "4": 9
+      },
+      "host_count": {
+        "3": 222,
+        "4": 3372,
+        "2": 6
+      },
+      "weak_geometry": {
+        "rows": 4,
+        "positions": 4,
+        "outputs": 4,
+        "cep90": 4.7400780006941154,
+        "coverage": 1.0,
+        "success5": 1.0,
+        "success10": 1.0,
+        "success30": 1.0
+      },
+      "spread_geometry": {
+        "rows": 3596,
+        "positions": 20,
+        "outputs": 3596,
+        "cep90": 6.49487807764466,
+        "coverage": 1.0,
+        "success5": 0.8111887026691497,
+        "success10": 0.9707712600869026,
+        "success30": 1.0
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "drop50": {
+      "receiver_count": {
+        "3": 202,
+        "7": 744,
+        "6": 797,
+        "8": 408,
+        "5": 686,
+        "4": 413,
+        "9": 206,
+        "2": 64,
+        "10": 57,
+        "11": 14,
+        "12": 1,
+        "1": 7,
+        "0": 1
+      },
+      "host_count": {
+        "2": 274,
+        "4": 2108,
+        "3": 1188,
+        "1": 29,
+        "0": 1
+      },
+      "weak_geometry": {
+        "rows": 278,
+        "positions": 20,
+        "outputs": 278,
+        "cep90": 14.080992589061479,
+        "coverage": 1.0,
+        "success5": 0.5900724043758099,
+        "success10": 0.8450857140795223,
+        "success30": 1.0
+      },
+      "spread_geometry": {
+        "rows": 3250,
+        "positions": 20,
+        "outputs": 3250,
+        "cep90": 8.439628171175569,
+        "coverage": 1.0,
+        "success5": 0.7161444726466244,
+        "success10": 0.9255946065462732,
+        "success30": 0.9993670886075949
+      },
+      "under_three": {
+        "rows": 72,
+        "positions": 20,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": 0.0,
+        "success5": 0.0,
+        "success10": 0.0,
+        "success30": 0.0
+      }
+    },
+    "host1": {
+      "receiver_count": {
+        "9": 3600
+      },
+      "host_count": {
+        "3": 3600
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 3600,
+        "positions": 20,
+        "outputs": 3600,
+        "cep90": 7.424483410753329,
+        "coverage": 1.0,
+        "success5": 0.8052777777777779,
+        "success10": 0.9555555555555557,
+        "success30": 1.0
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "iid10": {
+      "receiver_count": {
+        "12": 3600
+      },
+      "host_count": {
+        "4": 3600
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 3600,
+        "positions": 20,
+        "outputs": 3599,
+        "cep90": 15.106856239145355,
+        "coverage": 0.9997222222222224,
+        "success5": 0.3144444444444444,
+        "success10": 0.6327777777777779,
+        "success30": 0.9994444444444446
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "iid2": {
+      "receiver_count": {
+        "12": 3600
+      },
+      "host_count": {
+        "4": 3600
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 3600,
+        "positions": 20,
+        "outputs": 3600,
+        "cep90": 6.80533359890723,
+        "coverage": 1.0,
+        "success5": 0.8005555555555556,
+        "success10": 0.9966666666666668,
+        "success30": 1.0
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "iid20": {
+      "receiver_count": {
+        "12": 3600
+      },
+      "host_count": {
+        "4": 3600
+      },
+      "weak_geometry": {
+        "rows": 60,
+        "positions": 1,
+        "outputs": 60,
+        "cep90": 25.664077201885842,
+        "coverage": 1.0,
+        "success5": 0.0,
+        "success10": 0.0,
+        "success30": 1.0
+      },
+      "spread_geometry": {
+        "rows": 3540,
+        "positions": 20,
+        "outputs": 3540,
+        "cep90": 25.310642609412426,
+        "coverage": 1.0,
+        "success5": 0.13305555555555557,
+        "success10": 0.3711111111111111,
+        "success30": 0.9577777777777778
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "iid5": {
+      "receiver_count": {
+        "12": 3600
+      },
+      "host_count": {
+        "4": 3600
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 3600,
+        "positions": 20,
+        "outputs": 3599,
+        "cep90": 8.821882316374749,
+        "coverage": 0.9997222222222224,
+        "success5": 0.571388888888889,
+        "success10": 0.921388888888889,
+        "success30": 0.9997222222222224
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "random4": {
+      "receiver_count": {
+        "4": 3600
+      },
+      "host_count": {
+        "3": 2356,
+        "4": 610,
+        "2": 634
+      },
+      "weak_geometry": {
+        "rows": 856,
+        "positions": 20,
+        "outputs": 856,
+        "cep90": 13.023352650891635,
+        "coverage": 1.0,
+        "success5": 0.6011735453988206,
+        "success10": 0.8529053620529596,
+        "success30": 0.9942857142857143
+      },
+      "spread_geometry": {
+        "rows": 2744,
+        "positions": 20,
+        "outputs": 2743,
+        "cep90": 11.71556773046644,
+        "coverage": 0.9996240601503759,
+        "success5": 0.6138074355024196,
+        "success10": 0.8687797713467991,
+        "success30": 0.9989142690605195
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "real": {
+      "receiver_count": {
+        "12": 1200
+      },
+      "host_count": {
+        "4": 1200
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 1200,
+        "positions": 20,
+        "outputs": 1200,
+        "cep90": 5.252925964710807,
+        "coverage": 1.0,
+        "success5": 0.8766666666666667,
+        "success10": 0.9991666666666668,
+        "success30": 1.0
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "shift10": {
+      "receiver_count": {
+        "12": 3600
+      },
+      "host_count": {
+        "4": 3600
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 3600,
+        "positions": 20,
+        "outputs": 3600,
+        "cep90": 12.747054900499673,
+        "coverage": 1.0,
+        "success5": 0.02083333333333333,
+        "success10": 0.4688888888888889,
+        "success30": 1.0
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    },
+    "shift30": {
+      "receiver_count": {
+        "12": 3600
+      },
+      "host_count": {
+        "4": 3600
+      },
+      "weak_geometry": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      },
+      "spread_geometry": {
+        "rows": 3600,
+        "positions": 20,
+        "outputs": 3600,
+        "cep90": 32.42316270247475,
+        "coverage": 1.0,
+        "success5": 0.0,
+        "success10": 0.0,
+        "success30": 0.5083333333333333
+      },
+      "under_three": {
+        "rows": 0,
+        "positions": 0,
+        "outputs": 0,
+        "cep90": null,
+        "coverage": null,
+        "success5": null,
+        "success10": null,
+        "success30": null
+      }
+    }
+  },
+  "calibration_residuals": {
+    "fixed": {
+      "observed_links": 14400,
+      "rssi_mean_residual_db": 2.6123342454947283,
+      "rssi_rmse_db": 5.827197579498114,
+      "horizontal_range_mae_m": 4.589357701404505
+    },
+    "source-global": {
+      "observed_links": 14400,
+      "rssi_mean_residual_db": 16.157033140724387,
+      "rssi_rmse_db": 16.944810731120175,
+      "horizontal_range_mae_m": 8.173089970572335
+    },
+    "source-final-mean": {
+      "observed_links": 14400,
+      "rssi_mean_residual_db": 16.393762347890874,
+      "rssi_rmse_db": 17.181906472924585,
+      "horizontal_range_mae_m": 8.162272505895848
+    },
+    "target-global": {
+      "observed_links": 14400,
+      "rssi_mean_residual_db": -0.09263326547858826,
+      "rssi_rmse_db": 4.9550118991155685,
+      "horizontal_range_mae_m": 6.07273154507629
+    },
+    "target-receiver": {
+      "observed_links": 14400,
+      "rssi_mean_residual_db": -0.11707592234268926,
+      "rssi_rmse_db": 4.418983904339551,
+      "horizontal_range_mae_m": 4.8719970345905885
+    },
+    "target-offset8": {
+      "observed_links": 14400,
+      "rssi_mean_residual_db": -0.8336115986253223,
+      "rssi_rmse_db": 5.174147185805785,
+      "horizontal_range_mae_m": 5.478496372210241
+    }
+  }
+}

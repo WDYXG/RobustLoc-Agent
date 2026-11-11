@@ -1,0 +1,16 @@
+{
+  "ble_research/runs/real-001/final-bundle.json": "e3a403f9de8438ce61454162c9fc9909e67ef58add698235d88dd7397aa07d12",
+  "ble_research/runs/real-001/model-global.json": "da3ca69fb6e39783821d55f10e7776ca0929e7e6c139955103a7baa346a54e11",
+  "ble_transfer/__init__.py": "6ebc3ba6df218b5ba142460de76e72d17e0105a73871b26f7e52ae02326ee755",
+  "ble_transfer/experiment.py": "47b50422cfcb1354f822273c510c8b1da0769100b9c37c1006d1b1545ee57138",
+  "ble_transfer/observations/calibration.json": "7b93766d852e35aab0d3f3a16fc40206db245835f0d561381a2e18e4efb97889",
+  "ble_transfer/observations/development.json": "6c6cd78c2695d6d36449173abbae750972f2c1708b880961679f47bd6d7cda4b",
+  "ble_transfer/observations/layout.json": "3d296c2de92e91280374fd67846831f70e4b26c5e9ed2b14c9966e261ec0f2ba",
+  "ble_transfer/observations/test.json": "8164678c38e245e69b10140eed9b0e55a6baf5956f098316b76f6f54fe87bf73",
+  "ble_transfer/observations/validation.json": "ac56c6ddca2e4f6723c078459e10737e017eb98c1e9fa2050aa03cf36abc06be",
+  "ble_transfer/prepare.py": "a7bdb5e59e39f8fe25eea14dd22ba678419f86bb3b2fac281e038a361cd356ed",
+  "ble_transfer/PROTOCOL.md": "1d2da120bb501b221a727f6344f1e9f44749106f0d97a7ab9db0a369dc842b41",
+  "ble_transfer/source-manifest.json": "42e46cf2c8e4028eda9ad278a94ac0b1b03220d79af1755fd949ea21e1b2892c",
+  "ble_transfer/study.py": "a896a2e5a3652c19c4aa0bf89d59f305916335dd5697ae22b78b3f1734ab7f4c",
+  "ble_transfer/verifier.py": "2ed5d6634bc79c89adc6e5e34c47808eeba409547a96bf6054723386c4ec8c76"
+}
