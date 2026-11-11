@@ -1,0 +1,7 @@
+.android-sdk/
+.android-build/
+private/
+fixture-output/
+*.jks
+*.keystore
+*.idsig

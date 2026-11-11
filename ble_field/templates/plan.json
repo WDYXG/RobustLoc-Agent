@@ -1,0 +1,8 @@
+{
+  "schema": "robustloc-plan-v1",
+  "campaign_id": "",
+  "evidence": "field",
+  "origin": {"lat": null, "lon": null},
+  "target_uuid": "",
+  "trials": []
+}

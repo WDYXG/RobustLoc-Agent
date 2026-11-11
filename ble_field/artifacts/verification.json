@@ -1,0 +1,46 @@
+{
+  "field_measurement_status": "pending_on_device_pilot_and_surveyed_campaign",
+  "android": {
+    "package": "org.robustloc.field",
+    "min_sdk": 26,
+    "target_sdk": 35,
+    "apk_sha256": "4d21599d0361eae0e469db88573e7d0b39e59f60afc253f7de003c30723bf56f",
+    "signature_schemes_verified": [
+      "v2",
+      "v3"
+    ],
+    "adb_attached_devices": 0,
+    "on_device_tested": false,
+    "source_sha256": {
+      "android/AndroidManifest.xml": "72b2fd11c01c4a7e988db42614d71d04e593b9171dc3e8a3a4e8ed175e56cabf",
+      "android/src/org/robustloc/field/MainActivity.java": "5a0c5d215f0b8b50176af458cfa7812891897b5d5b83f82326d7d8f93044d0e0",
+      "android/build.ps1": "f0ba0fb05ee0085d54dff3ecd1ba8009191e653bc211423a2270d5e64561766b"
+    },
+    "sdk_archives_sha1": {
+      "platform-35_r02.zip": "0bb560a90a7a2cbd0dd8348224d518b638fe7949",
+      "build-tools_r35_windows.zip": "af059bb67cf7786f45ee0db85e2d24985df1b4b6"
+    }
+  },
+  "source_question": {
+    "page": 1,
+    "sha256": "ec52aee8742f8fbe92973ba0360bb2388acbb41e09a779305ced655c4b61f8b6"
+  },
+  "software_fixture": {
+    "passed": true,
+    "evidence": "synthetic_fixture",
+    "field_result": false,
+    "calibration_refit": true,
+    "disjoint_survey_positions": true,
+    "verifier_replays": 1,
+    "solver_and_baseline_replays": 162,
+    "final_error_checks": 72,
+    "scheduled_test_trials": 8,
+    "synthetic_positions": 25,
+    "synthetic_capture_records": 288,
+    "pytest_passed": 6
+  },
+  "historical_snapshot": {
+    "commit": "b6fb2bb",
+    "tracked_files_unchanged": 5110
+  }
+}
